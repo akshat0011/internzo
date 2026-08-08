@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sat, 08 Aug 2026 17:29:45 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 20:27:45 GMT</lastBuildDate>
+  <item>
+    <title>Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com</title>
+    <link>https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4449259269</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4449259269</guid>
+    <pubDate>Sat, 08 Aug 2026 18:55:23 GMT</pubDate>
+    <description>Company: NoBroker.com · Location: Bengaluru, Karnataka, India · Stipend: ₹25,000 / month</description>
+  </item>
   <item>
     <title>Engineering Intern – Live Project | Part-Time | Bangalore | Tier-1 Colleges — NoBroker.com</title>
     <link>https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-bangalore-tier-1-colleges-4449258306</link>
@@ -437,16 +444,6 @@
 • Design and develop engineering productivity tools based on user requirements
 • Support deployment and provide training and demos to project teams
 • Automate manual engineering tasks to improve accuracy and efficiency</description>
-  </item>
-  <item>
-    <title>Trainee Analyst — HDFC Bank Limited</title>
-    <link>https://www.internzo.in/jobs/hdfc-bank-limited-trainee-analyst-4445890480</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/hdfc-bank-limited-trainee-analyst-4445890480</guid>
-    <pubDate>Mon, 03 Aug 2026 10:33:39 GMT</pubDate>
-    <description>Company: HDFC Bank Limited · Location: Mumbai, Maharashtra, India
-• Support data extraction, cleaning, and preparation for reporting and dashboards
-• Maintain historical datasets and perform basic trend analysis
-• Use Excel, SQL, and Python to support automation and business intelligence initiatives</description>
   </item>
 </channel>
 </rss>
