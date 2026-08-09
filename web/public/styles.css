@@ -217,7 +217,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
   background: none; border: 1px solid var(--rule); border-radius: var(--r);
   color: var(--ink-3); height: 34px; padding: 0 13px; cursor: pointer;
   font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: .1em;
-  transition: all .16s;
+  /* Named properties, not `all`: `all` animates whatever else happens to
+     change — including layout properties, off the GPU. */
+  transition: color .16s, background-color .16s, border-color .16s;
 }
 .flag:hover { color: var(--ink); border-color: var(--rule-2); }
 .flag[aria-pressed="true"] { background: var(--live); border-color: var(--live); color: var(--live-ink); font-weight: 700; }
@@ -249,8 +251,15 @@ button, input, select, textarea { font: inherit; color: inherit; }
   border-radius: var(--r-2);
   overflow: hidden;
   transition: border-color .16s, transform .18s var(--snap), background .16s;
-  animation: rowIn .34s var(--snap) both;
 }
+
+/* Entrance only on the first paint — .intro is set by renderList() once and
+   never again, so filtering and searching swap the list silently. 280ms keeps
+   it under the 300ms ceiling for UI motion. */
+.feed.intro .row { animation: rowIn .28s var(--snap) both; }
+/* The stagger itself is applied inline in renderList() — 32ms per row, capped
+   at 14 — which is inside the 30–80ms band. It cannot live here: .row is the
+   only child of its <li>, so a :nth-child() on .row always matches 1. */
 @keyframes rowIn { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: none; } }
 
 /* the lit edge — how selection and freshness are signalled */
@@ -258,7 +267,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
   background: transparent; transition: background .16s, width .2s var(--snap);
 }
-.row:hover { border-color: var(--rule-2); transform: translateY(-2px); }
+.row:hover { border-color: var(--rule-2); }
 .row:hover::before { background: var(--rule-2); }
 .row[aria-current="true"] {
   border-color: var(--live); background: var(--card-2);
@@ -362,7 +371,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
   background: var(--live); color: var(--live-ink);
   font-family: var(--ui); font-size: 13px; font-weight: 600; letter-spacing: -.01em;
   text-decoration: none; white-space: nowrap; cursor: pointer;
-  transition: transform .18s var(--snap), box-shadow .18s, filter .18s;
+  /* 140ms: button press feedback belongs in 100-160ms. At 180ms the press
+     read soft rather than tactile. */
+  transition: transform .14s var(--snap), box-shadow .18s, filter .18s;
 }
 .card-go-t { position: relative; z-index: 1; }
 
@@ -374,8 +385,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
   clip-path: polygon(0 38%, 62% 38%, 62% 0, 100% 50%, 62% 100%, 62% 62%, 0 62%);
   transition: transform .2s var(--snap);
 }
-.card-go:hover { transform: translateY(-2px); box-shadow: 0 6px 18px -6px color-mix(in oklab, var(--live) 70%, transparent); }
-.card-go:hover .card-go-a { transform: translateX(3px); }
 .card-go:active { transform: translateY(0) scale(.96); }
 .card-go:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
@@ -386,13 +395,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
   background: linear-gradient(100deg, transparent 20%, rgba(255,255,255,.55) 50%, transparent 80%);
   transform: translateX(-120%);
 }
-.card-go:hover::after { animation: sheen .62s var(--snap); }
 @keyframes sheen { to { transform: translateX(120%); } }
 
 /* A hot role gets the hot colour, so the button matches the urgency the age
    badge is already signalling rather than fighting it. */
 .row.is-hot .card-go { background: var(--hot); border-color: var(--hot); }
-.row.is-hot .card-go:hover { box-shadow: 0 6px 18px -6px color-mix(in oklab, var(--hot) 70%, transparent); }
 
 /* ---------- empty ---------- */
 
@@ -442,12 +449,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
   transition: transform .14s var(--snap), background .16s, border-color .16s, color .16s;
 }
 .go { background: var(--live); border: 1px solid var(--live); color: var(--live-ink); }
-.go:hover { transform: translateY(-2px); }
 .go:active { transform: none; }
 .go:disabled { opacity: .35; cursor: not-allowed; transform: none; }
 .go-block { width: 100%; }
 .alt { background: none; border: 1px solid var(--rule-2); color: var(--ink); }
-.alt:hover { border-color: var(--live); color: var(--live); transform: translateY(-2px); }
+.alt:hover { border-color: var(--live); color: var(--live); }
 .alt svg { flex: none; }
 .bare { background: none; border: 1px solid transparent; color: var(--ink-3); }
 .bare:hover { color: var(--ink); }
@@ -544,9 +550,28 @@ button, input, select, textarea { font: inherit; color: inherit; }
   position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 95;
   background: var(--live); color: var(--live-ink); padding: 11px 20px; border-radius: var(--r);
   font-family: var(--mono); font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
-  animation: rise .26s var(--snap);
+  /* A transition, not a keyframe. Keyframes restart from zero, so a second
+     toast arriving during the first snapped it back to the start; a transition
+     retargets from wherever it currently is. */
+  opacity: 1;
+  transition: opacity .26s var(--snap), transform .26s var(--snap);
 }
-@keyframes rise { from { opacity: 0; transform: translate(-50%, 12px); } }
+.snack:not(.is-up) { opacity: 0; transform: translate(-50%, 12px); }
+
+/* ---------- hover motion, gated ----------
+   A tap on a touchscreen fires a :hover before the click, so every one of these
+   lifts fired on a phone — the device most of this traffic arrives on — and then
+   stuck until the next tap elsewhere. Colour and border cues above stay ungated
+   because they read correctly either way; only movement is gated. */
+@media (hover: hover) and (pointer: fine) {
+  .row:hover { transform: translateY(-2px); }
+  .go:hover { transform: translateY(-2px); }
+  .alt:hover { transform: translateY(-2px); }
+  .card-go:hover { transform: translateY(-2px); box-shadow: 0 6px 18px -6px color-mix(in oklab, var(--live) 70%, transparent); }
+  .card-go:hover .card-go-a { transform: translateX(3px); }
+  .card-go:hover::after { animation: sheen .62s var(--snap); }
+  .row.is-hot .card-go:hover { box-shadow: 0 6px 18px -6px color-mix(in oklab, var(--hot) 70%, transparent); }
+}
 
 /* ---------- responsive ---------- */
 
@@ -557,7 +582,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
      which on a phone reads as a page load rather than a detail view. Sliding
      it up keeps the sense that the list is still underneath. */
   .pane-col.open { display: block; animation: paneIn .3s var(--snap) both; }
-  .pane-col.closing { animation: paneOut .2s ease-in both; }
+  /* Not ease-in. It starts slow and delays the moment the user is watching;
+     ease-out at the same duration reads as faster. */
+  .pane-col.closing { animation: paneOut .2s var(--snap) both; }
   @keyframes paneIn { from { opacity: 0; transform: translateY(22px); } }
   @keyframes paneOut { to { opacity: 0; transform: translateY(16px); } }
   .pane-idle { display: none; }
@@ -651,7 +678,18 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+  /* Reduced motion means gentler, not none. Killing every transition also
+     killed the colour and opacity fades that explain what just changed, which
+     leaves the UI harder to follow rather than calmer.
+     Keyframes here are all movement, so they collapse. Transitions survive,
+     narrowed to the properties that do not move anything. */
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; }
+  *, *::before, *::after {
+    transition-property: color, background-color, border-color, box-shadow, opacity !important;
+  }
+  /* No lift, no press travel, no arrow slide. */
+  .row:hover, .go:hover, .alt:hover, .card-go:hover,
+  .card-go:hover .card-go-a, .card-go:active { transform: none !important; }
   .grain { display: none; }
 }
 

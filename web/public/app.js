@@ -103,9 +103,30 @@ function companyInitials(name) {
 function toast(message) {
   const t = $('toast');
   t.textContent = message;
+
+  // Cancel a pending hide before unhiding. Without this, a toast arriving
+  // during the previous one's fade-out would be hidden by that toast's timer
+  // a moment after appearing.
+  clearTimeout(toast._hide);
   t.hidden = false;
+
+  // Commit the "down" state before flipping to "up", or the browser coalesces
+  // both into one style change, finds nothing to transition from, and the toast
+  // just appears. Reading offsetWidth forces that flush synchronously.
+  //
+  // Deliberately not requestAnimationFrame: rAF does not run in a backgrounded
+  // tab, which would leave the toast unhidden but stuck at opacity 0 — visible
+  // to a screen reader, invisible on screen.
+  void t.offsetWidth;
+  t.classList.add('is-up');
+
   clearTimeout(toast._timer);
-  toast._timer = setTimeout(() => { t.hidden = true; }, 2600);
+  toast._timer = setTimeout(() => {
+    t.classList.remove('is-up');
+    // Stay in the DOM until it has faded, or it would vanish instantly.
+    clearTimeout(toast._hide);
+    toast._hide = setTimeout(() => { t.hidden = true; }, 300);
+  }, 2600);
 }
 
 /* ---------------- data ---------------- */
@@ -396,6 +417,17 @@ function jobCard(job, index) {
 
 function renderList() {
   const list = $('joblist');
+
+  // The entrance animation belongs to the first paint and nowhere else.
+  //
+  // Every filter change rebuilds this list through replaceChildren(), and the
+  // search box reruns on `input` — so typing one character re-created up to 140
+  // cards and restarted a keyframe on all of them. Keyframes restart from zero
+  // rather than retargeting, so a fast typist saw a list that never settled.
+  // Searching is a hundred-times-a-day action; it should not animate at all.
+  list.classList.toggle('intro', !renderList.painted);
+  renderList.painted = true;
+
   list.replaceChildren();
 
   const n = state.filtered.length;
