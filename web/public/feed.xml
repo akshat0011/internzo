@@ -6,13 +6,20 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sun, 09 Aug 2026 16:01:57 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 09 Aug 2026 16:17:23 GMT</lastBuildDate>
   <item>
     <title>Intern - HSE — Valeo</title>
     <link>https://www.internzo.in/jobs/valeo-intern-hse-4414669760</link>
     <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-hse-4414669760</guid>
     <pubDate>Sun, 09 Aug 2026 13:27:36 GMT</pubDate>
     <description>Company: Valeo · Location: Ahmedabad, Gujarat, India</description>
+  </item>
+  <item>
+    <title>Apprentice — Piramal</title>
+    <link>https://www.internzo.in/jobs/piramal-apprentice-ats-workday-piramalpharma-wd102-piramal-external-careers-8240</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/piramal-apprentice-ats-workday-piramalpharma-wd102-piramal-external-careers-8240</guid>
+    <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+    <description>Company: Piramal · Location: India</description>
   </item>
   <item>
     <title>Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com</title>
@@ -482,16 +489,6 @@
 • Design and develop engineering productivity tools based on user requirements
 • Support deployment and provide training and demos to project teams
 • Automate manual engineering tasks to improve accuracy and efficiency</description>
-  </item>
-  <item>
-    <title>Trainee Analyst — HDFC Bank Limited</title>
-    <link>https://www.internzo.in/jobs/hdfc-bank-limited-trainee-analyst-4445890480</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/hdfc-bank-limited-trainee-analyst-4445890480</guid>
-    <pubDate>Mon, 03 Aug 2026 10:33:39 GMT</pubDate>
-    <description>Company: HDFC Bank Limited · Location: Mumbai, Maharashtra, India
-• Support data extraction, cleaning, and preparation for reporting and dashboards
-• Maintain historical datasets and perform basic trend analysis
-• Use Excel, SQL, and Python to support automation and business intelligence initiatives</description>
   </item>
 </channel>
 </rss>
