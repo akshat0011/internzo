@@ -90,18 +90,6 @@
       ]
     },
     {
-      "id": "https://www.internzo.in/jobs/barclays-2027-biic-analyst-summer-internship-india-ats-workday-barclays-wd3-external-career-site-barclays-jr-0000127015",
-      "url": "https://www.internzo.in/jobs/barclays-2027-biic-analyst-summer-internship-india-ats-workday-barclays-wd3-external-career-site-barclays-jr-0000127015",
-      "title": "2027 BIIC Analyst Summer Internship India — Barclays",
-      "content_text": "Company: Barclays · Location: Gurugram, DLF Downtown",
-      "date_published": "2026-08-08T00:00:00.000Z",
-      "authors": [
-        {
-          "name": "Barclays"
-        }
-      ]
-    },
-    {
       "id": "https://www.internzo.in/jobs/certifyos-ai-intern-ats-ashby-certifyos-4bcdec99-9f2e-416c-8e26-498c94c5898a",
       "url": "https://www.internzo.in/jobs/certifyos-ai-intern-ats-ashby-certifyos-4bcdec99-9f2e-416c-8e26-498c94c5898a",
       "title": "AI Intern — CertifyOS",
@@ -297,7 +285,7 @@
       "id": "https://www.internzo.in/jobs/quantiphi-intern-it-and-desktop-support-4448046701",
       "url": "https://www.internzo.in/jobs/quantiphi-intern-it-and-desktop-support-4448046701",
       "title": "Intern - IT & Desktop Support — Quantiphi",
-      "content_text": "Company: Quantiphi · Location: Mumbai, Maharashtra, India",
+      "content_text": "Company: Quantiphi · Location: Mumbai, Maharashtra, India\n• Troubleshoot Windows 11, MS Outlook, O365, and hardware or networking issues\n• Assist users with installing applications, remote setup, VC, and projectors\n• Log technical issues, maintain weekly reports, and update internal databases",
       "date_published": "2026-08-05T18:24:45.022Z",
       "authors": [
         {
@@ -309,7 +297,7 @@
       "id": "https://www.internzo.in/jobs/microsoft-research-sciences-intern-4432065177",
       "url": "https://www.internzo.in/jobs/microsoft-research-sciences-intern-4432065177",
       "title": "Research Sciences INTERN — Microsoft",
-      "content_text": "Company: Microsoft · Location: India",
+      "content_text": "Company: Microsoft · Location: India\n• Conduct research and build prototypes for AI features in Azure SQL Database\n• Analyze and improve algorithm performance on large-scale datasets\n• Develop scalable systems and contribute to patents or white papers",
       "date_published": "2026-08-05T16:58:31.066Z",
       "authors": [
         {
@@ -321,7 +309,7 @@
       "id": "https://www.internzo.in/jobs/magna-international-intern-smart-factory-solutions-4422173133",
       "url": "https://www.internzo.in/jobs/magna-international-intern-smart-factory-solutions-4422173133",
       "title": "Intern, Smart Factory Solutions — Magna International",
-      "content_text": "Company: Magna International · Location: Bengaluru, Karnataka, India",
+      "content_text": "Company: Magna International · Location: Bengaluru, Karnataka, India\n• Perform ETL operations, analyze datasets, and support AI/ML model development\n• Develop web applications, APIs, and data visualization dashboards\n• Debug, test, and enhance existing systems and data services",
       "date_published": "2026-08-05T15:04:03.106Z",
       "authors": [
         {
@@ -602,6 +590,18 @@
       "authors": [
         {
           "name": "Emerson"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/hdfc-bank-limited-trainee-analyst-4445890480",
+      "url": "https://www.internzo.in/jobs/hdfc-bank-limited-trainee-analyst-4445890480",
+      "title": "Trainee Analyst — HDFC Bank Limited",
+      "content_text": "Company: HDFC Bank Limited · Location: Mumbai, Maharashtra, India\n• Support data extraction, cleaning, and preparation for reporting and dashboards\n• Maintain historical datasets and perform basic trend analysis\n• Use Excel, SQL, and Python to support automation and business intelligence initiatives",
+      "date_published": "2026-08-03T10:33:39.742Z",
+      "authors": [
+        {
+          "name": "HDFC Bank Limited"
         }
       ]
     }
