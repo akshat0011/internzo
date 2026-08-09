@@ -304,7 +304,10 @@ function roleQualifier(job) {
  * @returns {{node: HTMLElement, usedFirstBullet: boolean}}
  */
 function roleLine(job) {
-  const p = el('p', 'role', job.title);
+  // An h3, not a p: the role is the card's heading. It used to be a paragraph
+  // under an h3 of the company name, which told a screen reader (and a crawler)
+  // that the employer was the subject and the job was a detail.
+  const p = el('h3', 'role', job.title);
   if (!titleIsGeneric(job.title)) return { node: p, usedFirstBullet: false };
   const q = roleQualifier(job);
   if (!q) return { node: p, usedFirstBullet: false };
@@ -325,13 +328,13 @@ function jobCard(job, index) {
   const blazing = age != null && age < HOT_MS;
   if (blazing) row.classList.add('is-hot');
 
-  // rank, monospace, zero-padded — a register, not a card grid
-  row.append(el('span', 'rank', String(index + 1).padStart(2, '0')));
-
+  // No rank number. It was decoration: the position of a row in a list the
+  // reader is already looking at, restated. It cost a grid column on every card.
   row.append(companyBadge(job));
 
   const mid = el('div');
-  mid.append(el('h3', 'co', job.company));
+  // Company first in the DOM but styled as an eyebrow — the role is the heading.
+  mid.append(el('div', 'co', job.company));
   const role = roleLine(job);
   mid.append(role.node);
 
@@ -458,7 +461,7 @@ function renderList() {
   list.append(frag);
 }
 
-function selectJob(id) {
+function selectJob(id, { silent = false } = {}) {
   state.selectedId = id;
   const job = state.jobs.find((j) => j.id === id);
   if (!job) return;
@@ -469,7 +472,9 @@ function selectJob(id) {
   }
 
   renderDetail(job);
-  history.replaceState(null, '', `#job-${id}`);
+  // A selection the reader did not make should not claim the URL — otherwise
+  // copying the address gives someone a link to a job they never chose.
+  if (!silent) history.replaceState(null, '', `#job-${id}`);
 
   if (matchMedia('(max-width: 1000px)').matches) {
     $('detail-col').classList.add('open');
@@ -966,6 +971,17 @@ async function init() {
   const target = hash && state.jobs.find((j) => j.id === hash[1]);
   if (target) {
     selectJob(target.id);
+  } else if (state.filtered.length && matchMedia('(min-width: 1001px)').matches) {
+    // Fill the detail pane on desktop instead of showing an empty box.
+    //
+    // The two-pane layout gave 45% of the viewport to the words "PICK A ROLE"
+    // until you clicked something — the largest single element on the page was
+    // an instruction to do the obvious. Opening the newest role costs nothing,
+    // demonstrates what a click does, and puts a second real listing on screen.
+    //
+    // Desktop only: on mobile the pane is a full-screen overlay, so doing this
+    // would land the reader inside a job they never asked for.
+    selectJob(state.filtered[0].id, { silent: true });
   }
 
   setInterval(renderFreshness, 60000);
