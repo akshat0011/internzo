@@ -102,7 +102,7 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Intern Radar preview → http://localhost:${PORT}`);
+  console.log(`Internzo preview → http://localhost:${PORT}`);
   if (!process.env.GEMINI_API_KEY) {
     console.log('GEMINI_API_KEY is not set — resume tailoring will return an error until it is.');
   }

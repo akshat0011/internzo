@@ -47,7 +47,7 @@ const NAME = ARGS.find((a) => !a.startsWith('--') && a !== JOB_ID) ?? null;
 
 if (!NAME && !JOB_ID) {
   console.error(`
-Remove a company or a posting from Intern Radar.
+Remove a company or a posting from Internzo.
 
   node bin/remove-company.js "Exact Company Name"
   node bin/remove-company.js "Exact Company Name" --yes

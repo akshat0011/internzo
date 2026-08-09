@@ -887,7 +887,7 @@ async function main() {
       `${newJobs.length} new internship${newJobs.length === 1 ? '' : 's'}`,
       lead.map((j) => `${j.company} — ${j.title}`).join('\n')
         + (newJobs.length > lead.length ? `\n…and ${newJobs.length - lead.length} more` : ''),
-      { url: 'https://www.internradar.info/', tags: ['satellite'], priority: 4 },
+      { url: 'https://www.internzo.in/', tags: ['satellite'], priority: 4 },
     );
   } else {
     log.info('No new matching internships this run.');

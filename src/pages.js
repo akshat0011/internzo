@@ -24,7 +24,7 @@
 import { writeFileSync, readFileSync, mkdirSync, readdirSync, rmSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
-export const SITE = 'https://www.internradar.info';
+export const SITE = 'https://www.internzo.in';
 
 /** HTML-escape. Company names and titles come from LinkedIn and are not trusted. */
 function esc(s) {
@@ -146,13 +146,13 @@ function head({ title, description, canonical, indexable, extraLd = '' }) {
 <link rel="canonical" href="${esc(canonical)}">
 ${indexable ? '' : '<meta name="robots" content="noindex,follow">\n'}<meta name="color-scheme" content="dark light">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Intern Radar">
+<meta property="og:site_name" content="Internzo">
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
-<meta property="og:image" content="${SITE}/og.jpg?v=2">
+<meta property="og:image" content="${SITE}/og.jpg?v=3">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="${SITE}/og.jpg?v=2">
+<meta name="twitter:image" content="${SITE}/og.jpg?v=3">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -165,14 +165,14 @@ ${extraLd}<script defer src="/_vercel/insights/script.js"></script>
 <body>
 <header class="bar">
   <div class="wrap bar-in">
-    <a class="brand" href="/" aria-label="Intern Radar">
+    <a class="brand" href="/" aria-label="Internzo">
       <span class="scope" aria-hidden="true">
         <svg viewBox="0 0 44 44">
           <circle class="s-ring" cx="22" cy="22" r="20"/><circle class="s-ring" cx="22" cy="22" r="13"/>
           <circle class="s-ring" cx="22" cy="22" r="6"/><circle class="s-dot" cx="22" cy="22" r="2.8"/>
         </svg>
       </span>
-      <span class="word">INTERN<em>RADAR</em></span>
+      <span class="word">INTERN<em>ZO</em></span>
     </a>
   </div>
 </header>
@@ -182,7 +182,7 @@ ${extraLd}<script defer src="/_vercel/insights/script.js"></script>
 const FOOT = `
 <footer class="foot">
   <div class="wrap">
-    <p>Listings are collected from LinkedIn and from companies' own hiring systems, and link back to the original posting — always apply there. Summaries are written by Intern Radar; the linked posting is the source of truth.</p>
+    <p>Listings are collected from LinkedIn and from companies' own hiring systems, and link back to the original posting — always apply there. Summaries are written by Internzo; the linked posting is the source of truth.</p>
     <p><a href="/">See every live internship →</a></p>
   </div>
 </footer>
@@ -199,7 +199,7 @@ export function renderJobPage(job) {
 
   // Title shaped the way people actually search: company, role, the word
   // internship, then India and the year.
-  const pageTitle = `${job.company} ${job.title} Internship ${year} — India | Intern Radar`;
+  const pageTitle = `${job.company} ${job.title} Internship ${year} — India | Internzo`;
   const description = (job.bullets ?? [])[0]
     ? `${job.company} is hiring: ${job.title}. ${(job.bullets ?? [])[0]}.`
     : `${job.company} is hiring a ${job.title} intern in India.`;
@@ -249,7 +249,7 @@ export function renderJobPage(job) {
     <p>Applications go through LinkedIn. Internships in India often collect hundreds of applicants within a day, so applying early matters more than applying perfectly.</p>
     ${apply ? `<a class="apply" href="${apply}" target="_blank" rel="nofollow noopener">Open the original posting →</a>` : ''}
 
-    <p class="tiny">This summary was written by Intern Radar from the public posting. The linked posting is the source of truth — check it before you apply.</p>
+    <p class="tiny">This summary was written by Internzo from the public posting. The linked posting is the source of truth — check it before you apply.</p>
   </div>
 </main>
 ${FOOT}`;
@@ -261,10 +261,10 @@ export function renderCompanyPage(company, jobs) {
   const live = jobs.filter(isIndexable);
   const indexable = live.length > 0;
 
-  const pageTitle = `${company} Internships in India ${new Date().getFullYear()} — ${live.length} open role${live.length === 1 ? '' : 's'} | Intern Radar`;
+  const pageTitle = `${company} Internships in India ${new Date().getFullYear()} — ${live.length} open role${live.length === 1 ? '' : 's'} | Internzo`;
   const description = live.length
     ? `${live.length} live ${company} internship${live.length === 1 ? '' : 's'} in India, updated every 30 minutes. ${live.slice(0, 3).map((j) => j.title).join(', ')}.`
-    : `${company} internships in India, tracked by Intern Radar and updated every 30 minutes.`;
+    : `${company} internships in India, tracked by Internzo and updated every 30 minutes.`;
 
   const listLd = {
     '@context': 'https://schema.org/',
@@ -323,7 +323,7 @@ export function renderCompanyIndex(byCompany) {
   const total = rows.reduce((n, r) => n + r.live, 0);
 
   return `${head({
-    title: `Internships in India by company — ${rows.length} companies hiring | Intern Radar`,
+    title: `Internships in India by company — ${rows.length} companies hiring | Internzo`,
     description: `Browse ${total} live internships across ${rows.length} companies in India. Updated every 30 minutes from LinkedIn.`,
     canonical: url,
     indexable: rows.length > 0,
@@ -527,7 +527,7 @@ function writeFeeds(jobs, publicDir) {
   writeFileSync(join(publicDir, 'feed.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Intern Radar — engineering internships in India</title>
+  <title>Internzo — engineering internships in India</title>
   <link>${SITE}/</link>
   <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
@@ -540,7 +540,7 @@ ${items}
 
   writeFileSync(join(publicDir, 'feed.json'), `${JSON.stringify({
     version: 'https://jsonfeed.org/version/1.1',
-    title: 'Intern Radar — engineering internships in India',
+    title: 'Internzo — engineering internships in India',
     home_page_url: `${SITE}/`,
     feed_url: `${SITE}/feed.json`,
     description: 'New engineering internships, listed within minutes of going live.',

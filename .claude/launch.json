@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "intern-radar-web",
+      "name": "internzo-web",
       "runtimeExecutable": "node",
       "runtimeArgs": ["web/serve.js"],
       "port": 4321

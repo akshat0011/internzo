@@ -1,4 +1,4 @@
-/* Intern Radar — listings browser + resume tailoring */
+/* Internzo — listings browser + resume tailoring */
 
 // pdf.js is served from this origin, not a CDN.
 //

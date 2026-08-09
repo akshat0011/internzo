@@ -34,7 +34,7 @@ import { log } from './logger.js';
  * good day on a good connection and the failure it guards against is silent.
  */
 const TIMEOUT_MS = 45_000;
-const UA = 'internradar (+https://www.internradar.info)';
+const UA = 'internzo (+https://www.internzo.in)';
 
 async function getJson(url, { method = 'GET', body = null, headers = {}, retriesLeft = 2 } = {}) {
   const controller = new AbortController();
@@ -743,7 +743,7 @@ async function fetchText(url, timeoutMs = 9000) {
     const res = await fetch(url, {
       redirect: 'follow',
       signal: controller.signal,
-      headers: { 'user-agent': 'Mozilla/5.0 (compatible; internradar/1.0; +https://www.internradar.info)' },
+      headers: { 'user-agent': 'Mozilla/5.0 (compatible; internzo/1.0; +https://www.internzo.in)' },
     });
     clearTimeout(timer);
     if (!res.ok) return null;
@@ -836,7 +836,7 @@ export async function discoverViaCareersPage(companyName) {
         res = await fetch(url, {
           redirect: 'follow',
           signal: controller.signal,
-          headers: { 'user-agent': 'Mozilla/5.0 (compatible; internradar/1.0; +https://www.internradar.info)' },
+          headers: { 'user-agent': 'Mozilla/5.0 (compatible; internzo/1.0; +https://www.internzo.in)' },
         });
         clearTimeout(timer);
       } catch { continue; }
