@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/valeo-intern-hse-4414669760",
+      "url": "https://www.internzo.in/jobs/valeo-intern-hse-4414669760",
+      "title": "Intern - HSE — Valeo",
+      "content_text": "Company: Valeo · Location: Ahmedabad, Gujarat, India",
+      "date_published": "2026-08-09T13:27:36.011Z",
+      "authors": [
+        {
+          "name": "Valeo"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4449259269",
       "url": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4449259269",
       "title": "Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com",
@@ -498,6 +510,18 @@
       ]
     },
     {
+      "id": "https://www.internzo.in/jobs/accenture-in-india-payroll-university-trainee-global-payroll-and-automation-4448362081",
+      "url": "https://www.internzo.in/jobs/accenture-in-india-payroll-university-trainee-global-payroll-and-automation-4448362081",
+      "title": "Payroll University Trainee – Global Payroll & Automation — Accenture in India",
+      "content_text": "Company: Accenture in India · Location: Mumbai Metropolitan Region · Duration: 0–6 months\n• Support end-to-end global payroll processing, audits, and reconciliations\n• Analyze payroll data and build operational dashboards using Excel and Power BI\n• Contribute to payroll automation initiatives using Python and Power Automate",
+      "date_published": "2026-08-03T18:17:17.577Z",
+      "authors": [
+        {
+          "name": "Accenture in India"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/emerson-graduate-engineer-trainee-4448323159",
       "url": "https://www.internzo.in/jobs/emerson-graduate-engineer-trainee-4448323159",
       "title": "Graduate Engineer Trainee — Emerson",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "HDFC Bank Limited"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/eli-lilly-and-company-intern-full-stack-engineer-4448149499",
-      "url": "https://www.internzo.in/jobs/eli-lilly-and-company-intern-full-stack-engineer-4448149499",
-      "title": "Intern - Full Stack Engineer — Eli Lilly and Company",
-      "content_text": "Company: Eli Lilly and Company · Location: Bengaluru East, Karnataka, India\n• Deliver development tasks for backend services and frontend UI features\n• Write clean, readable code following team standards and review feedback\n• Use foundational engineering tools like Git, pull requests, and issue trackers\n• Participate in agile ceremonies and perform unit/integration testing",
-      "date_published": "2026-08-03T08:42:32.871Z",
-      "authors": [
-        {
-          "name": "Eli Lilly and Company"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/pixxel-calibration-intern-4448136135",
-      "url": "https://www.internzo.in/jobs/pixxel-calibration-intern-4448136135",
-      "title": "Calibration Intern — Pixxel",
-      "content_text": "Company: Pixxel · Location: Bengaluru, Karnataka, India · Duration: 6 months\n• Develop and implement algorithms to calibrate camera systems for optimal image quality\n• Participate in pre-flight calibration including geometrical, spatial, and radiometric calibration\n• Develop and deploy software for imaging system calibration and testing\n• Analyze volume data to guide engineering decisions",
-      "date_published": "2026-08-03T01:59:19.699Z",
-      "authors": [
-        {
-          "name": "Pixxel"
         }
       ]
     }
