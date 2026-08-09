@@ -20,3 +20,6 @@ skipped-companies.md
 # Vetting working data: judgements about named companies. This repo is public.
 vetting/
 candidates.json
+
+# Local editor/tooling config. Never published.
+.claude/
