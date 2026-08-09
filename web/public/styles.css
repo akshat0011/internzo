@@ -515,10 +515,47 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 @media (max-width: 680px) {
   .wrap { width: calc(100% - 30px); }
-  .lede { padding: 18px 0 16px; }
-  .lede-in { gap: 10px; }
-  .lede h1 { font-size: 24px; }
-  .lede p { font-size: 12.5px; }
+
+  /* No hero on a phone.
+     ---------------------------------------------------------------------
+     This is where ad traffic lands, and a first screen made of a slogan is
+     a first screen with nothing to scroll. The headline plus its paragraph
+     cost ~210px — most of the fold — to say something the listings below
+     say better by simply being there.
+     Removing it puts real roles above the fold, which is the only thing
+     that earns the second scroll. */
+  .lede { display: none; }
+
+  /* The filter rail was three stacked rows (~400px): a search box, four
+     dropdowns wrapped 2x2, then the toggles. Together with the hero the
+     first actual listing began roughly 600px down — a phone user saw no
+     jobs at all without scrolling.
+     One horizontally-scrollable strip of controls replaces the 2x2 grid,
+     so the rail is a fixed ~120px whatever the screen height. */
+  .picks {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Bleed to the screen edges so the strip reads as scrollable rather
+       than clipped, and the last chip is not glued to the margin. */
+    margin: 0 -15px;
+    padding: 0 15px;
+    scroll-padding-left: 15px;
+  }
+  .picks::-webkit-scrollbar { display: none; }
+  .picks label { flex: 0 0 auto; min-width: 0; }
+  /* Narrow enough that the next chip is always part-visible at the right edge.
+     A half-shown chip is the affordance that says "this strip scrolls"; at a
+     wider cap the first chip alone filled the screen and the strip looked
+     like a plain full-width control that had been clipped. */
+  .picks select { max-width: 28vw; }
+
+  /* Redundant here: the count is repeated as "N ROLES" directly above the
+     first card, which is where the eye already is. */
+  .seg { display: none; }
+
   .ticker { display: none; }
   .row { grid-template-columns: 34px minmax(0,1fr); gap: 12px; padding: 14px 15px; }
   .rank { display: none; }
@@ -526,18 +563,15 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .co { font-size: 20px; }
   .age { grid-column: 2; text-align: left; padding-top: 8px; }
   .age s { margin-left: 0; }
-  /* min-width:0 on both, or the select's intrinsic width — the widest company or
-     city name in the option list — becomes an unshrinkable floor and pushes the
-     rail ~150px past the viewport. That is what made the whole page scroll
-     sideways on a phone. The ellipsis keeps a long name from looking clipped. */
-  .picks label { flex: 1 1 calc(50% - 4px); min-width: 0; }
-  .picks select {
-    max-width: none; flex: 1; min-width: 0; width: 100%;
-    text-overflow: ellipsis; white-space: nowrap; overflow: hidden;
-  }
+  /* The selects still need min-width:0 and the ellipsis. Their intrinsic width
+     is the widest company or city name in the option list, which without this
+     becomes an unshrinkable floor — that is what used to push the rail ~150px
+     past the viewport and make the whole PAGE scroll sideways. Now only the
+     .picks strip scrolls, and it does so on purpose. */
+  .picks select { min-width: 0; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
 
-  /* Only the 62px bar stays pinned. The rail wraps to three rows here, and
-     sticking it too froze ~350px — nearly half a phone screen — above every
+  /* Only the 62px bar stays pinned. The rail used to wrap to three rows here,
+     and sticking it too froze ~350px — nearly half a phone screen — above every
      scroll. It scrolls away now; the bar is what you need while scrolling. */
   .rail { position: static; backdrop-filter: none; -webkit-backdrop-filter: none; }
   .modal { width: 100vw; max-width: 100vw; height: 100vh; max-height: 100vh; top: 0; left: 0; transform: none; border: 0; border-radius: 0; }
