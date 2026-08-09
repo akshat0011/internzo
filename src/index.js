@@ -13,6 +13,7 @@ import { ensureHealthy, assertSignedIn, assertListRendered, RunAborted, State } 
 import * as li from './linkedin.js';
 import { resolveSearches } from './searches.js';
 import { classifyRoles, classifyFromDescriptions, enrichJobs } from './gemini.js';
+import { postNewJobs } from './telegram.js';
 import { classifyRole, needsDescription, builtInPolarity } from './roles.js';
 import { loadLearned, learnedVocabulary, learn, learnedPath } from './learned.js';
 import { pause, sleep, idleFidget, humanDelay, pageAlive } from './human.js';
@@ -896,6 +897,12 @@ async function main() {
   // Push the public job list. Runs even with 0 new jobs so the site drops
   // listings that have aged out of the window.
   if (!DRY_RUN) await publish(store, cfg, newJobs.length);
+
+  // The channel post goes AFTER publish, deliberately. Every listing in it
+  // links to that job's page on the site, and those pages are written by
+  // publish — posting first would send the channel a burst of links that 404
+  // for however long the deploy takes.
+  if (!DRY_RUN && newJobs.length) await postNewJobs(newJobs, cfg);
 
   store.setSetting(LOCK_KEY, 0);
   store.close();

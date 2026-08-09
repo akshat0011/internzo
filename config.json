@@ -584,7 +584,12 @@
     "onNewJobs": true,
     "onError": true,
     "openReportWhenDone": true,
-    "_openReportWhenDone_note": "Auto-open the HTML report in your default browser when new jobs are found."
+    "_openReportWhenDone_note": "Auto-open the HTML report in your default browser when new jobs are found.",
+    "telegram": {
+      "enabled": false,
+      "chatId": "",
+      "_note": "Posts one message per run listing the new roles, each linking to its page on the site. One message rather than one per job: a run that finds six roles firing six notifications is how a channel gets muted. Set enabled to true and chatId to your channel (\"@yourchannel\", or the numeric -100... id for a private one), and put TELEGRAM_BOT_TOKEN in .env. The bot must be an administrator of the channel with permission to post, or Telegram returns 403 and the post is skipped. Everything here fails soft - a channel that is misconfigured, rate-limited or down never fails the scrape."
+    }
   },
   "browser": {
     "headed": true,

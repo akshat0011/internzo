@@ -32,7 +32,10 @@ const DEFAULTS = {
     longBreak: [45000, 90000],
   },
   limits: { maxRuntimeMinutes: 90, maxPagesPerSearch: 40, maxDetailsPerRun: 100 },
-  notifications: { onCaptcha: true, onNewJobs: true, onError: true, openReportWhenDone: true },
+  notifications: {
+    onCaptcha: true, onNewJobs: true, onError: true, openReportWhenDone: true,
+    telegram: { enabled: false, chatId: '' },
+  },
   browser: {
     headed: true,
     windowSize: [1512, 950],
