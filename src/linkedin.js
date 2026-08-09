@@ -111,7 +111,12 @@ export function jobPaneUrl(jobId) {
  * banner is NOT retried here — those are answered by guard.js, and retrying
  * into them is exactly the behaviour that turns a rate limit into a ban.
  */
-const TRANSIENT_NAV = /ERR_NETWORK_CHANGED|ERR_INTERNET_DISCONNECTED|ERR_NAME_NOT_RESOLVED|ERR_CONNECTION_(RESET|CLOSED|TIMED_OUT|REFUSED|ABORTED)|ERR_ADDRESS_UNREACHABLE|ERR_QUIC_PROTOCOL_ERROR|ERR_HTTP2_PROTOCOL_ERROR|ERR_SOCKET_NOT_CONNECTED|ERR_EMPTY_RESPONSE|Timeout .* exceeded/i;
+// net::ERR_ABORTED is in here on purpose and is NOT the same as
+// ERR_CONNECTION_ABORTED above. It is what Chromium reports when a second
+// navigation supersedes the one we asked for — LinkedIn's own SPA redirect
+// racing our goto — so it means "that load was replaced", not "the network
+// failed". It was ending runs on the very first page load of the feed.
+const TRANSIENT_NAV = /ERR_NETWORK_CHANGED|ERR_INTERNET_DISCONNECTED|ERR_NAME_NOT_RESOLVED|ERR_CONNECTION_(RESET|CLOSED|TIMED_OUT|REFUSED|ABORTED)|ERR_ABORTED|ERR_ADDRESS_UNREACHABLE|ERR_QUIC_PROTOCOL_ERROR|ERR_HTTP2_PROTOCOL_ERROR|ERR_SOCKET_NOT_CONNECTED|ERR_EMPTY_RESPONSE|Timeout .* exceeded/i;
 
 export async function gotoResilient(page, url, opts = {}, { attempts = 3, label = 'page' } = {}) {
   let lastErr;
@@ -136,10 +141,18 @@ export async function gotoResilient(page, url, opts = {}, { attempts = 3, label 
  */
 export async function warmUp(page, cfg) {
   log.info('Warming up on the feed…');
-  await gotoResilient(page, 'https://www.linkedin.com/feed/', {}, { label: 'the feed' });
-  await pause(cfg.pacing.warmupOnFeed);
-  await page.mouse.wheel(0, rand(300, 900));
-  await pause(cfg.pacing.afterNavigation);
+  // Non-fatal. The warm-up exists to look like a person arriving, not to
+  // collect anything, so a feed that will not load is a reason to go straight
+  // to the search — not to throw away the whole run before it has looked at a
+  // single posting. This threw on ERR_ABORTED and killed runs outright.
+  try {
+    await gotoResilient(page, 'https://www.linkedin.com/feed/', {}, { label: 'the feed' });
+    await pause(cfg.pacing.warmupOnFeed);
+    await page.mouse.wheel(0, rand(300, 900));
+    await pause(cfg.pacing.afterNavigation);
+  } catch (err) {
+    log.warn(`Warm-up skipped — ${err.message.split('\n')[0]}`);
+  }
 }
 
 /** Navigate to a search URL and wait for the results column to exist. */

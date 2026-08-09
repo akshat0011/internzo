@@ -235,6 +235,18 @@ export async function ensureHealthy(page, cfg, { context = 'page', remainingMs =
   if (state === State.OK) return;
 
   if (state === State.CHALLENGE) {
+    // Escape hatch for false positives. The detector reads page *text* as well
+    // as frames, and unlike the logged-out markers it is not suppressed by the
+    // signed-in nav being on screen — so a job description containing a phrase
+    // like "security verification" halts a perfectly healthy run, which is what
+    // was happening. Off means: screenshot it, say so, and carry on.
+    if (cfg.safety?.pauseOnChallenge === false) {
+      const shot = await shoot(page, 'challenge-ignored');
+      log.warn(`Security check reported at ${context} (${evidence}) — safety.pauseOnChallenge is off, carrying on.`);
+      if (shot) log.warn(`Screenshot: ${shot}`);
+      return;
+    }
+
     // The wait for a human has to fit inside the run's own budget.
     //
     // It used to be a flat 12 minutes, decided here with no knowledge of how
