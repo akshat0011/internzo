@@ -100,17 +100,6 @@ function companyInitials(name) {
   return (words[0][0] + words[1][0]).toUpperCase();
 }
 
-/** Rough monthly-equivalent value, for sorting by stipend. */
-function stipendValue(job) {
-  if (!job.stipend) return -1;
-  let n = parseFloat(job.stipend.replace(/[^\d.]/g, ''));
-  if (!Number.isFinite(n)) return -1;
-  if (/year|annum|lpa/i.test(job.stipend)) n /= 12;
-  if (/hour/i.test(job.stipend)) n *= 160;
-  if (/week/i.test(job.stipend)) n *= 4;
-  return n;
-}
-
 function toast(message) {
   const t = $('toast');
   t.textContent = message;
@@ -177,8 +166,7 @@ function applyFilters() {
     return true;
   });
 
-  if (sort === 'stipend') list.sort((a, b) => stipendValue(b) - stipendValue(a));
-  else if (sort === 'company') list.sort((a, b) => a.company.localeCompare(b.company));
+  if (sort === 'company') list.sort((a, b) => a.company.localeCompare(b.company));
   else list.sort((a, b) => (b.postedAt ?? 0) - (a.postedAt ?? 0));
 
   state.filtered = list;
@@ -238,22 +226,6 @@ function degreeTag(job) {
   tag.append(el('b', null, job.degreeLevel));
   if (job.degreeText) tag.append(el('i', null, job.degreeText));
   return tag;
-}
-
-/**
- * Only shown when the posting actually says something.
- *
- * This began as three states including an explicit "stipend unknown", on the
- * reasoning that silence usually means unpaid. In practice 89% of postings say
- * nothing, so the chip appeared on nearly every card, in the most prominent slot,
- * carrying no information and pushing the useful facts to the right. A label that
- * is almost always present is not a label. Absence now means unknown.
- */
-function stipendTag(job) {
-  if (job.stipend) return el('span', 'cash', job.stipend);
-  if (job.stipendStatus === 'paid') return el('span', 'cash', 'paid');
-  if (job.stipendStatus === 'unpaid') return el('span', 'unpaid', 'unpaid');
-  return null;
 }
 
 /**
@@ -342,19 +314,16 @@ function jobCard(job, index) {
   const role = roleLine(job);
   mid.append(role.node);
 
-  // Eligibility first, money second. A student's first question is "can I even
-  // apply", and that used to be buried in the description while the card spent
-  // its most-read line on a city they had already filtered by.
+  // Eligibility leads. A student's first question is "can I even apply", and
+  // that used to be buried in the description while the card spent its
+  // most-read line on a city they had already filtered by.
   const meta = el('div', 'meta');
   const degree = degreeTag(job);
   if (degree) meta.append(degree);
-  const stipend = stipendTag(job);
-  if (stipend) meta.append(stipend);
 
   // Enrichment runs against a daily API quota, so at any moment some postings have
   // eligibility and skills and some do not. Where they do, that is the row. Where
-  // they do not, fall back to city and work mode so the row is not left empty —
-  // which it now can be, since an unknown stipend prints nothing.
+  // they do not, fall back to city and work mode so the row is not left empty.
   if (!enriched(job)) {
     if (job.location) meta.append(el('span', null, job.location));
     if (job.workplaceType) meta.append(el('span', null, job.workplaceType));
@@ -394,7 +363,27 @@ function jobCard(job, index) {
     bar.append(fill);
     ageBox.append(bar);
   }
-  row.append(ageBox);
+  // Age and Apply share a footer strip. Applying used to cost two taps and a
+  // full-screen context switch — open the role, then find the button — and the
+  // detail pane exists to answer questions, not to gate the one action every
+  // visitor came to take.
+  const foot = el('div', 'card-foot');
+  foot.append(ageBox);
+
+  const applyHref = safeUrl(job.applyUrl) || safeUrl(job.url);
+  if (applyHref) {
+    const go = el('a', 'card-go');
+    go.href = applyHref;
+    go.target = '_blank';
+    go.rel = 'noopener noreferrer';
+    go.append(el('span', 'card-go-t', 'Apply'), el('i', 'card-go-a'));
+    go.setAttribute('aria-label', `Apply for ${job.title} at ${job.company}`);
+    // The whole card is clickable. Without this, applying would also fire the
+    // card's handler and slide the detail pane up behind the new tab.
+    go.addEventListener('click', (e) => e.stopPropagation());
+    foot.append(go);
+  }
+  row.append(foot);
 
   row.addEventListener('click', () => selectJob(job.id));
   row.addEventListener('keydown', (e) => {
@@ -457,8 +446,22 @@ function selectJob(id) {
 }
 
 function closeDetail() {
-  $('detail-col').classList.remove('open');
+  const col = $('detail-col');
   document.body.style.overflow = '';
+
+  // display:none cannot be transitioned, so the pane has to finish its exit
+  // animation before it is hidden. Falling back on a timer as well as the event
+  // matters: if the animation is suppressed — prefers-reduced-motion, or the
+  // desktop layout where the pane is not an overlay — animationend never fires
+  // and the pane would be left stuck open.
+  if (!col.classList.contains('open')) return;
+  col.classList.add('closing');
+  const done = () => {
+    col.classList.remove('open', 'closing');
+    col.removeEventListener('animationend', done);
+  };
+  col.addEventListener('animationend', done);
+  setTimeout(done, 260);
 }
 
 function renderDetail(job) {
@@ -521,7 +524,6 @@ function renderDetail(job) {
     f.append(el('dt', null, label), el('dd', cls, value));
     facts.append(f);
   };
-  addFact('stipend', job.stipend || 'not stated', job.stipend ? 'cash' : null);
   addFact('mode', job.workplaceType || '\u2014');
   addFact('duration', job.duration || '\u2014');
   addFact('posted', job.postedText || relTime(job.postedAt));
@@ -775,8 +777,27 @@ function resumeAsText(t) {
 
 /* ---------------- wiring ---------------- */
 
+/**
+ * The filter strip scrolls sideways on a phone and is faded at its right edge
+ * so the overflow reads as "more this way" rather than as a clipped layout.
+ * Once you reach the end there is nothing more to hint at, so the fade is
+ * removed — otherwise the last chip looks permanently faded out.
+ */
+function wireFilterStrip() {
+  const strip = document.querySelector('.picks');
+  if (!strip) return;
+  const sync = () => {
+    const atEnd = strip.scrollLeft + strip.clientWidth >= strip.scrollWidth - 2;
+    strip.classList.toggle('at-end', atEnd);
+  };
+  strip.addEventListener('scroll', sync, { passive: true });
+  addEventListener('resize', sync, { passive: true });
+  sync();
+}
+
 function wireControls() {
   const rerun = () => applyFilters();
+  wireFilterStrip();
   $('q').addEventListener('input', () => {
     $('clear-q').hidden = !$('q').value;
     rerun();

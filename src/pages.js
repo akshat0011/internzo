@@ -212,7 +212,6 @@ export function renderJobPage(job) {
     job.workplaceType ? ['Mode', esc(job.workplaceType)] : null,
     job.degreeLevel ? ['Eligibility', esc([job.degreeLevel, job.degreeText].filter(Boolean).join(' · '))] : null,
     job.duration ? ['Duration', esc(job.duration)] : null,
-    ['Stipend', job.stipend ? esc(job.stipend) : job.stipendStatus === 'unpaid' ? 'Unpaid' : job.stipendStatus === 'paid' ? 'Paid' : 'Not stated'],
     // Same fallback as validThrough and the JSON-LD above. It was the one date
     // here without it, and toISOString on an Invalid Date throws — which would
     // not lose one page, it would abort writePages and with it the whole publish.
@@ -383,7 +382,7 @@ function writeHomeListings(jobs, publicDir) {
   }
 
   const rows = jobs.map((j) => {
-    const facts = [j.location, j.workplaceType, j.stipend]
+    const facts = [j.location, j.workplaceType]
       .filter(Boolean).map((s) => esc(s)).join(' · ');
     return `<li><a href="/jobs/${jobSlug(j)}">${esc(j.company)} — ${esc(j.title)}</a>`
       + (facts ? `<span class="tiny"> ${facts}</span>` : '')
@@ -503,7 +502,6 @@ function writeFeeds(jobs, publicDir) {
   const facts = (j) => [
     j.company && `Company: ${j.company}`,
     j.location && `Location: ${j.location}`,
-    j.stipend && `Stipend: ${j.stipend}`,
     j.duration && `Duration: ${j.duration}`,
   ].filter(Boolean).join(' · ');
 

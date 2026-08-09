@@ -347,6 +347,53 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .age s i { display: block; height: 100%; background: var(--live); }
 .age.blazing s i { background: var(--hot); }
 
+/* ---------- card footer: age + apply ---------- */
+
+/* Occupies the slot .age used to hold, so the .row grid is unchanged: on wide
+   screens it is the 4th column and stacks; on a phone it drops under the text
+   and lays out as a row, age left and the button right where a thumb is. */
+.card-foot { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+
+.card-go {
+  position: relative; overflow: hidden;
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 0 14px; height: 34px; flex: none;
+  border-radius: 999px; border: 1px solid var(--live);
+  background: var(--live); color: var(--live-ink);
+  font-family: var(--ui); font-size: 13px; font-weight: 600; letter-spacing: -.01em;
+  text-decoration: none; white-space: nowrap; cursor: pointer;
+  transition: transform .18s var(--snap), box-shadow .18s, filter .18s;
+}
+.card-go-t { position: relative; z-index: 1; }
+
+/* The arrow is drawn rather than typed so it can move on its own. */
+.card-go-a {
+  position: relative; z-index: 1;
+  width: 13px; height: 9px; flex: none;
+  background: currentColor;
+  clip-path: polygon(0 38%, 62% 38%, 62% 0, 100% 50%, 62% 100%, 62% 62%, 0 62%);
+  transition: transform .2s var(--snap);
+}
+.card-go:hover { transform: translateY(-2px); box-shadow: 0 6px 18px -6px color-mix(in oklab, var(--live) 70%, transparent); }
+.card-go:hover .card-go-a { transform: translateX(3px); }
+.card-go:active { transform: translateY(0) scale(.96); }
+.card-go:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* A sheen that crosses the button on hover. Purely decorative, and skipped
+   entirely under prefers-reduced-motion by the global rule near the bottom. */
+.card-go::after {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(100deg, transparent 20%, rgba(255,255,255,.55) 50%, transparent 80%);
+  transform: translateX(-120%);
+}
+.card-go:hover::after { animation: sheen .62s var(--snap); }
+@keyframes sheen { to { transform: translateX(120%); } }
+
+/* A hot role gets the hot colour, so the button matches the urgency the age
+   badge is already signalling rather than fighting it. */
+.row.is-hot .card-go { background: var(--hot); border-color: var(--hot); }
+.row.is-hot .card-go:hover { box-shadow: 0 6px 18px -6px color-mix(in oklab, var(--hot) 70%, transparent); }
+
 /* ---------- empty ---------- */
 
 .void { padding: 66px 20px; text-align: center; border: 1px dashed var(--rule-2); border-radius: var(--r-2); }
@@ -506,7 +553,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
 @media (max-width: 1000px) {
   .board { grid-template-columns: 1fr; }
   .pane-col { position: fixed; inset: 0; z-index: 80; background: var(--bg); overflow: auto; display: none; }
-  .pane-col.open { display: block; }
+  /* Opening a role used to be an instant cut to a full screen of new text,
+     which on a phone reads as a page load rather than a detail view. Sliding
+     it up keeps the sense that the list is still underneath. */
+  .pane-col.open { display: block; animation: paneIn .3s var(--snap) both; }
+  .pane-col.closing { animation: paneOut .2s ease-in both; }
+  @keyframes paneIn { from { opacity: 0; transform: translateY(22px); } }
+  @keyframes paneOut { to { opacity: 0; transform: translateY(16px); } }
   .pane-idle { display: none; }
   .pane { max-height: none; min-height: 100vh; border: 0; border-radius: 0; padding: 22px 22px 70px; }
   .back { display: inline-block !important; }
@@ -543,6 +596,15 @@ button, input, select, textarea { font: inherit; color: inherit; }
     margin: 0 -15px;
     padding: 0 15px;
     scroll-padding-left: 15px;
+    /* A hard vertical cut through a chip at the screen edge reads as a broken
+       layout. Fading the last 34px turns the same overflow into an obvious
+       "there is more this way", and the fade retracts once you reach the end. */
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent 100%);
+    mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent 100%);
+  }
+  .picks.at-end {
+    -webkit-mask-image: none;
+    mask-image: none;
   }
   .picks::-webkit-scrollbar { display: none; }
   .picks label { flex: 0 0 auto; min-width: 0; }
@@ -561,8 +623,16 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .rank { display: none; }
   .crest { width: 34px; height: 34px; font-size: 12px; }
   .co { font-size: 20px; }
-  .age { grid-column: 2; text-align: left; padding-top: 8px; }
+  /* Age and Apply share one line under the text, so the button lands in the
+     lower-right of the card — the easiest place on a phone to reach. */
+  .card-foot {
+    grid-column: 2; flex-direction: row; align-items: center;
+    justify-content: space-between; gap: 12px; padding-top: 12px; width: 100%;
+  }
+  .age { text-align: left; padding-top: 0; }
   .age s { margin-left: 0; }
+  /* Comfortably past the 44px minimum touch target. */
+  .card-go { height: 40px; padding: 0 18px; font-size: 14px; }
   /* The selects still need min-width:0 and the ellipsis. Their intrinsic width
      is the widest company or city name in the option list, which without this
      becomes an unshrinkable floor — that is what used to push the rail ~150px
