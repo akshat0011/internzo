@@ -646,7 +646,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* ---------- responsive ---------- */
 
-@media (max-width: 1000px) {
+/* ============================================================
+   VARIANT A — the mobile / tablet / iPad design.
+   Everything from here down applies at 1024px and under. Desktop above that
+   is deliberately untouched: the two-pane register works there.
+   1024 rather than 1000 so an iPad Pro in portrait gets the touch design.
+   ============================================================ */
+@media (max-width: 1024px) {
   .board { grid-template-columns: 1fr; }
   .pane-col { position: fixed; inset: 0; z-index: 80; background: var(--bg); overflow: auto; display: none; }
   /* Opening a role used to be an instant cut to a full screen of new text,
@@ -664,7 +670,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1024px) {
   .wrap { width: calc(100% - 30px); }
 
   /* No hero on a phone.
@@ -717,22 +723,62 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .seg { display: none; }
 
   .ticker { display: none; }
-  .row { grid-template-columns: 34px minmax(0,1fr); gap: var(--s3); padding: var(--s3) var(--s4); }
-  .crest { width: 34px; height: 34px; font-size: 12px; }
-  /* The company eyebrow keeps its micro size here. It used to be overridden to
-     20px, which on a phone made the employer the loudest thing on the card
-     again — the exact hierarchy this rework inverted. */
-  .role { font-size: 1rem; }
-  /* Age and Apply share one line under the text, so the button lands in the
-     lower-right of the card — the easiest place on a phone to reach. */
-  .card-foot {
-    grid-column: 2; flex-direction: row; align-items: center;
-    justify-content: space-between; gap: 12px; padding-top: 12px; width: 100%;
+
+  /* ---- The card, rebuilt as the feed card -----------------------------
+     One column, not a grid: logo and company sit on a header line, the role
+     is the headline beneath it, and Apply is a full-width target at the
+     bottom. Nothing competes with the role for the first glance. */
+  .row {
+    display: block;
+    padding: var(--s4) var(--s4) var(--s3);
+    border-radius: 20px;
+    border-color: transparent;
+    background: var(--card);
   }
-  .age { text-align: left; padding-top: 0; }
+  .row::before { display: none; }        /* the lit left edge belongs to the register */
+  .row[aria-current="true"] { border-color: transparent; background: var(--card-2); }
+
+  /* Logo + company + age on one line above the role. */
+  .row > .crest { float: left; margin-right: var(--s3); }
+  .crest { width: 34px; height: 34px; font-size: 12px; border-radius: 9px; }
+
+  .co {
+    font-size: .8125rem; font-weight: 600; letter-spacing: .01em;
+    text-transform: none; color: var(--ink-2);
+    -webkit-line-clamp: 1; line-height: 34px;
+  }
+
+  /* The headline. Big enough to be read while a thumb is moving. */
+  .role {
+    clear: both; padding-top: var(--s2);
+    font-family: var(--display); font-weight: 800;
+    font-size: clamp(1.25rem, 5.4vw, 1.5rem); line-height: 1.14; letter-spacing: -.03em;
+  }
+
+  /* Facts become pills rather than a monospace run-on. */
+  .meta { gap: 6px; margin-top: var(--s3); text-transform: none; letter-spacing: .01em; }
+  .meta > span:not(.elig) {
+    font-family: var(--ui); font-size: .75rem; font-weight: 600;
+    background: var(--card-2); border-radius: 999px; padding: 5px 11px; color: var(--ink-2);
+  }
+  .meta .ea { color: var(--hot); background: color-mix(in oklab, var(--hot) 12%, transparent); }
+  .elig { border-radius: 999px; padding: 4px 11px; background: color-mix(in oklab, var(--live) 12%, transparent); }
+
+  .gist-list { margin-top: var(--s3); }
+  .gist-list li { font-size: .90625rem; }
+
+  /* Apply spans the card. The single biggest target on the screen, sitting
+     where the thumb already rests. */
+  .card-foot {
+    display: flex; flex-direction: column-reverse; align-items: stretch;
+    gap: var(--s2); padding-top: var(--s4); width: 100%;
+  }
+  .card-go {
+    height: 50px; border-radius: 14px; padding: 0;
+    justify-content: center; font-size: 1rem; font-weight: 700;
+  }
+  .age { text-align: left; padding-top: 0; display: flex; align-items: center; gap: 8px; }
   .age s { margin-left: 0; }
-  /* Comfortably past the 44px minimum touch target. */
-  .card-go { height: 40px; padding: 0 18px; font-size: 14px; }
   /* The selects still need min-width:0 and the ellipsis. Their intrinsic width
      is the widest company or city name in the option list, which without this
      becomes an unshrinkable floor — that is what used to push the rail ~150px
@@ -748,6 +794,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
   @keyframes pop { from { opacity: 0; transform: translateY(14px); } }
   .sheet { padding: 24px 20px; }
   .p-co { font-size: 27px; }
+}
+
+/* Phones only: cards run to the screen edges. On a tablet the inset reads as
+   deliberate; on a 390px screen it is 30px of wasted width. */
+@media (max-width: 600px) {
+  .feed { margin-inline: -15px; }
+  .row { border-radius: 0; padding-inline: var(--s4); }
 }
 
 /* Translucency is a preference, not a given. Someone who has asked for less of
