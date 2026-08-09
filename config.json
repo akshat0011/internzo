@@ -572,10 +572,10 @@
     "_startupJitter_note": "Scheduled runs wait a random extra 0-60s, so activity does not land at exactly HH:00:00 every time. Was 0-4 min when runs were half-hourly; at 15-minute slots that much jitter could push a run most of the way into the next slot, where the lock would then skip it."
   },
   "limits": {
-    "maxRuntimeMinutes": 20,
+    "maxRuntimeMinutes": 90,
     "maxPagesPerSearch": 40,
     "maxDetailsPerRun": 100,
-    "_maxRuntimeMinutes_note": "Must stay under the schedule gap MINUS the 8-minute lock grace, or a long run overlaps the next slot and the lock skips it. At 12 on a 15-minute schedule that is exactly what happened: 20 minutes of lock against a 15-minute interval meant one measured day ran 37 of its 96 slots, with 17.8 hours inside gaps over half an hour, and postings that appeared in those gaps were never seen. Now 20 on a 30-minute schedule - lock expires at 28, inside the interval - which also lets a run paginate deeper instead of ending partial.",
+    "_maxRuntimeMinutes_note": "There is no schedule slot to overrun any more, so this no longer has to stay under the interval. bin/loop.sh runs one scan at a time and starts the next when the previous one finishes, so a long run costs nothing but its own time - it can never collide with, or be skipped by, another run. Raised from 20 to 90 so a scan is not cut off mid-pagination: the budget is a backstop against a genuinely stuck run, not the normal stopping point. Paging normally ends when LinkedIn's Next button runs out.",
     "_note": "Safety backstops, not the normal stopping point. Paging normally ends when LinkedIn's 'Next' button runs out, which means every job in the window has been seen. These caps only bite if a search is unusually deep - and when one does bite, the report says so explicitly rather than pretending the search finished.",
     "_maxPagesPerSearch_note": "40 pages x 25 = 1000 results, which is roughly LinkedIn's own ceiling for a single search. With the 24-hour filter on, most searches end far sooner."
   },
