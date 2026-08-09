@@ -247,9 +247,14 @@ export function matchCompany(companyName, watchlist) {
 /**
  * Does this job title look like an internship, per config?
  *
- * Uses word boundaries with a small suffix allowance, so "intern" matches
- * "Intern", "Interns" and "Internship" but not "International Sales Manager" —
- * a plain substring test made that mistake.
+ * Bounded with a small suffix allowance, so "intern" matches "Intern",
+ * "Interns" and "Internship" but not "International Sales Manager" — a plain
+ * substring test made that mistake.
+ *
+ * The bound is "not a letter or digit" rather than \b, because \w counts the
+ * underscore as a word character, so \b never fires between "n" and "_".
+ * Qualcomm posts as "Interim Intern_OneIT" and every one of those was dropped
+ * as not-an-internship — the company was on the watchlist the whole time.
  */
 const titleRegexCache = new Map();
 
@@ -257,7 +262,7 @@ function titleRegex(term) {
   let re = titleRegexCache.get(term);
   if (!re) {
     const esc = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    re = new RegExp(`\\b${esc}(?:s|es|ship|ships)?\\b`, 'i');
+    re = new RegExp(`(?<![a-z0-9])${esc}(?:s|es|ship|ships)?(?![a-z0-9])`, 'i');
     titleRegexCache.set(term, re);
   }
   return re;

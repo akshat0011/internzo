@@ -19,7 +19,7 @@
     "ats:discover": "node --no-warnings=ExperimentalWarning bin/discover-ats.js",
     "ats:verify": "node --no-warnings=ExperimentalWarning bin/verify-ats.js",
     "ats:poll": "node --no-warnings=ExperimentalWarning bin/poll-ats.js",
-    "test": "node test/extract.test.mjs && node test/roles.test.mjs && node test/tailor.test.mjs && node test/pages.test.mjs",
+    "test": "node test/extract.test.mjs && node test/roles.test.mjs && node test/tailor.test.mjs && node test/pages.test.mjs && node test/title.test.mjs",
     "web": "node web/serve.js",
     "install-schedule": "bash bin/install-schedule.sh",
     "uninstall-schedule": "bash bin/uninstall-schedule.sh",
