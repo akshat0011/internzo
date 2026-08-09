@@ -1,5 +1,5 @@
 {
- "generatedAt": 1786259924896,
+ "generatedAt": 1786260892831,
  "count": 137,
  "techCount": 137,
  "otherCount": 0,
@@ -1402,7 +1402,7 @@
    "company": "Siemens",
    "matchedWatchlist": "Siemens",
    "isTech": true,
-   "roleSource": "gemini-description",
+   "roleSource": "gemini-enrich",
    "logo": "/logos/siemens.jpg",
    "location": "Chennai, Tamil Nadu, India",
    "workplaceType": "On-site",
@@ -1412,11 +1412,17 @@
    "easyApply": false,
    "skills": [],
    "summary": "We empower our people to stay resilient and relevant in a constantly changing world. We’re looking for people who are always searching for creative ways to grow and learn. People who want to make a real impact, now and in the future. BE/ BTech with 6 months of experience",
-   "bullets": [],
-   "roleLabel": null,
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [],
+   "bullets": [
+    "Assist senior engineers with basic engineering tasks and programming",
+    "Review project inputs, run initial quality checks, and track timesheets",
+    "Based in Pune with opportunities to travel to other locations"
+   ],
+   "roleLabel": "Engineering support",
+   "degreeLevel": "UG",
+   "degreeText": "B.E/B.Tech",
+   "keySkills": [
+    "microsoft office"
+   ],
    "stipendStatus": "unknown",
    "postedText": "26 minutes ago",
    "postedAt": 1785914503679,
