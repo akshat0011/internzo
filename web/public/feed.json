@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635",
+      "url": "https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635",
+      "title": "UI/UX Designer Intern — Janitri",
+      "content_text": "Company: Janitri · Location: Greater Bengaluru Area · Duration: 6 months",
+      "date_published": "2026-08-10T06:27:40.229Z",
+      "authors": [
+        {
+          "name": "Janitri"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/prime-technologies-intern-digital-assets-designer-4450976839",
       "url": "https://www.internzo.in/jobs/prime-technologies-intern-digital-assets-designer-4450976839",
       "title": "Intern Digital Assets Designer — Prime Technologies",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Microsoft"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/delhivery-product-management-intern-4445893504",
-      "url": "https://www.internzo.in/jobs/delhivery-product-management-intern-4445893504",
-      "title": "Product Management Intern — Delhivery",
-      "content_text": "Company: Delhivery · Location: Gurugram, Haryana, India · Duration: 3 to 6 months\n• Support the end-to-end product lifecycle from ideation to launch\n• Conduct market research and competitor analysis to guide product strategy\n• Analyze user feedback and metrics to define requirements and user stories\n• Collaborate with design, engineering, and marketing across a 3 to 6 month duration",
-      "date_published": "2026-08-03T10:56:13.774Z",
-      "authors": [
-        {
-          "name": "Delhivery"
         }
       ]
     }

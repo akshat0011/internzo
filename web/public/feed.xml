@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Mon, 10 Aug 2026 06:26:52 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 06:32:07 GMT</lastBuildDate>
+  <item>
+    <title>UI/UX Designer Intern — Janitri</title>
+    <link>https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635</guid>
+    <pubDate>Mon, 10 Aug 2026 06:27:40 GMT</pubDate>
+    <description>Company: Janitri · Location: Greater Bengaluru Area · Duration: 6 months</description>
+  </item>
   <item>
     <title>Intern Digital Assets Designer — Prime Technologies</title>
     <link>https://www.internzo.in/jobs/prime-technologies-intern-digital-assets-designer-4450976839</link>
@@ -475,17 +482,6 @@
 • Analyze and improve performance of advanced algorithms on large-scale datasets
 • Implement prototypes of scalable systems in AI and machine learning applications
 • Paid internship based in India with mentorship from researchers</description>
-  </item>
-  <item>
-    <title>Product Management Intern — Delhivery</title>
-    <link>https://www.internzo.in/jobs/delhivery-product-management-intern-4445893504</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/delhivery-product-management-intern-4445893504</guid>
-    <pubDate>Mon, 03 Aug 2026 10:56:13 GMT</pubDate>
-    <description>Company: Delhivery · Location: Gurugram, Haryana, India · Duration: 3 to 6 months
-• Support the end-to-end product lifecycle from ideation to launch
-• Conduct market research and competitor analysis to guide product strategy
-• Analyze user feedback and metrics to define requirements and user stories
-• Collaborate with design, engineering, and marketing across a 3 to 6 month duration</description>
   </item>
 </channel>
 </rss>
