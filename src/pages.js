@@ -189,7 +189,7 @@ ${extraLd}<script defer src="/_vercel/insights/script.js"></script>
 const FOOT = `
 <footer class="foot">
   <div class="wrap">
-    <p>Listings are collected from LinkedIn and from companies' own hiring systems, and link back to the original posting — always apply there. Summaries are written by Internzo; the linked posting is the source of truth.</p>
+    <p>Every listing links back to its original posting — always apply there. Summaries are written by Internzo; the linked posting is the source of truth.</p>
     <p><a href="/">See every live internship →</a></p>
   </div>
 </footer>

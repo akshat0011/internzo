@@ -93,10 +93,9 @@ production dependency.
 
 ## A note on the data
 
-Listings are collected from public LinkedIn job postings, which is against LinkedIn's terms of
-service. The collector runs on a fixed schedule at low volume and stops immediately if it's asked
-to, and Internzo shows only its own summary of each role and links back to the original — it
-deliberately does not republish the employer's job description, which is their copyrighted text.
+Every listing links back to the original job posting. Internzo shows only its own short summary of
+a role and deliberately does not republish the employer's job description, which is their
+copyrighted text.
 
 ## Licence
 

@@ -1,7 +1,7 @@
 {
   "name": "linkedin-internship-watcher",
   "version": "1.0.0",
-  "description": "Watches LinkedIn for new internships at a watchlist of companies, twice daily, and reports them.",
+  "description": "Publishes engineering internship listings for a watchlist of companies to Internzo, a static job board.",
   "author": "akshat0011",
   "license": "MIT",
   "type": "module",
