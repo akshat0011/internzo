@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786375465322,
- "count": 117,
- "techCount": 117,
+ "generatedAt": 1786376391913,
+ "count": 116,
+ "techCount": 116,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -4396,51 +4396,6 @@
    "firstSeenAt": 1785179598265,
    "url": "https://www.linkedin.com/jobs/view/4445996778/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4445996778/",
-   "description": null
-  },
-  {
-   "id": "4442852361",
-   "title": "Data Science Intern",
-   "company": "eBay",
-   "matchedWatchlist": "eBay",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/ebay.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": "0–3 years",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "java",
-    "sql",
-    "machine learning"
-   ],
-   "summary": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts. We are looking for motivated Data Science Enthusiasts with highly Analytical mindsets and interested in working as a Data Science intern this Summer.",
-   "bullets": [
-    "Transform massive datasets into insights using analytics, machine learning, and experimentation",
-    "Build models to segment users on the platform and apply statistical, ML, and deep analytical techniques",
-    "Work with SQL, Python, and NoSQL tools like Hadoop, Hive, Spark, Pig, H2O",
-    "Currently pursuing a Bachelor’s or Master’s, graduating in 2028"
-   ],
-   "roleLabel": "User segmentation modelling",
-   "degreeLevel": "Pursuing",
-   "degreeText": null,
-   "keySkills": [
-    "sql",
-    "python",
-    "r",
-    "java",
-    "hadoop"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "45 minutes ago",
-   "postedAt": 1785163662710,
-   "firstSeenAt": 1785166362716,
-   "url": "https://www.linkedin.com/jobs/view/4442852361/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4442852361/",
    "description": null
   },
   {
