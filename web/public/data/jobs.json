@@ -1,5 +1,5 @@
 {
- "generatedAt": 1786381508915,
+ "generatedAt": 1786382272757,
  "count": 118,
  "techCount": 118,
  "otherCount": 0,
@@ -121,6 +121,43 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4451423010",
+   "title": "Apprentice",
+   "company": "American Express",
+   "matchedWatchlist": "American Express",
+   "isTech": true,
+   "roleSource": "offline-uncertain",
+   "logo": "/logos/american-express.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": "12 months",
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "express",
+    "machine learning",
+    "tableau",
+    "power bi",
+    "excel"
+   ],
+   "summary": "Apprentice – Credit & Fraud Risk (CFR) Credit & Fraud Risk (CFR) teams play a critical role in protecting American Express, our customers, and our brand. Join our 12-month paid apprenticeship program where you will have opportunities for development, networking, and engaging with our leaders and executives. Candidates must have completed graduation under Bachelor’s or Master’s degree program in:",
+   "bullets": [],
+   "roleLabel": null,
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": null,
+   "postedAt": 1786382198202,
+   "firstSeenAt": 1786382198202,
+   "url": "https://www.linkedin.com/jobs/view/4451423010/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4451423010/",
+   "description": null
+  },
   {
    "id": "4199558398",
    "title": "Intern - System Contributor",
@@ -3119,54 +3156,6 @@
    "firstSeenAt": 1785597480224,
    "url": "https://www.linkedin.com/jobs/view/4438342357/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4438342357/",
-   "description": null
-  },
-  {
-   "id": "4438329717",
-   "title": "Apprentice",
-   "company": "American Express",
-   "matchedWatchlist": "American Express",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/american-express.jpg",
-   "location": "Gurugram, Haryana, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": "12 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "sql",
-    "express",
-    "machine learning",
-    "tableau",
-    "power bi",
-    "excel"
-   ],
-   "summary": "How will you make an impact in this role? Credit & Fraud Risk (CFR) teams play a critical role in protecting American Express, our customers, and our brand. Join our 12-month paid apprenticeship program where you will have opportunities for development, networking, and engaging with our leaders and executives. Candidates must have completed graduation under Bachelor’s or Master’s degree program in:",
-   "bullets": [
-    "Support analytical and reporting activities to identify trends and business insights",
-    "Work with data and visualization tools like SQL, Python, Excel, Power BI, or Tableau",
-    "Gain exposure to data governance, data quality, and process improvement practices",
-    "12-month paid apprenticeship with development and networking opportunities"
-   ],
-   "roleLabel": "Credit and fraud risk",
-   "degreeLevel": "UG/PG",
-   "degreeText": null,
-   "keySkills": [
-    "sql",
-    "python",
-    "excel",
-    "power bi",
-    "tableau"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "3 hours ago",
-   "postedAt": 1785586700717,
-   "firstSeenAt": 1785597500721,
-   "url": "https://www.linkedin.com/jobs/view/4438329717/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4438329717/",
    "description": null
   },
   {

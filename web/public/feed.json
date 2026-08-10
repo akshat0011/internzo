@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/american-express-apprentice-4451423010",
+      "url": "https://www.internzo.in/jobs/american-express-apprentice-4451423010",
+      "title": "Apprentice — American Express",
+      "content_text": "Company: American Express · Location: Gurugram, Haryana, India · Duration: 12 months",
+      "date_published": "2026-08-10T17:16:38.202Z",
+      "authors": [
+        {
+          "name": "American Express"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398",
       "url": "https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398",
       "title": "Intern - System Contributor — Valeo",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "GE HealthCare"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/siemens-healthineers-trainee-technical-4446643539",
-      "url": "https://www.internzo.in/jobs/siemens-healthineers-trainee-technical-4446643539",
-      "title": "Trainee - Technical — Siemens Healthineers",
-      "content_text": "Company: Siemens Healthineers · Location: Bengaluru, Karnataka, India\n• Build healthcare software prototypes and feature implementations\n• Contribute to software design and technical specification reviews\n• Use TDD, BDD, and object-oriented design principles in daily development",
-      "date_published": "2026-08-04T14:14:44.955Z",
-      "authors": [
-        {
-          "name": "Siemens Healthineers"
         }
       ]
     }

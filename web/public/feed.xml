@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Mon, 10 Aug 2026 17:05:08 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 17:17:52 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice — American Express</title>
+    <link>https://www.internzo.in/jobs/american-express-apprentice-4451423010</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/american-express-apprentice-4451423010</guid>
+    <pubDate>Mon, 10 Aug 2026 17:16:38 GMT</pubDate>
+    <description>Company: American Express · Location: Gurugram, Haryana, India · Duration: 12 months</description>
+  </item>
   <item>
     <title>Intern - System Contributor — Valeo</title>
     <link>https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398</link>
@@ -463,16 +470,6 @@
     <guid isPermaLink="true">https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4440562347</guid>
     <pubDate>Tue, 04 Aug 2026 14:15:11 GMT</pubDate>
     <description>Company: GE HealthCare · Location: Bengaluru, Karnataka, India</description>
-  </item>
-  <item>
-    <title>Trainee - Technical — Siemens Healthineers</title>
-    <link>https://www.internzo.in/jobs/siemens-healthineers-trainee-technical-4446643539</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/siemens-healthineers-trainee-technical-4446643539</guid>
-    <pubDate>Tue, 04 Aug 2026 14:14:44 GMT</pubDate>
-    <description>Company: Siemens Healthineers · Location: Bengaluru, Karnataka, India
-• Build healthcare software prototypes and feature implementations
-• Contribute to software design and technical specification reviews
-• Use TDD, BDD, and object-oriented design principles in daily development</description>
   </item>
 </channel>
 </rss>
