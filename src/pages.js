@@ -294,7 +294,7 @@ export function renderCompanyPage(company, jobs) {
   <div class="wrap">
     <nav class="crumbs"><a href="/">Home</a> › <span>${esc(company)}</span></nav>
     <h1>${esc(company)} internships in India</h1>
-    <p class="lede-sub">${live.length} live opening${live.length === 1 ? '' : 's'}, refreshed every 30 minutes from LinkedIn.</p>
+    <p class="lede-sub">${live.length} live opening${live.length === 1 ? '' : 's'}, refreshed every 30 minutes.</p>
 
     ${live.length ? `<ul class="hub">${live.map((j) => `
       <li>
@@ -330,7 +330,7 @@ export function renderCompanyIndex(byCompany) {
 
   return `${head({
     title: `Internships in India by company — ${rows.length} companies hiring | Internzo`,
-    description: `Browse ${total} live internships across ${rows.length} companies in India. Updated every 30 minutes from LinkedIn.`,
+    description: `Browse ${total} live internships across ${rows.length} companies in India. Updated every 30 minutes.`,
     canonical: url,
     indexable: rows.length > 0,
   })}
