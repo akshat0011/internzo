@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4451122227",
+      "url": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4451122227",
+      "title": "Apprentice, Software Development/Engineering — S&P Global",
+      "content_text": "Company: S&P Global · Location: Gurugram, Haryana, India\n• Build ML models, perform EDA, and implement GenAI solutions using LLMs and RAG\n• Write and maintain Python code using Pandas, NumPy, and Scikit-Learn\n• Containerize models with Docker, manage version control in Git, and support CI/CD",
+      "date_published": "2026-08-10T08:43:01.898Z",
+      "authors": [
+        {
+          "name": "S&P Global"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855",
       "url": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855",
       "title": "Unity Developer Intern | C# | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Valeo"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/microsoft-research-sciences-intern-ats-microsoft-india-1970393556638637",
-      "url": "https://www.internzo.in/jobs/microsoft-research-sciences-intern-ats-microsoft-india-1970393556638637",
-      "title": "Research Sciences INTERN — Microsoft",
-      "content_text": "Company: Microsoft · Location: India, Karnataka, Bangalore\n• Analyze and improve performance of advanced algorithms on large-scale datasets\n• Implement prototypes of scalable systems in AI and machine learning applications\n• Paid internship based in India with mentorship from researchers",
-      "date_published": "2026-08-03T11:15:20.000Z",
-      "authors": [
-        {
-          "name": "Microsoft"
         }
       ]
     }

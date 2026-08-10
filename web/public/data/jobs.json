@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786350751601,
- "count": 112,
- "techCount": 112,
+ "generatedAt": 1786351645337,
+ "count": 113,
+ "techCount": 113,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -115,6 +115,60 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4451122227",
+   "title": "Apprentice, Software Development/Engineering",
+   "company": "S&P Global",
+   "matchedWatchlist": "S&P Global",
+   "isTech": true,
+   "roleSource": "gemini-enrich",
+   "logo": "/logos/s-and-p-global.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "python",
+    "docker",
+    "ci/cd",
+    "git",
+    "machine learning",
+    "deep learning",
+    "pytorch",
+    "tensorflow",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "generative ai",
+    "rag",
+    "algorithms"
+   ],
+   "summary": "Grade Level (for internal use): Starting your Career with Us - Apprenticeship Program You'll have access to learning resources that will build vital skills and industry knowledge while being mentored by experienced professionals. You'll be part of a global community, building an invaluable network of knowledge and support from your mentors, peer group, and wider teams.",
+   "bullets": [
+    "Build ML models, perform EDA, and implement GenAI solutions using LLMs and RAG",
+    "Write and maintain Python code using Pandas, NumPy, and Scikit-Learn",
+    "Containerize models with Docker, manage version control in Git, and support CI/CD"
+   ],
+   "roleLabel": "Data science",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "docker"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "2 minutes ago",
+   "postedAt": 1786351381898,
+   "firstSeenAt": 1786351501909,
+   "url": "https://www.linkedin.com/jobs/view/4451122227/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4451122227/",
+   "description": null
+  },
   {
    "id": "4451105855",
    "title": "Unity Developer Intern | C# | Chennai",
