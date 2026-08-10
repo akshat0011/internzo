@@ -146,9 +146,17 @@ export async function writeJobsFile(store, cfg) {
   // it once.
   //
   // The ATS row wins on a tie. It carries the employer's real apply URL rather
-  // than a LinkedIn redirect, its posted date is the actual publish time rather
-  // than "3 days ago" parsed from a card, and it arrived first. Where neither is
-  // from an ATS, the row we saw first wins, so the freshness label stays honest.
+  // than a LinkedIn redirect, and its posted date is the actual publish time
+  // rather than "3 days ago" parsed from a card.
+  //
+  // Where neither is from an ATS, the NEWEST posting wins. This used to keep the
+  // row we saw first, on the reasoning that the freshness label stays honest —
+  // but the duplicates it actually meets are LinkedIn reposts of one role under
+  // a new job_id, and keeping the earliest inverted the thing it was protecting.
+  // Intuit reposted "Intern, Software Engineering" in Bengaluru on 9 Aug; the
+  // site went on showing the 4 Aug copy, six days stale, while the fresh row sat
+  // in the table unpublished. Fourteen live cards were doing this at once.
+  //
   // Company and title alone are not enough to call two rows the same job.
   // Bajaj Finserv lists "Functional Trainee" in Ranchi, Sandila, Rasulpur,
   // Lucknow, Pune, Bareilly, Bengaluru and Bhopal — eight real vacancies a
@@ -191,6 +199,9 @@ export async function writeJobsFile(store, cfg) {
     return `${norm(row.company_matched || row.company)}|${norm(row.title)}|${cityOf(row.location)}`;
   };
   const isAts = (row) => String(row.job_id ?? '').startsWith('ats:');
+  // Same fallback the public card uses, so the row that wins here is the row
+  // carrying the date the site will actually print.
+  const postedAtOf = (row) => row.posted_at || row.first_seen_at || 0;
 
   const bestByKey = new Map();
   for (const entry of jobs) {
@@ -200,7 +211,7 @@ export async function writeJobsFile(store, cfg) {
 
     const challengerWins = isAts(entry.row) !== isAts(existing.row)
       ? isAts(entry.row)
-      : (entry.row.first_seen_at ?? 0) < (existing.row.first_seen_at ?? 0);
+      : postedAtOf(entry.row) > postedAtOf(existing.row);
 
     if (challengerWins) bestByKey.set(key, entry);
   }
@@ -266,6 +277,42 @@ function git(args, { allowFail = false } = {}) {
   }
 }
 
+/** Block the run for a moment. pushToSite is synchronous all the way down. */
+function sleepSync(ms) {
+  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+}
+
+/**
+ * Push, retrying a network failure.
+ *
+ * The push is one HTTPS round trip, and a few seconds of dead network is enough
+ * to lose it. On 10 Aug a HARMAN internship was scraped, classified, enriched
+ * and written — and then the push hit seven seconds of no route to github.com.
+ * The listing did not reach the site for another thirteen minutes, by which time
+ * the Telegram channel, the phone push and the opened report had all announced
+ * it. Somebody applied from an announcement for a job the site did not show.
+ *
+ * Only connectivity errors are retried. A rejected non-fast-forward or a
+ * credential failure will not fix itself, and retrying those just burns the
+ * remaining run budget.
+ */
+function pushWithRetry(branch, attempts = 3) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      git(['push', 'origin', branch]);
+      if (attempt > 1) log.ok(`Push succeeded on attempt ${attempt}.`);
+      return;
+    } catch (err) {
+      const transient = /could not resolve host|failed to connect|couldn't connect|timed out|connection reset|network is unreachable|unable to access/i
+        .test(err.message);
+      if (!transient || attempt >= attempts) throw err;
+      const wait = attempt * 5;
+      log.warn(`Push attempt ${attempt} failed on the network — retrying in ${wait}s.`);
+      sleepSync(wait * 1000);
+    }
+  }
+}
+
 /**
  * Commit and push the jobs file. Vercel is watching the repo, so the push is
  * what makes the site update — usually live within a minute.
@@ -309,13 +356,16 @@ export function pushToSite(newJobCount) {
     git(['commit', '-m', message, '--', ...PUBLISHED]);
 
     const branch = git(['rev-parse', '--abbrev-ref', 'HEAD']);
-    git(['push', 'origin', branch]);
+    pushWithRetry(branch);
     log.ok(`Published to the site — Vercel will redeploy within a minute.`);
     return true;
   } catch (err) {
     // A publish failure must never fail the scrape; the data is safe locally.
     log.warn(`Could not publish: ${err.message}`);
-    log.info('The jobs file is written locally. Push it by hand when convenient.');
+    // Say what this costs, because the alerts have already gone out by now and
+    // the gap between them and the site is the part that misleads somebody.
+    log.warn('The commit is local and unpushed. Alerts for these jobs have already been sent, '
+      + 'so the site is behind them until the next run pushes — `git push` now to close the gap.');
     return false;
   }
 }
