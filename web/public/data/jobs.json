@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786348007209,
- "count": 111,
- "techCount": 111,
+ "generatedAt": 1786348978548,
+ "count": 112,
+ "techCount": 112,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -48,6 +48,7 @@
   "Mizuho",
   "Mu Sigma Inc.",
   "Multiplier AI",
+  "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
   "NewGen Innovation : AI & Design Thinking",
   "Newton School",
   "Newton School of Technology",
@@ -100,6 +101,7 @@
   "India, Karnataka, Bangalore",
   "India, Multiple Locations, Multiple Locations",
   "India, Telangana, Hyderabad",
+  "Kanchipuram, Tamil Nadu, India",
   "Mumbai Metropolitan Region",
   "Mumbai, MH",
   "Mumbai, Maharashtra, India",
@@ -113,6 +115,48 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4451105855",
+   "title": "Unity Developer Intern | C# | Chennai",
+   "company": "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
+   "matchedWatchlist": "National Technology Centre for Ports, Waterways and Coasts",
+   "isTech": true,
+   "roleSource": "gemini-enrich",
+   "logo": "/logos/national-technology-centre-for-ports-waterways-and-coasts-nt.jpg",
+   "location": "Kanchipuram, Tamil Nadu, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "5 applicants",
+   "easyApply": true,
+   "skills": [
+    "c#",
+    "git",
+    "oop"
+   ],
+   "summary": "Company Description National Technology Centre for Ports, Waterways & Coasts (NTCPWC) is a dedicated hub for technological innovation in the port and maritime sector. Serving as the technology arm of the Ministry of Shipping, NTCPWC supports ports, Inland Waterways Authority of India (IWAI), and related institutions with advanced technical solutions. Day-to-day tasks include implementing gameplay and simulation features in Unity, scripting in C#, and collaborating with subject matter experts to translate technical requirements into functional visual experiences. This is a full-time, on-site role based in…",
+   "bullets": [
+    "Develop interactive simulations for port and maritime applications using Unity and C#",
+    "Handle level design, testing, debugging, and optimization for desktop and mobile builds",
+    "Experiment with augmented reality concepts integrated into Unity builds"
+   ],
+   "roleLabel": "Unity development",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "unity",
+    "c#",
+    "ar",
+    "git"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "12 minutes ago",
+   "postedAt": 1786348111462,
+   "firstSeenAt": 1786348831468,
+   "url": "https://www.linkedin.com/jobs/view/4451105855/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4451105855/",
+   "description": null
+  },
   {
    "id": "4451103635",
    "title": "UI/UX Designer Intern",

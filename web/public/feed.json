@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855",
+      "url": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855",
+      "title": "Unity Developer Intern | C# | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
+      "content_text": "Company: National Technology Centre for Ports, Waterways and Coasts (NTCPWC) · Location: Kanchipuram, Tamil Nadu, India\n• Develop interactive simulations for port and maritime applications using Unity and C#\n• Handle level design, testing, debugging, and optimization for desktop and mobile builds\n• Experiment with augmented reality concepts integrated into Unity builds",
+      "date_published": "2026-08-10T07:48:31.462Z",
+      "authors": [
+        {
+          "name": "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635",
       "url": "https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635",
       "title": "UI/UX Designer Intern — Janitri",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Microsoft"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/delhivery-product-management-intern-4445893504",
-      "url": "https://www.internzo.in/jobs/delhivery-product-management-intern-4445893504",
-      "title": "Product Management Intern — Delhivery",
-      "content_text": "Company: Delhivery · Location: Gurugram, Haryana, India · Duration: 3 to 6 months\n• Support the end-to-end product lifecycle from ideation to launch\n• Conduct market research and competitor analysis to guide product strategy\n• Analyze user feedback and metrics to define requirements and user stories\n• Collaborate with design, engineering, and marketing across a 3 to 6 month duration",
-      "date_published": "2026-08-03T10:56:13.774Z",
-      "authors": [
-        {
-          "name": "Delhivery"
         }
       ]
     }
