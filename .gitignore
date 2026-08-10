@@ -23,3 +23,6 @@ candidates.json
 
 # Local editor/tooling config. Never published.
 .claude/
+
+# Study notes. Kept locally, never published.
+book/
