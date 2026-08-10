@@ -128,8 +128,20 @@ function jobPostingLd(job, url) {
       address: { '@type': 'PostalAddress', addressLocality: job.location, addressCountry: 'IN' },
     };
   }
-  if (job.workplaceType === 'Remote') ld.jobLocationType = 'TELECOMMUTE';
+  if (job.workplaceType === 'Remote') {
+    ld.jobLocationType = 'TELECOMMUTE';
+    // Required alongside TELECOMMUTE. Without it Google cannot tell who may
+    // apply, and every remote page was flagged incomplete — six of them.
+    ld.applicantLocationRequirements = { '@type': 'Country', name: 'India' };
+  }
   if (job.logo) ld.hiringOrganization.logo = `${SITE}${job.logo}`;
+
+  // jobLocation is required unless the role is remote. A posting that has
+  // neither cannot make a valid JobPosting, and an invalid one is worse than
+  // none — the risk this whole function is written around is a structured-data
+  // manual action, which lands on the entire domain rather than one page. Two
+  // listings were in that state, both with no location text to work from.
+  if (!ld.jobLocation && ld.jobLocationType !== 'TELECOMMUTE') return null;
 
   return ld;
 }
@@ -225,12 +237,14 @@ export function renderJobPage(job) {
     ['Posted', new Date(job.postedAt ?? job.firstSeenAt ?? Date.now()).toISOString().slice(0, 10)],
   ].filter(Boolean);
 
+  const postingLd = jobPostingLd(job, url);
+
   return `${head({
     title: pageTitle,
     description,
     canonical: url,
     indexable,
-    extraLd: `<script type="application/ld+json">${jsonLd(jobPostingLd(job, url))}</script>\n`,
+    extraLd: postingLd ? `<script type="application/ld+json">${jsonLd(postingLd)}</script>\n` : '',
   })}
 <main class="page">
   <div class="wrap">
