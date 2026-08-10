@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Mon, 10 Aug 2026 00:00:32 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 00:37:31 GMT</lastBuildDate>
+  <item>
+    <title>Intern Digital Assets Designer — Prime Technologies</title>
+    <link>https://www.internzo.in/jobs/prime-technologies-intern-digital-assets-designer-4450976839</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/prime-technologies-intern-digital-assets-designer-4450976839</guid>
+    <pubDate>Mon, 10 Aug 2026 00:06:23 GMT</pubDate>
+    <description>Company: Prime Technologies · Location: India</description>
+  </item>
   <item>
     <title>Intern - HSE — Valeo</title>
     <link>https://www.internzo.in/jobs/valeo-intern-hse-4414669760</link>
@@ -479,16 +486,6 @@
 • Conduct market research and competitor analysis to guide product strategy
 • Analyze user feedback and metrics to define requirements and user stories
 • Collaborate with design, engineering, and marketing across a 3 to 6 month duration</description>
-  </item>
-  <item>
-    <title>Intern-Power Greenfield — Emerson</title>
-    <link>https://www.internzo.in/jobs/emerson-intern-power-greenfield-4448170119</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/emerson-intern-power-greenfield-4448170119</guid>
-    <pubDate>Mon, 03 Aug 2026 10:37:35 GMT</pubDate>
-    <description>Company: Emerson · Location: Noida, Uttar Pradesh, India
-• Design and develop engineering productivity tools based on user requirements
-• Support deployment and provide training and demos to project teams
-• Automate manual engineering tasks to improve accuracy and efficiency</description>
   </item>
 </channel>
 </rss>

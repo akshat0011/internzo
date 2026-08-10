@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/prime-technologies-intern-digital-assets-designer-4450976839",
+      "url": "https://www.internzo.in/jobs/prime-technologies-intern-digital-assets-designer-4450976839",
+      "title": "Intern Digital Assets Designer — Prime Technologies",
+      "content_text": "Company: Prime Technologies · Location: India",
+      "date_published": "2026-08-10T00:06:23.106Z",
+      "authors": [
+        {
+          "name": "Prime Technologies"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/valeo-intern-hse-4414669760",
       "url": "https://www.internzo.in/jobs/valeo-intern-hse-4414669760",
       "title": "Intern - HSE — Valeo",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Delhivery"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/emerson-intern-power-greenfield-4448170119",
-      "url": "https://www.internzo.in/jobs/emerson-intern-power-greenfield-4448170119",
-      "title": "Intern-Power Greenfield — Emerson",
-      "content_text": "Company: Emerson · Location: Noida, Uttar Pradesh, India\n• Design and develop engineering productivity tools based on user requirements\n• Support deployment and provide training and demos to project teams\n• Automate manual engineering tasks to improve accuracy and efficiency",
-      "date_published": "2026-08-03T10:37:35.094Z",
-      "authors": [
-        {
-          "name": "Emerson"
         }
       ]
     }

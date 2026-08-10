@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786320032166,
- "count": 114,
- "techCount": 114,
+ "generatedAt": 1786322251685,
+ "count": 115,
+ "techCount": 115,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -60,6 +60,7 @@
   "Philips",
   "Piramal",
   "Pixxel",
+  "Prime Technologies",
   "Quantiphi",
   "Quest Global",
   "S&P Global",
@@ -114,6 +115,38 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4450976839",
+   "title": "Intern Digital Assets Designer",
+   "company": "Prime Technologies",
+   "matchedWatchlist": "Prime Focus",
+   "isTech": true,
+   "roleSource": "offline-uncertain",
+   "logo": "/logos/prime-technologies.jpg",
+   "location": "India",
+   "workplaceType": "Remote",
+   "stipend": null,
+   "duration": null,
+   "applicants": "2 applicants",
+   "easyApply": true,
+   "skills": [
+    "agile",
+    "figma"
+   ],
+   "summary": "Company Description Prime Technologies is a software development company that helps businesses and organizations succeed in the digital landscape through tailored technology solutions. In this full-time remote role, the designer will develop graphics, icons, banners, social media creatives, and marketing materials that align with brand guidelines and project requirements. Day-to-day tasks include collaborating with product managers, developers, and marketing specialists to understand goals, translating briefs into visual concepts, and iterating based on feedback. Additional beneficial qualifications include…",
+   "bullets": [],
+   "roleLabel": null,
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "31 minutes ago",
+   "postedAt": 1786320383106,
+   "firstSeenAt": 1786322243113,
+   "url": "https://www.linkedin.com/jobs/view/4450976839/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4450976839/",
+   "description": null
+  },
   {
    "id": "4414669760",
    "title": "Intern - HSE",
