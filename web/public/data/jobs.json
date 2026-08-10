@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786358246916,
- "count": 114,
- "techCount": 114,
+ "generatedAt": 1786359196046,
+ "count": 115,
+ "techCount": 115,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -115,6 +115,59 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4449547950",
+   "title": "Intern – Build & Integration",
+   "company": "HARMAN India",
+   "matchedWatchlist": "Harman",
+   "isTech": true,
+   "roleSource": "gemini-enrich",
+   "logo": "/logos/harman-india.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": "6 months",
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "python",
+    ".net",
+    "aws",
+    "gcp",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "jenkins",
+    "ci/cd",
+    "linux",
+    "git",
+    "agile"
+   ],
+   "summary": "Introduction: A Career at HARMAN Automotive We’re a global, multi-disciplinary team that’s putting the innovative power of technology to work and transforming tomorrow. As an Intern engineer—Build & Integration, you will drive build and integration activities across Android, Linux, and embedded software platforms. You will be responsible for implementing scalable CI/CD pipelines, automating software delivery processes, and supporting release engineering initiatives to ensure high-quality and efficient product delivery.",
+   "bullets": [
+    "Manage build and integration across Android, Linux, and embedded platforms",
+    "Build CI/CD pipelines and write automation scripts using Python, Groovy, and Shell",
+    "Set up Docker and Kubernetes build environments and cloud infrastructure",
+    "6-month fixed-term role based in Bangalore"
+   ],
+   "roleLabel": "Build and release engineering",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "jenkins",
+    "python",
+    "docker",
+    "kubernetes",
+    "terraform"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "10 minutes ago",
+   "postedAt": 1786358453483,
+   "firstSeenAt": 1786359053493,
+   "url": "https://www.linkedin.com/jobs/view/4449547950/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4449547950/",
+   "description": null
+  },
   {
    "id": "4451142228",
    "title": "Game Developer Intern | Chennai",

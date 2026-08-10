@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
+      "url": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
+      "title": "Intern – Build & Integration — HARMAN India",
+      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 6 months\n• Manage build and integration across Android, Linux, and embedded platforms\n• Build CI/CD pipelines and write automation scripts using Python, Groovy, and Shell\n• Set up Docker and Kubernetes build environments and cloud infrastructure\n• 6-month fixed-term role based in Bangalore",
+      "date_published": "2026-08-10T10:40:53.483Z",
+      "authors": [
+        {
+          "name": "HARMAN India"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228",
       "url": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228",
       "title": "Game Developer Intern | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Intel"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4447970697",
-      "url": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4447970697",
-      "title": "Fullstack Developer- Internship — GreedyGame",
-      "content_text": "Company: GreedyGame · Location: Bengaluru, Karnataka, India · Duration: 0-1 years\n• Build backend services integrating Google Ad Manager and networks\n• Develop React dashboards for publishers and internal workflows\n• Work with Go, PostgreSQL, MongoDB, and large datasets",
-      "date_published": "2026-08-03T13:19:19.375Z",
-      "authors": [
-        {
-          "name": "GreedyGame"
         }
       ]
     }
