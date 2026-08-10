@@ -3,8 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Internzo — be early</title>
-<meta name="description" content="Software internships listed minutes after they go live. Be one of the first applicants, not the five hundredth.">
+<!-- The title carries the keywords deliberately. "Internzo — be early" said nothing
+     a search engine could match, and for the query "internzo" it lost to an
+     unrelated .com agency of the same name: nothing on the page told Google this
+     one is about internships in India. Brand first, then what it is. -->
+<title>Internzo — Engineering Internships in India</title>
+<meta name="description" content="Engineering internships in India, listed minutes after they go live. Fresh openings refreshed every 30 minutes — apply while the queue is still short.">
 <meta name="color-scheme" content="dark light">
 <link rel="canonical" href="https://www.internzo.in/">
 <link rel="alternate" type="application/rss+xml" title="Internzo — new engineering internships" href="https://www.internzo.in/feed.xml">
@@ -33,6 +37,47 @@
 <meta name="twitter:description" content="Software internships in India, listed minutes after they go live. Apply while the queue is still short.">
 <meta name="twitter:image" content="https://www.internzo.in/og.jpg?v=3">
 <meta name="twitter:image:alt" content="Internzo — be early. Software internships in India, listed minutes after they go live.">
+
+<!-- Brand identity for search engines. There is an unrelated "INTERNZO" digital
+     agency on a .com, and it outranks this site for the bare brand name because
+     Google had nothing here to build an entity from — no Organization, no logo,
+     no linked profile. This is what disambiguates the two. The job pages already
+     carry JobPosting; this is the site-level pair that was missing.
+     WebSite carries the search action so Google can offer a sitelinks box. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.internzo.in/#organization",
+      "name": "Internzo",
+      "url": "https://www.internzo.in/",
+      "logo": "https://www.internzo.in/favicon-96.png",
+      "description": "Internzo lists engineering internships in India within minutes of them going live.",
+      "areaServed": { "@type": "Country", "name": "India" },
+      "sameAs": ["https://t.me/internzo"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.internzo.in/#website",
+      "url": "https://www.internzo.in/",
+      "name": "Internzo",
+      "description": "Engineering internships in India, listed within minutes of going live.",
+      "inLanguage": "en-IN",
+      "publisher": { "@id": "https://www.internzo.in/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.internzo.in/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
 
 <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#f4f3ee" media="(prefers-color-scheme: light)">
@@ -108,10 +153,16 @@
   <section class="lede">
     <div class="wrap lede-in">
       <h1>Be early.</h1>
+      <!-- This paragraph is the only real prose a crawler gets before the board,
+           which is built by JavaScript from jobs.json. When it did not name the
+           subject, Google discarded the meta description and wrote the search
+           snippet out of whichever job summary it liked — for a while the site
+           was described to the world as an AI video company, lifted from one
+           listing's blurb. Naming it here is what stops that. -->
       <p>
-        Internships pull <strong>hundreds of applicants inside a day</strong>. Everything
-        here is listed within minutes of going live — so you apply while the
-        queue is still short.
+        <strong>Engineering internships in India</strong>, listed within minutes of
+        going live. Internships pull <strong>hundreds of applicants inside a day</strong>
+        — so you apply while the queue is still short.
       </p>
     </div>
   </section>
