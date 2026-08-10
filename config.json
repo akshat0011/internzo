@@ -38,12 +38,6 @@
       ]
     },
     {
-      "name": "Faveo",
-      "aliases": [
-        "Faveo Helpdesk"
-      ]
-    },
-    {
       "name": "1Fi",
       "aliases": [
         "1Finance",
@@ -125,12 +119,6 @@
       ]
     },
     {
-      "name": "Argano",
-      "aliases": [
-        "Argano Software"
-      ]
-    },
-    {
       "name": "SLB",
       "aliases": [
         "Schlumberger",
@@ -190,26 +178,7 @@
       "name": "Nippon Data Systems"
     },
     {
-      "name": "TaxOSmart",
-      "aliases": [
-        "Tax-O-Smart"
-      ]
-    },
-    {
-      "name": "Cyber Infrastructure",
-      "aliases": [
-        "Cyber Infrastructure (CIS)",
-        "CIS India"
-      ]
-    },
-    {
       "name": "Picktime"
-    },
-    {
-      "name": "VAYUZ Technologies",
-      "aliases": [
-        "Vayuz"
-      ]
     },
     {
       "name": "Aerocraft Engineering"
@@ -230,6 +199,37 @@
       "name": "National Technology Centre for Ports, Waterways and Coasts",
       "aliases": [
         "NTCPWC"
+      ]
+    },
+    {
+      "name": "SurveySparrow",
+      "aliases": [
+        "Survey Sparrow"
+      ]
+    },
+    {
+      "name": "Zycus"
+    },
+    {
+      "name": "Chegg India",
+      "aliases": [
+        "Chegg"
+      ]
+    },
+    {
+      "name": "NielsenIQ",
+      "aliases": [
+        "Nielsen IQ",
+        "NIQ"
+      ]
+    },
+    {
+      "name": "Fanatics"
+    },
+    {
+      "name": "Exabeam",
+      "aliases": [
+        "LogRhythm"
       ]
     },
     {
