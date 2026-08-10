@@ -178,6 +178,25 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 @keyframes beat { 0%,60% { opacity: 1; } 61%,100% { opacity: .18; } }
 
+/* The one link on the page whose job is to bring somebody back.
+   ------------------------------------------------------------------------
+   Outlined rather than filled: Apply is the loud lime button and this must not
+   compete with it on a card-by-card basis. It earns attention by being the only
+   accented thing in the chrome, not by shouting louder than the primary action. */
+.alerts {
+  display: inline-flex; align-items: center; gap: 7px;
+  height: 33px; padding: 0 12px; border-radius: var(--r-pill);
+  border: 1px solid color-mix(in oklab, var(--live) 45%, transparent);
+  color: var(--live); background: color-mix(in oklab, var(--live) 8%, transparent);
+  font-size: .8125rem; font-weight: 600; letter-spacing: -.01em;
+  text-decoration: none; white-space: nowrap;
+  transition: background .16s, border-color .16s, transform var(--d-press) var(--snap);
+}
+.alerts:active { transform: scale(.97); }
+@media (hover: hover) and (pointer: fine) {
+  .alerts:hover { background: color-mix(in oklab, var(--live) 16%, transparent); border-color: var(--live); }
+}
+
 .ghost-btn {
   display: grid; place-items: center; width: 33px; height: 33px; padding: 0;
   background: none; border: 1px solid var(--rule); border-radius: var(--r);
@@ -723,6 +742,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .seg { display: none; }
 
   .ticker { display: none; }
+  /* Stays on mobile. The ticker goes so this can: a visitor who arrived from an
+     ad and leaves without following the channel is a visitor paid for twice. */
+  .alerts { height: 34px; padding: 0 11px; }
 
   /* ---- The card, rebuilt as the feed card -----------------------------
      One column, not a grid: logo and company sit on a header line, the role
