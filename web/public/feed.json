@@ -6,6 +6,90 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/gsk-xcel-2027-summer-internship-programme-4449570828",
+      "url": "https://www.internzo.in/jobs/gsk-xcel-2027-summer-internship-programme-4449570828",
+      "title": "xCEL 2027 Summer Internship Programme — GSK",
+      "content_text": "Company: GSK · Location: Bengaluru, Karnataka, India · Duration: 2 months",
+      "date_published": "2026-08-10T14:45:53.041Z",
+      "authors": [
+        {
+          "name": "GSK"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/oceaneering-apprentice-payroll-4442706405",
+      "url": "https://www.internzo.in/jobs/oceaneering-apprentice-payroll-4442706405",
+      "title": "Apprentice, Payroll — Oceaneering",
+      "content_text": "Company: Oceaneering · Location: Chandigarh, Chandigarh, India · Duration: 0-1 years",
+      "date_published": "2026-08-10T13:55:33.813Z",
+      "authors": [
+        {
+          "name": "Oceaneering"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/infineon-technologies-trainee-product-management-automotive-microcontrollers-4451546242",
+      "url": "https://www.internzo.in/jobs/infineon-technologies-trainee-product-management-automotive-microcontrollers-4451546242",
+      "title": "Trainee: Product Management - Automotive Microcontrollers — Infineon Technologies",
+      "content_text": "Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years",
+      "date_published": "2026-08-10T13:52:55.706Z",
+      "authors": [
+        {
+          "name": "Infineon Technologies"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557",
+      "url": "https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557",
+      "title": "Graduate Engineer Trainee — Marmon Technologies India Pvt Ltd",
+      "content_text": "Company: Marmon Technologies India Pvt Ltd · Location: Karnataka, India",
+      "date_published": "2026-08-10T12:54:59.174Z",
+      "authors": [
+        {
+          "name": "Marmon Technologies India Pvt Ltd"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/jio-network-diploma-engineer-trainee-4451173344",
+      "url": "https://www.internzo.in/jobs/jio-network-diploma-engineer-trainee-4451173344",
+      "title": "Network Diploma Engineer Trainee — Jio",
+      "content_text": "Company: Jio · Location: Mumbai, Maharashtra, India · Duration: 12 months",
+      "date_published": "2026-08-10T12:54:12.954Z",
+      "authors": [
+        {
+          "name": "Jio"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/convin-backend-intern-4451175463",
+      "url": "https://www.internzo.in/jobs/convin-backend-intern-4451175463",
+      "title": "Backend Intern — Convin",
+      "content_text": "Company: Convin · Location: Bengaluru, Karnataka, India · Duration: 0–1 years",
+      "date_published": "2026-08-10T12:53:46.193Z",
+      "authors": [
+        {
+          "name": "Convin"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/philips-apprentice-trainee-software-developer-4451156775",
+      "url": "https://www.internzo.in/jobs/philips-apprentice-trainee-software-developer-4451156775",
+      "title": "Apprentice Trainee (Software Developer) — Philips",
+      "content_text": "Company: Philips · Location: Bengaluru, Karnataka, India",
+      "date_published": "2026-08-10T11:55:04.740Z",
+      "authors": [
+        {
+          "name": "Philips"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/jupiter-electric-mobility-design-and-digital-communication-intern-4449549869",
       "url": "https://www.internzo.in/jobs/jupiter-electric-mobility-design-and-digital-communication-intern-4449549869",
       "title": "Design & Digital Communication Intern — Jupiter Electric Mobility",
@@ -158,18 +242,6 @@
       "authors": [
         {
           "name": "FynTune Solution Private Limited"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/taxosmart-business-analytics-internship-in-mumbai-4450796752",
-      "url": "https://www.internzo.in/jobs/taxosmart-business-analytics-internship-in-mumbai-4450796752",
-      "title": "Business Analytics Internship in Mumbai — TAXOSMART",
-      "content_text": "Company: TAXOSMART · Location: Mumbai Metropolitan Region\n• Gather business requirements and translate them into functional specifications\n• Perform functional, regression, and UAT testing on new software updates and patches\n• Prepare SRS, FRS, user manuals, and software release documentation",
-      "date_published": "2026-08-08T00:12:54.705Z",
-      "authors": [
-        {
-          "name": "TAXOSMART"
         }
       ]
     },
@@ -530,78 +602,6 @@
       "authors": [
         {
           "name": "Joveo"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253",
-      "url": "https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253",
-      "title": "Technology Consulting INTERN — Microsoft",
-      "content_text": "Company: Microsoft · Location: India, Telangana, Hyderabad\n• Identify project risks and propose technical mitigations aligned with business goals\n• Provide technical input in pre-sales and define customer cloud requirements\n• Engage with stakeholders to resolve project issues and accelerate cloud adoption",
-      "date_published": "2026-08-04T09:17:05.000Z",
-      "authors": [
-        {
-          "name": "Microsoft"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/flam-software-engineering-intern-4445878655",
-      "url": "https://www.internzo.in/jobs/flam-software-engineering-intern-4445878655",
-      "title": "Software Engineering Intern — Flam",
-      "content_text": "Company: Flam · Location: Bengaluru, Karnataka, India\n• Build responsive web frontends using React and Next.js\n• Develop interactive 3D graphics with Three.js, WebGL, and Canvas API\n• Integrate APIs and debug application features across environments",
-      "date_published": "2026-08-04T06:36:19.839Z",
-      "authors": [
-        {
-          "name": "Flam"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/barclays-2027-technology-developer-summer-internship-programme-india-4446297083",
-      "url": "https://www.internzo.in/jobs/barclays-2027-technology-developer-summer-internship-programme-india-4446297083",
-      "title": "2027 Technology Developer Summer Internship Programme India — Barclays",
-      "content_text": "Company: Barclays · Location: Pune Division, Maharashtra, India\n• Build and deliver scalable software using standard languages and frameworks\n• Work with product managers and engineers to define requirements and design solutions\n• Write unit tests, participate in code reviews, and apply secure coding practices",
-      "date_published": "2026-08-04T03:26:17.139Z",
-      "authors": [
-        {
-          "name": "Barclays"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/accenture-in-india-payroll-university-trainee-global-payroll-and-automation-4448362081",
-      "url": "https://www.internzo.in/jobs/accenture-in-india-payroll-university-trainee-global-payroll-and-automation-4448362081",
-      "title": "Payroll University Trainee – Global Payroll & Automation — Accenture in India",
-      "content_text": "Company: Accenture in India · Location: Mumbai Metropolitan Region · Duration: 0–6 months\n• Support end-to-end global payroll processing, audits, and reconciliations\n• Analyze payroll data and build operational dashboards using Excel and Power BI\n• Contribute to payroll automation initiatives using Python and Power Automate",
-      "date_published": "2026-08-03T18:17:17.577Z",
-      "authors": [
-        {
-          "name": "Accenture in India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/emerson-graduate-engineer-trainee-4448317421",
-      "url": "https://www.internzo.in/jobs/emerson-graduate-engineer-trainee-4448317421",
-      "title": "Graduate Engineer Trainee — Emerson",
-      "content_text": "Company: Emerson · Location: Pune Division, Maharashtra, India\n• Design and test SCADA and HMI systems using Movicon or iFIX\n• Develop PLC programs and configure industrial communication protocols\n• Collaborate with electrical teams on automation and control projects",
-      "date_published": "2026-08-03T16:51:46.269Z",
-      "authors": [
-        {
-          "name": "Emerson"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/siemens-healthineers-intern-technical-4446223034",
-      "url": "https://www.internzo.in/jobs/siemens-healthineers-intern-technical-4446223034",
-      "title": "Intern - Technical — Siemens Healthineers",
-      "content_text": "Company: Siemens Healthineers · Location: Bengaluru, Karnataka, India\n• Assist in the design, development, testing, and debugging of software components\n• Write clean code in C#, C++, Java, or Python and analyze defects and system logs\n• Work from the office five days a week with experienced engineers",
-      "date_published": "2026-08-03T13:40:30.857Z",
-      "authors": [
-        {
-          "name": "Siemens Healthineers"
         }
       ]
     }
