@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Mon, 10 Aug 2026 09:52:26 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 10:07:35 GMT</lastBuildDate>
+  <item>
+    <title>Game Developer Intern | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)</title>
+    <link>https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228</guid>
+    <pubDate>Mon, 10 Aug 2026 10:00:30 GMT</pubDate>
+    <description>Company: National Technology Centre for Ports, Waterways and Coasts (NTCPWC) · Location: Kanchipuram, Tamil Nadu, India
+• Develop game-based simulations and interactive visualizations for maritime scenarios
+• Implement gameplay features using OOP, debug modules, and integrate game prototypes
+• Full-time on-site internship located in Kanchipuram working on national projects</description>
+  </item>
   <item>
     <title>Apprentice, Software Development/Engineering — S&amp;P Global</title>
     <link>https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4451122227</link>
@@ -492,16 +502,6 @@
 • Build backend services integrating Google Ad Manager and networks
 • Develop React dashboards for publishers and internal workflows
 • Work with Go, PostgreSQL, MongoDB, and large datasets</description>
-  </item>
-  <item>
-    <title>Intern — Valeo</title>
-    <link>https://www.internzo.in/jobs/valeo-intern-4448187135</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-4448187135</guid>
-    <pubDate>Mon, 03 Aug 2026 12:05:04 GMT</pubDate>
-    <description>Company: Valeo · Location: Chennai, Tamil Nadu, India
-• Conduct patent searches and monitor third-party publications for R&amp;D teams
-• Build IP landscape reports to track competitor strategies and trends
-• Manage a customized patent database and train project teams on search tools</description>
   </item>
 </channel>
 </rss>

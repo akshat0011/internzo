@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228",
+      "url": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228",
+      "title": "Game Developer Intern | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
+      "content_text": "Company: National Technology Centre for Ports, Waterways and Coasts (NTCPWC) · Location: Kanchipuram, Tamil Nadu, India\n• Develop game-based simulations and interactive visualizations for maritime scenarios\n• Implement gameplay features using OOP, debug modules, and integrate game prototypes\n• Full-time on-site internship located in Kanchipuram working on national projects",
+      "date_published": "2026-08-10T10:00:30.894Z",
+      "authors": [
+        {
+          "name": "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4451122227",
       "url": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4451122227",
       "title": "Apprentice, Software Development/Engineering — S&P Global",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "GreedyGame"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/valeo-intern-4448187135",
-      "url": "https://www.internzo.in/jobs/valeo-intern-4448187135",
-      "title": "Intern — Valeo",
-      "content_text": "Company: Valeo · Location: Chennai, Tamil Nadu, India\n• Conduct patent searches and monitor third-party publications for R&D teams\n• Build IP landscape reports to track competitor strategies and trends\n• Manage a customized patent database and train project teams on search tools",
-      "date_published": "2026-08-03T12:05:04.213Z",
-      "authors": [
-        {
-          "name": "Valeo"
         }
       ]
     }
