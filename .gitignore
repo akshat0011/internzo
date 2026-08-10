@@ -26,3 +26,8 @@ candidates.json
 
 # Study notes. Kept locally, never published.
 book/
+
+# Local SQLite state. Never belongs in the repo.
+*.db
+*.db-journal
+*.db-wal
