@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/jupiter-electric-mobility-design-and-digital-communication-intern-4449549869",
+      "url": "https://www.internzo.in/jobs/jupiter-electric-mobility-design-and-digital-communication-intern-4449549869",
+      "title": "Design & Digital Communication Intern — Jupiter Electric Mobility",
+      "content_text": "Company: Jupiter Electric Mobility · Location: India · Duration: 0–2 years",
+      "date_published": "2026-08-10T11:16:32.807Z",
+      "authors": [
+        {
+          "name": "Jupiter Electric Mobility"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
       "url": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
       "title": "Intern – Build & Integration — HARMAN India",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Siemens Healthineers"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/intel-attraction-req-intern-4447993213",
-      "url": "https://www.internzo.in/jobs/intel-attraction-req-intern-4447993213",
-      "title": "Attraction Req : Intern — Intel",
-      "content_text": "Company: Intel · Location: Bengaluru, Karnataka, India\n• Conduct research, logic design, RTL coding, and simulation for SoC development\n• Develop AI software, open-source libraries, and integrate software across the stack\n• Hybrid work model based out of Bangalore, India",
-      "date_published": "2026-08-03T13:29:54.890Z",
-      "authors": [
-        {
-          "name": "Intel"
         }
       ]
     }

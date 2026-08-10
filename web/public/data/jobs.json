@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786359997555,
- "count": 115,
- "techCount": 115,
+ "generatedAt": 1786360940515,
+ "count": 116,
+ "techCount": 116,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -43,6 +43,7 @@
   "Intuit",
   "Janitri",
   "Joveo",
+  "Jupiter Electric Mobility",
   "Magna International",
   "Microsoft",
   "Mizuho",
@@ -115,6 +116,37 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4449549869",
+   "title": "Design & Digital Communication Intern",
+   "company": "Jupiter Electric Mobility",
+   "matchedWatchlist": "Jupiter",
+   "isTech": true,
+   "roleSource": "offline-uncertain",
+   "logo": "/logos/jupiter-electric-mobility.jpg",
+   "location": "India",
+   "workplaceType": "Remote",
+   "stipend": null,
+   "duration": "0–2 years",
+   "applicants": "0 applicants",
+   "easyApply": true,
+   "skills": [
+    "figma"
+   ],
+   "summary": "We're Hiring | Design & Digital Communication Intern 📍 Location: Bangalore (Hybrid/On-site) JEM Energy is seeking a creative and detail-oriented Design & Digital Communication Intern to support our branding, digital marketing, and communication initiatives. Pursuing or recently completed a degree/diploma in Graphic Design, Visual Communication, Digital Media, Multimedia Design, Marketing & Communications, or related disciplines",
+   "bullets": [],
+   "roleLabel": null,
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "4 minutes ago",
+   "postedAt": 1786360592807,
+   "firstSeenAt": 1786360832813,
+   "url": "https://www.linkedin.com/jobs/view/4449549869/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4449549869/",
+   "description": null
+  },
   {
    "id": "4449547950",
    "title": "Intern – Build & Integration",

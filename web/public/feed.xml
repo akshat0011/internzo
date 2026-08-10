@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Mon, 10 Aug 2026 11:06:37 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 11:22:20 GMT</lastBuildDate>
+  <item>
+    <title>Design &amp; Digital Communication Intern — Jupiter Electric Mobility</title>
+    <link>https://www.internzo.in/jobs/jupiter-electric-mobility-design-and-digital-communication-intern-4449549869</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/jupiter-electric-mobility-design-and-digital-communication-intern-4449549869</guid>
+    <pubDate>Mon, 10 Aug 2026 11:16:32 GMT</pubDate>
+    <description>Company: Jupiter Electric Mobility · Location: India · Duration: 0–2 years</description>
+  </item>
   <item>
     <title>Intern – Build &amp; Integration — HARMAN India</title>
     <link>https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950</link>
@@ -493,16 +500,6 @@
 • Assist in the design, development, testing, and debugging of software components
 • Write clean code in C#, C++, Java, or Python and analyze defects and system logs
 • Work from the office five days a week with experienced engineers</description>
-  </item>
-  <item>
-    <title>Attraction Req : Intern — Intel</title>
-    <link>https://www.internzo.in/jobs/intel-attraction-req-intern-4447993213</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/intel-attraction-req-intern-4447993213</guid>
-    <pubDate>Mon, 03 Aug 2026 13:29:54 GMT</pubDate>
-    <description>Company: Intel · Location: Bengaluru, Karnataka, India
-• Conduct research, logic design, RTL coding, and simulation for SoC development
-• Develop AI software, open-source libraries, and integrate software across the stack
-• Hybrid work model based out of Bangalore, India</description>
   </item>
 </channel>
 </rss>
