@@ -503,8 +503,8 @@
     "_storeNonTechRoles_note": "false = a confidently non-engineering title is discarded during the sweep instead of being stored. The site is engineering-only, so storing them meant carrying ~80% of rows that could never be published, and spending description backfills on them. They are still recorded in seen_cards so the next run does not re-decide the same card. Set true to collect them again (and set publish.techRolesOnly false to show them).",
     "openNonTechRoles": false,
     "_openNonTechRoles_note": "false = a role the classifier CONFIDENTLY calls non-tech is listed from its search-card data alone, with no page open. Ambiguous titles are still opened, since that is exactly when the description decides. On a real backfill this cut opens from 12 to 4 per dozen candidates. Card-only listings have no description, summary or skills, which is fine for the Other roles tab. Set true to open everything.",
-    "skipViewedCards": true,
-    "_skipViewedCards_note": "LinkedIn marks cards you have already opened as Viewed. Skipping them avoids re-opening a job after an interrupted run. Tradeoff: a job you viewed manually in your own browsing will never be added.",
+    "skipViewedCards": false,
+    "_skipViewedCards_note": "OFF. LinkedIn marks a card Viewed whether the scraper opened it or you did, so browsing LinkedIn yourself made those postings permanently invisible to your own site - 93 watchlist listings were lost that way, including GE HealthCare, Citi, Honeywell, Times Internet and Infineon. The re-opening it was meant to prevent is already prevented by seen_cards and the run lock, so the protection was redundant and the cost was real. Set true only if runs start re-opening cards they have already processed.",
     "requireCompanyMatch": true,
     "_requireCompanyMatch_note": "true = the FIRST gate. A posting from a company not on the watchlist is skipped outright - no title parsing, no role classification, no Gemini call. Set false to consider every internship found, which is far more work and spends classifier quota on employers you do not care about.",
     "titleMustMatch": [

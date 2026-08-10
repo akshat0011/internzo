@@ -170,14 +170,12 @@ function applyFilters() {
   const location = $('f-location').value;
   const mode = $('f-mode').value;
   const sort = $('f-sort').value;
-  const paidOnly = $('f-paid').getAttribute('aria-pressed') === 'true';
   const easyOnly = $('f-easy').getAttribute('aria-pressed') === 'true';
 
   const list = state.jobs.filter((j) => {
     if (company && j.company !== company) return false;
     if (location && j.location !== location) return false;
     if (mode && (j.workplaceType ?? '').toLowerCase() !== mode.toLowerCase()) return false;
-    if (paidOnly && !j.stipend) return false;
     if (easyOnly && !j.easyApply) return false;
     if (q) {
       const blob = [j.title, j.company, j.location, j.summary, (j.skills || []).join(' ')]
@@ -197,8 +195,7 @@ function applyFilters() {
 
 function anyFilterActive() {
   return $('q').value.trim() || $('f-company').value || $('f-location').value ||
-    $('f-mode').value || $('f-paid').getAttribute('aria-pressed') === 'true' ||
-    $('f-easy').getAttribute('aria-pressed') === 'true';
+    $('f-mode').value || $('f-easy').getAttribute('aria-pressed') === 'true';
 }
 
 /* ---------------- rendering ---------------- */
@@ -848,7 +845,7 @@ function wireControls() {
   for (const id of ['f-company', 'f-location', 'f-mode', 'f-sort']) {
     $(id).addEventListener('change', rerun);
   }
-  for (const id of ['f-paid', 'f-easy']) {
+  for (const id of ['f-easy']) {
     $(id).addEventListener('click', () => {
       const btn = $(id);
       btn.setAttribute('aria-pressed', btn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
@@ -861,7 +858,7 @@ function wireControls() {
     $('clear-q').hidden = true;
     for (const id of ['f-company', 'f-location', 'f-mode']) $(id).value = '';
     $('f-sort').value = 'new';
-    for (const id of ['f-paid', 'f-easy']) $(id).setAttribute('aria-pressed', 'false');
+    $('f-easy').setAttribute('aria-pressed', 'false');
     rerun();
   });
 }
