@@ -1,14 +1,13 @@
 {
- "generatedAt": 1786486736414,
- "count": 127,
- "techCount": 127,
+ "generatedAt": 1786488511293,
+ "count": 126,
+ "techCount": 126,
  "otherCount": 0,
  "companies": [
   "ALLEN",
   "Accenture",
   "Accenture in India",
   "Acko",
-  "Adobe",
   "AlphaGrep Securities",
   "American Express",
   "Analog Devices",
@@ -4855,55 +4854,6 @@
    "firstSeenAt": 1785288364025,
    "url": "https://www.linkedin.com/jobs/view/4446528118/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446528118/",
-   "description": null
-  },
-  {
-   "id": "4445799105",
-   "title": "AI Engineer Apprentice",
-   "company": "Adobe",
-   "matchedWatchlist": "Adobe",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/adobe.jpg",
-   "location": "Bengaluru East, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "javascript",
-    "typescript",
-    "sql",
-    "express",
-    "git",
-    "llm",
-    "rag"
-   ],
-   "summary": "Your responsibilities grow over the year as your skills do. You will always work under the guidance of an AI Architect, an engineering mentor, and the wider delivery team. Learn & Build the Foundations Complete a structured onboarding and learning path covering Python engineering, LLM APIs, prompt design, and the fundamentals of agentic AI.",
-   "bullets": [
-    "Learn Python, LLM APIs, and prompt design, then contribute to client projects",
-    "Build RAG components, test harnesses, and integrate tools under senior guidance",
-    "Shadow client sessions, prepare demos, and contribute to reusable asset library",
-    "Work with an AI Architect and engineering mentor for a year"
-   ],
-   "roleLabel": "AI Engineering",
-   "degreeLevel": "Pursuing",
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "llm apis",
-    "prompt design",
-    "git",
-    "javascript"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "12 minutes ago",
-   "postedAt": 1785278124224,
-   "firstSeenAt": 1785278844231,
-   "url": "https://www.linkedin.com/jobs/view/4445799105/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4445799105/",
    "description": null
   },
   {
