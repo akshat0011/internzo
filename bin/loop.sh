@@ -50,7 +50,15 @@ trap 'echo "$(date "+%Y-%m-%d %H:%M:%S") [LOOP STOP] pid=$$" >> "$LOG"; kill 0; 
 while true; do
   started=$(date +%s)
 
-  bash "$HERE/bin/run.sh" --scheduled
+  # caffeinate -i holds off IDLE sleep for exactly as long as the scan runs, and
+  # releases the moment it finishes, so the machine still sleeps normally between
+  # scans. Without it a laptop on battery drops into Maintenance Sleep mid-scan:
+  # observed as ~604-second stalls with no log output at all, a page.goto that
+  # had already blown its 60s timeout by the time the machine woke, and runs
+  # ending 'partial' because most of their 90-minute budget was spent asleep.
+  #
+  # This does NOT override closing the lid, and it changes no system setting.
+  caffeinate -i bash "$HERE/bin/run.sh" --scheduled
 
   elapsed=$(( $(date +%s) - started ))
   remaining=$(( INTERVAL - elapsed ))
