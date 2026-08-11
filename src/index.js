@@ -439,11 +439,20 @@ async function main() {
           if (!card.key) continue;
 
           // --- cheap local filters, in priority order ----------------------
+          // Skip records key on card.identity, NOT card.key. The key carries the
+          // posted text, which changes every time LinkedIn's relative clock ticks
+          // over, so a card refused once produced a fresh seen_cards row roughly
+          // every quarter of an hour it stayed on the page — 3997 rows for 1154
+          // distinct postings in one afternoon. That inflates topSkippedCompanies
+          // by ~3.5x and turns it from "how many postings did this employer make"
+          // into "how long were they on screen", which is the wrong question to
+          // tune a watchlist against. Nothing reads these before gating, so
+          // dropping the timestamp costs nothing.
+          //
           // Everything in this block runs BEFORE the card is clicked, and since
           // the redesign that means it runs before LinkedIn has told us the job
-          // id. It is keyed on card.key instead — the synthetic
-          // company|title|posted string built in enumerateCards — which is what
-          // keeps the click budget on watchlist matches rather than spending it
+          // id. It works off the card's own text instead, which is what keeps
+          // the click budget on watchlist matches rather than spending it
           // discovering the ids of postings we would have thrown away.
           //
           // "Do we already hold this?" is the one gate that genuinely needs the
@@ -474,7 +483,7 @@ async function main() {
           // 304 times in one week as a card the old gate happened to drop.
           if (isBlockedCompany(card.company)) {
             counters.skippedCompany++;
-            store.noteSkippedCard(card.key, 'blocked employer', card.company, card.title);
+            store.noteSkippedCard(card.identity, 'blocked employer', card.company, card.title);
             continue;
           }
 
@@ -489,7 +498,7 @@ async function main() {
           const matched = matchCompany(card.company, cfg.watchlist);
           if (cfg.matching.requireCompanyMatch && !matched) {
             counters.skippedCompany++;
-            store.noteSkippedCard(card.key, 'company not on watchlist', card.company, card.title);
+            store.noteSkippedCard(card.identity, 'company not on watchlist', card.company, card.title);
             continue;
           }
 
@@ -498,7 +507,7 @@ async function main() {
           // given the benefit of the doubt rather than silently dropped.
           if (postedAt && postedAt < cutoff) {
             counters.skippedStale++;
-            store.noteSkippedCard(card.key, 'older than window', card.company, card.title);
+            store.noteSkippedCard(card.identity, 'older than window', card.company, card.title);
             continue;
           }
 
@@ -509,7 +518,7 @@ async function main() {
             counters.skippedTitle++;
             counters.nearMisses++;
             store.noteSkippedCard(
-              card.key,
+              card.identity,
               'title lacks intern (watchlist tech role)',
               card.company,
               card.title,
@@ -519,7 +528,7 @@ async function main() {
 
           if (cfg.matching.skipViewedCards && card.viewed) {
             counters.skippedViewed++;
-            store.noteSkippedCard(card.key, 'already viewed on LinkedIn', card.company, card.title);
+            store.noteSkippedCard(card.identity, 'already viewed on LinkedIn', card.company, card.title);
             continue;
           }
 
@@ -544,7 +553,7 @@ async function main() {
           // card and gives an honest count of what the sweep discarded.
           if (confidentlyNonTech && cfg.matching.storeNonTechRoles === false) {
             counters.nonTechRoles++;
-            store.noteSkippedCard(card.key, 'non-engineering role', card.company, card.title);
+            store.noteSkippedCard(card.identity, 'non-engineering role', card.company, card.title);
             continue;
           }
 
