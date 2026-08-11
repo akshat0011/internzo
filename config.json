@@ -462,6 +462,334 @@
         "JSW Steel",
         "JSW Energy"
       ]
+    },
+    {
+      "name": "Dun & Bradstreet",
+      "aliases": [
+        "Dun and Bradstreet"
+      ]
+    },
+    {
+      "name": "Celanese"
+    },
+    {
+      "name": "Copeland"
+    },
+    {
+      "name": "IQVIA"
+    },
+    {
+      "name": "Dana Incorporated",
+      "aliases": [
+        "Dana India"
+      ]
+    },
+    {
+      "name": "AtkinsRéalis",
+      "aliases": [
+        "AtkinsRealis",
+        "Atkins Realis",
+        "SNC-Lavalin"
+      ]
+    },
+    {
+      "name": "General Mills"
+    },
+    {
+      "name": "Mondelēz International",
+      "aliases": [
+        "Mondelez International",
+        "Mondelez"
+      ]
+    },
+    {
+      "name": "GlobalLogic"
+    },
+    {
+      "name": "Visteon",
+      "aliases": [
+        "Visteon Corporation"
+      ]
+    },
+    {
+      "name": "Legrand"
+    },
+    {
+      "name": "Flex",
+      "aliases": [
+        "Flextronics"
+      ]
+    },
+    {
+      "name": "Festo",
+      "aliases": [
+        "Festo India"
+      ]
+    },
+    {
+      "name": "FORVIA HELLA",
+      "aliases": [
+        "Forvia",
+        "HELLA"
+      ]
+    },
+    {
+      "name": "Glencore"
+    },
+    {
+      "name": "Wolters Kluwer"
+    },
+    {
+      "name": "ICON plc",
+      "aliases": [
+        "ICON Clinical Research"
+      ]
+    },
+    {
+      "name": "Conduent"
+    },
+    {
+      "name": "PTC",
+      "aliases": [
+        "PTC Inc",
+        "Parametric Technology"
+      ]
+    },
+    {
+      "name": "West Pharmaceutical Services",
+      "aliases": [
+        "West Pharma"
+      ]
+    },
+    {
+      "name": "Avient",
+      "aliases": [
+        "Avient Corporation"
+      ]
+    },
+    {
+      "name": "NKT"
+    },
+    {
+      "name": "PolyPeptide",
+      "aliases": [
+        "PolyPeptide Group"
+      ]
+    },
+    {
+      "name": "IFF",
+      "aliases": [
+        "International Flavors & Fragrances",
+        "International Flavors and Fragrances"
+      ]
+    },
+    {
+      "name": "Crane NXT",
+      "aliases": [
+        "Crane Authentication",
+        "Crane Currency"
+      ]
+    },
+    {
+      "name": "Calix"
+    },
+    {
+      "name": "Veradigm"
+    },
+    {
+      "name": "Everllence",
+      "aliases": [
+        "MAN Energy Solutions"
+      ]
+    },
+    {
+      "name": "Hill International"
+    },
+    {
+      "name": "Hines"
+    },
+    {
+      "name": "Russell Investments"
+    },
+    {
+      "name": "Baker Tilly"
+    },
+    {
+      "name": "CohnReznick"
+    },
+    {
+      "name": "McDonald's",
+      "aliases": [
+        "McDonalds",
+        "McDonald's Global Office in India"
+      ]
+    },
+    {
+      "name": "dentsu"
+    },
+    {
+      "name": "Havas",
+      "aliases": [
+        "Havas Media Network India",
+        "Havas Creative Network India"
+      ]
+    },
+    {
+      "name": "Teleperformance",
+      "aliases": [
+        "TP"
+      ]
+    },
+    {
+      "name": "Numerator"
+    },
+    {
+      "name": "UST",
+      "aliases": [
+        "UST Global"
+      ]
+    },
+    {
+      "name": "AML RightSource"
+    },
+    {
+      "name": "Etraveli Group"
+    },
+    {
+      "name": "Air Arabia"
+    },
+    {
+      "name": "Freight Tiger"
+    },
+    {
+      "name": "FanCode"
+    },
+    {
+      "name": "Enterpret"
+    },
+    {
+      "name": "BiteSpeed"
+    },
+    {
+      "name": "Hevo Data",
+      "aliases": [
+        "Hevo"
+      ]
+    },
+    {
+      "name": "HighLevel"
+    },
+    {
+      "name": "Unicommerce"
+    },
+    {
+      "name": "Kapture CX",
+      "aliases": [
+        "Kapture"
+      ]
+    },
+    {
+      "name": "SiteRecon"
+    },
+    {
+      "name": "Snapmint"
+    },
+    {
+      "name": "Wint Wealth"
+    },
+    {
+      "name": "KYC Hub"
+    },
+    {
+      "name": "Dodo Payments"
+    },
+    {
+      "name": "API Holdings",
+      "aliases": [
+        "PharmEasy"
+      ]
+    },
+    {
+      "name": "Honasa Consumer",
+      "aliases": [
+        "Honasa",
+        "Mamaearth"
+      ]
+    },
+    {
+      "name": "Kapiva"
+    },
+    {
+      "name": "Blissclub"
+    },
+    {
+      "name": "Plix"
+    },
+    {
+      "name": "Mosaic Wellness"
+    },
+    {
+      "name": "Zolo"
+    },
+    {
+      "name": "WeWork India",
+      "aliases": [
+        "WeWork"
+      ]
+    },
+    {
+      "name": "Pickyourtrail"
+    },
+    {
+      "name": "WedMeGood"
+    },
+    {
+      "name": "Rusk Media"
+    },
+    {
+      "name": "Vecmocon",
+      "aliases": [
+        "Vecmocon Technologies"
+      ]
+    },
+    {
+      "name": "HaystackAnalytics"
+    },
+    {
+      "name": "Medanta"
+    },
+    {
+      "name": "Trilegal"
+    },
+    {
+      "name": "Ujjivan Small Finance Bank",
+      "aliases": [
+        "Ujjivan"
+      ]
+    },
+    {
+      "name": "Resollect"
+    },
+    {
+      "name": "Teli Labs"
+    },
+    {
+      "name": "Fynd"
+    },
+    {
+      "name": "AppsForBharat"
+    },
+    {
+      "name": "CredFlow"
+    },
+    {
+      "name": "Datacultr"
+    },
+    {
+      "name": "Volody"
+    },
+    {
+      "name": "LineupX"
     }
   ],
   "_acronym_alias_note": "A watchlist term under 4 characters can only ever match EXACTLY, because matchCompany refuses to substring-match short terms (that guard is what stops 'Navi' matching every company with Navi Mumbai in its name). So an acronym-only entry never fires against the full name LinkedIn actually shows. 'HPE' was on the list the whole time while 'Hewlett Packard Enterprise' was dropped 10 times as off-watchlist. Same for GE Vernova, PwC Acceleration Center India and JSW Steel. If you add an acronym, add the spelled-out name as an alias too.",
