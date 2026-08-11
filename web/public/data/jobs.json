@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786461236164,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1786461900029,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -91,6 +91,7 @@
   "Tonbo Imaging",
   "Valeo",
   "Volvo Group",
+  "WeWork India",
   "West Pharmaceutical Services",
   "Whatfix",
   "eBay",
@@ -130,12 +131,48 @@
  ],
  "jobs": [
   {
+   "id": "4452481266",
+   "title": "AV Interns - Mumbai (695838)",
+   "company": "WeWork India",
+   "matchedWatchlist": "WeWork India",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/wework-india.jpg",
+   "location": "Mumbai, Maharashtra, India",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": null,
+   "applicants": "0 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves supporting AV systems and infrastructure in a growing workspace company. You'll manage equipment, documentation, and collaborate with teams. Ideal for someone interested in tech support and operational roles.",
+   "bullets": [
+    "Troubleshoot and maintain AV equipment for video conferencing systems",
+    "Manage inventory and documentation using Gdoc and ticketing systems",
+    "Collaborate with teams and vendors for break-fix issues and walkthroughs"
+   ],
+   "roleLabel": "AV Support",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech",
+   "keySkills": [
+    "gdoc",
+    "av equipment"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "11 minutes ago",
+   "postedAt": 1786461121436,
+   "firstSeenAt": 1786461781449,
+   "url": "https://www.linkedin.com/jobs/view/4452481266/",
+   "applyUrl": "https://weworkindia.hire.trakstar.com/jobs/fk0zxdx/",
+   "description": null
+  },
+  {
    "id": "ats:lever:paytm:5648edd6-b73b-4156-96f5-343f4d851610",
    "title": "Product Management - Intern - Telco.",
    "company": "Paytm",
    "matchedWatchlist": "Paytm",
    "isTech": true,
-   "roleSource": "ats-lever",
+   "roleSource": "model-enrich",
    "logo": "/logos/paytm.png",
    "location": "Noida, Uttar Pradesh",
    "workplaceType": "onsite",
@@ -147,12 +184,21 @@
     "figma",
     "excel"
    ],
-   "summary": "Title: Product Management Intern About Paytm Group: Paytm is India's leading mobile payments and financial services distribution company. We are looking for enthusiastic Product Interns to join our Product & Integrations team and support the execution of key SuperApp and digital experience initiatives.",
-   "bullets": [],
-   "roleLabel": null,
+   "summary": "This product management internship involves supporting the development of Paytm's SuperApp and digital platforms. The intern will assist with product documentation, market research, and cross-functional coordination. Ideal for students interested in digital product lifecycle and user experience.",
+   "bullets": [
+    "Support product planning, documentation, and user journey analysis",
+    "Use Jira, Confluence, Excel, and Figma for coordination and reporting",
+    "Work on SuperApp initiatives and digital experience improvements"
+   ],
+   "roleLabel": "Product Support",
    "degreeLevel": null,
    "degreeText": null,
-   "keySkills": [],
+   "keySkills": [
+    "jira",
+    "confluence",
+    "excel",
+    "figma"
+   ],
    "stipendStatus": "unknown",
    "postedText": null,
    "postedAt": 1786447699381,

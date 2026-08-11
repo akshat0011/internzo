@@ -6,13 +6,26 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 11 Aug 2026 15:13:56 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 15:25:00 GMT</lastBuildDate>
+  <item>
+    <title>AV Interns - Mumbai (695838) — WeWork India</title>
+    <link>https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266</guid>
+    <pubDate>Tue, 11 Aug 2026 15:12:01 GMT</pubDate>
+    <description>Company: WeWork India · Location: Mumbai, Maharashtra, India
+• Troubleshoot and maintain AV equipment for video conferencing systems
+• Manage inventory and documentation using Gdoc and ticketing systems
+• Collaborate with teams and vendors for break-fix issues and walkthroughs</description>
+  </item>
   <item>
     <title>Product Management - Intern - Telco. — Paytm</title>
     <link>https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610</link>
     <guid isPermaLink="true">https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610</guid>
     <pubDate>Tue, 11 Aug 2026 11:28:19 GMT</pubDate>
-    <description>Company: Paytm · Location: Noida, Uttar Pradesh</description>
+    <description>Company: Paytm · Location: Noida, Uttar Pradesh
+• Support product planning, documentation, and user journey analysis
+• Use Jira, Confluence, Excel, and Figma for coordination and reporting
+• Work on SuperApp initiatives and digital experience improvements</description>
   </item>
   <item>
     <title>Apprentice — AtkinsRéalis</title>
@@ -500,16 +513,6 @@
 • Build and maintain software products within an agile engineering team
 • Connect user requirements to technical features and system module integration
 • Develop features using Python, React, Node.js, and cloud technologies</description>
-  </item>
-  <item>
-    <title>Young Apprentice - C00 - Chennai — Citi</title>
-    <link>https://www.internzo.in/jobs/citi-young-apprentice-c00-chennai-4449762238</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/citi-young-apprentice-c00-chennai-4449762238</guid>
-    <pubDate>Thu, 06 Aug 2026 16:05:38 GMT</pubDate>
-    <description>Company: Citi · Location: Chennai, Tamil Nadu, India
-• Build full-stack web applications using React, Python, and MongoDB
-• Work with cloud infrastructure using Terraform, shell scripts, and AWS serverless
-• Collaborate with engineering mentors to solve technical issues and refine systems</description>
   </item>
 </channel>
 </rss>

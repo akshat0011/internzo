@@ -6,10 +6,22 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266",
+      "url": "https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266",
+      "title": "AV Interns - Mumbai (695838) — WeWork India",
+      "content_text": "Company: WeWork India · Location: Mumbai, Maharashtra, India\n• Troubleshoot and maintain AV equipment for video conferencing systems\n• Manage inventory and documentation using Gdoc and ticketing systems\n• Collaborate with teams and vendors for break-fix issues and walkthroughs",
+      "date_published": "2026-08-11T15:12:01.436Z",
+      "authors": [
+        {
+          "name": "WeWork India"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610",
       "url": "https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610",
       "title": "Product Management - Intern - Telco. — Paytm",
-      "content_text": "Company: Paytm · Location: Noida, Uttar Pradesh",
+      "content_text": "Company: Paytm · Location: Noida, Uttar Pradesh\n• Support product planning, documentation, and user journey analysis\n• Use Jira, Confluence, Excel, and Figma for coordination and reporting\n• Work on SuperApp initiatives and digital experience improvements",
       "date_published": "2026-08-11T11:28:19.381Z",
       "authors": [
         {
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Colgate-Palmolive"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/citi-young-apprentice-c00-chennai-4449762238",
-      "url": "https://www.internzo.in/jobs/citi-young-apprentice-c00-chennai-4449762238",
-      "title": "Young Apprentice - C00 - Chennai — Citi",
-      "content_text": "Company: Citi · Location: Chennai, Tamil Nadu, India\n• Build full-stack web applications using React, Python, and MongoDB\n• Work with cloud infrastructure using Terraform, shell scripts, and AWS serverless\n• Collaborate with engineering mentors to solve technical issues and refine systems",
-      "date_published": "2026-08-06T16:05:38.382Z",
-      "authors": [
-        {
-          "name": "Citi"
         }
       ]
     }
