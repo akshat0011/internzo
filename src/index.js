@@ -74,6 +74,17 @@ function makeRunId() {
   return new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
 }
 
+/**
+ * How much newer a card must look before it is treated as a relisting rather
+ * than the posting we already hold under the same company and title.
+ *
+ * Generous on purpose. `parseRelativeTime` works from text like "19 hours ago",
+ * so the same posting drifts by up to an hour between runs simply from
+ * rounding; anything tighter than that would reopen every known card. A genuine
+ * repost resets to minutes old, so it clears this by a wide margin.
+ */
+const REPOST_GAP_MS = 6 * 3_600_000;
+
 /** Tracks the wall-clock ceiling so a run can never sprawl unattended. */
 function budget(maxMinutes) {
   const start = Date.now();
@@ -411,7 +422,7 @@ async function main() {
         const { cards, unidentified } = await li.enumerateCards(page, cfg);
         if (unidentified?.length) {
           counters.cardsWithoutId += unidentified.length;
-          log.warn(`${unidentified.length} card(s) on this page had no readable job id and could not be processed: ${unidentified.filter(Boolean).slice(0, 3).join(' | ')}`);
+          log.warn(`${unidentified.length} card(s) on this page had no readable company or title and could not be processed: ${unidentified.filter(Boolean).slice(0, 3).join(' | ')}`);
         }
         await assertListRendered(page, cards.length, { pageIndex: pageIndex + 1, searchLabel: label });
         counters.pagesScanned++;
@@ -425,14 +436,34 @@ async function main() {
 
         for (const card of cards) {
           if (clock.exceeded() || counters.detailsExtracted >= cfg.limits.maxDetailsPerRun) break;
-          if (!card.jobId) continue;
+          if (!card.key) continue;
 
           // --- cheap local filters, in priority order ----------------------
-          if (store.hasJob(card.jobId)) {
-            counters.skippedKnown++;
-            store.touchJob(card.jobId);
-            if (store.backfillLogo(card.jobId, card.logoUrl)) counters.logosBackfilled++;
-            continue;
+          // Everything in this block runs BEFORE the card is clicked, and since
+          // the redesign that means it runs before LinkedIn has told us the job
+          // id. It is keyed on card.key instead — the synthetic
+          // company|title|posted string built in enumerateCards — which is what
+          // keeps the click budget on watchlist matches rather than spending it
+          // discovering the ids of postings we would have thrown away.
+          //
+          // "Do we already hold this?" is the one gate that genuinely needs the
+          // real id, so it is answered from what an earlier click recorded.
+          const known = store.jobIdForCard(card.identity);
+          if (known && store.hasJob(known.job_id)) {
+            const cardPostedAt = parseRelativeTime(card.postedText);
+            // Same company, same title — but LinkedIn relists roles under a
+            // fresh id constantly, and a relisted posting reads as hours newer
+            // than the one this maps to. Treating that as already-seen is how a
+            // stale copy stays on the board while the live one is never opened.
+            const isRepost = cardPostedAt && known.posted_at
+              && cardPostedAt - known.posted_at > REPOST_GAP_MS;
+            if (!isRepost) {
+              counters.skippedKnown++;
+              store.touchJob(known.job_id);
+              if (store.backfillLogo(known.job_id, card.logoUrl)) counters.logosBackfilled++;
+              continue;
+            }
+            log.debug(`"${card.title}" at ${card.company} looks relisted (${card.postedText}) — opening it rather than trusting the old id.`);
           }
 
           // A blocked employer is unreachable by any route. This is checked on
@@ -443,7 +474,7 @@ async function main() {
           // 304 times in one week as a card the old gate happened to drop.
           if (isBlockedCompany(card.company)) {
             counters.skippedCompany++;
-            store.noteSkippedCard(card.jobId, 'blocked employer', card.company, card.title);
+            store.noteSkippedCard(card.key, 'blocked employer', card.company, card.title);
             continue;
           }
 
@@ -458,7 +489,7 @@ async function main() {
           const matched = matchCompany(card.company, cfg.watchlist);
           if (cfg.matching.requireCompanyMatch && !matched) {
             counters.skippedCompany++;
-            store.noteSkippedCard(card.jobId, 'company not on watchlist', card.company, card.title);
+            store.noteSkippedCard(card.key, 'company not on watchlist', card.company, card.title);
             continue;
           }
 
@@ -467,7 +498,7 @@ async function main() {
           // given the benefit of the doubt rather than silently dropped.
           if (postedAt && postedAt < cutoff) {
             counters.skippedStale++;
-            store.noteSkippedCard(card.jobId, 'older than window', card.company, card.title);
+            store.noteSkippedCard(card.key, 'older than window', card.company, card.title);
             continue;
           }
 
@@ -478,7 +509,7 @@ async function main() {
             counters.skippedTitle++;
             counters.nearMisses++;
             store.noteSkippedCard(
-              card.jobId,
+              card.key,
               'title lacks intern (watchlist tech role)',
               card.company,
               card.title,
@@ -488,7 +519,7 @@ async function main() {
 
           if (cfg.matching.skipViewedCards && card.viewed) {
             counters.skippedViewed++;
-            store.noteSkippedCard(card.jobId, 'already viewed on LinkedIn', card.company, card.title);
+            store.noteSkippedCard(card.key, 'already viewed on LinkedIn', card.company, card.title);
             continue;
           }
 
@@ -513,11 +544,17 @@ async function main() {
           // card and gives an honest count of what the sweep discarded.
           if (confidentlyNonTech && cfg.matching.storeNonTechRoles === false) {
             counters.nonTechRoles++;
-            store.noteSkippedCard(card.jobId, 'non-engineering role', card.company, card.title);
+            store.noteSkippedCard(card.key, 'non-engineering role', card.company, card.title);
             continue;
           }
 
-          if (confidentlyNonTech && cfg.matching.openNonTechRoles === false) {
+          // Listing a role from card data alone needs a job id, and since the
+          // redesign there is none until the card is opened. A row stored under
+          // a synthetic key could never be linked to, applied to, or matched
+          // against LinkedIn again, so the optimisation is simply unavailable
+          // here — the card is opened instead. Unreachable under the shipped
+          // config, where storeNonTechRoles false has already skipped it above.
+          if (confidentlyNonTech && cfg.matching.openNonTechRoles === false && card.jobId) {
             const stipend = extractStipend(card.salaryText);
             const isNew = store.upsertJob({
               jobId: card.jobId,
@@ -567,30 +604,58 @@ async function main() {
           } catch (err) {
             counters.failedDetails++;
             log.warn(`Could not read "${card.title}" — ${err.message.split('\n')[0]}`);
-            await ensureHealthy(page, cfg, { context: `job ${card.jobId}`, remainingMs: clock.remainingMs() });
+            await ensureHealthy(page, cfg, { context: `card ${card.key}`, remainingMs: clock.remainingMs() });
             continue;
           }
 
-          await ensureHealthy(page, cfg, { context: `job ${card.jobId}`, remainingMs: clock.remainingMs() });
+          // The click is what makes LinkedIn name the posting, so this is the
+          // point where the synthetic key is exchanged for the real job id.
+          const jobId = detail.jobId;
+          if (!jobId) {
+            counters.failedDetails++;
+            if (!detail.unopenable) {
+              log.warn(`Opened "${card.title}" at ${card.company} but no job id appeared — skipping it this run.`);
+            }
+            await ensureHealthy(page, cfg, { context: `card ${card.key}`, remainingMs: clock.remainingMs() });
+            continue;
+          }
+
+          await ensureHealthy(page, cfg, { context: `job ${jobId}`, remainingMs: clock.remainingMs() });
           counters.detailsExtracted++;
           openedOnThisPage++;
 
           const description = detail.description || '';
+          const detailPostedAt = parseRelativeTime(detail.postedText || card.postedText);
+
+          // Remember what this card turned out to be, so the next run answers
+          // "do we already hold it?" without opening the page again. Written
+          // before the store decision below, because it is just as useful for a
+          // posting we already have as for a new one.
+          store.mapCard(card.identity, jobId, detailPostedAt);
+
+          // Known after all — the id could not be checked before the click.
+          if (store.hasJob(jobId)) {
+            counters.skippedKnown++;
+            store.touchJob(jobId);
+            if (store.backfillLogo(jobId, detail.logoUrl || card.logoUrl)) counters.logosBackfilled++;
+            continue;
+          }
+
           const job = {
-            jobId: card.jobId,
+            jobId,
             title: detail.title || card.title,
             company: detail.company || card.company,
             companyMatched: matched,
             location: detail.location || card.location,
             workplaceType: detail.workplaceType || extractWorkplaceType(detail.location, card.location, description),
             postedText: detail.postedText || card.postedText,
-            postedAt: parseRelativeTime(detail.postedText || card.postedText),
+            postedAt: detailPostedAt,
             salaryText: detail.salaryText || card.salaryText,
             stipend: extractStipend(detail.salaryText, card.salaryText, description),
             applicants: detail.applicants,
             easyApply: detail.easyApply ?? card.easyApply,
             applyUrl: detail.applyUrl,
-            jobUrl: li.jobUrl(card.jobId),
+            jobUrl: li.jobUrl(jobId),
             duration: extractDuration(description, detail.title || card.title),
             skills: extractSkills(description),
             description,
@@ -791,7 +856,7 @@ async function main() {
     `${counters.skippedViewed} already viewed · ${counters.listedWithoutOpening} listed without opening` +
     (counters.descriptionsBackfilled ? ` · ${counters.descriptionsBackfilled} descriptions backfilled` : '') +
     (counters.failedDetails ? ` · ${counters.failedDetails} failed to read` : '') +
-    (counters.cardsWithoutId ? ` · ${counters.cardsWithoutId} cards had no readable job id` : '');
+    (counters.cardsWithoutId ? ` · ${counters.cardsWithoutId} cards could not be read` : '');
 
   log.section('Summary');
   log.info(summaryLine);

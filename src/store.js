@@ -65,6 +65,25 @@ CREATE TABLE IF NOT EXISTS seen_cards (
   title        TEXT
 );
 
+-- What a search card turned out to be, once it was clicked.
+--
+-- The redesigned LinkedIn results page carries no job id anywhere in the DOM;
+-- it only appears after a card is opened. Without a memory of what an earlier
+-- click revealed, every card matching the watchlist would have to be reopened
+-- on every run just to find out whether we already hold it — roughly a dozen
+-- pointless page opens per posting, against the one account this all depends on.
+--
+-- The key is company|title with no timestamp, so it survives a card ageing from
+-- "5 minutes ago" to "2 hours ago" between runs. posted_at is what stops that
+-- stability swallowing a repost: the same role relisted under a new id reads as
+-- much newer than the row this maps to, and is opened rather than assumed known.
+CREATE TABLE IF NOT EXISTS card_keys (
+  card_key     TEXT PRIMARY KEY,
+  job_id       TEXT NOT NULL,
+  posted_at    INTEGER,
+  last_seen_at INTEGER NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS settings (
   key   TEXT PRIMARY KEY,
   value TEXT
@@ -548,6 +567,32 @@ export class Store {
 
   wasSkipped(jobId) {
     return !!this.db.prepare('SELECT 1 FROM seen_cards WHERE job_id = ?').get(jobId);
+  }
+
+  /**
+   * Remember which posting a search card turned out to be.
+   *
+   * Written straight after a click, which is the only moment LinkedIn reveals
+   * the id. `posted_at` is the opened posting's own timestamp, not the time of
+   * the click — it is what a later run compares against to tell "the same card
+   * again" from "the same role, relisted".
+   */
+  mapCard(cardKey, jobId, postedAt = null) {
+    if (!cardKey || !jobId) return;
+    this.db.prepare(`
+      INSERT INTO card_keys (card_key, job_id, posted_at, last_seen_at)
+      VALUES (?, ?, ?, ?)
+      ON CONFLICT(card_key) DO UPDATE SET
+        job_id       = excluded.job_id,
+        posted_at    = COALESCE(excluded.posted_at, card_keys.posted_at),
+        last_seen_at = excluded.last_seen_at
+    `).run(cardKey, jobId, postedAt ?? null, Date.now());
+  }
+
+  /** What an earlier run learned this card to be, or null. */
+  jobIdForCard(cardKey) {
+    if (!cardKey) return null;
+    return this.db.prepare('SELECT job_id, posted_at FROM card_keys WHERE card_key = ?').get(cardKey) ?? null;
   }
 
   touchJob(jobId) {
