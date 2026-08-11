@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 11 Aug 2026 10:58:44 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 13:01:46 GMT</lastBuildDate>
+  <item>
+    <title>Product Management - Intern - Telco. — One97 Communications Limited</title>
+    <link>https://www.internzo.in/jobs/one97-communications-limited-product-management-intern-telco-4451678552</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/one97-communications-limited-product-management-intern-telco-4451678552</guid>
+    <pubDate>Tue, 11 Aug 2026 11:30:35 GMT</pubDate>
+    <description>Company: One97 Communications Limited · Location: Noida, Uttar Pradesh, India</description>
+  </item>
   <item>
     <title>Apprentice — AtkinsRéalis</title>
     <link>https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563</link>
@@ -503,16 +510,6 @@
 • Build full-stack web applications using React, Python, and MongoDB
 • Work with cloud infrastructure using Terraform, shell scripts, and AWS serverless
 • Collaborate with engineering mentors to solve technical issues and refine systems</description>
-  </item>
-  <item>
-    <title>Software Engineer Trainee — Emerson</title>
-    <link>https://www.internzo.in/jobs/emerson-software-engineer-trainee-4450233537</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/emerson-software-engineer-trainee-4450233537</guid>
-    <pubDate>Thu, 06 Aug 2026 10:52:36 GMT</pubDate>
-    <description>Company: Emerson · Location: Pune Division, Maharashtra, India
-• Develop, debug, and maintain software features for industrial automation products
-• Write technical documentation and participate in peer code reviews
-• Work with C#, C++, Java, Python, JavaScript, and SQL databases</description>
   </item>
 </channel>
 </rss>

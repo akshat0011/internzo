@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/one97-communications-limited-product-management-intern-telco-4451678552",
+      "url": "https://www.internzo.in/jobs/one97-communications-limited-product-management-intern-telco-4451678552",
+      "title": "Product Management - Intern - Telco. — One97 Communications Limited",
+      "content_text": "Company: One97 Communications Limited · Location: Noida, Uttar Pradesh, India",
+      "date_published": "2026-08-11T11:30:35.924Z",
+      "authors": [
+        {
+          "name": "One97 Communications Limited"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563",
       "url": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563",
       "title": "Apprentice — AtkinsRéalis",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Citi"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/emerson-software-engineer-trainee-4450233537",
-      "url": "https://www.internzo.in/jobs/emerson-software-engineer-trainee-4450233537",
-      "title": "Software Engineer Trainee — Emerson",
-      "content_text": "Company: Emerson · Location: Pune Division, Maharashtra, India\n• Develop, debug, and maintain software features for industrial automation products\n• Write technical documentation and participate in peer code reviews\n• Work with C#, C++, Java, Python, JavaScript, and SQL databases",
-      "date_published": "2026-08-06T10:52:36.540Z",
-      "authors": [
-        {
-          "name": "Emerson"
         }
       ]
     }

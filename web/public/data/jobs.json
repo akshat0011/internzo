@@ -1,5 +1,5 @@
 {
- "generatedAt": 1786445923948,
+ "generatedAt": 1786453305977,
  "count": 130,
  "techCount": 130,
  "otherCount": 0,
@@ -67,6 +67,7 @@
   "NoBroker.com",
   "Noise",
   "Nokia",
+  "One97 Communications Limited",
   "PW (PhysicsWallah)",
   "Panasonic Avionics Corporation",
   "Paytm",
@@ -131,6 +132,38 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4451678552",
+   "title": "Product Management - Intern - Telco.",
+   "company": "One97 Communications Limited",
+   "matchedWatchlist": "Paytm",
+   "isTech": true,
+   "roleSource": "offline",
+   "logo": "/logos/one97-communications-limited.jpg",
+   "location": "Noida, Uttar Pradesh, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "15 applicants",
+   "easyApply": true,
+   "skills": [
+    "figma",
+    "excel"
+   ],
+   "summary": "Title: Product Management Intern About Paytm Group: Paytm is India's leading mobile payments and financial services distribution company. We are looking for enthusiastic Product Interns to join our Product & Integrations team and support the execution of key SuperApp and digital experience initiatives.",
+   "bullets": [],
+   "roleLabel": null,
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "39 minutes ago",
+   "postedAt": 1786447835924,
+   "firstSeenAt": 1786450175936,
+   "url": "https://www.linkedin.com/jobs/view/4451678552/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4451678552/",
+   "description": null
+  },
   {
    "id": "4448864563",
    "title": "Apprentice",
@@ -4979,52 +5012,6 @@
    "firstSeenAt": 1785243727612,
    "url": "https://www.linkedin.com/jobs/view/4437435575/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4437435575/",
-   "description": null
-  },
-  {
-   "id": "4443257825",
-   "title": "Internship - Tools & Development (Python)",
-   "company": "HARMAN India",
-   "matchedWatchlist": "Harman",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/harman-india.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "java",
-    "c++",
-    ".net",
-    "linux"
-   ],
-   "summary": "Introduction: A Career at HARMAN Automotive We’re a global, multi-disciplinary team that’s putting the innovative power of technology to work and transforming tomorrow. At HARMAN Automotive, we give you the keys to fast-track your career. The internship Program brings together experiences that will help our co-ops and interns develop both personally and professionally, Students pursuing their undergraduate and post-graduate degree programs wherein internship is a mandatory requirement of the curriculum or those who have completed their studies and are looking for a short work experience.",
-   "bullets": [
-    "Develop and maintain automated test scripts using Python for embedded software",
-    "Create and execute test plans, cases, and reports to ensure software quality",
-    "Troubleshoot issues with software and hardware engineers",
-    "Work with Linux-based systems and contribute to CI/automation frameworks"
-   ],
-   "roleLabel": "Tools & Development",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "python",
-    "embedded c/c++",
-    "java",
-    "oops",
-    "software testing"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "9 minutes ago",
-   "postedAt": 1785235989751,
-   "firstSeenAt": 1785236529761,
-   "url": "https://www.linkedin.com/jobs/view/4443257825/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4443257825/",
    "description": null
   },
   {
