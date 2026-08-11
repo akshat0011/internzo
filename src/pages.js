@@ -44,6 +44,21 @@ function safeUrl(url) {
   return /^https?:\/\//i.test(raw) ? esc(raw) : '';
 }
 
+/**
+ * Where the Apply button actually goes.
+ *
+ * The label used to say "Apply on LinkedIn" unconditionally, which was already
+ * wrong for every ATS listing — those carry a real Greenhouse or Lever URL — and
+ * became wrong for LinkedIn listings too once the redesign started exposing the
+ * employer's own application page behind its /safety/go/ interstitial. Telling
+ * somebody they are going to LinkedIn and then sending them to Workday is a
+ * small lie that costs trust on the one click that matters.
+ */
+function applyTarget(url) {
+  const host = (String(url ?? '').match(/^https?:\/\/([^/?#]+)/i) || [])[1] ?? '';
+  return /(^|\.)linkedin\.com$/i.test(host) ? 'LinkedIn' : "the company's site";
+}
+
 /** Escape for embedding inside a <script type="application/ld+json"> block. */
 function jsonLd(obj) {
   // </script> inside a JSON string would close the tag early; U+2028/9 break older parsers.
@@ -253,7 +268,7 @@ export function renderJobPage(job) {
     <h1>${esc(job.company)} — ${esc(job.title)}</h1>
     ${job.roleLabel ? `<p class="lede-sub">${esc(job.roleLabel)}</p>` : ''}
 
-    ${apply ? `<a class="apply" href="${apply}" target="_blank" rel="nofollow noopener">Apply on LinkedIn →</a>` : ''}
+    ${apply ? `<a class="apply" href="${apply}" target="_blank" rel="nofollow noopener">Apply on ${applyTarget(apply)} →</a>` : ''}
 
     <dl class="facts">
       ${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('\n      ')}
@@ -266,7 +281,7 @@ export function renderJobPage(job) {
     <div class="skills">${(job.keySkills ?? []).map((s) => `<span class="skill">${esc(s)}</span>`).join('')}</div>` : ''}
 
     <h2>How to apply</h2>
-    <p>Applications go through LinkedIn. Internships in India often collect hundreds of applicants within a day, so applying early matters more than applying perfectly.</p>
+    <p>${apply ? `This one is applied for on ${applyTarget(apply)}.` : 'Apply through the original posting.'} Internships in India often collect hundreds of applicants within a day, so applying early matters more than applying perfectly.</p>
     ${apply ? `<a class="apply" href="${apply}" target="_blank" rel="nofollow noopener">Open the original posting →</a>` : ''}
 
     <p class="tiny">This summary was written by Internzo from the public posting. The linked posting is the source of truth — check it before you apply.</p>

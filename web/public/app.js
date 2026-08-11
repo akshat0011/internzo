@@ -523,7 +523,11 @@ function renderDetail(job) {
   const actions = el('div', 'p-acts');
   const applyHref = safeUrl(job.applyUrl) || safeUrl(job.url);
   if (applyHref) {
-    const apply = el('a', 'go', 'Apply on LinkedIn \u2192');
+    // Label the destination honestly: ATS listings and, since LinkedIn's
+    // redesign, plenty of LinkedIn ones too, apply on the employer's own site.
+    const host = (applyHref.match(/^https?:\/\/([^/?#]+)/i) || [])[1] || '';
+    const where = /(^|\.)linkedin\.com$/i.test(host) ? 'LinkedIn' : 'company site';
+    const apply = el('a', 'go', 'Apply on ' + where + ' \u2192');
     apply.href = applyHref;
     apply.target = '_blank';
     apply.rel = 'noopener noreferrer';
