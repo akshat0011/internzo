@@ -12,7 +12,7 @@ import { launchBrave, closeBrave, releaseProfileLock } from './browser.js';
 import { ensureHealthy, assertSignedIn, assertListRendered, RunAborted, State } from './guard.js';
 import * as li from './linkedin.js';
 import { resolveSearches } from './searches.js';
-import { classifyRoles, classifyFromDescriptions, enrichJobs } from './gemini.js';
+import { classifyRoles, classifyFromDescriptions, enrichJobs } from './ollama.js';
 import { postNewJobs } from './telegram.js';
 import { classifyRole, needsDescription, builtInPolarity } from './roles.js';
 import { loadLearned, learnedVocabulary, learn, learnedPath } from './learned.js';
@@ -730,7 +730,7 @@ async function main() {
       ambiguous.forEach((job, i) => {
         const a = answers?.get(i);
         if (a) {
-          store.setRoleVerdict(job.job_id, a.isTech, 'gemini-description');
+          store.setRoleVerdict(job.job_id, a.isTech, 'model-description');
           if (a.isTech) counters.techRoles++; else counters.nonTechRoles++;
           counters.geminiJudged++;
 

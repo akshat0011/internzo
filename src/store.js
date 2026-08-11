@@ -282,11 +282,17 @@ export class Store {
    * model and a verdict from a one-off backfill should be distinguishable when
    * you later ask why a job is filed where it is.
    */
-  saveEnrichment(jobId, e, source = 'gemini-enrich') {
+  saveEnrichment(jobId, e, source = 'model-enrich') {
     this.db.prepare(`
       UPDATE jobs SET
         bullets = ?, role_label = ?, degree_level = ?, degree_text = ?, key_skills = ?, stipend_status = ?,
         is_tech = COALESCE(?, is_tech),
+        -- Only replace the summary when a rewritten one was actually produced.
+        -- The column already holds the extractive plain-text summary, which is
+        -- what the card falls back to; overwriting it with an empty string when
+        -- the model returns nothing, or when the copy check rejects the rewrite,
+        -- would leave the page with no prose at all.
+        summary = COALESCE(?, summary),
         role_source = CASE WHEN ? IS NULL THEN role_source ELSE ? END
       WHERE job_id = ?
     `).run(
@@ -297,6 +303,7 @@ export class Store {
       JSON.stringify(e.keySkills ?? []),
       e.stipendStatus || 'unknown',
       typeof e.isTech === 'boolean' ? (e.isTech ? 1 : 0) : null,
+      e.summary?.trim() ? e.summary.trim() : null,
       typeof e.isTech === 'boolean' ? 1 : null,
       source,
       jobId,

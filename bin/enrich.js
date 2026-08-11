@@ -16,7 +16,7 @@
 import { join } from 'node:path';
 import { Store } from '../src/store.js';
 import { loadConfig } from '../src/config.js';
-import { enrichJobs } from '../src/gemini.js';
+import { enrichJobs } from '../src/ollama.js';
 import { writeJobsFile } from '../src/publish.js';
 import { log } from '../src/logger.js';
 

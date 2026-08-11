@@ -492,11 +492,12 @@
     "_jobTypes_note": "DELIBERATELY EMPTY. Setting this to ['INTERNSHIP'] sends f_JT=I, which trusts the recruiter's employment-type tag - and they get it wrong constantly. A real case: Salesforce's 'Summer 2027 Intern - Software Engineer' is tagged Full-time, so f_JT=I hid it completely. The title filter and role classifier below decide what is an internship instead, from the title itself. LinkedIn f_JT codes if you ever want them: F=full-time P=part-time C=contract T=temporary I=internship V=volunteer O=other."
   },
   "roleClassifier": {
-    "useGemini": false,
     "_useGemini_note": "Currently OFF - the offline vocabulary in src/roles.js decides. Gemini was never the speed bottleneck (it runs as one batch after the walk, not per job), but the offline classifier is instant and free, so there is little reason to switch it on unless the vocabulary starts missing things. When true: ask Gemini whether each captured role is a software role. Needs GEMINI_API_KEY in the environment - put it in a .env file at the project root (gitignored) and it is picked up automatically. Titles are sent as ONE batched request per run, not one per job. If the key is missing, the quota is spent, or the call fails for any reason, the offline vocabulary in src/roles.js decides instead - a job is never left unclassified because an API was down.",
-    "useGeminiForAmbiguous": true,
     "_useGeminiForAmbiguous_note": "The one place Gemini still earns its keep. A title the vocabulary cannot settle - a bare 'Trainee', 'Apprentice', or something resting only on the word 'Engineer' - gets its DESCRIPTION read instead. Gemini also names the phrase its decision turned on, and that phrase is added to the offline vocabulary, so the same kind of title is answered instantly and free from then on. The vocabulary therefore gets better and the API gets called less the longer this runs. Vetted before anything is learned: the phrase must actually appear in the posting, must not contradict a built-in rule, and must be a sane length.",
-    "model": "gemini-3.6-flash"
+    "model": "qwen3:8b",
+    "useModel": true,
+    "useModelForAmbiguous": true,
+    "_model_note": "Ollama model tag. Same model as the enricher so only one stays resident in memory."
   },
   "matching": {
     "storeNonTechRoles": false,
@@ -642,12 +643,22 @@
     "_note": "Applicant-tracking-system job boards - the source LinkedIn copies from. Discovery is cached in the company_ats table by bin/discover-ats.js; bin/poll-ats.js reads it. No browser and no ToS problem: these are the public endpoints a company careers page calls to render itself."
   },
   "enrich": {
-    "model": "gemini-3.6-flash",
-    "_model_note": "NOT gemini-2.5-flash. Its free tier allows 20 requests PER DAY (quotaId GenerateRequestsPerDayPerProjectPerModel-FreeTier, quotaValue 20), which 96 runs a day exhaust before breakfast - the log showed 'daily free quota exhausted' every run for hours, and 122 of 198 published jobs had no bullets as a result. The lite models carry a far larger daily allowance. Check what your key can still reach by listing /v1beta/models and calling each one; 2.5-flash-lite has been withdrawn for new keys.",
-    "perRunLimit": 24,
+    "model": "qwen3:8b",
+    "_model_note": "Ollama model tag, not a Gemini id. Must match something in `ollama list` or every call 404s.",
+    "perRunLimit": 40,
     "backfillPerRun": 6,
     "_backfillPerRun_note": "How many jobs stored from card data alone get their page opened at the end of a run to fetch the description we skipped. Confidently non-tech titles are listed without being opened, which leaves description NULL - and needingEnrichment requires a description, so without this pass those rows never gain bullets, stipend or duration. Kept small and time-gated: it only uses slack left after the scan.",
     "_perRunLimit_note": "How many freshly scraped postings get sent to Gemini for bullets, eligibility and skills at the end of each run. The free tier has a daily request cap, and with runs every 30 minutes an uncapped run could spend the whole day's quota in one go. Anything skipped is picked up by the next run, because only postings with no bullets yet are ever selected.",
-    "useGemini": true
+    "useModel": true,
+    "budgetMinutes": 9,
+    "_budgetMinutes_note": "Wall-clock ceiling for the whole enrichment pass. Whatever is not done is picked up next run, because only postings without bullets are ever selected."
+  },
+  "ollama": {
+    "_note": "Local model via Ollama, on this Mac. Replaces Gemini for the scan and the enricher; the resume tailor on Vercel still uses Gemini because Vercel cannot reach this machine. No quota, so postings are sent whole and one at a time rather than truncated and batched.",
+    "host": "http://127.0.0.1:11434",
+    "model": "qwen3:8b",
+    "_model_note": "qwen3:8b with thinking disabled. 14b was measured slower (24s vs 9s per posting) AND less accurate on eligibility, so bigger is not better here.",
+    "timeoutSeconds": 120,
+    "_timeoutSeconds_note": "Hard ceiling per call. A stuck model must never delay a listing - the run continues and the posting is enriched next time."
   }
 }
