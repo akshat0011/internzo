@@ -348,7 +348,9 @@ bullets — 2 to 4 fragments, each at most 90 characters, no trailing period. Le
 
 Never write a bullet ABOUT the posting itself — no "the posting is vague", "no duties listed", "details not specified". The reader wants the job, not a review of the advert. If the posting is too thin to yield two real bullets, return an empty bullets array.
 
-summary — 40 to 70 words of original prose describing this specific internship, written for a student. This is published as the page's description and is the only prose a search engine sees, so it must read as one complete, natural paragraph. Rewrite in your own words: never copy a phrase from the posting. Say what the intern does, who it suits, and where it is based. Start with the work itself, not with "This internship offers". No marketing language and no company boilerplate. Empty string if the posting describes no actual work.
+summary — 40 to 70 words of original prose describing this specific internship, written for a student. This is published as the page's description and is the only prose a search engine sees, so it must read as one complete, natural paragraph. Rewrite in your own words: never copy a phrase from the posting. Say what the intern does and who it suits. Start with the work itself, not with "This internship offers". No marketing language and no company boilerplate. Empty string if the posting describes no actual work.
+
+Name the city ONLY if the Location line above gives one, and use that city exactly. If it says "not stated", do not mention a location at all — never infer one from the company's name or where it is headquartered. An American Express apprenticeship in Gurugram was published as "Based in the us" for exactly that reason.
 
 roleLabel — 2 to 4 words naming what this job ACTUALLY is, in plain terms: "Backend engineering", "Credit risk modelling", "Payroll operations". Many postings are titled only "Intern", "Apprentice" or "Trainee", which tells a reader nothing and makes ten different jobs at the same company look identical. This is the field that tells them apart. Name the work, never the seniority or the company, and do not repeat the job title back.
 

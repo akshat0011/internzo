@@ -179,7 +179,11 @@ export class Store {
   /** Postings that still need a Gemini pass — enriched rows are never re-sent. */
   needingEnrichment(limit = 500) {
     return this.db.prepare(`
-      SELECT job_id, title, company, description, salary_text AS stipend
+      -- location is selected because the enricher writes the page's summary and
+      -- names the city in it. Without it the model was told "not stated" and
+      -- filled the gap from the company name: an American Express apprenticeship
+      -- in Gurugram was published as "Based in the us".
+      SELECT job_id, title, company, location, description, salary_text AS stipend
       FROM jobs
       WHERE bullets IS NULL AND length(description) > 200
       ORDER BY first_seen_at DESC
