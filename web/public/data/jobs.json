@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786419414407,
- "count": 113,
- "techCount": 113,
+ "generatedAt": 1786420053375,
+ "count": 112,
+ "techCount": 112,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -138,11 +138,11 @@
     "power bi",
     "excel"
    ],
-   "summary": "Apprentice in credit and fraud risk works on data analysis and product development, supporting business growth and risk management. Ideal for students with analytical skills and interest in financial services. Based in the us.",
+   "summary": "This apprenticeship involves supporting credit and fraud risk initiatives through data analysis, product development, and cross-functional collaboration. Ideal for students with a background in analytics, data science, or finance looking to gain hands-on experience in risk management and digital product development.",
    "bullets": [
-    "Support analytical tasks to find trends and business insights",
-    "Work with sql, python, excel, power bi, or tableau",
-    "12-month paid program with hybrid work and free meals"
+    "Support product enhancements and business initiatives through cross-functional collaboration",
+    "Work with SQL, Python, Excel, Power BI, and Tableau for data analysis and reporting",
+    "Gain exposure to risk management, data governance, and digital product development"
    ],
    "roleLabel": "Credit Risk Analyst",
    "degreeLevel": "UG/PG",
@@ -154,7 +154,7 @@
     "power bi",
     "tableau"
    ],
-   "stipendStatus": "paid",
+   "stipendStatus": "unknown",
    "postedText": null,
    "postedAt": 1786382198202,
    "firstSeenAt": 1786382198202,
@@ -177,13 +177,13 @@
    "applicants": null,
    "easyApply": false,
    "skills": [],
-   "summary": "This internship involves preparing system documents and test cases for software projects. The intern will work with tools like corealm and doors to ensure compliance with company standards. Suitable for students with technical skills and interest in software documentation and testing. Based in india.",
+   "summary": "This internship involves preparing system documents and conducting testing for a software project. It suits students interested in technical documentation and quality assurance. The role requires learning specific tools and following established guidelines.",
    "bullets": [
-    "Prepare and update system documents per guidelines",
-    "Use corealm and doors for system activities",
-    "Plan reviews and releases for system milestones"
+    "Prepare and update system documents per Valeo guidelines",
+    "Use CoreALM and DOORS for system activities",
+    "Conduct system testing and generate reports"
    ],
-   "roleLabel": "System documentation",
+   "roleLabel": "System Documentation",
    "degreeLevel": null,
    "degreeText": null,
    "keySkills": [
@@ -214,9 +214,13 @@
    "applicants": null,
    "easyApply": false,
    "skills": [],
-   "summary": "Silicon Labs (NASDAQ: SLAB) is the leading innovator in low-power wireless connectivity, building embedded technology that connects devices and improves lives. Merging cutting-edge technology into the world’s most highly integrated SoCs, Silicon Labs provides device makers the solutions, support, and ecosystems needed to create advanced edge connectivity applications. Headquartered in Austin, Texas, Silicon Labs has operations in over 16 countries and is the trusted partner for innovative solutions in the smart home, industrial IoT, and smart cities markets. Learn more at www.silabs.com.",
-   "bullets": [],
-   "roleLabel": "Software Quality Assurance",
+   "summary": "This internship involves testing wireless connectivity devices and automating tests using python and jenkins. Ideal for students interested in software quality assurance and working with embedded systems.",
+   "bullets": [
+    "Test software and hardware for wireless connectivity devices",
+    "Use python and jenkins for automation",
+    "Work with cross-functional teams on product development"
+   ],
+   "roleLabel": "Software quality assurance",
    "degreeLevel": null,
    "degreeText": null,
    "keySkills": [],
@@ -226,46 +230,6 @@
    "firstSeenAt": 1786377114055,
    "url": "https://www.linkedin.com/jobs/view/4449581443/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4449581443/",
-   "description": null
-  },
-  {
-   "id": "4451546242",
-   "title": "Trainee: Product Management - Automotive Microcontrollers",
-   "company": "Infineon Technologies",
-   "matchedWatchlist": "Infineon Technologies",
-   "isTech": true,
-   "roleSource": "model-enrich",
-   "logo": "/logos/infineon-technologies.jpg",
-   "location": "Bengaluru East, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "0-2 years",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "excel"
-   ],
-   "summary": "Support product management in automotive microcontroller development by managing data, lifecycle, and market research. Collaborate with cross-functional teams to drive product strategies. Ideal for students with an interest in semiconductor technology and product lifecycle management.",
-   "bullets": [
-    "Manage product data and lifecycle from concept to end-of-life",
-    "Collaborate with sales, marketing, engineering, and quality teams",
-    "Conduct market research and create AI-driven product strategies"
-   ],
-   "roleLabel": "Product Data Management",
-   "degreeLevel": "UG/PG",
-   "degreeText": "Electrical Engineering/Computer Science",
-   "keySkills": [
-    "excel",
-    "database management",
-    "market analysis",
-    "product lifecycle"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "1 hour ago",
-   "postedAt": 1786369975706,
-   "firstSeenAt": 1786373575708,
-   "url": "https://www.linkedin.com/jobs/view/4451546242/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4451546242/",
    "description": null
   },
   {
@@ -290,13 +254,13 @@
     "power bi",
     "excel"
    ],
-   "summary": "This internship involves working with data platforms, reporting, and analytics. You'll support data lifecycle tasks, build reports, and collaborate with teams. Ideal for students with sql and python skills, interested in data engineering and business intelligence. Based in india.",
+   "summary": "This internship involves working with data platforms, reporting, and analytics. You'll support data lifecycle tasks like collection, transformation, and governance. Ideal for students with foundational knowledge in databases, SQL, and data analysis. You'll gain hands-on experience with tools like Power BI and Python while collaborating with engineers and business teams.",
    "bullets": [
     "Analyze data, build reports, and support data platforms daily",
     "Sql, python, power bi, tableau, and cloud tools",
-    "Work with cross-functional teams on real data projects"
+    "Work on real data projects with cross-functional teams"
    ],
-   "roleLabel": "Data engineering",
+   "roleLabel": "Data Engineering",
    "degreeLevel": "UG",
    "degreeText": null,
    "keySkills": [
@@ -304,7 +268,7 @@
     "python",
     "power bi",
     "tableau",
-    "cloud platforms"
+    "data analysis"
    ],
    "stipendStatus": "unknown",
    "postedText": "2 hours ago",
@@ -329,18 +293,19 @@
    "applicants": "54 applicants",
    "easyApply": true,
    "skills": [],
-   "summary": "This internship involves monitoring network performance and resolving customer issues through coordination with field teams. It is suited for diploma holders with basic technical knowledge and good communication skills. Based in india.",
+   "summary": "This internship involves monitoring network performance, resolving customer issues, and analyzing data to improve operations. It suits students with technical knowledge and strong communication skills looking to gain hands-on experience in network operations.",
    "bullets": [
-    "Monitor network performance and resolve customer issues",
-    "Use dashboards and KPIs to track service stability",
-    "Coordinate with field teams for operational troubleshooting"
+    "Monitor network performance and resolve customer issues with L2 and field teams",
+    "Track KPIs and raise alerts for network stability",
+    "Prepare MIS reports and analyze data for operational improvements"
    ],
-   "roleLabel": "Network operations",
-   "degreeLevel": null,
-   "degreeText": null,
+   "roleLabel": "Network Operations",
+   "degreeLevel": "UG",
+   "degreeText": "Diploma",
    "keySkills": [
     "microprocessors",
     "digital communication",
+    "radio communication",
     "computer proficiency"
    ],
    "stipendStatus": "unknown",
@@ -381,13 +346,13 @@
     "mongodb",
     "postgresql"
    ],
-   "summary": "Job Title: Backend Intern Location: Bengaluru (On-site) We are looking for a Backend Intern who is excited about building scalable, reliable, and high-performance backend systems for AI-powered products. You will work closely with experienced engineers and cross-functional teams to build APIs, backend services, data pipelines, and integrations that power Convin’s conversation intelligence, AI voicebots, chatbots, and automation products.",
+   "summary": "This internship involves building and maintaining backend systems for AI-driven products, working with databases and integrations. Ideal for students with a B.Tech in CS or IT looking for hands-on experience in a fast-paced startup environment.",
    "bullets": [
-    "Build and maintain backend services and APIs for AI products",
-    "Work with databases and integrate with internal/external systems",
-    "Debug, test, and improve system reliability and performance"
+    "Develop backend services and APIs for AI-powered products",
+    "Work with databases and build integrations for voicebots and chatbots",
+    "Collaborate with cross-functional teams in Bengaluru office"
    ],
-   "roleLabel": "Backend Development",
+   "roleLabel": "Backend development",
    "degreeLevel": "UG",
    "degreeText": "B.Tech/B.E",
    "keySkills": [
@@ -420,17 +385,17 @@
    "applicants": null,
    "easyApply": false,
    "skills": [],
-   "summary": "This apprenticeship involves developing software for medical devices using c++ and java. Suitable for students with no prior experience. Based in eindhoven with 3 days onsite weekly.",
+   "summary": "This apprenticeship involves building software for medical equipment. Ideal for students with coding skills looking to gain hands-on experience in a healthcare tech environment.",
    "bullets": [
-    "Develop software features using c++ and java",
-    "Work with agile teams on medical device projects",
-    "Based in eindhoven with 3 days onsite weekly"
+    "Develop software solutions for healthcare devices",
+    "Work with c# and .net framework",
+    "Collaborate with cross-functional teams in bengaluru"
    ],
    "roleLabel": "Software development",
    "degreeLevel": "Pursuing",
    "degreeText": null,
    "keySkills": [
-    "c++"
+    "c#"
    ],
    "stipendStatus": "unknown",
    "postedText": "3 hours ago",

@@ -6,16 +6,16 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 11 Aug 2026 03:36:54 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 03:47:33 GMT</lastBuildDate>
   <item>
     <title>Apprentice — American Express</title>
     <link>https://www.internzo.in/jobs/american-express-apprentice-4451423010</link>
     <guid isPermaLink="true">https://www.internzo.in/jobs/american-express-apprentice-4451423010</guid>
     <pubDate>Mon, 10 Aug 2026 17:16:38 GMT</pubDate>
     <description>Company: American Express · Location: Gurugram, Haryana, India · Duration: 12 months
-• Support analytical tasks to find trends and business insights
-• Work with sql, python, excel, power bi, or tableau
-• 12-month paid program with hybrid work and free meals</description>
+• Support product enhancements and business initiatives through cross-functional collaboration
+• Work with SQL, Python, Excel, Power BI, and Tableau for data analysis and reporting
+• Gain exposure to risk management, data governance, and digital product development</description>
   </item>
   <item>
     <title>Intern - System Contributor — Valeo</title>
@@ -23,26 +23,19 @@
     <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398</guid>
     <pubDate>Mon, 10 Aug 2026 15:47:58 GMT</pubDate>
     <description>Company: Valeo · Location: Chennai, Tamil Nadu, India
-• Prepare and update system documents per guidelines
-• Use corealm and doors for system activities
-• Plan reviews and releases for system milestones</description>
+• Prepare and update system documents per Valeo guidelines
+• Use CoreALM and DOORS for system activities
+• Conduct system testing and generate reports</description>
   </item>
   <item>
     <title>Intern - SQA — Silicon Labs</title>
     <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4449581443</link>
     <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sqa-4449581443</guid>
     <pubDate>Mon, 10 Aug 2026 15:47:54 GMT</pubDate>
-    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India</description>
-  </item>
-  <item>
-    <title>Trainee: Product Management - Automotive Microcontrollers — Infineon Technologies</title>
-    <link>https://www.internzo.in/jobs/infineon-technologies-trainee-product-management-automotive-microcontrollers-4451546242</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/infineon-technologies-trainee-product-management-automotive-microcontrollers-4451546242</guid>
-    <pubDate>Mon, 10 Aug 2026 13:52:55 GMT</pubDate>
-    <description>Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years
-• Manage product data and lifecycle from concept to end-of-life
-• Collaborate with sales, marketing, engineering, and quality teams
-• Conduct market research and create AI-driven product strategies</description>
+    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
+• Test software and hardware for wireless connectivity devices
+• Use python and jenkins for automation
+• Work with cross-functional teams on product development</description>
   </item>
   <item>
     <title>Graduate Engineer Trainee — Marmon Technologies India Pvt Ltd</title>
@@ -52,7 +45,7 @@
     <description>Company: Marmon Technologies India Pvt Ltd · Location: Karnataka, India
 • Analyze data, build reports, and support data platforms daily
 • Sql, python, power bi, tableau, and cloud tools
-• Work with cross-functional teams on real data projects</description>
+• Work on real data projects with cross-functional teams</description>
   </item>
   <item>
     <title>Network Diploma Engineer Trainee — Jio</title>
@@ -60,9 +53,9 @@
     <guid isPermaLink="true">https://www.internzo.in/jobs/jio-network-diploma-engineer-trainee-4451173344</guid>
     <pubDate>Mon, 10 Aug 2026 12:54:12 GMT</pubDate>
     <description>Company: Jio · Location: Mumbai, Maharashtra, India · Duration: 12 months
-• Monitor network performance and resolve customer issues
-• Use dashboards and KPIs to track service stability
-• Coordinate with field teams for operational troubleshooting</description>
+• Monitor network performance and resolve customer issues with L2 and field teams
+• Track KPIs and raise alerts for network stability
+• Prepare MIS reports and analyze data for operational improvements</description>
   </item>
   <item>
     <title>Backend Intern — Convin</title>
@@ -70,9 +63,9 @@
     <guid isPermaLink="true">https://www.internzo.in/jobs/convin-backend-intern-4451175463</guid>
     <pubDate>Mon, 10 Aug 2026 12:53:46 GMT</pubDate>
     <description>Company: Convin · Location: Bengaluru, Karnataka, India · Duration: 0–1 years
-• Build and maintain backend services and APIs for AI products
-• Work with databases and integrate with internal/external systems
-• Debug, test, and improve system reliability and performance</description>
+• Develop backend services and APIs for AI-powered products
+• Work with databases and build integrations for voicebots and chatbots
+• Collaborate with cross-functional teams in Bengaluru office</description>
   </item>
   <item>
     <title>Apprentice Trainee (Software Developer) — Philips</title>
@@ -80,9 +73,9 @@
     <guid isPermaLink="true">https://www.internzo.in/jobs/philips-apprentice-trainee-software-developer-4451156775</guid>
     <pubDate>Mon, 10 Aug 2026 11:55:04 GMT</pubDate>
     <description>Company: Philips · Location: Bengaluru, Karnataka, India
-• Develop software features using c++ and java
-• Work with agile teams on medical device projects
-• Based in eindhoven with 3 days onsite weekly</description>
+• Develop software solutions for healthcare devices
+• Work with c# and .net framework
+• Collaborate with cross-functional teams in bengaluru</description>
   </item>
   <item>
     <title>Intern – Build &amp; Integration — HARMAN India</title>
@@ -500,6 +493,16 @@
 • Build greenfield AI products across frontend and backend from prototype to release
 • Develop full-stack web applications using React, Next.js, Node.js, and Express.js
 • Integrate LLMs, embeddings, and vector databases into real applications</description>
+  </item>
+  <item>
+    <title>Technology Consulting INTERN — Microsoft</title>
+    <link>https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253</guid>
+    <pubDate>Tue, 04 Aug 2026 09:17:05 GMT</pubDate>
+    <description>Company: Microsoft · Location: India, Telangana, Hyderabad
+• Identify project risks and propose technical mitigations aligned with business goals
+• Provide technical input in pre-sales and define customer cloud requirements
+• Engage with stakeholders to resolve project issues and accelerate cloud adoption</description>
   </item>
 </channel>
 </rss>
