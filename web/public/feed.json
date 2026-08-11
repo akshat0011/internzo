@@ -18,6 +18,30 @@
       ]
     },
     {
+      "id": "https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176",
+      "url": "https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176",
+      "title": "Software Engineer Internship (Backend) — FanCode",
+      "content_text": "Company: FanCode · Location: Mumbai, Maharashtra, India\n• Design and build software components for production systems\n• Work with Node.js, Java, REST APIs, and database design\n• Collaborate with engineers on backend and platform infrastructure",
+      "date_published": "2026-08-11T13:31:32.127Z",
+      "authors": [
+        {
+          "name": "FanCode"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143",
+      "url": "https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143",
+      "title": "Software Engineer Internship (DevOps) — FanCode",
+      "content_text": "Company: FanCode · Location: Mumbai, Maharashtra, India\n• Build and maintain ci/cd pipelines for production systems\n• Manage cloud infrastructure and automate system operations\n• Debug deployment issues and optimize environment performance",
+      "date_published": "2026-08-11T13:29:45.703Z",
+      "authors": [
+        {
+          "name": "FanCode"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610",
       "url": "https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610",
       "title": "Product Management - Intern - Telco. — Paytm",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "Sony Research India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/citi-young-apprentice-c00-pune-ats-workday-citi-wd5-2-26984617",
-      "url": "https://www.internzo.in/jobs/citi-young-apprentice-c00-pune-ats-workday-citi-wd5-2-26984617",
-      "title": "Young Apprentice - C00 - PUNE — Citi",
-      "content_text": "Company: Citi · Location: Pune Maharashtra India\n• Build data engineering pipelines using PySpark, Python, and Pandas\n• Work with S3 data lakes, PostgreSQL databases, and Pydantic validation\n• Perform interactive data visualization using SQL and Jupyter Notebooks",
-      "date_published": "2026-08-07T00:00:00.000Z",
-      "authors": [
-        {
-          "name": "Citi"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/colgate-palmolive-git-trainee-contractual-4395013887",
-      "url": "https://www.internzo.in/jobs/colgate-palmolive-git-trainee-contractual-4395013887",
-      "title": "GIT Trainee (Contractual) — Colgate-Palmolive",
-      "content_text": "Company: Colgate-Palmolive · Location: Mumbai Metropolitan Region\n• Build and maintain software products within an agile engineering team\n• Connect user requirements to technical features and system module integration\n• Develop features using Python, React, Node.js, and cloud technologies",
-      "date_published": "2026-08-06T16:52:06.593Z",
-      "authors": [
-        {
-          "name": "Colgate-Palmolive"
         }
       ]
     }

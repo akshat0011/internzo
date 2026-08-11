@@ -6,7 +6,7 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 11 Aug 2026 15:25:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 15:40:51 GMT</lastBuildDate>
   <item>
     <title>AV Interns - Mumbai (695838) — WeWork India</title>
     <link>https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266</link>
@@ -16,6 +16,26 @@
 • Troubleshoot and maintain AV equipment for video conferencing systems
 • Manage inventory and documentation using Gdoc and ticketing systems
 • Collaborate with teams and vendors for break-fix issues and walkthroughs</description>
+  </item>
+  <item>
+    <title>Software Engineer Internship (Backend) — FanCode</title>
+    <link>https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176</guid>
+    <pubDate>Tue, 11 Aug 2026 13:31:32 GMT</pubDate>
+    <description>Company: FanCode · Location: Mumbai, Maharashtra, India
+• Design and build software components for production systems
+• Work with Node.js, Java, REST APIs, and database design
+• Collaborate with engineers on backend and platform infrastructure</description>
+  </item>
+  <item>
+    <title>Software Engineer Internship (DevOps) — FanCode</title>
+    <link>https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143</guid>
+    <pubDate>Tue, 11 Aug 2026 13:29:45 GMT</pubDate>
+    <description>Company: FanCode · Location: Mumbai, Maharashtra, India
+• Build and maintain ci/cd pipelines for production systems
+• Manage cloud infrastructure and automate system operations
+• Debug deployment issues and optimize environment performance</description>
   </item>
   <item>
     <title>Product Management - Intern - Telco. — Paytm</title>
@@ -493,26 +513,6 @@
 • Apply causal inference techniques to analyze user retention and engagement
 • Experiment with algorithms and large interaction datasets using Python and PyTorch
 • 6-month paid remote internship starting August 2026</description>
-  </item>
-  <item>
-    <title>Young Apprentice - C00 - PUNE — Citi</title>
-    <link>https://www.internzo.in/jobs/citi-young-apprentice-c00-pune-ats-workday-citi-wd5-2-26984617</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/citi-young-apprentice-c00-pune-ats-workday-citi-wd5-2-26984617</guid>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-    <description>Company: Citi · Location: Pune Maharashtra India
-• Build data engineering pipelines using PySpark, Python, and Pandas
-• Work with S3 data lakes, PostgreSQL databases, and Pydantic validation
-• Perform interactive data visualization using SQL and Jupyter Notebooks</description>
-  </item>
-  <item>
-    <title>GIT Trainee (Contractual) — Colgate-Palmolive</title>
-    <link>https://www.internzo.in/jobs/colgate-palmolive-git-trainee-contractual-4395013887</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/colgate-palmolive-git-trainee-contractual-4395013887</guid>
-    <pubDate>Thu, 06 Aug 2026 16:52:06 GMT</pubDate>
-    <description>Company: Colgate-Palmolive · Location: Mumbai Metropolitan Region
-• Build and maintain software products within an agile engineering team
-• Connect user requirements to technical features and system module integration
-• Develop features using Python, React, Node.js, and cloud technologies</description>
   </item>
 </channel>
 </rss>
