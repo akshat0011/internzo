@@ -6,6 +6,54 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563",
+      "url": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563",
+      "title": "Apprentice — AtkinsRéalis",
+      "content_text": "Company: AtkinsRéalis · Location: Bengaluru East, Karnataka, India · Duration: 6-12 months\n• Support hydraulic models for urban drainage and wastewater systems\n• Use tools like InfoWorks ICM, SewerGEMS, HEC-RAS, and QGIS\n• Work on feasibility studies and automation opportunities",
+      "date_published": "2026-08-11T07:07:44.487Z",
+      "authors": [
+        {
+          "name": "AtkinsRéalis"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/dun-and-bradstreet-r-19691-intern-4452410082",
+      "url": "https://www.internzo.in/jobs/dun-and-bradstreet-r-19691-intern-4452410082",
+      "title": "R-19691 (Intern) — Dun & Bradstreet",
+      "content_text": "Company: Dun & Bradstreet · Location: Mumbai Metropolitan Region · Duration: 3 months\n• Design, develop, deploy agentic ai solutions for enterprise use cases\n• Build scalable middleware and microservices integrating ai/ml models\n• Mentor junior engineers and contribute to ai frameworks and accelerators",
+      "date_published": "2026-08-11T07:05:49.065Z",
+      "authors": [
+        {
+          "name": "Dun & Bradstreet"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/dun-and-bradstreet-r-19689-intern-4452412076",
+      "url": "https://www.internzo.in/jobs/dun-and-bradstreet-r-19689-intern-4452412076",
+      "title": "R-19689 (Intern) — Dun & Bradstreet",
+      "content_text": "Company: Dun & Bradstreet · Location: Mumbai Metropolitan Region · Duration: 3 months\n• Analyze financial data and market trends to generate insights for clients\n• Use sql python and power bi to build dashboards and reports\n• Work with cross-functional teams on data projects with global impact",
+      "date_published": "2026-08-11T07:02:24.707Z",
+      "authors": [
+        {
+          "name": "Dun & Bradstreet"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/fancode-software-engineer-internship-frontend-4452180916",
+      "url": "https://www.internzo.in/jobs/fancode-software-engineer-internship-frontend-4452180916",
+      "title": "Software Engineer Internship (Frontend) — FanCode",
+      "content_text": "Company: FanCode · Location: Mumbai Metropolitan Region\n• Build responsive interfaces with react and modern js\n• Work on web and mobile apps for millions of users\n• Collaborate with engineering and design teams",
+      "date_published": "2026-08-11T06:10:42.794Z",
+      "authors": [
+        {
+          "name": "FanCode"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662",
       "url": "https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662",
       "title": "UX/UI Design Internship in Bangalore (Hybrid) — TeamLease Regtech Pvt. Ltd.",
@@ -26,6 +74,42 @@
       "authors": [
         {
           "name": "NatWest Group"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
+      "url": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
+      "title": "[Backend] Software Engineering Intern — Teli Labs",
+      "content_text": "Company: Teli Labs · Location: Greater Bengaluru Area\n• Build scalable backend components using AWS\n• Work on AI-native systems with real-world impact\n• Collaborate with engineers on system design and implementation",
+      "date_published": "2026-08-10T21:10:16.518Z",
+      "authors": [
+        {
+          "name": "Teli Labs"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/west-pharmaceutical-services-graduate-intern-robotics-and-automation-4451432820",
+      "url": "https://www.internzo.in/jobs/west-pharmaceutical-services-graduate-intern-robotics-and-automation-4451432820",
+      "title": "Graduate Intern, Robotics & Automation — West Pharmaceutical Services",
+      "content_text": "Company: West Pharmaceutical Services · Location: Bengaluru, Karnataka, India · Duration: 1-3 years\n• Design and develop computer vision algorithms for object detection and tracking\n• Integrate vision systems with robotics and PLC for industrial automation\n• Implement IoT solutions for remote monitoring of computer vision systems",
+      "date_published": "2026-08-10T21:04:08.495Z",
+      "authors": [
+        {
+          "name": "West Pharmaceutical Services"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/freight-tiger-software-engineering-intern-4451863077",
+      "url": "https://www.internzo.in/jobs/freight-tiger-software-engineering-intern-4451863077",
+      "title": "Software Engineering Intern — Freight Tiger",
+      "content_text": "Company: Freight Tiger · Location: Gurugram, Haryana, India · Duration: 6 months\n• Build agentic ai systems with llm-powered agents and rag workflows\n• Write production-grade python code for scalable backend and data processing\n• Design data pipelines for real-time high-volume data processing\n• Work on full lifecycle projects with senior engineers and product teams",
+      "date_published": "2026-08-10T20:10:10.603Z",
+      "authors": [
+        {
+          "name": "Freight Tiger"
         }
       ]
     },
@@ -66,6 +150,42 @@
       ]
     },
     {
+      "id": "https://www.internzo.in/jobs/enterpret-backend-software-engineering-intern-4451557117",
+      "url": "https://www.internzo.in/jobs/enterpret-backend-software-engineering-intern-4451557117",
+      "title": "[Backend] Software Engineering Intern — Enterpret",
+      "content_text": "Company: Enterpret · Location: Bengaluru, Karnataka, India\n• Build scalable backend components using AWS\n• Work on AI-native systems with real-world impact\n• Take ownership of features used by Canva and Notion",
+      "date_published": "2026-08-10T15:08:16.718Z",
+      "authors": [
+        {
+          "name": "Enterpret"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/nkt-trainee-design-engineer-power-electronics-high-voltage-engineering-4442031259",
+      "url": "https://www.internzo.in/jobs/nkt-trainee-design-engineer-power-electronics-high-voltage-engineering-4442031259",
+      "title": "Trainee, Design Engineer ( Power Electronics / High Voltage Engineering) — NKT",
+      "content_text": "Company: NKT · Location: Chennai, Tamil Nadu, India\n• Analyze tender requirements and perform cable system design\n• Use comsol, matlab, autocad for calculations and documentation\n• Collaborate with internal teams and present to clients",
+      "date_published": "2026-08-10T14:15:57.290Z",
+      "authors": [
+        {
+          "name": "NKT"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/resollect-tech-intern-4451182566",
+      "url": "https://www.internzo.in/jobs/resollect-tech-intern-4451182566",
+      "title": "Tech Intern — Resollect",
+      "content_text": "Company: Resollect · Location: Mumbai, Maharashtra, India\n• Build and ship features across stack, backend, frontend, or AI integration\n• Work with AI/LLM APIs, debug live product issues, and write technical docs\n• 6-month paid internship with potential full-time conversion for 2026/27 grads",
+      "date_published": "2026-08-10T14:06:29.911Z",
+      "authors": [
+        {
+          "name": "Resollect"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557",
       "url": "https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557",
       "title": "Graduate Engineer Trainee — Marmon Technologies India Pvt Ltd",
@@ -102,6 +222,18 @@
       ]
     },
     {
+      "id": "https://www.internzo.in/jobs/hevo-data-ux-design-intern-4449560602",
+      "url": "https://www.internzo.in/jobs/hevo-data-ux-design-intern-4449560602",
+      "title": "UX Design Intern — Hevo Data",
+      "content_text": "Company: Hevo Data · Location: Bengaluru, Karnataka, India\n• Design interfaces and prototypes in Figma\n• Use AI tools for research and prototyping\n• Collaborate with designers and product teams",
+      "date_published": "2026-08-10T12:07:01.366Z",
+      "authors": [
+        {
+          "name": "Hevo Data"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/philips-apprentice-trainee-software-developer-4451156775",
       "url": "https://www.internzo.in/jobs/philips-apprentice-trainee-software-developer-4451156775",
       "title": "Apprentice Trainee (Software Developer) — Philips",
@@ -114,6 +246,42 @@
       ]
     },
     {
+      "id": "https://www.internzo.in/jobs/convin-project-management-intern-4451130333",
+      "url": "https://www.internzo.in/jobs/convin-project-management-intern-4451130333",
+      "title": "Project Management Intern — Convin",
+      "content_text": "Company: Convin · Location: Bengaluru, Karnataka, India · Duration: 0-1 years\n• Support project planning, coordination, and execution for AI voice and chat bot products\n• Use tools like Jira, Asana, Notion, Excel, and Google Sheets for task tracking\n• Collaborate with cross-functional teams and prepare status reports for leadership",
+      "date_published": "2026-08-10T11:03:06.878Z",
+      "authors": [
+        {
+          "name": "Convin"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/copeland-project-intern-4449551643",
+      "url": "https://www.internzo.in/jobs/copeland-project-intern-4449551643",
+      "title": "Project Intern — Copeland",
+      "content_text": "Company: Copeland · Location: Pune Division, Maharashtra, India\n• Support electronics hardware and software projects\n• Learn technologies and document progress\n• Submit detailed report at end of assignment",
+      "date_published": "2026-08-10T11:01:36.165Z",
+      "authors": [
+        {
+          "name": "Copeland"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/iqvia-intern-4451124446",
+      "url": "https://www.internzo.in/jobs/iqvia-intern-4451124446",
+      "title": "Intern — IQVIA",
+      "content_text": "Company: IQVIA · Location: Bengaluru, Karnataka, India\n• Support applications across commercial tech, safety, patient, and qara products\n• Collaborate with teams to translate business needs into technical solutions\n• Test and validate applications to ensure quality and user satisfaction",
+      "date_published": "2026-08-10T11:01:10.800Z",
+      "authors": [
+        {
+          "name": "IQVIA"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
       "url": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
       "title": "Intern – Build & Integration — HARMAN India",
@@ -122,6 +290,18 @@
       "authors": [
         {
           "name": "HARMAN India"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/highlevel-software-development-engineer-mobile-and-commerce-apprentice-4449535942",
+      "url": "https://www.internzo.in/jobs/highlevel-software-development-engineer-mobile-and-commerce-apprentice-4449535942",
+      "title": "Software Development Engineer - Mobile & Commerce (Apprentice) — HighLevel",
+      "content_text": "Company: HighLevel · Location: India · Duration: 12 months\n• Write tests for commerce systems handling payments and ledger updates\n• Work with Go, protobuf, and distributed systems in a remote team\n• Merge to main in week two with on-call responsibilities",
+      "date_published": "2026-08-10T10:12:24.613Z",
+      "authors": [
+        {
+          "name": "HighLevel"
         }
       ]
     },
@@ -146,6 +326,18 @@
       "authors": [
         {
           "name": "S&P Global"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/kyc-hub-product-management-intern-4449546075",
+      "url": "https://www.internzo.in/jobs/kyc-hub-product-management-intern-4449546075",
+      "title": "Product Management Intern — KYC Hub",
+      "content_text": "Company: KYC Hub · Location: India\n• Gather user research, analyze competitors, and review market trends\n• Write product specs, wireframes, and briefs for new features\n• Support sales demos and customer documentation\n• Work with engineering, design, and marketing teams",
+      "date_published": "2026-08-10T08:08:22.846Z",
+      "authors": [
+        {
+          "name": "KYC Hub"
         }
       ]
     },
@@ -410,198 +602,6 @@
       "authors": [
         {
           "name": "Emerson"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/siemens-graduate-trainee-engineer-4449702177",
-      "url": "https://www.internzo.in/jobs/siemens-graduate-trainee-engineer-4449702177",
-      "title": "Graduate Trainee Engineer — Siemens",
-      "content_text": "Company: Siemens · Location: Chennai, Tamil Nadu, India · Duration: 6 months\n• Assist in engineering, programming, and graphics deliverables for projects\n• Review customer inputs and conduct initial quality checks on deliverables\n• Track project hours and collaborate with senior engineers in Pune",
-      "date_published": "2026-08-06T10:48:39.898Z",
-      "authors": [
-        {
-          "name": "Siemens"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/tonbo-imaging-intern-digitisation-and-automation-admin-function-4449989732",
-      "url": "https://www.internzo.in/jobs/tonbo-imaging-intern-digitisation-and-automation-admin-function-4449989732",
-      "title": "Intern – Digitisation & Automation (Admin Function) — Tonbo Imaging",
-      "content_text": "Company: Tonbo Imaging · Location: Bengaluru, Karnataka, India (On-site)",
-      "date_published": "2026-08-06T05:37:58.984Z",
-      "authors": [
-        {
-          "name": "Tonbo Imaging"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/sony-research-india-data-science-intern-4449971505",
-      "url": "https://www.internzo.in/jobs/sony-research-india-data-science-intern-4449971505",
-      "title": "Data Science Intern — Sony Research India",
-      "content_text": "Company: Sony Research India · Location: Bengaluru, Karnataka, India\n• Mine and analyze high-dimensional user interaction data for video analysis\n• Build and optimize machine learning and LLM algorithms in Python\n• Write production-ready code using PyTorch, TensorFlow, or Jax\n• Six-month remote internship starting September 2026",
-      "date_published": "2026-08-06T03:27:33.818Z",
-      "authors": [
-        {
-          "name": "Sony Research India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/coindcx-intern-engineering-4449153319",
-      "url": "https://www.internzo.in/jobs/coindcx-intern-engineering-4449153319",
-      "title": "Intern - Engineering — CoinDCX",
-      "content_text": "Company: CoinDCX · Location: Bengaluru, Karnataka, India\n• Write clean code, build features, and debug backend systems\n• Work with relational and NoSQL databases like PostgreSQL and MongoDB\n• Collaborate with product and security teams across the software lifecycle",
-      "date_published": "2026-08-05T18:35:17.560Z",
-      "authors": [
-        {
-          "name": "CoinDCX"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/quantiphi-intern-it-and-desktop-support-4448046701",
-      "url": "https://www.internzo.in/jobs/quantiphi-intern-it-and-desktop-support-4448046701",
-      "title": "Intern - IT & Desktop Support — Quantiphi",
-      "content_text": "Company: Quantiphi · Location: Mumbai, Maharashtra, India\n• Troubleshoot Windows 11, MS Outlook, O365, and hardware or networking issues\n• Assist users with installing applications, remote setup, VC, and projectors\n• Log technical issues, maintain weekly reports, and update internal databases",
-      "date_published": "2026-08-05T18:24:45.022Z",
-      "authors": [
-        {
-          "name": "Quantiphi"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/microsoft-research-sciences-intern-4432065177",
-      "url": "https://www.internzo.in/jobs/microsoft-research-sciences-intern-4432065177",
-      "title": "Research Sciences INTERN — Microsoft",
-      "content_text": "Company: Microsoft · Location: India\n• Conduct research and build prototypes for AI features in Azure SQL Database\n• Analyze and improve algorithm performance on large-scale datasets\n• Develop scalable systems and contribute to patents or white papers",
-      "date_published": "2026-08-05T16:58:31.066Z",
-      "authors": [
-        {
-          "name": "Microsoft"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/siemens-graduate-trainee-engineer-4449126967",
-      "url": "https://www.internzo.in/jobs/siemens-graduate-trainee-engineer-4449126967",
-      "title": "Graduate Trainee Engineer — Siemens",
-      "content_text": "Company: Siemens · Location: Bengaluru, Karnataka, India · Duration: 6 months\n• Assist with engineering tasks, programming, graphics, and cost estimation\n• Review project inputs, identify initial questions, and conduct quality checks\n• Log work hours in timesheets and communicate progress to team leaders",
-      "date_published": "2026-08-05T16:41:26.471Z",
-      "authors": [
-        {
-          "name": "Siemens"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/magna-international-intern-smart-factory-solutions-4422173133",
-      "url": "https://www.internzo.in/jobs/magna-international-intern-smart-factory-solutions-4422173133",
-      "title": "Intern, Smart Factory Solutions — Magna International",
-      "content_text": "Company: Magna International · Location: Bengaluru, Karnataka, India\n• Perform ETL operations, analyze datasets, and support AI/ML model development\n• Develop web applications, APIs, and data visualization dashboards\n• Debug, test, and enhance existing systems and data services",
-      "date_published": "2026-08-05T15:04:03.106Z",
-      "authors": [
-        {
-          "name": "Magna International"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/continental-industry-intern-ai-engineer-4449119257",
-      "url": "https://www.internzo.in/jobs/continental-industry-intern-ai-engineer-4449119257",
-      "title": "Intern - AI Engineer — Continental Industry",
-      "content_text": "Company: Continental Industry · Location: Bengaluru, Karnataka, India\n• Build proof-of-concepts using generative AI models and large language models\n• Conduct R&D in AI to propose practical data and analytics solutions",
-      "date_published": "2026-08-05T13:45:03.485Z",
-      "authors": [
-        {
-          "name": "Continental Industry"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/analog-devices-digital-ic-physical-verification-and-design-engineer-trainee-4447396386",
-      "url": "https://www.internzo.in/jobs/analog-devices-digital-ic-physical-verification-and-design-engineer-trainee-4447396386",
-      "title": "Digital IC Physical Verification and Design – Engineer Trainee — Analog Devices",
-      "content_text": "Company: Analog Devices · Location: Greater Bengaluru Area · Duration: 1 year\n• Perform chip floor-planning, DRC, LVS, ERC, and power integrity analysis\n• Develop automation scripts in Python or C to streamline design workflows\n• 1-year chip design trainee role based in Bangalore or Hyderabad",
-      "date_published": "2026-08-05T11:10:53.495Z",
-      "authors": [
-        {
-          "name": "Analog Devices"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4448992109",
-      "url": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4448992109",
-      "title": "Apprentice, Software Development/Engineering — S&P Global",
-      "content_text": "Company: S&P Global · Location: Hyderabad, Telangana, India",
-      "date_published": "2026-08-05T08:42:52.664Z",
-      "authors": [
-        {
-          "name": "S&P Global"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/siemens-graduate-trainee-engineer-4447378221",
-      "url": "https://www.internzo.in/jobs/siemens-graduate-trainee-engineer-4447378221",
-      "title": "Graduate Trainee Engineer — Siemens",
-      "content_text": "Company: Siemens · Location: Pune Division, Maharashtra, India · Duration: 6 months\n• Assist senior engineers with project tasks and input reviews\n• Prepare engineering deliverables, estimates, and basic components\n• Track work hours and perform initial quality checks on assigned work",
-      "date_published": "2026-08-05T07:22:11.263Z",
-      "authors": [
-        {
-          "name": "Siemens"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/accenture-bygg-ekte-l-sninger-med-ekte-innvirkning-summer-internship-for-utvikle-ats-workday-accenture-wd103-accenturecareers-r00340352",
-      "url": "https://www.internzo.in/jobs/accenture-bygg-ekte-l-sninger-med-ekte-innvirkning-summer-internship-for-utvikle-ats-workday-accenture-wd103-accenturecareers-r00340352",
-      "title": "Bygg ekte løsninger. Med ekte innvirkning. Summer Internship for utviklere 💻 — Accenture",
-      "content_text": "Company: Accenture\n• Build and test software features on real client projects in Oslo\n• Work with cloud platforms like Azure, AWS, or GCP and design APIs\n• Implement generative AI and machine learning solutions in production\n• Six-week paid summer internship requiring Norwegian fluency",
-      "date_published": "2026-08-05T00:00:00.000Z",
-      "authors": [
-        {
-          "name": "Accenture"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/acko-internship-grc-governance-risk-and-compliance-4448575982",
-      "url": "https://www.internzo.in/jobs/acko-internship-grc-governance-risk-and-compliance-4448575982",
-      "title": "Internship - GRC (Governance, Risk & Compliance) — Acko",
-      "content_text": "Company: Acko · Location: Bengaluru, Karnataka, India\n• Maintain GRC policies, documentation, and internal compliance trackers\n• Assist with basic risk assessments and internal audit processes\n• Monitor compliance across ISO 27001 and IRDAI regulatory guidelines",
-      "date_published": "2026-08-04T22:33:29.563Z",
-      "authors": [
-        {
-          "name": "Acko"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4440562347",
-      "url": "https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4440562347",
-      "title": "Graduate Trainee Engineer — GE HealthCare",
-      "content_text": "Company: GE HealthCare · Location: Bengaluru, Karnataka, India",
-      "date_published": "2026-08-04T14:15:11.904Z",
-      "authors": [
-        {
-          "name": "GE HealthCare"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/siemens-healthineers-trainee-technical-4446643539",
-      "url": "https://www.internzo.in/jobs/siemens-healthineers-trainee-technical-4446643539",
-      "title": "Trainee - Technical — Siemens Healthineers",
-      "content_text": "Company: Siemens Healthineers · Location: Bengaluru, Karnataka, India\n• Build healthcare software prototypes and feature implementations\n• Contribute to software design and technical specification reviews\n• Use TDD, BDD, and object-oriented design principles in daily development",
-      "date_published": "2026-08-04T14:14:44.955Z",
-      "authors": [
-        {
-          "name": "Siemens Healthineers"
         }
       ]
     }
