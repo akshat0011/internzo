@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 11 Aug 2026 07:24:40 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 07:46:33 GMT</lastBuildDate>
+  <item>
+    <title>UX/UI Design Internship in Bangalore (Hybrid) — TeamLease Regtech Pvt. Ltd.</title>
+    <link>https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662</guid>
+    <pubDate>Tue, 11 Aug 2026 00:36:57 GMT</pubDate>
+    <description>Company: TeamLease Regtech Pvt. Ltd. · Location: Bengaluru, Karnataka, India
+• Design social media content and marketing visuals using canva, photoshop, and figma
+• Create videos and animations for campaigns with premiere pro and after effects
+• Explore ai tools for creative concepts and collaborate with marketing team</description>
+  </item>
+  <item>
+    <title>AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group</title>
+    <link>https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</guid>
+    <pubDate>Mon, 10 Aug 2026 21:38:35 GMT</pubDate>
+    <description>Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years
+• Build and maintain secure, high-performance software solutions
+• Work with AI/ML tools and integrate APIs between systems
+• Collaborate in permanent teams on full software life cycles</description>
+  </item>
   <item>
     <title>Apprentice — American Express</title>
     <link>https://www.internzo.in/jobs/american-express-apprentice-4451423010</link>
@@ -117,6 +137,16 @@
 • Develop interactive simulations for port and maritime applications using Unity and C#
 • Handle level design, testing, debugging, and optimization for desktop and mobile builds
 • Experiment with augmented reality concepts integrated into Unity builds</description>
+  </item>
+  <item>
+    <title>福岡苅田_Technical trainees — Valeo</title>
+    <link>https://www.internzo.in/jobs/valeo-technical-trainees-4414679303</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-technical-trainees-4414679303</guid>
+    <pubDate>Mon, 10 Aug 2026 07:40:01 GMT</pubDate>
+    <description>Company: Valeo · Location: Kanda, Uttarakhand, India
+• Operate production lines using automated systems
+• Work with PLCs and MES software
+• Support team in manufacturing electric vehicle components</description>
   </item>
   <item>
     <title>UI/UX Designer Intern — Janitri</title>
@@ -473,36 +503,6 @@
 • Build healthcare software prototypes and feature implementations
 • Contribute to software design and technical specification reviews
 • Use TDD, BDD, and object-oriented design principles in daily development</description>
-  </item>
-  <item>
-    <title>Digital Signal Processing - Intern — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-digital-signal-processing-intern-4446635104</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-digital-signal-processing-intern-4446635104</guid>
-    <pubDate>Tue, 04 Aug 2026 10:52:54 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 9 months
-• Design, implement, and test embedded software for amplifier applications
-• Code in C and C++ while working with real-time operating systems and scripting languages
-• Troubleshoot code using oscilloscopes, logic analyzers, debuggers, and emulators</description>
-  </item>
-  <item>
-    <title>Software Engineering Intern (Full Stack) — Joveo</title>
-    <link>https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4446616938</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4446616938</guid>
-    <pubDate>Tue, 04 Aug 2026 10:28:55 GMT</pubDate>
-    <description>Company: Joveo · Location: Bengaluru, Karnataka, India
-• Build greenfield AI products across frontend and backend from prototype to release
-• Develop full-stack web applications using React, Next.js, Node.js, and Express.js
-• Integrate LLMs, embeddings, and vector databases into real applications</description>
-  </item>
-  <item>
-    <title>Technology Consulting INTERN — Microsoft</title>
-    <link>https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253</guid>
-    <pubDate>Tue, 04 Aug 2026 09:17:05 GMT</pubDate>
-    <description>Company: Microsoft · Location: India, Telangana, Hyderabad
-• Identify project risks and propose technical mitigations aligned with business goals
-• Provide technical input in pre-sales and define customer cloud requirements
-• Engage with stakeholders to resolve project issues and accelerate cloud adoption</description>
   </item>
 </channel>
 </rss>

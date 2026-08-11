@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786433080628,
- "count": 112,
- "techCount": 112,
+ "generatedAt": 1786434393253,
+ "count": 115,
+ "techCount": 115,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -50,6 +50,7 @@
   "Mizuho",
   "Mu Sigma Inc.",
   "Multiplier AI",
+  "NatWest Group",
   "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
   "NewGen Innovation : AI & Design Thinking",
   "Newton School of Technology",
@@ -74,6 +75,7 @@
   "Sony Research India",
   "Sprinklr",
   "Stripe",
+  "TeamLease Regtech Pvt. Ltd.",
   "Times Internet",
   "Tonbo Imaging",
   "Valeo",
@@ -101,6 +103,7 @@
   "India, Multiple Locations, Multiple Locations",
   "India, Telangana, Hyderabad",
   "Kanchipuram, Tamil Nadu, India",
+  "Kanda, Uttarakhand, India",
   "Karnataka, India",
   "Mumbai Metropolitan Region",
   "Mumbai, MH",
@@ -115,6 +118,88 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452095662",
+   "title": "UX/UI Design Internship in Bangalore (Hybrid)",
+   "company": "TeamLease Regtech Pvt. Ltd.",
+   "matchedWatchlist": "TeamLease Regtech",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/teamlease-regtech-pvt-ltd.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "44 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "figma"
+   ],
+   "summary": "This internship involves creating visual content and videos for marketing campaigns. Ideal for students interested in design and digital storytelling. Work with ai tools and collaborate with marketing teams.",
+   "bullets": [
+    "Design social media content and marketing visuals using canva, photoshop, and figma",
+    "Create videos and animations for campaigns with premiere pro and after effects",
+    "Explore ai tools for creative concepts and collaborate with marketing team"
+   ],
+   "roleLabel": "Visual Content Creation",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "canva",
+    "photoshop",
+    "figma",
+    "premiere pro",
+    "after effects"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "7 hours ago",
+   "postedAt": 1786408617347,
+   "firstSeenAt": 1786433817350,
+   "url": "https://www.linkedin.com/jobs/view/4452095662/",
+   "applyUrl": "https://internshala.com/internship/detail/ux-ui-design-internship-in-bangalore-at-teamlease-regtech1786360516/?utm_campaign=linkedin_d2002&utm_source=Linkedin_Partnership",
+   "description": null
+  },
+  {
+   "id": "4452031271",
+   "title": "AI ML Intern (2026 Graduates, 6-Month Internship)",
+   "company": "NatWest Group",
+   "matchedWatchlist": "NatWest",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/natwest-group.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "0–1 years",
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "agile"
+   ],
+   "summary": "This internship involves developing and maintaining secure, high-performance software solutions using AI/ML tools. You'll work in permanent teams on full software life cycles, integrating APIs and collaborating with engineers and analysts. Ideal for graduates with experience in software engineering and AI/ML.",
+   "bullets": [
+    "Build and maintain secure, high-performance software solutions",
+    "Work with AI/ML tools and integrate APIs between systems",
+    "Collaborate in permanent teams on full software life cycles"
+   ],
+   "roleLabel": "Software engineering",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "ai/ml",
+    "apis",
+    "devops",
+    "agile",
+    "github"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "10 hours ago",
+   "postedAt": 1786397915217,
+   "firstSeenAt": 1786433915221,
+   "url": "https://www.linkedin.com/jobs/view/4452031271/",
+   "applyUrl": "https://jobs.natwestgroup.com/jobs/18095114-ai-ml-intern-2026-graduates-6-month-internship?tm_job=R-00283302&tm_event=view&tm_company=861&bid=56",
+   "description": null
+  },
   {
    "id": "4451423010",
    "title": "Apprentice",
@@ -592,6 +677,39 @@
    "firstSeenAt": 1786348831468,
    "url": "https://www.linkedin.com/jobs/view/4451105855/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4451105855/",
+   "description": null
+  },
+  {
+   "id": "4414679303",
+   "title": "福岡苅田_Technical trainees",
+   "company": "Valeo",
+   "matchedWatchlist": "Valeo",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/valeo.jpg",
+   "location": "Kanda, Uttarakhand, India",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": null,
+   "applicants": "49 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves operating production lines for electric vehicle components in a global manufacturing environment. Ideal for students interested in automation and manufacturing processes. The role offers hands-on experience with industrial systems and contributes to sustainable mobility projects.",
+   "bullets": [
+    "Operate production lines using automated systems",
+    "Work with PLCs and MES software",
+    "Support team in manufacturing electric vehicle components"
+   ],
+   "roleLabel": "Production Operations",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "1 day ago",
+   "postedAt": 1786347601543,
+   "firstSeenAt": 1786434001547,
+   "url": "https://www.linkedin.com/jobs/view/4414679303/",
+   "applyUrl": "https://valeo.wd3.myworkdayjobs.com/fr-FR/valeo_jobs/job/Kanda/-Technical-trainees_REQ2025061653?source=LinkedIn",
    "description": null
   },
   {

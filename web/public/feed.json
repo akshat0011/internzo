@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662",
+      "url": "https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662",
+      "title": "UX/UI Design Internship in Bangalore (Hybrid) — TeamLease Regtech Pvt. Ltd.",
+      "content_text": "Company: TeamLease Regtech Pvt. Ltd. · Location: Bengaluru, Karnataka, India\n• Design social media content and marketing visuals using canva, photoshop, and figma\n• Create videos and animations for campaigns with premiere pro and after effects\n• Explore ai tools for creative concepts and collaborate with marketing team",
+      "date_published": "2026-08-11T00:36:57.347Z",
+      "authors": [
+        {
+          "name": "TeamLease Regtech Pvt. Ltd."
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
+      "url": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
+      "title": "AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group",
+      "content_text": "Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years\n• Build and maintain secure, high-performance software solutions\n• Work with AI/ML tools and integrate APIs between systems\n• Collaborate in permanent teams on full software life cycles",
+      "date_published": "2026-08-10T21:38:35.217Z",
+      "authors": [
+        {
+          "name": "NatWest Group"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/american-express-apprentice-4451423010",
       "url": "https://www.internzo.in/jobs/american-express-apprentice-4451423010",
       "title": "Apprentice — American Express",
@@ -134,6 +158,18 @@
       "authors": [
         {
           "name": "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/valeo-technical-trainees-4414679303",
+      "url": "https://www.internzo.in/jobs/valeo-technical-trainees-4414679303",
+      "title": "福岡苅田_Technical trainees — Valeo",
+      "content_text": "Company: Valeo · Location: Kanda, Uttarakhand, India\n• Operate production lines using automated systems\n• Work with PLCs and MES software\n• Support team in manufacturing electric vehicle components",
+      "date_published": "2026-08-10T07:40:01.543Z",
+      "authors": [
+        {
+          "name": "Valeo"
         }
       ]
     },
@@ -566,42 +602,6 @@
       "authors": [
         {
           "name": "Siemens Healthineers"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/harman-india-digital-signal-processing-intern-4446635104",
-      "url": "https://www.internzo.in/jobs/harman-india-digital-signal-processing-intern-4446635104",
-      "title": "Digital Signal Processing - Intern — HARMAN India",
-      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 9 months\n• Design, implement, and test embedded software for amplifier applications\n• Code in C and C++ while working with real-time operating systems and scripting languages\n• Troubleshoot code using oscilloscopes, logic analyzers, debuggers, and emulators",
-      "date_published": "2026-08-04T10:52:54.702Z",
-      "authors": [
-        {
-          "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4446616938",
-      "url": "https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4446616938",
-      "title": "Software Engineering Intern (Full Stack) — Joveo",
-      "content_text": "Company: Joveo · Location: Bengaluru, Karnataka, India\n• Build greenfield AI products across frontend and backend from prototype to release\n• Develop full-stack web applications using React, Next.js, Node.js, and Express.js\n• Integrate LLMs, embeddings, and vector databases into real applications",
-      "date_published": "2026-08-04T10:28:55.325Z",
-      "authors": [
-        {
-          "name": "Joveo"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253",
-      "url": "https://www.internzo.in/jobs/microsoft-technology-consulting-intern-ats-microsoft-india-1970393556955253",
-      "title": "Technology Consulting INTERN — Microsoft",
-      "content_text": "Company: Microsoft · Location: India, Telangana, Hyderabad\n• Identify project risks and propose technical mitigations aligned with business goals\n• Provide technical input in pre-sales and define customer cloud requirements\n• Engage with stakeholders to resolve project issues and accelerate cloud adoption",
-      "date_published": "2026-08-04T09:17:05.000Z",
-      "authors": [
-        {
-          "name": "Microsoft"
         }
       ]
     }
