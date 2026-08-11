@@ -85,6 +85,19 @@ function makeRunId() {
  */
 const REPOST_GAP_MS = 6 * 3_600_000;
 
+/**
+ * How far back past the last sweep a page may reach before it counts as ground
+ * already covered.
+ *
+ * LinkedIn's date ordering is only approximately honest — promoted cards are
+ * interleaved, and `parseRelativeTime` works from text like "2 hours ago", so a
+ * card's computed age can be most of an hour out. This margin absorbs both.
+ */
+const COVERED_MARGIN_MS = 45 * 60_000;
+
+/** Consecutive fully-covered pages before pagination gives up on a search. */
+const COVERED_PAGES_BEFORE_STOP = 2;
+
 /** Tracks the wall-clock ceiling so a run can never sprawl unattended. */
 function budget(maxMinutes) {
   const start = Date.now();
@@ -341,6 +354,22 @@ async function main() {
     ? `Lookback window: ${cfg.filters.postedWithinHours}h (last run ${((Date.now() - lastRun.started_at) / 3_600_000).toFixed(1)}h ago).`
     : `Lookback window: ${cfg.filters.postedWithinHours}h (no previous run to measure from).`);
 
+  // Everything older than this was already walked by an earlier sweep.
+  //
+  // The window has a 3-hour floor while the loop runs every half hour, so a
+  // scan re-paginates hours of postings to reach the few minutes of genuinely
+  // new ones. Measured over the scheduled runs: 873 page loads produced 16
+  // opens, and every one but a single card sat on pages 1-3. The rest was the
+  // same junk re-read, and page loads are the request budget that a rate limit
+  // is eventually spent on.
+  //
+  // Deliberately NOT applied when --window-hours was passed: that override
+  // exists to walk deliberately deep after an outage, and stopping early would
+  // defeat the one job it has.
+  const coveredHorizon = (!OVERRIDES.windowHours && lastRun?.started_at)
+    ? lastRun.started_at - COVERED_MARGIN_MS
+    : null;
+
   const clock = budget(cfg.limits.maxRuntimeMinutes);
   const notes = [];
   const counters = { pagesScanned: 0, cardsSeen: 0, detailsExtracted: 0, newJobs: 0, skippedStale: 0, skippedCompany: 0, skippedTitle: 0, techRoles: 0, nonTechRoles: 0, geminiJudged: 0, termsLearned: 0, nearMisses: 0, skippedViewed: 0, listedWithoutOpening: 0, logosBackfilled: 0, skippedKnown: 0, failedDetails: 0, descriptionsBackfilled: 0, cardsWithoutId: 0 };
@@ -390,6 +419,7 @@ async function main() {
       // where the results actually end.
       const firstPage = OVERRIDES.startPage ? OVERRIDES.startPage - 1 : 0;
       const lastPage = firstPage + cfg.limits.maxPagesPerSearch;
+      let coveredPages = 0;
 
       for (let pageIndex = firstPage; pageIndex < lastPage; pageIndex++) {
         // Checked here, before navigating, not only inside the card loop below.
@@ -689,6 +719,23 @@ async function main() {
         }
 
         log.info(`Page ${pageIndex + 1} done — opened ${openedOnThisPage} of ${cards.length} cards.`);
+
+        // Results are date-descending, so once a whole page carries nothing
+        // newer than the last sweep covered, everything past it is older still.
+        // A card whose posted text will not parse counts as fresh — the same
+        // benefit of the doubt the staleness gate gives it.
+        if (coveredHorizon && cards.length) {
+          const anyFresh = cards.some((c) => {
+            const at = parseRelativeTime(c.postedText);
+            return !at || at >= coveredHorizon;
+          });
+          if (anyFresh) {
+            coveredPages = 0;
+          } else if (++coveredPages >= COVERED_PAGES_BEFORE_STOP) {
+            log.ok(`Page ${pageIndex + 1} and the one before it were entirely older than the last sweep — stopping "${label}" here.`);
+            break;
+          }
+        }
 
         // Keep paging until LinkedIn's own "Next" control says there is no
         // more, which is the only reliable signal that the result set is

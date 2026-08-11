@@ -39,7 +39,7 @@ mkdir -p "$LOG_DIR"
 
 # Overridable so a scan can be run at a different cadence without editing this
 # file: WATCH_INTERVAL_SECONDS=300 bash bin/loop.sh
-INTERVAL="${WATCH_INTERVAL_SECONDS:-900}"
+INTERVAL="${WATCH_INTERVAL_SECONDS:-1800}"
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') [LOOP START] interval=${INTERVAL}s pid=$$" >> "$LOG"
 
