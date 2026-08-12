@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786570226070,
- "count": 129,
- "techCount": 129,
+ "generatedAt": 1786572034666,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -42,7 +42,6 @@
   "Honeywell Technologies",
   "IMC Trading",
   "IQVIA",
-  "Icertis",
   "Infineon Technologies",
   "Intel",
   "Interloop - Zoho Partner| Manage Engine | Managed HR Services",
@@ -122,7 +121,6 @@
   "Mumbai, Maharashtra, India",
   "Noida, Uttar Pradesh",
   "Noida, Uttar Pradesh, India",
-  "Pune City, Maharashtra, India",
   "Pune Division, Maharashtra, India",
   "Pune Maharashtra India",
   "Pune, India",
@@ -4952,45 +4950,6 @@
    "firstSeenAt": 1785416613358,
    "url": "https://www.linkedin.com/jobs/view/4446765544/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446765544/",
-   "description": null
-  },
-  {
-   "id": "4446851335",
-   "title": "Intern",
-   "company": "Icertis",
-   "matchedWatchlist": "Icertis",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/icertis.jpg",
-   "location": "Pune City, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": "17 applicants",
-   "easyApply": true,
-   "skills": [],
-   "summary": "Key Responsibilities: Support the Program Manager in tracking overall program plans, milestones, dependencies, and deliverables. Coordinate meetings, governance reviews, status reviews, and project cadences. Currently pursuing ('27 or '26 passout) an MBA (and eligible for a 6 months internship) with graduation in computer science, AI, IT, BA or related fields.",
-   "bullets": [
-    "Support Program Manager by tracking plans, milestones, and deliverables",
-    "Coordinate meetings, document minutes, and follow up on action items with stakeholders",
-    "Collect project data, prepare status reports, dashboards, and executive presentations",
-    "Maintain RAID logs, track escalations, and assist in identifying project risks"
-   ],
-   "roleLabel": "Program management support",
-   "degreeLevel": "Pursuing",
-   "degreeText": "MBA",
-   "keySkills": [
-    "ai/ml technologies",
-    "enterprise software",
-    "microsoft copilot",
-    "chatgpt"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "2 hours ago",
-   "postedAt": 1785354771543,
-   "firstSeenAt": 1785361971547,
-   "url": "https://www.linkedin.com/jobs/view/4446851335/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4446851335/",
    "description": null
   },
   {
