@@ -6,6 +6,42 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473",
+      "url": "https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473",
+      "title": "Graduate Trainee Engineer — GE HealthCare",
+      "content_text": "Company: GE HealthCare · Location: Bengaluru, Karnataka, India\n• Support engineering projects with research, analysis, and documentation\n• Use microsoft office for reports and presentations\n• Work with cross-functional teams on departmental tasks\n• Learn company policies and safety protocols",
+      "date_published": "2026-08-12T11:52:17.510Z",
+      "authors": [
+        {
+          "name": "GE HealthCare"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310",
+      "url": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310",
+      "title": "Interim Engineering Intern_Systems- 2026 — Qualcomm",
+      "content_text": "Company: Qualcomm · Location: Bengaluru, Karnataka, India",
+      "date_published": "2026-08-12T11:51:23.077Z",
+      "authors": [
+        {
+          "name": "Qualcomm"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/honeywell-technologies-intern-bachelor-s-4453110263",
+      "url": "https://www.internzo.in/jobs/honeywell-technologies-intern-bachelor-s-4453110263",
+      "title": "Intern (Bachelor's) — Honeywell Technologies",
+      "content_text": "Company: Honeywell Technologies · Location: Bengaluru, Karnataka, India · Duration: 12 months\n• Support team with data analysis and reporting\n• Collaborate on cross-functional projects\n• Work from office in bangalore\n• 12 month duration",
+      "date_published": "2026-08-12T11:49:32.619Z",
+      "authors": [
+        {
+          "name": "Honeywell Technologies"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/yubi-intern-data-science-4452385178",
       "url": "https://www.internzo.in/jobs/yubi-intern-data-science-4452385178",
       "title": "Intern (Data Science) — Yubi",
@@ -566,42 +602,6 @@
       "authors": [
         {
           "name": "CertifyOS"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/gokwik-intern-customer-engineering-4450330540",
-      "url": "https://www.internzo.in/jobs/gokwik-intern-customer-engineering-4450330540",
-      "title": "Intern - Customer Engineering — GoKwik",
-      "content_text": "Company: GoKwik · Location: Gurugram, Haryana, India\n• Configure merchant accounts and integrations for Shopify, WooCommerce, and custom sites\n• Troubleshoot technical onboarding issues using API responses, JSON payloads, and logs\n• Maintain onboarding documentation, SOPs, and playbooks to streamline go-lives",
-      "date_published": "2026-08-07T13:18:28.260Z",
-      "authors": [
-        {
-          "name": "GoKwik"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/harman-india-certification-intern-4448767325",
-      "url": "https://www.internzo.in/jobs/harman-india-certification-intern-4448767325",
-      "title": "Certification Intern — HARMAN India",
-      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Develop software solutions using C, C++, and Java on the Android platform\n• Test embedded software components using debuggers, emulators, and simulators\n• Participate in software quality assurance processes and build release activities",
-      "date_published": "2026-08-07T10:53:26.727Z",
-      "authors": [
-        {
-          "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/seagate-technology-intern-sap-mm-4450084755",
-      "url": "https://www.internzo.in/jobs/seagate-technology-intern-sap-mm-4450084755",
-      "title": "Intern - SAP MM — Seagate Technology",
-      "content_text": "Company: Seagate Technology · Location: Pune Division, Maharashtra, India\n• Support SAP MM consultants with testing, documentation, and issue tracking\n• Validate material master and vendor master data across procurement workflows\n• Prepare test scenarios and support user acceptance testing for SAP S/4HANA",
-      "date_published": "2026-08-07T09:31:33.637Z",
-      "authors": [
-        {
-          "name": "Seagate Technology"
         }
       ]
     }

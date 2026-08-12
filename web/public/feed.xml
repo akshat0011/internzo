@@ -6,7 +6,36 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 12 Aug 2026 11:33:29 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 12:05:05 GMT</lastBuildDate>
+  <item>
+    <title>Graduate Trainee Engineer — GE HealthCare</title>
+    <link>https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473</guid>
+    <pubDate>Wed, 12 Aug 2026 11:52:17 GMT</pubDate>
+    <description>Company: GE HealthCare · Location: Bengaluru, Karnataka, India
+• Support engineering projects with research, analysis, and documentation
+• Use microsoft office for reports and presentations
+• Work with cross-functional teams on departmental tasks
+• Learn company policies and safety protocols</description>
+  </item>
+  <item>
+    <title>Interim Engineering Intern_Systems- 2026 — Qualcomm</title>
+    <link>https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310</guid>
+    <pubDate>Wed, 12 Aug 2026 11:51:23 GMT</pubDate>
+    <description>Company: Qualcomm · Location: Bengaluru, Karnataka, India</description>
+  </item>
+  <item>
+    <title>Intern (Bachelor&#39;s) — Honeywell Technologies</title>
+    <link>https://www.internzo.in/jobs/honeywell-technologies-intern-bachelor-s-4453110263</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/honeywell-technologies-intern-bachelor-s-4453110263</guid>
+    <pubDate>Wed, 12 Aug 2026 11:49:32 GMT</pubDate>
+    <description>Company: Honeywell Technologies · Location: Bengaluru, Karnataka, India · Duration: 12 months
+• Support team with data analysis and reporting
+• Collaborate on cross-functional projects
+• Work from office in bangalore
+• 12 month duration</description>
+  </item>
   <item>
     <title>Intern (Data Science) — Yubi</title>
     <link>https://www.internzo.in/jobs/yubi-intern-data-science-4452385178</link>
@@ -480,36 +509,6 @@
 • Develop, test, and maintain ML-driven services and data workflows in Python
 • Build evaluation pipelines and metrics to track model performance in production
 • Deploy ML workloads on GCP using Cloud Run, GKE, Cloud Functions, and BigQuery</description>
-  </item>
-  <item>
-    <title>Intern - Customer Engineering — GoKwik</title>
-    <link>https://www.internzo.in/jobs/gokwik-intern-customer-engineering-4450330540</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/gokwik-intern-customer-engineering-4450330540</guid>
-    <pubDate>Fri, 07 Aug 2026 13:18:28 GMT</pubDate>
-    <description>Company: GoKwik · Location: Gurugram, Haryana, India
-• Configure merchant accounts and integrations for Shopify, WooCommerce, and custom sites
-• Troubleshoot technical onboarding issues using API responses, JSON payloads, and logs
-• Maintain onboarding documentation, SOPs, and playbooks to streamline go-lives</description>
-  </item>
-  <item>
-    <title>Certification Intern — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-certification-intern-4448767325</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-certification-intern-4448767325</guid>
-    <pubDate>Fri, 07 Aug 2026 10:53:26 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
-• Develop software solutions using C, C++, and Java on the Android platform
-• Test embedded software components using debuggers, emulators, and simulators
-• Participate in software quality assurance processes and build release activities</description>
-  </item>
-  <item>
-    <title>Intern - SAP MM — Seagate Technology</title>
-    <link>https://www.internzo.in/jobs/seagate-technology-intern-sap-mm-4450084755</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/seagate-technology-intern-sap-mm-4450084755</guid>
-    <pubDate>Fri, 07 Aug 2026 09:31:33 GMT</pubDate>
-    <description>Company: Seagate Technology · Location: Pune Division, Maharashtra, India
-• Support SAP MM consultants with testing, documentation, and issue tracking
-• Validate material master and vendor master data across procurement workflows
-• Prepare test scenarios and support user acceptance testing for SAP S/4HANA</description>
   </item>
 </channel>
 </rss>
