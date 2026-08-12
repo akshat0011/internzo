@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786528939657,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1786530795780,
+ "count": 125,
+ "techCount": 125,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -58,7 +58,6 @@
   "NKT",
   "NatWest Group",
   "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
-  "NewGen Innovation : AI & Design Thinking",
   "Newton School of Technology",
   "NoBroker.com",
   "Noise",
@@ -4823,52 +4822,6 @@
    "firstSeenAt": 1785326546600,
    "url": "https://www.linkedin.com/jobs/view/4444110838/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4444110838/",
-   "description": null
-  },
-  {
-   "id": "4443670910",
-   "title": "Product Management Intern",
-   "company": "NewGen Innovation : AI & Design Thinking",
-   "matchedWatchlist": "Newgen Software",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/newgen-innovation-ai-and-design-thinking.jpg",
-   "location": "Mumbai, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": "₹35,000 / total",
-   "duration": "1 to 2 years",
-   "applicants": "15 applicants",
-   "easyApply": true,
-   "skills": [
-    "sql",
-    "generative ai",
-    "rag",
-    "figma",
-    "excel"
-   ],
-   "summary": "We are looking for a Product Management Intern for our AI product initiative. Location: Powai, Maharashtra (On-site) Internship Duration: 6 Months Stipend: Rs 35000/- ( Consolidated )",
-   "bullets": [
-    "Work with founders, AI engineers, and designers to build AI-powered products",
-    "Conduct customer and market research, gather requirements, and plan product roadmaps",
-    "Create wireframes, user journeys, and monitor product performance using analytics",
-    "6-month on-site internship in Powai, with potential for a full-time offer"
-   ],
-   "roleLabel": "AI Product Management",
-   "degreeLevel": "PG",
-   "degreeText": "MBA",
-   "keySkills": [
-    "microsoft excel",
-    "google sheets",
-    "ppt",
-    "artificial intelligence",
-    "generative ai"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "25 minutes ago",
-   "postedAt": 1785317864191,
-   "firstSeenAt": 1785319364196,
-   "url": "https://www.linkedin.com/jobs/view/4443670910/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4443670910/",
    "description": null
   },
   {
