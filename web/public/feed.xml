@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 12 Aug 2026 16:30:04 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 17:00:15 GMT</lastBuildDate>
+  <item>
+    <title>Intern - Optics — Valeo</title>
+    <link>https://www.internzo.in/jobs/valeo-intern-optics-4443503819</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-optics-4443503819</guid>
+    <pubDate>Wed, 12 Aug 2026 15:58:31 GMT</pubDate>
+    <description>Company: Valeo · Location: Chennai, Tamil Nadu, India
+• Support optical design simulations and reports
+• Use raytracing and optical simulation software
+• Work on lens and light guide design projects</description>
+  </item>
   <item>
     <title>Interim Engineering Intern_Systems- 2027 — Qualcomm</title>
     <link>https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901</link>
@@ -498,17 +508,6 @@
 • Analyze business data and conduct competitor field visits in Bangalore
 • Develop and implement practical solutions for live industry projects
 • Requires 15 to 20 hours per week commitment alongside academics</description>
-  </item>
-  <item>
-    <title>Full Stack Developer Intern - React &amp; Node JS — Interloop - Zoho Partner| Manage Engine | Managed HR Services</title>
-    <link>https://www.internzo.in/jobs/interloop-zoho-partner-manage-engine-managed-hr-services-full-stack-developer-intern-react-and-node-js-4451081170</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/interloop-zoho-partner-manage-engine-managed-hr-services-full-stack-developer-intern-react-and-node-js-4451081170</guid>
-    <pubDate>Sat, 08 Aug 2026 13:26:42 GMT</pubDate>
-    <description>Company: Interloop - Zoho Partner| Manage Engine | Managed HR Services · Location: Delhi, Delhi, India
-• Build production UI components in React and integrate frontend with APIs
-• Assist with Node.js backend development and basic API creation
-• Debug code across the stack and participate in code reviews
-• Two-month internship with mentorship from senior engineers</description>
   </item>
 </channel>
 </rss>

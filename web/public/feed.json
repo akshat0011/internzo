@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/valeo-intern-optics-4443503819",
+      "url": "https://www.internzo.in/jobs/valeo-intern-optics-4443503819",
+      "title": "Intern - Optics — Valeo",
+      "content_text": "Company: Valeo · Location: Chennai, Tamil Nadu, India\n• Support optical design simulations and reports\n• Use raytracing and optical simulation software\n• Work on lens and light guide design projects",
+      "date_published": "2026-08-12T15:58:31.921Z",
+      "authors": [
+        {
+          "name": "Valeo"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901",
       "url": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901",
       "title": "Interim Engineering Intern_Systems- 2027 — Qualcomm",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "NoBroker.com"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/interloop-zoho-partner-manage-engine-managed-hr-services-full-stack-developer-intern-react-and-node-js-4451081170",
-      "url": "https://www.internzo.in/jobs/interloop-zoho-partner-manage-engine-managed-hr-services-full-stack-developer-intern-react-and-node-js-4451081170",
-      "title": "Full Stack Developer Intern - React & Node JS — Interloop - Zoho Partner| Manage Engine | Managed HR Services",
-      "content_text": "Company: Interloop - Zoho Partner| Manage Engine | Managed HR Services · Location: Delhi, Delhi, India\n• Build production UI components in React and integrate frontend with APIs\n• Assist with Node.js backend development and basic API creation\n• Debug code across the stack and participate in code reviews\n• Two-month internship with mentorship from senior engineers",
-      "date_published": "2026-08-08T13:26:42.965Z",
-      "authors": [
-        {
-          "name": "Interloop - Zoho Partner| Manage Engine | Managed HR Services"
         }
       ]
     }
