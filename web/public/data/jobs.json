@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786546837635,
- "count": 131,
- "techCount": 131,
+ "generatedAt": 1786548624871,
+ "count": 130,
+ "techCount": 130,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -63,7 +63,6 @@
   "Newton School of Technology",
   "NoBroker.com",
   "Noise",
-  "Nokia",
   "Oceaneering",
   "PW (PhysicsWallah)",
   "Paytm",
@@ -5031,52 +5030,6 @@
    "firstSeenAt": 1785339217695,
    "url": "https://www.linkedin.com/jobs/view/4446804823/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446804823/",
-   "description": null
-  },
-  {
-   "id": "4444132578",
-   "title": "Agentic AI & Automation Trainee - Egypt",
-   "company": "Nokia",
-   "matchedWatchlist": "Nokia",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/nokia.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "ci/cd",
-    "git",
-    "llm",
-    "rag"
-   ],
-   "summary": "Join our Network Infrastructure (NI) as a Summer Trainee at the Egypt Hub. We are looking for talented and enthusiastic Agentic AI Engineers to join our AI & Automation Development Team and help drive the adoption of Agentic AI and next-generation development practices. In this role, you will act as a key enabler for engineering teams, supporting the adoption of AI-powered development tools, agentic workflows, and modern DevOps practices. Working alongside experienced engineers, you will gain hands-on exposure to cutting-edge AI technologies while helping enhance productivity, innovation, and the overall…",
-   "bullets": [
-    "Support engineering teams in adopting AI coding assistants like GitHub Copilot and Claude Code",
-    "Design and implement Agentic AI workflows using frameworks like LangGraph",
-    "Contribute to LLM-based applications and RAG pipelines for intelligent automation",
-    "Configure and optimize development environments, IDEs, and engineering tools"
-   ],
-   "roleLabel": "Agentic AI & automation",
-   "degreeLevel": "Pursuing",
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "llms",
-    "rag",
-    "agentic ai",
-    "git"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "19 minutes ago",
-   "postedAt": 1785336219106,
-   "firstSeenAt": 1785337359107,
-   "url": "https://www.linkedin.com/jobs/view/4444132578/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4444132578/",
    "description": null
   },
   {
