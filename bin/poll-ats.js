@@ -139,7 +139,10 @@ async function pollOne(board) {
     return;
   }
   checked++;
-  if (!jobs) { failed++; return; }
+  // Name the board here too. A provider that answers with no usable payload
+  // counts as failed but threw nothing, so this branch was the one failure in
+  // "174/174 boards read, 1 failed" that left no way to tell which board it was.
+  if (!jobs) { failed++; log.debug(`${board.company}: the board returned no jobs payload.`); return; }
 
   for (const j of jobs) {
     if (!matchTitle(j.title, cfg.titleTerms)) { skippedNonIntern++; continue; }

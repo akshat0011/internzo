@@ -963,7 +963,7 @@
     "captchaWaitMinutes": 4,
     "_captchaWaitMinutes_note": "How long to wait for a human to solve a security check. Was hardcoded at 12 minutes with no knowledge of the run budget, which is how a run reached 59 minutes on a 15-minute schedule - it blew past maxRuntimeMinutes, its lock aged out and was treated as stale, and the next run started while this Brave still owned the profile and died on a launch timeout. Also capped at the run's remaining budget, so this is a ceiling and not a promise.",
     "cooldownHoursAfterRateLimit": 24,
-    "_cooldownHoursAfterRateLimit_note": "TEMPORARILY 0 (disabled). Normally: if LinkedIn rate-limits or restricts the session, the tool refuses to run again for this many hours instead of walking back into it. 0 means a rate limit still stops the run it happens in, but the next scheduled run goes straight back. This is the one setting here with real account risk - repeatedly walking back into a rate limit is how a session gets restricted. Put it back to 24 once the run failures are understood."
+    "_cooldownHoursAfterRateLimit_note": "If LinkedIn rate-limits or restricts the session, the tool refuses to run again for this many hours instead of walking back into it. This is the one setting here with real account risk - repeatedly walking back into a rate limit is how a session gets restricted. It was temporarily 0 while the run failures were being diagnosed; restored to 24 on 11 Aug 2026 after LinkedIn invalidated the session outright."
   },
   "summarizer": {
     "mode": "offline",

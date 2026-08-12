@@ -961,6 +961,34 @@ async function main() {
     notes.push('This run reached LinkedIn but never scanned a results page.');
   }
 
+  // A rendered page of results is 20-25 cards. A sweep averaging a handful per
+  // page has not found a quiet search — it has found a session LinkedIn has
+  // stopped serving results to, which draws the list as the single job in the
+  // detail pane and nothing else.
+  //
+  // assertListRendered cannot see this: it only fires on a count of exactly 0,
+  // so one card per page walks straight past it. Five runs on 12 Aug reported
+  // ok at 1 card a page, collecting 3 cards where the same search had been
+  // returning 250. Nothing in the runs table looked wrong.
+  //
+  // Marking it partial is what makes it recoverable, not just visible:
+  // lastFullSweep() reads 'ok' only, so an ok here becomes the new baseline and
+  // pins the next lookback to its 3h minimum, leaving the missed postings
+  // behind for good. As partial, the baseline stays put and the window stretches
+  // over the gap (to maxWindowHours) on the next healthy run.
+  const CARDS_PER_PAGE_FLOOR = 5;
+  if (
+    status === 'ok' && !DRY_RUN &&
+    counters.pagesScanned > 0 &&
+    counters.cardsSeen / counters.pagesScanned < CARDS_PER_PAGE_FLOOR
+  ) {
+    status = 'partial';
+    notes.push(
+      `Only ${counters.cardsSeen} card(s) across ${counters.pagesScanned} page(s) — the results list did not ` +
+      'render. The LinkedIn session is the usual cause; check it with `npm run login`.',
+    );
+  }
+
   store.finishRun(runId, {
     status,
     pagesScanned: counters.pagesScanned,
