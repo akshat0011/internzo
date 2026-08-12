@@ -6,6 +6,42 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123",
+      "url": "https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123",
+      "title": "Training Content & Video Production Intern — Snapdeal",
+      "content_text": "Company: Snapdeal · Location: Gurugram, Haryana, India · Duration: 6 months\n• Create training videos, e-learning modules, and explainer videos\n• Use ai tools for video generation and content creation\n• Edit system demos and support lms module uploads",
+      "date_published": "2026-08-12T07:28:22.851Z",
+      "authors": [
+        {
+          "name": "Snapdeal"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/freight-tiger-devops-intern-aws-and-gitops-4453051828",
+      "url": "https://www.internzo.in/jobs/freight-tiger-devops-intern-aws-and-gitops-4453051828",
+      "title": "DevOps Intern (AWS & GitOps) — Freight Tiger",
+      "content_text": "Company: Freight Tiger · Location: Gurugram, Haryana, India\n• Write terraform modules for aws infrastructure like eks and vpcs\n• Use git and argocd to automate deployments to eks clusters\n• Package apps with helm and monitor clusters with prometheus",
+      "date_published": "2026-08-12T06:50:40.838Z",
+      "authors": [
+        {
+          "name": "Freight Tiger"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/bugsmirror-flutter-developer-intern-4444114986",
+      "url": "https://www.internzo.in/jobs/bugsmirror-flutter-developer-intern-4444114986",
+      "title": "Flutter Developer Intern — Bugsmirror",
+      "content_text": "Company: Bugsmirror · Location: Indore, Madhya Pradesh, India · Duration: 6 months\n• Build responsive web interfaces with Flutter for SaaS platform\n• Integrate frontend with backend APIs and cloud services\n• Work with Git, REST APIs, and CI/CD in a startup team",
+      "date_published": "2026-08-12T05:51:25.747Z",
+      "authors": [
+        {
+          "name": "Bugsmirror"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266",
       "url": "https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266",
       "title": "AV Interns - Mumbai (695838) — WeWork India",
@@ -566,42 +602,6 @@
       "authors": [
         {
           "name": "Sanas"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/times-internet-ux-research-intern-4448705984",
-      "url": "https://www.internzo.in/jobs/times-internet-ux-research-intern-4448705984",
-      "title": "UX Research Intern — Times Internet",
-      "content_text": "Company: Times Internet · Location: Noida, Uttar Pradesh, India · Duration: 6 months\n• Conduct user interviews, surveys, and usability tests for digital products\n• Recruit participants, transcribe sessions, and build insight decks\n• Maintain research repositories and share findings with design and dev teams\n• 6-month full-time internship in Noida",
-      "date_published": "2026-08-07T04:45:23.049Z",
-      "authors": [
-        {
-          "name": "Times Internet"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/seagate-technology-intern-sap-pp-4450040519",
-      "url": "https://www.internzo.in/jobs/seagate-technology-intern-sap-pp-4450040519",
-      "title": "Intern - SAP PP — Seagate Technology",
-      "content_text": "Company: Seagate Technology · Location: Pune Division, Maharashtra, India\n• Support SAP PP functional modules, master data validation, and testing\n• Validate BOMs, routings, work centers, and material requirements planning\n• Document test results, analyze support issues, and assist business users",
-      "date_published": "2026-08-07T03:31:40.071Z",
-      "authors": [
-        {
-          "name": "Seagate Technology"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/sony-research-india-ai-research-intern-4448494663",
-      "url": "https://www.internzo.in/jobs/sony-research-india-ai-research-intern-4448494663",
-      "title": "AI Research Intern — Sony Research India",
-      "content_text": "Company: Sony Research India · Location: Bengaluru, Karnataka, India\n• Develop ML, deep learning, and LLM models for OTT user behavior\n• Apply causal inference techniques to analyze user retention and engagement\n• Experiment with algorithms and large interaction datasets using Python and PyTorch\n• 6-month paid remote internship starting August 2026",
-      "date_published": "2026-08-07T02:37:24.007Z",
-      "authors": [
-        {
-          "name": "Sony Research India"
         }
       ]
     }

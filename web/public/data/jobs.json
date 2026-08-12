@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786519263680,
- "count": 125,
- "techCount": 125,
+ "generatedAt": 1786521215824,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -14,6 +14,7 @@
   "AtkinsRéalis",
   "Bajaj Finserv",
   "Barclays",
+  "Bugsmirror",
   "CertifyOS",
   "Citi",
   "CoinDCX",
@@ -78,6 +79,7 @@
   "Siemens",
   "Siemens Healthineers",
   "Silicon Labs",
+  "Snapdeal",
   "Sony Research India",
   "Sprinklr",
   "Stripe",
@@ -110,6 +112,7 @@
   "India, Karnataka, Bangalore",
   "India, Multiple Locations, Multiple Locations",
   "India, Telangana, Hyderabad",
+  "Indore, Madhya Pradesh, India",
   "Kanchipuram, Tamil Nadu, India",
   "Kanda, Uttarakhand, India",
   "Karnataka, India",
@@ -126,6 +129,135 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453073123",
+   "title": "Training Content & Video Production Intern",
+   "company": "Snapdeal",
+   "matchedWatchlist": "Snapdeal",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/snapdeal.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "6 months",
+   "applicants": "1 applicant",
+   "easyApply": true,
+   "skills": [
+    "generative ai"
+   ],
+   "summary": "This internship involves creating training content and videos for snapdeal's internal learning platform. Interns will convert documents into engaging learning materials, use ai tools for content creation, and support lms module development. It suits students with video editing and presentation skills looking to work on real training projects.",
+   "bullets": [
+    "Create training videos, e-learning modules, and explainer videos",
+    "Use ai tools for video generation and content creation",
+    "Edit system demos and support lms module uploads"
+   ],
+   "roleLabel": "Training content creation",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "video editing",
+    "powerpoint",
+    "script writing",
+    "storytelling"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "21 minutes ago",
+   "postedAt": 1786519702851,
+   "firstSeenAt": 1786520962859,
+   "url": "https://www.linkedin.com/jobs/view/4453073123/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453073123/",
+   "description": null
+  },
+  {
+   "id": "4453051828",
+   "title": "DevOps Intern (AWS & GitOps)",
+   "company": "Freight Tiger",
+   "matchedWatchlist": "Freight Tiger",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/freight-tiger.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "43 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "aws",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "linux",
+    "git"
+   ],
+   "summary": "This internship involves building cloud infrastructure with terraform and automating deployments using gitops on aws. You'll work with senior engineers to manage kubernetes clusters and monitor system health. Ideal for students with linux and aws experience looking to gain hands-on devops skills.",
+   "bullets": [
+    "Write terraform modules for aws infrastructure like eks and vpcs",
+    "Use git and argocd to automate deployments to eks clusters",
+    "Package apps with helm and monitor clusters with prometheus"
+   ],
+   "roleLabel": "Cloud infrastructure",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "terraform",
+    "git",
+    "helm",
+    "prometheus"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "1 hour ago",
+   "postedAt": 1786517440838,
+   "firstSeenAt": 1786521040842,
+   "url": "https://www.linkedin.com/jobs/view/4453051828/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453051828/",
+   "description": null
+  },
+  {
+   "id": "4444114986",
+   "title": "Flutter Developer Intern",
+   "company": "Bugsmirror",
+   "matchedWatchlist": "Bugsmirror",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/bugsmirror.jpg",
+   "location": "Indore, Madhya Pradesh, India",
+   "workplaceType": "On-site",
+   "stipend": "₹8,000 / month",
+   "duration": "6 months",
+   "applicants": "20 applicants",
+   "easyApply": true,
+   "skills": [
+    "ci/cd",
+    "git",
+    "rest api"
+   ],
+   "summary": "This internship involves developing web interfaces for a SaaS security platform using Flutter. The intern will integrate frontend components with backend services, work with Git and CI/CD, and contribute to a fast-growing cybersecurity startup in Indore.",
+   "bullets": [
+    "Build responsive web interfaces with Flutter for SaaS platform",
+    "Integrate frontend with backend APIs and cloud services",
+    "Work with Git, REST APIs, and CI/CD in a startup team"
+   ],
+   "roleLabel": "Flutter Web Development",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech/B.E.",
+   "keySkills": [
+    "flutter",
+    "dart",
+    "rest api",
+    "git",
+    "ci/cd"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "2 hours ago",
+   "postedAt": 1786513885747,
+   "firstSeenAt": 1786521085751,
+   "url": "https://www.linkedin.com/jobs/view/4444114986/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4444114986/",
+   "description": null
+  },
   {
    "id": "4452481266",
    "title": "AV Interns - Mumbai (695838)",
