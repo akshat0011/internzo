@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/yubi-intern-data-science-4452385178",
+      "url": "https://www.internzo.in/jobs/yubi-intern-data-science-4452385178",
+      "title": "Intern (Data Science) — Yubi",
+      "content_text": "Company: Yubi · Location: Chennai, Tamil Nadu, India · Duration: 6 months\n• Build predictive models and automate document processing with NLP and ML\n• Work with Python, BERT, and LLMs on real-world data science challenges\n• Collaborate with senior data scientists on scalable AI solutions",
+      "date_published": "2026-08-12T10:59:23.287Z",
+      "authors": [
+        {
+          "name": "Yubi"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123",
       "url": "https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123",
       "title": "Training Content & Video Production Intern — Snapdeal",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Seagate Technology"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/sanas-software-engineering-intern-si-and-agentic-ai-platform-4450086026",
-      "url": "https://www.internzo.in/jobs/sanas-software-engineering-intern-si-and-agentic-ai-platform-4450086026",
-      "title": "Software Engineering Intern - SI & Agentic AI Platform — Sanas",
-      "content_text": "Company: Sanas · Location: Bengaluru, Karnataka, India\n• Build and deploy features for speech intelligence and agentic AI platforms\n• Develop backend and frontend code using Python, Go, TypeScript, and React\n• Work with APIs, distributed systems, Kafka, and data backends\n• Four-month onsite internship in Bangalore",
-      "date_published": "2026-08-07T07:32:36.365Z",
-      "authors": [
-        {
-          "name": "Sanas"
         }
       ]
     }

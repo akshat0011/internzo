@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786530795780,
- "count": 125,
- "techCount": 125,
+ "generatedAt": 1786532632531,
+ "count": 126,
+ "techCount": 126,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -89,6 +89,7 @@
   "WeWork India",
   "West Pharmaceutical Services",
   "Whatfix",
+  "Yubi",
   "eBay",
   "upGrad International"
  ],
@@ -125,6 +126,60 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452385178",
+   "title": "Intern (Data Science)",
+   "company": "Yubi",
+   "matchedWatchlist": "Yubi",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/yubi.jpg",
+   "location": "Chennai, Tamil Nadu, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "6 months",
+   "applicants": "2 applicants",
+   "easyApply": true,
+   "skills": [
+    "python",
+    "sql",
+    "flask",
+    "fastapi",
+    "aws",
+    "gcp",
+    "machine learning",
+    "deep learning",
+    "nlp",
+    "pytorch",
+    "tensorflow",
+    "scikit-learn",
+    "pandas",
+    "numpy"
+   ],
+   "summary": "This internship involves developing machine learning models and automation tools for document processing and recommendation systems. Ideal for students with strong Python and NLP skills, seeking hands-on experience in real-world data science projects.",
+   "bullets": [
+    "Build predictive models and automate document processing with NLP and ML",
+    "Work with Python, BERT, and LLMs on real-world data science challenges",
+    "Collaborate with senior data scientists on scalable AI solutions"
+   ],
+   "roleLabel": "Data Science Intern",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "bert",
+    "llms",
+    "nlp",
+    "sql"
+   ],
+   "stipendStatus": "unpaid",
+   "postedText": "2 minutes ago",
+   "postedAt": 1786532363287,
+   "firstSeenAt": 1786532483294,
+   "url": "https://www.linkedin.com/jobs/view/4452385178/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452385178/",
+   "description": null
+  },
   {
    "id": "4453073123",
    "title": "Training Content & Video Production Intern",

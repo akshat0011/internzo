@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 12 Aug 2026 10:33:15 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 11:03:52 GMT</lastBuildDate>
+  <item>
+    <title>Intern (Data Science) — Yubi</title>
+    <link>https://www.internzo.in/jobs/yubi-intern-data-science-4452385178</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/yubi-intern-data-science-4452385178</guid>
+    <pubDate>Wed, 12 Aug 2026 10:59:23 GMT</pubDate>
+    <description>Company: Yubi · Location: Chennai, Tamil Nadu, India · Duration: 6 months
+• Build predictive models and automate document processing with NLP and ML
+• Work with Python, BERT, and LLMs on real-world data science challenges
+• Collaborate with senior data scientists on scalable AI solutions</description>
+  </item>
   <item>
     <title>Training Content &amp; Video Production Intern — Snapdeal</title>
     <link>https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123</link>
@@ -500,17 +510,6 @@
 • Support SAP MM consultants with testing, documentation, and issue tracking
 • Validate material master and vendor master data across procurement workflows
 • Prepare test scenarios and support user acceptance testing for SAP S/4HANA</description>
-  </item>
-  <item>
-    <title>Software Engineering Intern - SI &amp; Agentic AI Platform — Sanas</title>
-    <link>https://www.internzo.in/jobs/sanas-software-engineering-intern-si-and-agentic-ai-platform-4450086026</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/sanas-software-engineering-intern-si-and-agentic-ai-platform-4450086026</guid>
-    <pubDate>Fri, 07 Aug 2026 07:32:36 GMT</pubDate>
-    <description>Company: Sanas · Location: Bengaluru, Karnataka, India
-• Build and deploy features for speech intelligence and agentic AI platforms
-• Develop backend and frontend code using Python, Go, TypeScript, and React
-• Work with APIs, distributed systems, Kafka, and data backends
-• Four-month onsite internship in Bangalore</description>
   </item>
 </channel>
 </rss>
