@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 12 Aug 2026 13:03:38 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 13:33:49 GMT</lastBuildDate>
+  <item>
+    <title>IT Intern - Gurugram — DeHaat</title>
+    <link>https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714</guid>
+    <pubDate>Wed, 12 Aug 2026 13:04:23 GMT</pubDate>
+    <description>Company: DeHaat · Location: Gurugram, Haryana, India
+• Support hardware software and network issues
+• Manage it inventory and troubleshoot connectivity
+• Assist with software updates and security policies</description>
+  </item>
   <item>
     <title>Information Technology - IT Help Desk Apprentice — Mizuho</title>
     <link>https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521</link>
@@ -499,16 +509,6 @@
 • Develop automated test suites and firmware for silicon validation
 • Perform pre-silicon validation on FPGA and post-silicon bench testing
 • Automate test equipment using Python, C, and LabVIEW</description>
-  </item>
-  <item>
-    <title>Intern- Technical Content (Applied AI) — upGrad International</title>
-    <link>https://www.internzo.in/jobs/upgrad-international-intern-technical-content-applied-ai-4450593245</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/upgrad-international-intern-technical-content-applied-ai-4450593245</guid>
-    <pubDate>Sat, 08 Aug 2026 07:09:43 GMT</pubDate>
-    <description>Company: upGrad International · Location: Mumbai Metropolitan Region · Duration: 6 months
-• Script AI video production pipelines using tools like Remotion, Manim, and HeyGen
-• Review SME scripts, write pre-production scripts, and build Python lab demos
-• Perform QA on AI-generated video previews and refine live learning materials</description>
   </item>
 </channel>
 </rss>

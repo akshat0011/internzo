@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714",
+      "url": "https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714",
+      "title": "IT Intern - Gurugram — DeHaat",
+      "content_text": "Company: DeHaat · Location: Gurugram, Haryana, India\n• Support hardware software and network issues\n• Manage it inventory and troubleshoot connectivity\n• Assist with software updates and security policies",
+      "date_published": "2026-08-12T13:04:23.276Z",
+      "authors": [
+        {
+          "name": "DeHaat"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521",
       "url": "https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521",
       "title": "Information Technology - IT Help Desk Apprentice — Mizuho",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Infineon Technologies"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/upgrad-international-intern-technical-content-applied-ai-4450593245",
-      "url": "https://www.internzo.in/jobs/upgrad-international-intern-technical-content-applied-ai-4450593245",
-      "title": "Intern- Technical Content (Applied AI) — upGrad International",
-      "content_text": "Company: upGrad International · Location: Mumbai Metropolitan Region · Duration: 6 months\n• Script AI video production pipelines using tools like Remotion, Manim, and HeyGen\n• Review SME scripts, write pre-production scripts, and build Python lab demos\n• Perform QA on AI-generated video previews and refine live learning materials",
-      "date_published": "2026-08-08T07:09:43.923Z",
-      "authors": [
-        {
-          "name": "upGrad International"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786539818425,
- "count": 129,
- "techCount": 129,
+ "generatedAt": 1786541629653,
+ "count": 130,
+ "techCount": 130,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -21,6 +21,7 @@
   "Continental Industry",
   "Convin",
   "Copeland",
+  "DeHaat",
   "Delhivery",
   "Dun & Bradstreet",
   "Eli Lilly and Company",
@@ -130,6 +131,47 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452381714",
+   "title": "IT Intern - Gurugram",
+   "company": "DeHaat",
+   "matchedWatchlist": "DeHaat",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/dehaat.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "15 applicants",
+   "easyApply": true,
+   "skills": [
+    "linux"
+   ],
+   "summary": "This internship involves supporting it operations by troubleshooting hardware and software issues, managing inventory, and assisting with updates and security. It suits students with basic it knowledge looking for hands-on experience in a growing agri-tech company.",
+   "bullets": [
+    "Support hardware software and network issues",
+    "Manage it inventory and troubleshoot connectivity",
+    "Assist with software updates and security policies"
+   ],
+   "roleLabel": "IT Support",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "windows",
+    "linux",
+    "ms office",
+    "google workspace",
+    "office 365"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "27 minutes ago",
+   "postedAt": 1786539863276,
+   "firstSeenAt": 1786541483277,
+   "url": "https://www.linkedin.com/jobs/view/4452381714/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452381714/",
+   "description": null
+  },
   {
    "id": "4452387521",
    "title": "Information Technology - IT Help Desk Apprentice",
