@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786497554258,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1786499412796,
+ "count": 125,
+ "techCount": 125,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -4822,38 +4822,6 @@
    "firstSeenAt": 1785312222261,
    "url": "https://www.linkedin.com/jobs/view/4435094310/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4435094310/",
-   "description": null
-  },
-  {
-   "id": "4446528118",
-   "title": "Image processing Intern (QA/QC)",
-   "company": "Pixxel",
-   "matchedWatchlist": "Pixxel",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/pixxel.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Remote",
-   "stipend": null,
-   "duration": "0–1 years",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "This job is sourced from a job board. Role: IPR Intern (QA/QC) As a Satellite Image Quality Assurance (QA/QC) Intern, you will play a critical role in ensuring the quality, accuracy, and reliability of satellite imagery before it is delivered for downstream analysis and customer applications. You will be responsible for validating raw and processed imagery against defined quality standards, identifying anomalies, and working closely with cross-functional teams to continuously improve data quality and QA/QC processes.",
-   "bullets": [
-    "Identify and flag issues like missing data, corrupted files, or incorrect geotagging",
-    "Document findings and collaborate with imaging and data engineering teams to resolve quality issues"
-   ],
-   "roleLabel": "Satellite image quality assurance",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [],
-   "stipendStatus": "unknown",
-   "postedText": "41 minutes ago",
-   "postedAt": 1785285904016,
-   "firstSeenAt": 1785288364025,
-   "url": "https://www.linkedin.com/jobs/view/4446528118/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4446528118/",
    "description": null
   },
   {
