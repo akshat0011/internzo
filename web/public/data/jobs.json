@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786538064277,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1786539818425,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -54,6 +54,7 @@
   "Magna International",
   "Marmon Technologies India Pvt Ltd",
   "Microsoft",
+  "Mizuho",
   "Multiplier AI",
   "NKT",
   "NatWest Group",
@@ -129,6 +130,43 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452387521",
+   "title": "Information Technology - IT Help Desk Apprentice",
+   "company": "Mizuho",
+   "matchedWatchlist": "Mizuho",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/mizuho.jpg",
+   "location": "Chennai, Tamil Nadu, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "5 applicants",
+   "easyApply": true,
+   "skills": [],
+   "summary": "This internship involves supporting users with technical issues, managing network systems, and working in a team environment. It suits recent graduates with an interest in IT support and a willingness to work flexible hours.",
+   "bullets": [
+    "Support users with technical issues and resolve problems",
+    "Manage active directory and network systems",
+    "Work in a customer-focused team with rotational shifts"
+   ],
+   "roleLabel": "IT Helpdesk Support",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "active directory",
+    "networking",
+    "helpdesk"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "26 minutes ago",
+   "postedAt": 1786538084777,
+   "firstSeenAt": 1786539644785,
+   "url": "https://www.linkedin.com/jobs/view/4452387521/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452387521/",
+   "description": null
+  },
   {
    "id": "4434998383",
    "title": "Apprentice-Document Controller",

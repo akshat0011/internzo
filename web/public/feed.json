@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521",
+      "url": "https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521",
+      "title": "Information Technology - IT Help Desk Apprentice — Mizuho",
+      "content_text": "Company: Mizuho · Location: Chennai, Tamil Nadu, India\n• Support users with technical issues and resolve problems\n• Manage active directory and network systems\n• Work in a customer-focused team with rotational shifts",
+      "date_published": "2026-08-12T12:34:44.777Z",
+      "authors": [
+        {
+          "name": "Mizuho"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383",
       "url": "https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383",
       "title": "Apprentice-Document Controller — Oceaneering",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "upGrad International"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/fyntune-solution-private-limited-devops-engineer-internship-in-thane-navi-mumbai-mumbai-4450392562",
-      "url": "https://www.internzo.in/jobs/fyntune-solution-private-limited-devops-engineer-internship-in-thane-navi-mumbai-mumbai-4450392562",
-      "title": "Devops Engineer Internship in Thane, Navi Mumbai, Mumbai — FynTune Solution Private Limited",
-      "content_text": "Company: FynTune Solution Private Limited · Location: Thane, Maharashtra, India\n• Administer Linux servers, support application deployments, and maintain CI/CD pipelines\n• Manage AWS infrastructure including EC2, S3, IAM, VPC, and Route 53\n• Write Bash scripts to automate routine operations and manage Cron jobs",
-      "date_published": "2026-08-08T00:13:17.111Z",
-      "authors": [
-        {
-          "name": "FynTune Solution Private Limited"
         }
       ]
     }
