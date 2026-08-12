@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 12 Aug 2026 12:05:05 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 12:34:24 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice-Document Controller — Oceaneering</title>
+    <link>https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383</guid>
+    <pubDate>Wed, 12 Aug 2026 12:22:32 GMT</pubDate>
+    <description>Company: Oceaneering · Location: Chandigarh, Chandigarh, India · Duration: 0-2 years
+• Manage document numbering, filing, and retrieval for technical projects
+• Use PLM and document management tools to track and submit project files
+• Create reports and dashboards for operations and senior management</description>
+  </item>
   <item>
     <title>Graduate Trainee Engineer — GE HealthCare</title>
     <link>https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473</link>
@@ -499,16 +509,6 @@
 • Administer Linux servers, support application deployments, and maintain CI/CD pipelines
 • Manage AWS infrastructure including EC2, S3, IAM, VPC, and Route 53
 • Write Bash scripts to automate routine operations and manage Cron jobs</description>
-  </item>
-  <item>
-    <title>AI Intern — CertifyOS</title>
-    <link>https://www.internzo.in/jobs/certifyos-ai-intern-ats-ashby-certifyos-4bcdec99-9f2e-416c-8e26-498c94c5898a</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/certifyos-ai-intern-ats-ashby-certifyos-4bcdec99-9f2e-416c-8e26-498c94c5898a</guid>
-    <pubDate>Fri, 07 Aug 2026 14:51:22 GMT</pubDate>
-    <description>Company: CertifyOS · Location: Pune, India
-• Develop, test, and maintain ML-driven services and data workflows in Python
-• Build evaluation pipelines and metrics to track model performance in production
-• Deploy ML workloads on GCP using Cloud Run, GKE, Cloud Functions, and BigQuery</description>
   </item>
 </channel>
 </rss>

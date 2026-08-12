@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786536304957,
- "count": 127,
- "techCount": 127,
+ "generatedAt": 1786538064277,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -62,6 +62,7 @@
   "NoBroker.com",
   "Noise",
   "Nokia",
+  "Oceaneering",
   "PW (PhysicsWallah)",
   "Paytm",
   "Philips",
@@ -100,6 +101,7 @@
   "Bengaluru East, Karnataka, India",
   "Bengaluru, Karnataka, India",
   "Bengaluru, Karnataka, India (On-site)",
+  "Chandigarh, Chandigarh, India",
   "Chennai, Tamil Nadu, India",
   "Delhi, Delhi, India",
   "Greater Bengaluru Area",
@@ -127,6 +129,45 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4434998383",
+   "title": "Apprentice-Document Controller",
+   "company": "Oceaneering",
+   "matchedWatchlist": "Oceaneering",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/oceaneering.jpg",
+   "location": "Chandigarh, Chandigarh, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "0-2 years",
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "excel"
+   ],
+   "summary": "This internship involves managing technical documentation for projects, using PLM systems and data tools to track and deliver files. Ideal for students with strong analytical skills and interest in document control processes.",
+   "bullets": [
+    "Manage document numbering, filing, and retrieval for technical projects",
+    "Use PLM and document management tools to track and submit project files",
+    "Create reports and dashboards for operations and senior management"
+   ],
+   "roleLabel": "Document Management",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "plm",
+    "excel",
+    "document management"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "9 minutes ago",
+   "postedAt": 1786537352348,
+   "firstSeenAt": 1786537892352,
+   "url": "https://www.linkedin.com/jobs/view/4434998383/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4434998383/",
+   "description": null
+  },
   {
    "id": "4443378473",
    "title": "Graduate Trainee Engineer",
