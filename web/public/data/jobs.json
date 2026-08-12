@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786548624871,
- "count": 130,
- "techCount": 130,
+ "generatedAt": 1786550415565,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -64,7 +64,6 @@
   "NoBroker.com",
   "Noise",
   "Oceaneering",
-  "PW (PhysicsWallah)",
   "Paytm",
   "Philips",
   "Piramal",
@@ -4986,50 +4985,6 @@
    "firstSeenAt": 1785351815877,
    "url": "https://www.linkedin.com/jobs/view/4446847089/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446847089/",
-   "description": null
-  },
-  {
-   "id": "4446804823",
-   "title": "Generative AI Engineer Intern",
-   "company": "PW (PhysicsWallah)",
-   "matchedWatchlist": "PhysicsWallah",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/pw-physicswallah.jpg",
-   "location": "Noida, Uttar Pradesh, India",
-   "workplaceType": "On-site",
-   "stipend": "₹20,000 / month",
-   "duration": "6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "sql",
-    "llm"
-   ],
-   "summary": "Duration: 6 months (training period) Work mode: Hybrid — 4 days WFO, 2 days WFH As AI Engineer Intern, you'll build and ship these systems end-to-end — from prototype to a working tool a biz team actually uses. WHAT WE'RE LOOKING FOR",
-   "bullets": [
-    "Design, build, and deploy AI agents and automated workflows for internal operations",
-    "Integrate LLM APIs (Claude) with internal tools and data sources",
-    "Build no-code/low-code automations (n8n) and custom Python solutions",
-    "Test, debug, and iterate on agents based on business team feedback"
-   ],
-   "roleLabel": "Generative AI engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "rest/api integrations",
-    "llm/agent apis",
-    "prompt engineering",
-    "sql"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "29 minutes ago",
-   "postedAt": 1785337477691,
-   "firstSeenAt": 1785339217695,
-   "url": "https://www.linkedin.com/jobs/view/4446804823/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4446804823/",
    "description": null
   },
   {
