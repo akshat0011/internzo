@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786521215824,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1786522961037,
+ "count": 127,
+ "techCount": 127,
  "otherCount": 0,
  "companies": [
   "ALLEN",
@@ -55,7 +55,6 @@
   "Magna International",
   "Marmon Technologies India Pvt Ltd",
   "Microsoft",
-  "Mizuho",
   "Multiplier AI",
   "NKT",
   "NatWest Group",
@@ -119,7 +118,6 @@
   "Mumbai Metropolitan Region",
   "Mumbai, MH",
   "Mumbai, Maharashtra, India",
-  "Navi Mumbai, Maharashtra, India",
   "Noida, Uttar Pradesh",
   "Noida, Uttar Pradesh, India",
   "Pune City, Maharashtra, India",
@@ -4914,46 +4912,6 @@
    "firstSeenAt": 1785317572018,
    "url": "https://www.linkedin.com/jobs/view/4446049382/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446049382/",
-   "description": null
-  },
-  {
-   "id": "4435094310",
-   "title": "Information Technology apprentice",
-   "company": "Mizuho",
-   "matchedWatchlist": "Mizuho",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/mizuho.jpg",
-   "location": "Navi Mumbai, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": "Over 100 applicants",
-   "easyApply": true,
-   "skills": [],
-   "summary": "Mizuho Global Services India Pvt. Mizuho Global Services Pvt Ltd (MGS) is a subsidiary company of Mizuho Bank, Ltd, which is one of the largest banks or so called ‘Mega Banks’ of Japan. MGS was established in the year 2020 as part of Mizuho’s long-term strategy of creating a captive global processing center for remotely handling banking and IT related operations of Mizuho Bank’s domestic and overseas offices and Mizuho’s group companies across the globe. We are looking for a passionate fresh graduate individual, having any background, learning through apprenticeship program and basic knowledge in helpdesk,…",
-   "bullets": [
-    "Help with helpdesk, Active Directory management, and unlocking applications",
-    "Troubleshoot and resolve IT issues, create IT documentation",
-    "Work in rotational shifts and on-call schedule for 1 year",
-    "Looking for recent IT graduates or postgraduates in or near Navi Mumbai"
-   ],
-   "roleLabel": "IT Support",
-   "degreeLevel": "UG/PG",
-   "degreeText": null,
-   "keySkills": [
-    "helpdesk",
-    "active directory",
-    "networking",
-    "mcse",
-    "ccna"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "22 minutes ago",
-   "postedAt": 1785310902252,
-   "firstSeenAt": 1785312222261,
-   "url": "https://www.linkedin.com/jobs/view/4435094310/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4435094310/",
    "description": null
   },
   {
