@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 12 Aug 2026 13:33:49 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 14:14:33 GMT</lastBuildDate>
+  <item>
+    <title>Interim Engineering Intern_Systems- 2027 — Qualcomm</title>
+    <link>https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901</guid>
+    <pubDate>Wed, 12 Aug 2026 14:04:50 GMT</pubDate>
+    <description>Company: Qualcomm · Location: Greater Hyderabad Area
+• Design and validate modem baseband algorithms for 3G/4G/5G systems
+• Work with C/C++/MATLAB and UNIX/Linux platforms
+• Contribute to Qualcomm&#39;s IP and air interface standards</description>
+  </item>
   <item>
     <title>IT Intern - Gurugram — DeHaat</title>
     <link>https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714</link>
@@ -499,16 +509,6 @@
 • Assist with Node.js backend development and basic API creation
 • Debug code across the stack and participate in code reviews
 • Two-month internship with mentorship from senior engineers</description>
-  </item>
-  <item>
-    <title>Young Graduate Trainee — Infineon Technologies</title>
-    <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4451080135</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4451080135</guid>
-    <pubDate>Sat, 08 Aug 2026 13:09:47 GMT</pubDate>
-    <description>Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-3 years
-• Develop automated test suites and firmware for silicon validation
-• Perform pre-silicon validation on FPGA and post-silicon bench testing
-• Automate test equipment using Python, C, and LabVIEW</description>
   </item>
 </channel>
 </rss>

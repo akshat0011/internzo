@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901",
+      "url": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901",
+      "title": "Interim Engineering Intern_Systems- 2027 — Qualcomm",
+      "content_text": "Company: Qualcomm · Location: Greater Hyderabad Area\n• Design and validate modem baseband algorithms for 3G/4G/5G systems\n• Work with C/C++/MATLAB and UNIX/Linux platforms\n• Contribute to Qualcomm's IP and air interface standards",
+      "date_published": "2026-08-12T14:04:50.169Z",
+      "authors": [
+        {
+          "name": "Qualcomm"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714",
       "url": "https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714",
       "title": "IT Intern - Gurugram — DeHaat",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Interloop - Zoho Partner| Manage Engine | Managed HR Services"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4451080135",
-      "url": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4451080135",
-      "title": "Young Graduate Trainee — Infineon Technologies",
-      "content_text": "Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-3 years\n• Develop automated test suites and firmware for silicon validation\n• Perform pre-silicon validation on FPGA and post-silicon bench testing\n• Automate test equipment using Python, C, and LabVIEW",
-      "date_published": "2026-08-08T13:09:47.017Z",
-      "authors": [
-        {
-          "name": "Infineon Technologies"
         }
       ]
     }

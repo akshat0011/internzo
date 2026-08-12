@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786541629653,
- "count": 130,
- "techCount": 130,
+ "generatedAt": 1786544073140,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -107,6 +107,7 @@
   "Chennai, Tamil Nadu, India",
   "Delhi, Delhi, India",
   "Greater Bengaluru Area",
+  "Greater Hyderabad Area",
   "Gurugram, Haryana, India",
   "Gurugram, Haryana, India (Hybrid)",
   "Hyderabad, Telangana, India",
@@ -131,6 +132,50 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452382901",
+   "title": "Interim Engineering Intern_Systems- 2027",
+   "company": "Qualcomm",
+   "matchedWatchlist": "Qualcomm",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/qualcomm.jpg",
+   "location": "Greater Hyderabad Area",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "3 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++",
+    "matlab",
+    "linux",
+    "algorithms"
+   ],
+   "summary": "This internship involves designing and validating modem algorithms for next-gen wireless systems. Ideal for students with strong math and coding skills, working on cutting-edge 5G and satellite tech. You'll contribute to Qualcomm's IP and standards work.",
+   "bullets": [
+    "Design and validate modem baseband algorithms for 3G/4G/5G systems",
+    "Work with C/C++/MATLAB and UNIX/Linux platforms",
+    "Contribute to Qualcomm's IP and air interface standards"
+   ],
+   "roleLabel": "Modem Algorithm Design",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "c",
+    "c++",
+    "matlab",
+    "unix",
+    "linux"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "6 minutes ago",
+   "postedAt": 1786543490169,
+   "firstSeenAt": 1786543850173,
+   "url": "https://www.linkedin.com/jobs/view/4452382901/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452382901/",
+   "description": null
+  },
   {
    "id": "4452381714",
    "title": "IT Intern - Gurugram",
