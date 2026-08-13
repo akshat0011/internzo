@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786638828513,
- "count": 136,
- "techCount": 136,
+ "generatedAt": 1786640537408,
+ "count": 137,
+ "techCount": 137,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -138,6 +138,95 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4450809558",
+   "title": "Intern - C++ Linux",
+   "company": "HARMAN India",
+   "matchedWatchlist": "Harman",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/harman-india.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": "0 to 1 years",
+   "applicants": "2 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++",
+    ".net",
+    "linux",
+    "agile"
+   ],
+   "summary": "This internship involves developing IPC middleware for Linux-based systems using C++. Ideal for students with experience in C++ and Linux development, the role focuses on creating reliable and efficient communication solutions for real-time environments. The intern will collaborate with cross-functional teams and contribute to automotive technology projects.",
+   "bullets": [
+    "Develop and maintain IPC middleware for Linux systems",
+    "Use C++ for high-performance and scalable code",
+    "Work with cross-functional teams on real-time systems"
+   ],
+   "roleLabel": "IPC Middleware Developer",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "c++",
+    "linux",
+    "ipc",
+    "dds"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "3 minutes ago",
+   "postedAt": 1786639982930,
+   "firstSeenAt": 1786640162937,
+   "url": "https://www.linkedin.com/jobs/view/4450809558/",
+   "applyUrl": "https://jobsearch.harman.com/careers/searchjobs/R-54432-2026?source=LinkedIn",
+   "description": null
+  },
+  {
+   "id": "4450819463",
+   "title": "Intern",
+   "company": "HARMAN India",
+   "matchedWatchlist": "Harman",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/harman-india.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": null,
+   "applicants": "22 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "c++",
+    ".net",
+    "jenkins",
+    "ci/cd",
+    "git",
+    "agile"
+   ],
+   "summary": "This internship involves developing test cases for automotive systems using Python and AI tools. Ideal for students with a background in computer science or electronics engineering, the role offers hands-on experience in embedded systems and test automation.",
+   "bullets": [
+    "Write test cases for microcontroller hardware using Python and scripting",
+    "Use AI tools for coding, debugging, and documentation in software development",
+    "Collaborate with engineers on test frameworks and automation for automotive systems"
+   ],
+   "roleLabel": "Software Testing",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "git",
+    "ai tools",
+    "embedded c"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": null,
+   "postedAt": 1786639942691,
+   "firstSeenAt": 1786639942691,
+   "url": "https://www.linkedin.com/jobs/view/4450819463/",
+   "applyUrl": "https://jobsearch.harman.com/careers/searchjobs/R-54574-2026?source=LinkedIn",
+   "description": null
+  },
   {
    "id": "4453209152",
    "title": "Outreach Campaign Intern",
@@ -4796,50 +4885,6 @@
    "firstSeenAt": 1785942447377,
    "url": "https://www.linkedin.com/jobs/view/4447602250/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447602250/",
-   "description": null
-  },
-  {
-   "id": "4445841376",
-   "title": "Intern",
-   "company": "HARMAN India",
-   "matchedWatchlist": "Harman",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/harman-india.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "c++",
-    ".net",
-    "linux"
-   ],
-   "summary": "Internship Program bring together experiences that will help our co-ops and interns develop both personally and professionally, Students pursuing their under-graduate and post-graduate degree program wherein internship is a mandatory requirement of the curriculum or those who have completed their studies and are looking for a short work experience . Opportunity to deliver challenging work across multi-layered software stack, requiring niche skills. BE/B.Tech in Computer Science / Electronics Basic Knowledge and interest to work on C++, C , Linux skills.",
-   "bullets": [
-    "Work on software programs and develop software systems for automotive applications",
-    "Use embedded RTOS, Android, C/C++, and Linux in your daily tasks",
-    "Learn to test software using debuggers, emulators, and simulators",
-    "Perform software releases and quality assurance activities"
-   ],
-   "roleLabel": "Embedded Software Development",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "embedded rtos",
-    "android",
-    "c/c++",
-    "linux",
-    "debugging"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "54 minutes ago",
-   "postedAt": 1785667947718,
-   "firstSeenAt": 1785671187726,
-   "url": "https://www.linkedin.com/jobs/view/4445841376/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4445841376/",
    "description": null
   },
   {

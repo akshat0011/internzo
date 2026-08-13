@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558",
+      "url": "https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558",
+      "title": "Intern - C++ Linux — HARMAN India",
+      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 0 to 1 years\n• Develop and maintain IPC middleware for Linux systems\n• Use C++ for high-performance and scalable code\n• Work with cross-functional teams on real-time systems",
+      "date_published": "2026-08-13T16:53:02.930Z",
+      "authors": [
+        {
+          "name": "HARMAN India"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/harman-india-intern-4450819463",
+      "url": "https://www.internzo.in/jobs/harman-india-intern-4450819463",
+      "title": "Intern — HARMAN India",
+      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Write test cases for microcontroller hardware using Python and scripting\n• Use AI tools for coding, debugging, and documentation in software development\n• Collaborate with engineers on test frameworks and automation for automotive systems",
+      "date_published": "2026-08-13T16:52:22.691Z",
+      "authors": [
+        {
+          "name": "HARMAN India"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/airmeet-outreach-campaign-intern-4453209152",
       "url": "https://www.internzo.in/jobs/airmeet-outreach-campaign-intern-4453209152",
       "title": "Outreach Campaign Intern — Airmeet",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "Convin"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/copeland-project-intern-4449551643",
-      "url": "https://www.internzo.in/jobs/copeland-project-intern-4449551643",
-      "title": "Project Intern — Copeland",
-      "content_text": "Company: Copeland · Location: Pune Division, Maharashtra, India\n• Support electronics hardware and software projects\n• Learn technologies and document progress\n• Submit detailed report at end of assignment",
-      "date_published": "2026-08-10T11:01:36.165Z",
-      "authors": [
-        {
-          "name": "Copeland"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/iqvia-intern-4451124446",
-      "url": "https://www.internzo.in/jobs/iqvia-intern-4451124446",
-      "title": "Intern — IQVIA",
-      "content_text": "Company: IQVIA · Location: Bengaluru, Karnataka, India\n• Support applications across commercial tech, safety, patient, and qara products\n• Collaborate with teams to translate business needs into technical solutions\n• Test and validate applications to ensure quality and user satisfaction",
-      "date_published": "2026-08-10T11:01:10.800Z",
-      "authors": [
-        {
-          "name": "IQVIA"
         }
       ]
     }

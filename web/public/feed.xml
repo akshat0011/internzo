@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 16:33:48 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 17:02:17 GMT</lastBuildDate>
+  <item>
+    <title>Intern - C++ Linux — HARMAN India</title>
+    <link>https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558</guid>
+    <pubDate>Thu, 13 Aug 2026 16:53:02 GMT</pubDate>
+    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 0 to 1 years
+• Develop and maintain IPC middleware for Linux systems
+• Use C++ for high-performance and scalable code
+• Work with cross-functional teams on real-time systems</description>
+  </item>
+  <item>
+    <title>Intern — HARMAN India</title>
+    <link>https://www.internzo.in/jobs/harman-india-intern-4450819463</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-intern-4450819463</guid>
+    <pubDate>Thu, 13 Aug 2026 16:52:22 GMT</pubDate>
+    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
+• Write test cases for microcontroller hardware using Python and scripting
+• Use AI tools for coding, debugging, and documentation in software development
+• Collaborate with engineers on test frameworks and automation for automotive systems</description>
+  </item>
   <item>
     <title>Outreach Campaign Intern — Airmeet</title>
     <link>https://www.internzo.in/jobs/airmeet-outreach-campaign-intern-4453209152</link>
@@ -490,26 +510,6 @@
 • Support project planning, coordination, and execution for AI voice and chat bot products
 • Use tools like Jira, Asana, Notion, Excel, and Google Sheets for task tracking
 • Collaborate with cross-functional teams and prepare status reports for leadership</description>
-  </item>
-  <item>
-    <title>Project Intern — Copeland</title>
-    <link>https://www.internzo.in/jobs/copeland-project-intern-4449551643</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/copeland-project-intern-4449551643</guid>
-    <pubDate>Mon, 10 Aug 2026 11:01:36 GMT</pubDate>
-    <description>Company: Copeland · Location: Pune Division, Maharashtra, India
-• Support electronics hardware and software projects
-• Learn technologies and document progress
-• Submit detailed report at end of assignment</description>
-  </item>
-  <item>
-    <title>Intern — IQVIA</title>
-    <link>https://www.internzo.in/jobs/iqvia-intern-4451124446</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/iqvia-intern-4451124446</guid>
-    <pubDate>Mon, 10 Aug 2026 11:01:10 GMT</pubDate>
-    <description>Company: IQVIA · Location: Bengaluru, Karnataka, India
-• Support applications across commercial tech, safety, patient, and qara products
-• Collaborate with teams to translate business needs into technical solutions
-• Test and validate applications to ensure quality and user satisfaction</description>
   </item>
 </channel>
 </rss>
