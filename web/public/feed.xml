@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 10:44:36 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 11:33:25 GMT</lastBuildDate>
+  <item>
+    <title>Certification Intern — HARMAN India</title>
+    <link>https://www.internzo.in/jobs/harman-india-certification-intern-4450479358</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-certification-intern-4450479358</guid>
+    <pubDate>Thu, 13 Aug 2026 10:52:46 GMT</pubDate>
+    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
+• Develop software using C, C++, Java or other selected languages on Android platform
+• Test software with debuggers, emulators, simulators and perform quality assurance
+• Work from office with hybrid flexibility and minimum three in-office days per week</description>
+  </item>
+  <item>
+    <title>AI Agent Engineer Intern — Lexsi Labs</title>
+    <link>https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106</guid>
+    <pubDate>Thu, 13 Aug 2026 10:41:30 GMT</pubDate>
+    <description>Company: Lexsi Labs · Location: Mumbai Metropolitan Region
+• Build agentic systems that solve real enterprise problems
+• Work on research, product, and applied AI agent tracks
+• Collaborate with research and engineering teams</description>
+  </item>
   <item>
     <title>Graduate Trainee — Calix India</title>
     <link>https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525</link>
@@ -490,26 +510,6 @@
 • Write product specs, wireframes, and briefs for new features
 • Support sales demos and customer documentation
 • Work with engineering, design, and marketing teams</description>
-  </item>
-  <item>
-    <title>Unity Developer Intern | C# | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)</title>
-    <link>https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855</guid>
-    <pubDate>Mon, 10 Aug 2026 07:48:31 GMT</pubDate>
-    <description>Company: National Technology Centre for Ports, Waterways and Coasts (NTCPWC) · Location: Kanchipuram, Tamil Nadu, India
-• Develop interactive simulations for port and maritime applications using Unity and C#
-• Handle level design, testing, debugging, and optimization for desktop and mobile builds
-• Experiment with augmented reality concepts integrated into Unity builds</description>
-  </item>
-  <item>
-    <title>福岡苅田_Technical trainees — Valeo</title>
-    <link>https://www.internzo.in/jobs/valeo-technical-trainees-4414679303</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-technical-trainees-4414679303</guid>
-    <pubDate>Mon, 10 Aug 2026 07:40:01 GMT</pubDate>
-    <description>Company: Valeo · Location: Kanda, Uttarakhand, India
-• Operate production lines using automated systems
-• Work with PLCs and MES software
-• Support team in manufacturing electric vehicle components</description>
   </item>
 </channel>
 </rss>

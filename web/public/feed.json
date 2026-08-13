@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/harman-india-certification-intern-4450479358",
+      "url": "https://www.internzo.in/jobs/harman-india-certification-intern-4450479358",
+      "title": "Certification Intern — HARMAN India",
+      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Develop software using C, C++, Java or other selected languages on Android platform\n• Test software with debuggers, emulators, simulators and perform quality assurance\n• Work from office with hybrid flexibility and minimum three in-office days per week",
+      "date_published": "2026-08-13T10:52:46.953Z",
+      "authors": [
+        {
+          "name": "HARMAN India"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106",
+      "url": "https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106",
+      "title": "AI Agent Engineer Intern — Lexsi Labs",
+      "content_text": "Company: Lexsi Labs · Location: Mumbai Metropolitan Region\n• Build agentic systems that solve real enterprise problems\n• Work on research, product, and applied AI agent tracks\n• Collaborate with research and engineering teams",
+      "date_published": "2026-08-13T10:41:30.862Z",
+      "authors": [
+        {
+          "name": "Lexsi Labs"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525",
       "url": "https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525",
       "title": "Graduate Trainee — Calix India",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "KYC Hub"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855",
-      "url": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-unity-developer-intern-c-chennai-4451105855",
-      "title": "Unity Developer Intern | C# | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
-      "content_text": "Company: National Technology Centre for Ports, Waterways and Coasts (NTCPWC) · Location: Kanchipuram, Tamil Nadu, India\n• Develop interactive simulations for port and maritime applications using Unity and C#\n• Handle level design, testing, debugging, and optimization for desktop and mobile builds\n• Experiment with augmented reality concepts integrated into Unity builds",
-      "date_published": "2026-08-10T07:48:31.462Z",
-      "authors": [
-        {
-          "name": "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/valeo-technical-trainees-4414679303",
-      "url": "https://www.internzo.in/jobs/valeo-technical-trainees-4414679303",
-      "title": "福岡苅田_Technical trainees — Valeo",
-      "content_text": "Company: Valeo · Location: Kanda, Uttarakhand, India\n• Operate production lines using automated systems\n• Work with PLCs and MES software\n• Support team in manufacturing electric vehicle components",
-      "date_published": "2026-08-10T07:40:01.543Z",
-      "authors": [
-        {
-          "name": "Valeo"
         }
       ]
     }

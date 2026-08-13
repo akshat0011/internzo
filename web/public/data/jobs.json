@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786617876507,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1786620805414,
+ "count": 133,
+ "techCount": 133,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -52,6 +52,7 @@
   "Joveo",
   "KYC Hub",
   "Larsen & Toubro",
+  "Lexsi Labs",
   "Magna International",
   "Marmon Technologies India Pvt Ltd",
   "Microsoft",
@@ -132,6 +133,89 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4450479358",
+   "title": "Certification Intern",
+   "company": "HARMAN India",
+   "matchedWatchlist": "Harman",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/harman-india.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "31 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "java",
+    "c++",
+    ".net"
+   ],
+   "summary": "This internship offers hands-on experience in software development for Android platforms, focusing on testing and quality assurance. Ideal for students with a background in C, C++, Java, or embedded systems, the role includes learning and applying industry best practices in a collaborative environment. The intern will work in-office with a hybrid schedule and gain exposure to automotive technology trends.",
+   "bullets": [
+    "Develop software using C, C++, Java or other selected languages on Android platform",
+    "Test software with debuggers, emulators, simulators and perform quality assurance",
+    "Work from office with hybrid flexibility and minimum three in-office days per week"
+   ],
+   "roleLabel": "Software Development",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "c",
+    "c++",
+    "java",
+    "android",
+    "embedded systems"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "30 minutes ago",
+   "postedAt": 1786618366953,
+   "firstSeenAt": 1786620166964,
+   "url": "https://www.linkedin.com/jobs/view/4450479358/",
+   "applyUrl": "https://jobsearch.harman.com/careers/searchjobs/R-53377-2026?source=LinkedIn",
+   "description": null
+  },
+  {
+   "id": "4452947106",
+   "title": "AI Agent Engineer Intern",
+   "company": "Lexsi Labs",
+   "matchedWatchlist": "Lexsi Labs",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/lexsi-labs.jpg",
+   "location": "Mumbai Metropolitan Region",
+   "workplaceType": "Remote",
+   "stipend": null,
+   "duration": null,
+   "applicants": "53 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python"
+   ],
+   "summary": "This internship involves working on cutting-edge agentic AI systems that address real-world enterprise challenges. You will contribute to research, product development, or applied projects, collaborating with cross-functional teams to build reliable and impactful AI solutions.",
+   "bullets": [
+    "Build agentic systems that solve real enterprise problems",
+    "Work on research, product, and applied AI agent tracks",
+    "Collaborate with research and engineering teams"
+   ],
+   "roleLabel": "AI Agent Development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "llms",
+    "agent frameworks",
+    "evaluation pipelines"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "45 minutes ago",
+   "postedAt": 1786617690862,
+   "firstSeenAt": 1786620390867,
+   "url": "https://www.linkedin.com/jobs/view/4452947106/",
+   "applyUrl": "https://easyapply.jobs/r/iHXuGGi272dvli30VZ9L",
+   "description": null
+  },
   {
    "id": "4453687525",
    "title": "Graduate Trainee",
@@ -2678,49 +2762,6 @@
    "firstSeenAt": 1786111888264,
    "url": "https://www.linkedin.com/jobs/view/4450330540/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4450330540/",
-   "description": null
-  },
-  {
-   "id": "4448767325",
-   "title": "Certification Intern",
-   "company": "HARMAN India",
-   "matchedWatchlist": "Harman",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/harman-india.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "java",
-    "c++",
-    ".net"
-   ],
-   "summary": "We are seeking a full-time Software Engineering Intern. In this role, you will be responsible for learning and training to develop software solutions. Learn to develop software using C, C++, Java or other selected languages on Android Platform. Desirable to have knowledge on Android Basics.",
-   "bullets": [
-    "Develop software solutions using C, C++, and Java on the Android platform",
-    "Test embedded software components using debuggers, emulators, and simulators",
-    "Participate in software quality assurance processes and build release activities"
-   ],
-   "roleLabel": "Android software engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "c",
-    "c++",
-    "java",
-    "android",
-    "embedded systems"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "8 minutes ago",
-   "postedAt": 1786100006727,
-   "firstSeenAt": 1786100486734,
-   "url": "https://www.linkedin.com/jobs/view/4448767325/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448767325/",
    "description": null
   },
   {
