@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786654429611,
- "count": 138,
- "techCount": 138,
+ "generatedAt": 1786656377334,
+ "count": 139,
+ "techCount": 139,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -139,6 +139,48 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4450829522",
+   "title": "Learning & Development Apprentice",
+   "company": "HighLevel",
+   "matchedWatchlist": "HighLevel",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/highlevel.jpg",
+   "location": "India",
+   "workplaceType": "Remote",
+   "stipend": "₹45,000 / month",
+   "duration": "6 months",
+   "applicants": "0 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "microservices",
+    "excel"
+   ],
+   "summary": "This apprenticeship involves managing onboarding processes, creating learning content, and analyzing learner data. It suits students interested in learning operations and working with global teams in a remote environment.",
+   "bullets": [
+    "Manage onboarding workflows and LMS data for global hires",
+    "Create structured learning content with AI tools and internal teams",
+    "Track learner engagement and generate insights from course data"
+   ],
+   "roleLabel": "Learning Operations",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "google sheets",
+    "google workspace",
+    "notion",
+    "slack",
+    "ai tools"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "9 minutes ago",
+   "postedAt": 1786655590524,
+   "firstSeenAt": 1786656130535,
+   "url": "https://www.linkedin.com/jobs/view/4450829522/",
+   "applyUrl": "https://jobs.lever.co/gohighlevel/e3bd5496-6f0b-438f-b252-ade14d15947b/apply?source=LinkedIn",
+   "description": null
+  },
   {
    "id": "4454063282",
    "title": "DevOps Intern",

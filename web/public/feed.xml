@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 20:53:49 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 21:26:17 GMT</lastBuildDate>
+  <item>
+    <title>Learning &amp; Development Apprentice — HighLevel</title>
+    <link>https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522</guid>
+    <pubDate>Thu, 13 Aug 2026 21:13:10 GMT</pubDate>
+    <description>Company: HighLevel · Location: India · Duration: 6 months
+• Manage onboarding workflows and LMS data for global hires
+• Create structured learning content with AI tools and internal teams
+• Track learner engagement and generate insights from course data</description>
+  </item>
   <item>
     <title>DevOps Intern — Emeritus</title>
     <link>https://www.internzo.in/jobs/emeritus-devops-intern-4454063282</link>
@@ -497,16 +507,6 @@
 • Develop backend services and APIs for AI-powered products
 • Work with databases and build integrations for voicebots and chatbots
 • Collaborate with cross-functional teams in Bengaluru office</description>
-  </item>
-  <item>
-    <title>UX Design Intern — Hevo Data</title>
-    <link>https://www.internzo.in/jobs/hevo-data-ux-design-intern-4449560602</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/hevo-data-ux-design-intern-4449560602</guid>
-    <pubDate>Mon, 10 Aug 2026 12:07:01 GMT</pubDate>
-    <description>Company: Hevo Data · Location: Bengaluru, Karnataka, India
-• Design interfaces and prototypes in Figma
-• Use AI tools for research and prototyping
-• Collaborate with designers and product teams</description>
   </item>
 </channel>
 </rss>

@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522",
+      "url": "https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522",
+      "title": "Learning & Development Apprentice — HighLevel",
+      "content_text": "Company: HighLevel · Location: India · Duration: 6 months\n• Manage onboarding workflows and LMS data for global hires\n• Create structured learning content with AI tools and internal teams\n• Track learner engagement and generate insights from course data",
+      "date_published": "2026-08-13T21:13:10.524Z",
+      "authors": [
+        {
+          "name": "HighLevel"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/emeritus-devops-intern-4454063282",
       "url": "https://www.internzo.in/jobs/emeritus-devops-intern-4454063282",
       "title": "DevOps Intern — Emeritus",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Convin"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/hevo-data-ux-design-intern-4449560602",
-      "url": "https://www.internzo.in/jobs/hevo-data-ux-design-intern-4449560602",
-      "title": "UX Design Intern — Hevo Data",
-      "content_text": "Company: Hevo Data · Location: Bengaluru, Karnataka, India\n• Design interfaces and prototypes in Figma\n• Use AI tools for research and prototyping\n• Collaborate with designers and product teams",
-      "date_published": "2026-08-10T12:07:01.366Z",
-      "authors": [
-        {
-          "name": "Hevo Data"
         }
       ]
     }
