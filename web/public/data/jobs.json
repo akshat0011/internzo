@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786579074734,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1786580955680,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -119,6 +119,7 @@
   "Mumbai Metropolitan Region",
   "Mumbai, MH",
   "Mumbai, Maharashtra, India",
+  "Navi Mumbai, Maharashtra, India",
   "Noida, Uttar Pradesh",
   "Noida, Uttar Pradesh, India",
   "Pune Division, Maharashtra, India",
@@ -127,6 +128,49 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453612335",
+   "title": "Junior PHP Developer Internship in Thane, Mumbai, Navi Mumbai",
+   "company": "FynTune Solution Private Limited",
+   "matchedWatchlist": "FynTune Solution Private Limited",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/fyntune-solution-private-limited.jpg",
+   "location": "Navi Mumbai, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "0 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "javascript",
+    "php",
+    "mysql",
+    "oop"
+   ],
+   "summary": "This internship involves building and maintaining web applications for insurance platforms using php and laravel. Interns will work closely with ux teams and manage the full development lifecycle from concept to delivery. The role is ideal for students with experience in oop and backend development.",
+   "bullets": [
+    "Develop and maintain php/laravel web apps for insurance platforms",
+    "Collaborate with ux team and manage full development lifecycle",
+    "Refactor code, write tests, and document technical processes"
+   ],
+   "roleLabel": "Php web development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "php",
+    "laravel",
+    "mysql",
+    "oop"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "21 minutes ago",
+   "postedAt": 1786579624750,
+   "firstSeenAt": 1786580884757,
+   "url": "https://www.linkedin.com/jobs/view/4453612335/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453612335/",
+   "description": null
+  },
   {
    "id": "4443503819",
    "title": "Intern - Optics",
