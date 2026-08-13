@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786631508014,
- "count": 134,
- "techCount": 134,
+ "generatedAt": 1786633365073,
+ "count": 135,
+ "techCount": 135,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -33,6 +33,7 @@
   "Fujitsu",
   "FynTune Solution Private Limited",
   "GE HealthCare",
+  "GSK",
   "Glance",
   "GoKwik",
   "GreedyGame",
@@ -136,6 +137,41 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4450815101",
+   "title": "Intern Bios Programming",
+   "company": "GSK",
+   "matchedWatchlist": "GSK",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/gsk.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "13 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves writing code under supervision, following technical guidelines, and keeping managers informed of progress. It suits students with a background in programming and an interest in scientific software development.",
+   "bullets": [
+    "Writes code based on specifications under supervision",
+    "Uses programming languages and follows technical documentation",
+    "Communicates progress and issues to manager regularly"
+   ],
+   "roleLabel": "Programming Intern",
+   "degreeLevel": null,
+   "degreeText": "MSc",
+   "keySkills": [
+    "programming languages"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "7 minutes ago",
+   "postedAt": 1786632355317,
+   "firstSeenAt": 1786632775325,
+   "url": "https://www.linkedin.com/jobs/view/4450815101/",
+   "applyUrl": "https://jobs.gsk.com/gb/en/job/446343/Intern-Bios-Programming?utm_source=linkedin&utm_medium=phenom-feeds",
+   "description": null
+  },
   {
    "id": "4454029367",
    "title": "Young Graduate Trainee",

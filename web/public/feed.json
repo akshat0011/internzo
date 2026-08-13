@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101",
+      "url": "https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101",
+      "title": "Intern Bios Programming — GSK",
+      "content_text": "Company: GSK · Location: Bengaluru, Karnataka, India\n• Writes code based on specifications under supervision\n• Uses programming languages and follows technical documentation\n• Communicates progress and issues to manager regularly",
+      "date_published": "2026-08-13T14:45:55.317Z",
+      "authors": [
+        {
+          "name": "GSK"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367",
       "url": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367",
       "title": "Young Graduate Trainee — Infineon Technologies",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/highlevel-software-development-engineer-mobile-and-commerce-apprentice-4449535942",
-      "url": "https://www.internzo.in/jobs/highlevel-software-development-engineer-mobile-and-commerce-apprentice-4449535942",
-      "title": "Software Development Engineer - Mobile & Commerce (Apprentice) — HighLevel",
-      "content_text": "Company: HighLevel · Location: India · Duration: 12 months\n• Write tests for commerce systems handling payments and ledger updates\n• Work with Go, protobuf, and distributed systems in a remote team\n• Merge to main in week two with on-call responsibilities",
-      "date_published": "2026-08-10T10:12:24.613Z",
-      "authors": [
-        {
-          "name": "HighLevel"
         }
       ]
     }

@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 14:31:48 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 15:02:45 GMT</lastBuildDate>
+  <item>
+    <title>Intern Bios Programming — GSK</title>
+    <link>https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101</guid>
+    <pubDate>Thu, 13 Aug 2026 14:45:55 GMT</pubDate>
+    <description>Company: GSK · Location: Bengaluru, Karnataka, India
+• Writes code based on specifications under supervision
+• Uses programming languages and follows technical documentation
+• Communicates progress and issues to manager regularly</description>
+  </item>
   <item>
     <title>Young Graduate Trainee — Infineon Technologies</title>
     <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367</link>
@@ -500,16 +510,6 @@
 • Build CI/CD pipelines and write automation scripts using Python, Groovy, and Shell
 • Set up Docker and Kubernetes build environments and cloud infrastructure
 • 6-month fixed-term role based in Bangalore</description>
-  </item>
-  <item>
-    <title>Software Development Engineer - Mobile &amp; Commerce (Apprentice) — HighLevel</title>
-    <link>https://www.internzo.in/jobs/highlevel-software-development-engineer-mobile-and-commerce-apprentice-4449535942</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/highlevel-software-development-engineer-mobile-and-commerce-apprentice-4449535942</guid>
-    <pubDate>Mon, 10 Aug 2026 10:12:24 GMT</pubDate>
-    <description>Company: HighLevel · Location: India · Duration: 12 months
-• Write tests for commerce systems handling payments and ledger updates
-• Work with Go, protobuf, and distributed systems in a remote team
-• Merge to main in week two with on-call responsibilities</description>
   </item>
 </channel>
 </rss>
