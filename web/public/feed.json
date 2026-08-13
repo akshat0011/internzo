@@ -6,6 +6,42 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525",
+      "url": "https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525",
+      "title": "Graduate Trainee — Calix India",
+      "content_text": "Company: Calix India · Location: Bengaluru, Karnataka, India\n• Debug code and test software solutions\n• Work with java, python, go, and cloud platforms\n• Collaborate with cross-functional teams in fast-paced environment",
+      "date_published": "2026-08-13T08:12:56.123Z",
+      "authors": [
+        {
+          "name": "Calix India"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/russell-investments-graduate-trainee-apprentice-global-technology-4452910389",
+      "url": "https://www.internzo.in/jobs/russell-investments-graduate-trainee-apprentice-global-technology-4452910389",
+      "title": "Graduate Trainee (Apprentice), Global Technology — Russell Investments",
+      "content_text": "Company: Russell Investments · Location: Mumbai Metropolitan Region\n• Support AI product development by gathering requirements and refining user stories\n• Collaborate with engineers and product managers to shape AI-driven solutions\n• Conduct market research and track product metrics for AI adoption\n• Work with global teams across time zones in a professional corporate environment",
+      "date_published": "2026-08-13T08:11:03.588Z",
+      "authors": [
+        {
+          "name": "Russell Investments"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/larsen-and-toubro-genai-trainee-4453683160",
+      "url": "https://www.internzo.in/jobs/larsen-and-toubro-genai-trainee-4453683160",
+      "title": "GenAI Trainee — Larsen & Toubro",
+      "content_text": "Company: Larsen & Toubro · Location: Kurla, Maharashtra, India\n• Work on ml models, data preprocessing, and model evaluation\n• Develop chatbots, ai apps, and integrate with enterprise systems\n• Use tensorflow, pytorch, opencv, and yolov for vision projects\n• Collaborate with engineers and stakeholders in agile teams",
+      "date_published": "2026-08-13T07:12:31.239Z",
+      "authors": [
+        {
+          "name": "Larsen & Toubro"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-php-developer-internship-in-thane-mumbai-navi-mumbai-4453612335",
       "url": "https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-php-developer-internship-in-thane-mumbai-navi-mumbai-4453612335",
       "title": "Junior PHP Developer Internship in Thane, Mumbai, Navi Mumbai — FynTune Solution Private Limited",
@@ -566,42 +602,6 @@
       "authors": [
         {
           "name": "Valeo"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635",
-      "url": "https://www.internzo.in/jobs/janitri-ui-ux-designer-intern-4451103635",
-      "title": "UI/UX Designer Intern — Janitri",
-      "content_text": "Company: Janitri · Location: Greater Bengaluru Area · Duration: 6 months\n• Conduct user research, usability testing, and prepare competitive analyses\n• Create wireframes, user flows, prototypes, and high-fidelity mockups\n• Work closely with cross-functional development and product teams",
-      "date_published": "2026-08-10T06:27:40.229Z",
-      "authors": [
-        {
-          "name": "Janitri"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/intuit-intern-software-engineering-4450965062",
-      "url": "https://www.internzo.in/jobs/intuit-intern-software-engineering-4450965062",
-      "title": "Intern, Software Engineering — Intuit",
-      "content_text": "Company: Intuit · Location: Bengaluru, Karnataka, India · Duration: Summer 2027\n• Assist in designing, developing, testing, and debugging software applications\n• Participate in code reviews, agile practices, and DevOps shift-left testing\n• Summer 2027 internship for degree-seeking students returning to university",
-      "date_published": "2026-08-09T16:15:42.430Z",
-      "authors": [
-        {
-          "name": "Intuit"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4449259269",
-      "url": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4449259269",
-      "title": "Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com",
-      "content_text": "Company: NoBroker.com · Location: Bengaluru, Karnataka, India\n• Analyze business data and conduct competitor field visits in Pune\n• Develop and implement practical solutions for live industry projects\n• Requires 15 to 20 hours per week commitment alongside academics",
-      "date_published": "2026-08-08T18:55:23.537Z",
-      "authors": [
-        {
-          "name": "NoBroker.com"
         }
       ]
     }
