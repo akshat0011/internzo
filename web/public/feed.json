@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367",
+      "url": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367",
+      "title": "Young Graduate Trainee — Infineon Technologies",
+      "content_text": "Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years\n• Write scripts and tools to validate Wi-Fi for IoT devices\n• Use python and other software languages for automation\n• Work with firmware, product, and test teams",
+      "date_published": "2026-08-13T13:11:13.301Z",
+      "authors": [
+        {
+          "name": "Infineon Technologies"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451",
       "url": "https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451",
       "title": "PowerApps Developer Intern — pharma&",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "HighLevel"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228",
-      "url": "https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228",
-      "title": "Game Developer Intern | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
-      "content_text": "Company: National Technology Centre for Ports, Waterways and Coasts (NTCPWC) · Location: Kanchipuram, Tamil Nadu, India\n• Develop game-based simulations and interactive visualizations for maritime scenarios\n• Implement gameplay features using OOP, debug modules, and integrate game prototypes\n• Full-time on-site internship located in Kanchipuram working on national projects",
-      "date_published": "2026-08-10T10:00:30.894Z",
-      "authors": [
-        {
-          "name": "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)"
         }
       ]
     }

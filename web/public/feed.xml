@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 13:03:59 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 13:32:34 GMT</lastBuildDate>
+  <item>
+    <title>Young Graduate Trainee — Infineon Technologies</title>
+    <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367</guid>
+    <pubDate>Thu, 13 Aug 2026 13:11:13 GMT</pubDate>
+    <description>Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years
+• Write scripts and tools to validate Wi-Fi for IoT devices
+• Use python and other software languages for automation
+• Work with firmware, product, and test teams</description>
+  </item>
   <item>
     <title>PowerApps Developer Intern — pharma&amp;</title>
     <link>https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451</link>
@@ -500,16 +510,6 @@
 • Write tests for commerce systems handling payments and ledger updates
 • Work with Go, protobuf, and distributed systems in a remote team
 • Merge to main in week two with on-call responsibilities</description>
-  </item>
-  <item>
-    <title>Game Developer Intern | Chennai — National Technology Centre for Ports, Waterways and Coasts (NTCPWC)</title>
-    <link>https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc-game-developer-intern-chennai-4451142228</guid>
-    <pubDate>Mon, 10 Aug 2026 10:00:30 GMT</pubDate>
-    <description>Company: National Technology Centre for Ports, Waterways and Coasts (NTCPWC) · Location: Kanchipuram, Tamil Nadu, India
-• Develop game-based simulations and interactive visualizations for maritime scenarios
-• Implement gameplay features using OOP, debug modules, and integrate game prototypes
-• Full-time on-site internship located in Kanchipuram working on national projects</description>
   </item>
 </channel>
 </rss>
