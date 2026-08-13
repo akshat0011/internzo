@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786620805414,
- "count": 133,
- "techCount": 133,
+ "generatedAt": 1786622570312,
+ "count": 134,
+ "techCount": 134,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -95,6 +95,7 @@
   "Whatfix",
   "Yubi",
   "eBay",
+  "pharma&",
   "upGrad International"
  ],
  "locations": [
@@ -133,6 +134,48 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4450483451",
+   "title": "PowerApps Developer Intern",
+   "company": "pharma&",
+   "matchedWatchlist": "Aurobindo Pharma",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/pharma-and.jpg",
+   "location": "Hyderabad, Telangana, India",
+   "workplaceType": "On-site",
+   "stipend": "₹15,000 / month",
+   "duration": "6 months",
+   "applicants": "4 applicants",
+   "easyApply": true,
+   "skills": [
+    "excel"
+   ],
+   "summary": "This internship involves developing powerapps to streamline business processes and integrate with microsoft tools. Ideal for students with power platform experience looking to work on real world data projects in a global environment.",
+   "bullets": [
+    "Build and customize powerapps for business processes",
+    "Integrate with microsoft 365 tools like sharepoint and teams",
+    "Work with global teams on data driven solutions",
+    "Located in hyderabad, 6 month internship"
+   ],
+   "roleLabel": "PowerApps Development",
+   "degreeLevel": "UG/PG",
+   "degreeText": "Computer Science/Information Systems",
+   "keySkills": [
+    "powerapps",
+    "power automate",
+    "sharepoint",
+    "teams",
+    "excel"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "27 minutes ago",
+   "postedAt": 1786620489332,
+   "firstSeenAt": 1786622109343,
+   "url": "https://www.linkedin.com/jobs/view/4450483451/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4450483451/",
+   "description": null
+  },
   {
    "id": "4450479358",
    "title": "Certification Intern",

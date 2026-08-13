@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451",
+      "url": "https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451",
+      "title": "PowerApps Developer Intern — pharma&",
+      "content_text": "Company: pharma& · Location: Hyderabad, Telangana, India · Duration: 6 months\n• Build and customize powerapps for business processes\n• Integrate with microsoft 365 tools like sharepoint and teams\n• Work with global teams on data driven solutions\n• Located in hyderabad, 6 month internship",
+      "date_published": "2026-08-13T11:28:09.332Z",
+      "authors": [
+        {
+          "name": "pharma&"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/harman-india-certification-intern-4450479358",
       "url": "https://www.internzo.in/jobs/harman-india-certification-intern-4450479358",
       "title": "Certification Intern — HARMAN India",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "S&P Global"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/kyc-hub-product-management-intern-4449546075",
-      "url": "https://www.internzo.in/jobs/kyc-hub-product-management-intern-4449546075",
-      "title": "Product Management Intern — KYC Hub",
-      "content_text": "Company: KYC Hub · Location: India\n• Gather user research, analyze competitors, and review market trends\n• Write product specs, wireframes, and briefs for new features\n• Support sales demos and customer documentation\n• Work with engineering, design, and marketing teams",
-      "date_published": "2026-08-10T08:08:22.846Z",
-      "authors": [
-        {
-          "name": "KYC Hub"
         }
       ]
     }

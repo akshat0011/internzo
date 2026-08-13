@@ -6,7 +6,18 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 11:33:25 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 12:02:50 GMT</lastBuildDate>
+  <item>
+    <title>PowerApps Developer Intern — pharma&amp;</title>
+    <link>https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451</guid>
+    <pubDate>Thu, 13 Aug 2026 11:28:09 GMT</pubDate>
+    <description>Company: pharma&amp; · Location: Hyderabad, Telangana, India · Duration: 6 months
+• Build and customize powerapps for business processes
+• Integrate with microsoft 365 tools like sharepoint and teams
+• Work with global teams on data driven solutions
+• Located in hyderabad, 6 month internship</description>
+  </item>
   <item>
     <title>Certification Intern — HARMAN India</title>
     <link>https://www.internzo.in/jobs/harman-india-certification-intern-4450479358</link>
@@ -499,17 +510,6 @@
 • Build ML models, perform EDA, and implement GenAI solutions using LLMs and RAG
 • Write and maintain Python code using Pandas, NumPy, and Scikit-Learn
 • Containerize models with Docker, manage version control in Git, and support CI/CD</description>
-  </item>
-  <item>
-    <title>Product Management Intern — KYC Hub</title>
-    <link>https://www.internzo.in/jobs/kyc-hub-product-management-intern-4449546075</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/kyc-hub-product-management-intern-4449546075</guid>
-    <pubDate>Mon, 10 Aug 2026 08:08:22 GMT</pubDate>
-    <description>Company: KYC Hub · Location: India
-• Gather user research, analyze competitors, and review market trends
-• Write product specs, wireframes, and briefs for new features
-• Support sales demos and customer documentation
-• Work with engineering, design, and marketing teams</description>
   </item>
 </channel>
 </rss>
