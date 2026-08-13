@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/emeritus-devops-intern-4454063282",
+      "url": "https://www.internzo.in/jobs/emeritus-devops-intern-4454063282",
+      "title": "DevOps Intern — Emeritus",
+      "content_text": "Company: Emeritus · Location: Mumbai Metropolitan Region\n• Set up and maintain ci/cd pipelines for automated software delivery\n• Monitor system performance and infrastructure health with observability tools\n• Manage cloud infrastructure and ensure high availability and uptime",
+      "date_published": "2026-08-13T17:04:04.984Z",
+      "authors": [
+        {
+          "name": "Emeritus"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558",
       "url": "https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558",
       "title": "Intern - C++ Linux — HARMAN India",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Philips"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/convin-project-management-intern-4451130333",
-      "url": "https://www.internzo.in/jobs/convin-project-management-intern-4451130333",
-      "title": "Project Management Intern — Convin",
-      "content_text": "Company: Convin · Location: Bengaluru, Karnataka, India · Duration: 0-1 years\n• Support project planning, coordination, and execution for AI voice and chat bot products\n• Use tools like Jira, Asana, Notion, Excel, and Google Sheets for task tracking\n• Collaborate with cross-functional teams and prepare status reports for leadership",
-      "date_published": "2026-08-10T11:03:06.878Z",
-      "authors": [
-        {
-          "name": "Convin"
         }
       ]
     }

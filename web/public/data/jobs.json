@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786640537408,
- "count": 137,
- "techCount": 137,
+ "generatedAt": 1786642098110,
+ "count": 138,
+ "techCount": 138,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -26,6 +26,7 @@
   "Delhivery",
   "Dun & Bradstreet",
   "Eli Lilly and Company",
+  "Emeritus",
   "Emerson",
   "Enterpret",
   "FanCode",
@@ -138,6 +139,50 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454063282",
+   "title": "DevOps Intern",
+   "company": "Emeritus",
+   "matchedWatchlist": "Emeritus",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/emeritus.jpg",
+   "location": "Mumbai Metropolitan Region",
+   "workplaceType": "Remote",
+   "stipend": null,
+   "duration": null,
+   "applicants": "21 applicants",
+   "easyApply": true,
+   "skills": [
+    "python",
+    "aws",
+    "gcp",
+    "docker",
+    "ci/cd",
+    "linux"
+   ],
+   "summary": "This internship involves supporting the cloud infrastructure for educational platforms by automating deployments, monitoring system health, and ensuring reliable service. It suits students with cloud and devops experience looking to gain hands-on exposure in a growing edtech environment.",
+   "bullets": [
+    "Set up and maintain ci/cd pipelines for automated software delivery",
+    "Monitor system performance and infrastructure health with observability tools",
+    "Manage cloud infrastructure and ensure high availability and uptime"
+   ],
+   "roleLabel": "Cloud infrastructure support",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "cloud platforms",
+    "docker",
+    "linux administration"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "20 minutes ago",
+   "postedAt": 1786640644984,
+   "firstSeenAt": 1786641844993,
+   "url": "https://www.linkedin.com/jobs/view/4454063282/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454063282/",
+   "description": null
+  },
   {
    "id": "4450809558",
    "title": "Intern - C++ Linux",
