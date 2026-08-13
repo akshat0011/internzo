@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/airmeet-outreach-campaign-intern-4453209152",
+      "url": "https://www.internzo.in/jobs/airmeet-outreach-campaign-intern-4453209152",
+      "title": "Outreach Campaign Intern — Airmeet",
+      "content_text": "Company: Airmeet · Location: Bengaluru, Karnataka, India · Duration: 3–6 months\n• Research and identify b2b prospects\n• Build prospect lists and track campaigns\n• Create emails and follow up with leads\n• Learn b2b saas sales and ai tools",
+      "date_published": "2026-08-13T16:18:11.869Z",
+      "authors": [
+        {
+          "name": "Airmeet"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101",
       "url": "https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101",
       "title": "Intern Bios Programming — GSK",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "IQVIA"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
-      "url": "https://www.internzo.in/jobs/harman-india-intern-build-and-integration-4449547950",
-      "title": "Intern – Build & Integration — HARMAN India",
-      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 6 months\n• Manage build and integration across Android, Linux, and embedded platforms\n• Build CI/CD pipelines and write automation scripts using Python, Groovy, and Shell\n• Set up Docker and Kubernetes build environments and cloud infrastructure\n• 6-month fixed-term role based in Bangalore",
-      "date_published": "2026-08-10T10:40:53.483Z",
-      "authors": [
-        {
-          "name": "HARMAN India"
         }
       ]
     }

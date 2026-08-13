@@ -1,12 +1,13 @@
 {
- "generatedAt": 1786638121130,
- "count": 135,
- "techCount": 135,
+ "generatedAt": 1786638828513,
+ "count": 136,
+ "techCount": 136,
  "otherCount": 0,
  "companies": [
   "Accenture",
   "Accenture in India",
   "Acko",
+  "Airmeet",
   "AlphaGrep Securities",
   "American Express",
   "Analog Devices",
@@ -137,6 +138,44 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453209152",
+   "title": "Outreach Campaign Intern",
+   "company": "Airmeet",
+   "matchedWatchlist": "Airmeet",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/airmeet.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": "3–6 months",
+   "applicants": "0 applicants",
+   "easyApply": true,
+   "skills": [],
+   "summary": "This internship involves researching and managing b2b outreach campaigns for an ai-powered saas platform. Interns will build prospect lists, draft personalized emails, and track campaign performance. It suits students interested in sales, marketing, and ai with a focus on real-world outreach strategies.",
+   "bullets": [
+    "Research and identify b2b prospects",
+    "Build prospect lists and track campaigns",
+    "Create emails and follow up with leads",
+    "Learn b2b saas sales and ai tools"
+   ],
+   "roleLabel": "Outreach campaign",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "linkedin",
+    "sales tools",
+    "spreadsheets"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "10 minutes ago",
+   "postedAt": 1786637891869,
+   "firstSeenAt": 1786638491878,
+   "url": "https://www.linkedin.com/jobs/view/4453209152/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453209152/",
+   "description": null
+  },
   {
    "id": "4450815101",
    "title": "Intern Bios Programming",
