@@ -6,7 +6,7 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 17:28:18 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 18:01:51 GMT</lastBuildDate>
   <item>
     <title>DevOps Intern — Emeritus</title>
     <link>https://www.internzo.in/jobs/emeritus-devops-intern-4454063282</link>
@@ -16,6 +16,13 @@
 • Set up and maintain ci/cd pipelines for automated software delivery
 • Monitor system performance and infrastructure health with observability tools
 • Manage cloud infrastructure and ensure high availability and uptime</description>
+  </item>
+  <item>
+    <title>Intern — Quest Global</title>
+    <link>https://www.internzo.in/jobs/quest-global-intern-4453215117</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/quest-global-intern-4453215117</guid>
+    <pubDate>Thu, 13 Aug 2026 17:01:40 GMT</pubDate>
+    <description>Company: Quest Global · Location: Mumbai, Maharashtra, India</description>
   </item>
   <item>
     <title>Intern - C++ Linux — HARMAN India</title>
@@ -500,16 +507,6 @@
 • Design interfaces and prototypes in Figma
 • Use AI tools for research and prototyping
 • Collaborate with designers and product teams</description>
-  </item>
-  <item>
-    <title>Apprentice Trainee (Software Developer) — Philips</title>
-    <link>https://www.internzo.in/jobs/philips-apprentice-trainee-software-developer-4451156775</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/philips-apprentice-trainee-software-developer-4451156775</guid>
-    <pubDate>Mon, 10 Aug 2026 11:55:04 GMT</pubDate>
-    <description>Company: Philips · Location: Bengaluru, Karnataka, India
-• Develop software solutions for healthcare devices
-• Work with c# and .net framework
-• Collaborate with cross-functional teams in bengaluru</description>
   </item>
 </channel>
 </rss>
