@@ -1,5 +1,5 @@
 {
- "generatedAt": 1786624323384,
+ "generatedAt": 1786626239372,
  "count": 134,
  "techCount": 134,
  "otherCount": 0,
@@ -83,6 +83,7 @@
   "Snapdeal",
   "Sony Research India",
   "Sprinklr",
+  "State Street",
   "Stripe",
   "TeamLease Regtech Pvt. Ltd.",
   "Teli Labs",
@@ -100,6 +101,7 @@
  ],
  "locations": [
   "Bangalore Urban, Karnataka, India",
+  "Bangalore, India",
   "Bengaluru",
   "Bengaluru East, Karnataka, India",
   "Bengaluru, Karnataka, India",
@@ -445,6 +447,52 @@
    "firstSeenAt": 1786580884757,
    "url": "https://www.linkedin.com/jobs/view/4453612335/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4453612335/",
+   "description": null
+  },
+  {
+   "id": "ats:workday:statestreet:wd1:Global:R-796016",
+   "title": "Apprentice",
+   "company": "State Street",
+   "matchedWatchlist": "State Street",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/state-street.jpg",
+   "location": "Bangalore, India",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "java",
+    "sql",
+    "spring boot",
+    "aws",
+    "git",
+    "agile"
+   ],
+   "summary": "This internship involves supporting java application development and database optimization. You'll work with relational databases and sql, and contribute to cloud-based deployments. Ideal for students with strong java and database skills looking for hands-on experience in a technical role.",
+   "bullets": [
+    "Support development and maintenance of java-based applications",
+    "Work with relational databases and sql for query optimization",
+    "Collaborate on cloud deployments and testing on aws"
+   ],
+   "roleLabel": "Java Developer",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech",
+   "keySkills": [
+    "java",
+    "sql",
+    "aws",
+    "database",
+    "git"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": null,
+   "postedAt": 1786579200000,
+   "firstSeenAt": 1786625483343,
+   "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Bangalore-India/Apprentice_R-796016",
+   "applyUrl": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Bangalore-India/Apprentice_R-796016",
    "description": null
   },
   {
@@ -5190,43 +5238,6 @@
    "firstSeenAt": 1785432964973,
    "url": "https://www.linkedin.com/jobs/view/4446793926/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446793926/",
-   "description": null
-  },
-  {
-   "id": "4446765544",
-   "title": "AI Intern",
-   "company": "Whatfix",
-   "matchedWatchlist": "Whatfix",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/whatfix.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "llm",
-    "rag"
-   ],
-   "summary": "Founded in 2014 by Khadim Batti and Vara Kumar, Whatfix is a leading global B2B SaaS provider and the largest pure-play enterprise digital adoption platform (DAP). Whatfix empowers companies to maximize the ROI of their digital investments across the application lifecycle, from ideation to training to the deployment of software. Driving user productivity, ensuring process compliance, and improving user experience of internal and customer-facing applications. Spearheading the category with serial innovation and unmatched customer-centricity, Whatfix is the only DAP innovating beyond the category, positioning…",
-   "bullets": [
-    "Work on AI agentification initiatives, replacing manual workflows with AI agents",
-    "Join a small, high-impact team working directly with senior leadership",
-    "Focus on intelligent process automation for internal functions like Sales, HR, Finance"
-   ],
-   "roleLabel": "AI agent development",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [],
-   "stipendStatus": "unknown",
-   "postedText": "19 minutes ago",
-   "postedAt": 1785415473351,
-   "firstSeenAt": 1785416613358,
-   "url": "https://www.linkedin.com/jobs/view/4446765544/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4446765544/",
    "description": null
   },
   {
