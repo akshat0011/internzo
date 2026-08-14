@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786710562011,
- "count": 138,
- "techCount": 138,
+ "generatedAt": 1786712394021,
+ "count": 137,
+ "techCount": 137,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -5386,48 +5386,6 @@
    "firstSeenAt": 1785503091839,
    "url": "https://www.linkedin.com/jobs/view/4447512297/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447512297/",
-   "description": null
-  },
-  {
-   "id": "4447295778",
-   "title": "Intern, Industrial Solutions",
-   "company": "Magna International",
-   "matchedWatchlist": "Magna International",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/magna-international.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "excel"
-   ],
-   "summary": "Job descriptions may display in multiple languages based on your language selection. We invest in our employees, providing them with the support and resources they need to succeed. As a member of our global team, you can expect exciting, varied responsibilities as well as a wide range of development prospects. Because we believe that your career path should be as unique as you are.",
-   "bullets": [
-    "Rotate through SAP, Data Interchange & Development (EDI), and Manufacturing Execution System (MES) teams",
-    "Administer, support, and maintain business applications, providing 1st and 2nd level user support",
-    "Analyze malfunctions, troubleshoot, and manage ticket queues based on impact",
-    "Prepare technical documentation and support application testing"
-   ],
-   "roleLabel": "IT business applications",
-   "degreeLevel": "Pursuing",
-   "degreeText": "Bachelor's",
-   "keySkills": [
-    "erp",
-    "sap",
-    "microsoft office",
-    "word",
-    "excel"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "30 minutes ago",
-   "postedAt": 1785499537910,
-   "firstSeenAt": 1785501337916,
-   "url": "https://www.linkedin.com/jobs/view/4447295778/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447295778/",
    "description": null
   },
   {
