@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786712394021,
- "count": 137,
- "techCount": 137,
+ "generatedAt": 1786714213650,
+ "count": 136,
+ "techCount": 136,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -60,7 +60,6 @@
   "Marmon Technologies India Pvt Ltd",
   "Microsoft",
   "Mizuho",
-  "Multiplier AI",
   "NKT",
   "NatWest Group",
   "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
@@ -93,7 +92,6 @@
   "Valeo",
   "WeWork India",
   "West Pharmaceutical Services",
-  "Whatfix",
   "Yubi",
   "eBay",
   "pharma&",
@@ -136,6 +134,80 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454526820",
+   "title": "Young Graduate Trainee",
+   "company": "Infineon Technologies",
+   "matchedWatchlist": "Infineon Technologies",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/infineon-technologies.jpg",
+   "location": "Bengaluru East, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "0-2 years",
+   "applicants": "22 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python"
+   ],
+   "summary": "This internship involves writing software with python, designing scalable systems using oops and design patterns, and applying ai in development. Ideal for students with coding experience and interest in power systems and iot.",
+   "bullets": [
+    "Write and script software using python",
+    "Design scalable software with oops and patterns",
+    "Apply ai in software development",
+    "Work on power systems and iot projects"
+   ],
+   "roleLabel": "Software automation",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "oops"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "15 minutes ago",
+   "postedAt": 1786713091787,
+   "firstSeenAt": 1786713991794,
+   "url": "https://www.linkedin.com/jobs/view/4454526820/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454526820/",
+   "description": null
+  },
+  {
+   "id": "4444960031",
+   "title": "Apprentice - CAD Engineer",
+   "company": "Oceaneering",
+   "matchedWatchlist": "Oceaneering",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/oceaneering.jpg",
+   "location": "Pune Division, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves creating detailed technical drawings and 3d models using solidworks for engineering projects. It suits students with mechanical engineering backgrounds looking to gain hands-on experience in cad design and technical documentation.",
+   "bullets": [
+    "Create 3d cad data and detailed drawings for technical projects",
+    "Use solidworks for modeling, assembly, and weldment design",
+    "Work on hydraulic and electrical schematics under minimal supervision"
+   ],
+   "roleLabel": "CAD Design",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech",
+   "keySkills": [
+    "solidworks"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "16 minutes ago",
+   "postedAt": 1786713036307,
+   "firstSeenAt": 1786713996309,
+   "url": "https://www.linkedin.com/jobs/view/4444960031/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4444960031/",
+   "description": null
+  },
   {
    "id": "4454532147",
    "title": "Software Development Engineer in Test Apprentice",
@@ -615,46 +687,6 @@
    "firstSeenAt": 1786632775325,
    "url": "https://www.linkedin.com/jobs/view/4450815101/",
    "applyUrl": "https://jobs.gsk.com/gb/en/job/446343/Intern-Bios-Programming?utm_source=linkedin&utm_medium=phenom-feeds",
-   "description": null
-  },
-  {
-   "id": "4454029367",
-   "title": "Young Graduate Trainee",
-   "company": "Infineon Technologies",
-   "matchedWatchlist": "Infineon Technologies",
-   "isTech": true,
-   "roleSource": "model-enrich",
-   "logo": "/logos/infineon-technologies.jpg",
-   "location": "Bengaluru East, Karnataka, India",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": "0-2 years",
-   "applicants": "24 people clicked apply",
-   "easyApply": false,
-   "skills": [
-    "python"
-   ],
-   "summary": "This internship involves writing scripts and tools to validate Wi-Fi for IoT devices. You'll work with cross-functional teams and use Python and other software languages for automation. It's ideal for students with a background in software development and an interest in IoT technologies.",
-   "bullets": [
-    "Write scripts and tools to validate Wi-Fi for IoT devices",
-    "Use python and other software languages for automation",
-    "Work with firmware, product, and test teams"
-   ],
-   "roleLabel": "Automation engineering",
-   "degreeLevel": "UG",
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "web technology",
-    "oops",
-    "design patterns"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "18 minutes ago",
-   "postedAt": 1786626673301,
-   "firstSeenAt": 1786627753305,
-   "url": "https://www.linkedin.com/jobs/view/4454029367/",
-   "applyUrl": "https://jobs.infineon.com/careers/job/563808971773357?utm_source=linkedin&domain=infineon.com#!source=400",
    "description": null
   },
   {
@@ -5296,96 +5328,6 @@
    "firstSeenAt": 1785541603591,
    "url": "https://www.linkedin.com/jobs/view/4447414103/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447414103/",
-   "description": null
-  },
-  {
-   "id": "4447525184",
-   "title": "Full Stack Developer Intern",
-   "company": "Multiplier AI",
-   "matchedWatchlist": "Multiplier",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/multiplier-ai.jpg",
-   "location": "Noida, Uttar Pradesh, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "0–1 years",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "javascript",
-    "react",
-    "node.js",
-    "express",
-    "git",
-    "pytorch",
-    "tensorflow",
-    "scikit-learn",
-    "mongodb",
-    "postgresql",
-    "mysql",
-    "rest api",
-    "agile"
-   ],
-   "summary": "Multiplier AIis a leading AI-driven Healthcare and Life Sciences technology company delivering innovative solutions across Pharma, Healthcare, and Enterprise AI. We empower global organizations with AI-powered platforms, data intelligence, automation, and digital transformation solutions. As we continue to expand, we are looking for energetic professionals who can contribute to our business growth while ensuring operational excellence. Multiplier AI is looking for a passionate and motivated Full Stack Developer Intern to join our Product Engineering team.",
-   "bullets": [
-    "Develop responsive web apps using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS",
-    "Build secure RESTful APIs with Node.js and Express.js, implementing authentication and RBAC",
-    "Design and optimize databases using MongoDB, PostgreSQL, and MySQL",
-    "Assist with AI/ML integrations using Python and collaborate in an Agile environment"
-   ],
-   "roleLabel": "Full stack development",
-   "degreeLevel": "Pursuing",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "react.js",
-    "javascript",
-    "html5",
-    "css3",
-    "tailwind css"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "17 minutes ago",
-   "postedAt": 1785502052689,
-   "firstSeenAt": 1785503072694,
-   "url": "https://www.linkedin.com/jobs/view/4447525184/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447525184/",
-   "description": null
-  },
-  {
-   "id": "4447512297",
-   "title": "Product Designer Intern",
-   "company": "Whatfix",
-   "matchedWatchlist": "Whatfix",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/whatfix.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "3 to 6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "figma"
-   ],
-   "summary": "Whatfix is an AI platform advancing the “userization” of enterprise applications, empowering companies to maximize the ROI of their digital investments. Technology needs adoption. It’s no different for AI. Product Analytics uncovers friction and closes adoption gaps.",
-   "bullets": [
-    "Work on an AI platform that helps users adopt enterprise applications and AI tools",
-    "Contribute to products like Digital Adoption, Product Analytics, and Mirror",
-    "Help build AI-first products such as Seek and Mirror 2.0"
-   ],
-   "roleLabel": "Product design",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [],
-   "stipendStatus": "unknown",
-   "postedText": "20 minutes ago",
-   "postedAt": 1785501891837,
-   "firstSeenAt": 1785503091839,
-   "url": "https://www.linkedin.com/jobs/view/4447512297/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447512297/",
    "description": null
   },
   {

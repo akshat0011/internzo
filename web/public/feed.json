@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820",
+      "url": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820",
+      "title": "Young Graduate Trainee — Infineon Technologies",
+      "content_text": "Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years\n• Write and script software using python\n• Design scalable software with oops and patterns\n• Apply ai in software development\n• Work on power systems and iot projects",
+      "date_published": "2026-08-14T13:11:31.787Z",
+      "authors": [
+        {
+          "name": "Infineon Technologies"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031",
+      "url": "https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031",
+      "title": "Apprentice - CAD Engineer — Oceaneering",
+      "content_text": "Company: Oceaneering · Location: Pune Division, Maharashtra, India\n• Create 3d cad data and detailed drawings for technical projects\n• Use solidworks for modeling, assembly, and weldment design\n• Work on hydraulic and electrical schematics under minimal supervision",
+      "date_published": "2026-08-14T13:10:36.307Z",
+      "authors": [
+        {
+          "name": "Oceaneering"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147",
       "url": "https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147",
       "title": "Software Development Engineer in Test Apprentice — HighLevel",
@@ -146,18 +170,6 @@
       "authors": [
         {
           "name": "GSK"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367",
-      "url": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367",
-      "title": "Young Graduate Trainee — Infineon Technologies",
-      "content_text": "Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years\n• Write scripts and tools to validate Wi-Fi for IoT devices\n• Use python and other software languages for automation\n• Work with firmware, product, and test teams",
-      "date_published": "2026-08-13T13:11:13.301Z",
-      "authors": [
-        {
-          "name": "Infineon Technologies"
         }
       ]
     },
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Silicon Labs"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/enterpret-backend-software-engineering-intern-4451557117",
-      "url": "https://www.internzo.in/jobs/enterpret-backend-software-engineering-intern-4451557117",
-      "title": "[Backend] Software Engineering Intern — Enterpret",
-      "content_text": "Company: Enterpret · Location: Bengaluru, Karnataka, India\n• Build scalable backend components using AWS\n• Work on AI-native systems with real-world impact\n• Take ownership of features used by Canva and Notion",
-      "date_published": "2026-08-10T15:08:16.718Z",
-      "authors": [
-        {
-          "name": "Enterpret"
         }
       ]
     }

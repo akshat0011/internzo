@@ -6,7 +6,28 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 12:59:54 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 13:30:13 GMT</lastBuildDate>
+  <item>
+    <title>Young Graduate Trainee — Infineon Technologies</title>
+    <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820</guid>
+    <pubDate>Fri, 14 Aug 2026 13:11:31 GMT</pubDate>
+    <description>Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years
+• Write and script software using python
+• Design scalable software with oops and patterns
+• Apply ai in software development
+• Work on power systems and iot projects</description>
+  </item>
+  <item>
+    <title>Apprentice - CAD Engineer — Oceaneering</title>
+    <link>https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031</guid>
+    <pubDate>Fri, 14 Aug 2026 13:10:36 GMT</pubDate>
+    <description>Company: Oceaneering · Location: Pune Division, Maharashtra, India
+• Create 3d cad data and detailed drawings for technical projects
+• Use solidworks for modeling, assembly, and weldment design
+• Work on hydraulic and electrical schematics under minimal supervision</description>
+  </item>
   <item>
     <title>Software Development Engineer in Test Apprentice — HighLevel</title>
     <link>https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147</link>
@@ -124,16 +145,6 @@
 • Writes code based on specifications under supervision
 • Uses programming languages and follows technical documentation
 • Communicates progress and issues to manager regularly</description>
-  </item>
-  <item>
-    <title>Young Graduate Trainee — Infineon Technologies</title>
-    <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454029367</guid>
-    <pubDate>Thu, 13 Aug 2026 13:11:13 GMT</pubDate>
-    <description>Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years
-• Write scripts and tools to validate Wi-Fi for IoT devices
-• Use python and other software languages for automation
-• Work with firmware, product, and test teams</description>
   </item>
   <item>
     <title>PowerApps Developer Intern — pharma&amp;</title>
@@ -497,16 +508,6 @@
 • Test software and hardware for wireless connectivity devices
 • Use python and jenkins for automation
 • Work with cross-functional teams on product development</description>
-  </item>
-  <item>
-    <title>[Backend] Software Engineering Intern — Enterpret</title>
-    <link>https://www.internzo.in/jobs/enterpret-backend-software-engineering-intern-4451557117</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/enterpret-backend-software-engineering-intern-4451557117</guid>
-    <pubDate>Mon, 10 Aug 2026 15:08:16 GMT</pubDate>
-    <description>Company: Enterpret · Location: Bengaluru, Karnataka, India
-• Build scalable backend components using AWS
-• Work on AI-native systems with real-world impact
-• Take ownership of features used by Canva and Notion</description>
   </item>
 </channel>
 </rss>
