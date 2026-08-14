@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786706937715,
- "count": 137,
- "techCount": 137,
+ "generatedAt": 1786708665671,
+ "count": 138,
+ "techCount": 138,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -136,6 +136,55 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454532147",
+   "title": "Software Development Engineer in Test Apprentice",
+   "company": "HighLevel",
+   "matchedWatchlist": "HighLevel",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/highlevel.jpg",
+   "location": "India",
+   "workplaceType": "Remote",
+   "stipend": "₹50,000 / month",
+   "duration": "12 months",
+   "applicants": "15 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "java",
+    "javascript",
+    "c#",
+    "ci/cd",
+    "git",
+    "graphql",
+    "microservices",
+    "data structures"
+   ],
+   "summary": "This apprenticeship involves writing tests for software features and APIs, using Python or similar languages. Ideal for recent graduates with coding experience looking to build automation skills in a remote team.",
+   "bullets": [
+    "Write tests for features, APIs, and workflows before deployment",
+    "Use Python, Java, or JavaScript for automation and API testing",
+    "Work with experienced engineers on scalable systems and tools"
+   ],
+   "roleLabel": "Software Testing",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "java",
+    "javascript",
+    "api testing",
+    "git"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "15 minutes ago",
+   "postedAt": 1786707625304,
+   "firstSeenAt": 1786708525313,
+   "url": "https://www.linkedin.com/jobs/view/4454532147/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454532147/",
+   "description": null
+  },
   {
    "id": "4453566121",
    "title": "G - Trainee engineer",

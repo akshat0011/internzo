@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 11:28:57 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 11:57:45 GMT</lastBuildDate>
+  <item>
+    <title>Software Development Engineer in Test Apprentice — HighLevel</title>
+    <link>https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147</guid>
+    <pubDate>Fri, 14 Aug 2026 11:40:25 GMT</pubDate>
+    <description>Company: HighLevel · Location: India · Duration: 12 months
+• Write tests for features, APIs, and workflows before deployment
+• Use Python, Java, or JavaScript for automation and API testing
+• Work with experienced engineers on scalable systems and tools</description>
+  </item>
   <item>
     <title>G - Trainee engineer — Quest Global</title>
     <link>https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121</link>
@@ -497,16 +507,6 @@
 • Build scalable backend components using AWS
 • Work on AI-native systems with real-world impact
 • Take ownership of features used by Canva and Notion</description>
-  </item>
-  <item>
-    <title>Trainee, Design Engineer ( Power Electronics / High Voltage Engineering) — NKT</title>
-    <link>https://www.internzo.in/jobs/nkt-trainee-design-engineer-power-electronics-high-voltage-engineering-4442031259</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/nkt-trainee-design-engineer-power-electronics-high-voltage-engineering-4442031259</guid>
-    <pubDate>Mon, 10 Aug 2026 14:15:57 GMT</pubDate>
-    <description>Company: NKT · Location: Chennai, Tamil Nadu, India
-• Analyze tender requirements and perform cable system design
-• Use comsol, matlab, autocad for calculations and documentation
-• Collaborate with internal teams and present to clients</description>
   </item>
 </channel>
 </rss>

@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147",
+      "url": "https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147",
+      "title": "Software Development Engineer in Test Apprentice — HighLevel",
+      "content_text": "Company: HighLevel · Location: India · Duration: 12 months\n• Write tests for features, APIs, and workflows before deployment\n• Use Python, Java, or JavaScript for automation and API testing\n• Work with experienced engineers on scalable systems and tools",
+      "date_published": "2026-08-14T11:40:25.304Z",
+      "authors": [
+        {
+          "name": "HighLevel"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121",
       "url": "https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121",
       "title": "G - Trainee engineer — Quest Global",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Enterpret"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/nkt-trainee-design-engineer-power-electronics-high-voltage-engineering-4442031259",
-      "url": "https://www.internzo.in/jobs/nkt-trainee-design-engineer-power-electronics-high-voltage-engineering-4442031259",
-      "title": "Trainee, Design Engineer ( Power Electronics / High Voltage Engineering) — NKT",
-      "content_text": "Company: NKT · Location: Chennai, Tamil Nadu, India\n• Analyze tender requirements and perform cable system design\n• Use comsol, matlab, autocad for calculations and documentation\n• Collaborate with internal teams and present to clients",
-      "date_published": "2026-08-10T14:15:57.290Z",
-      "authors": [
-        {
-          "name": "NKT"
         }
       ]
     }
