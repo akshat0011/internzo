@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745",
+      "url": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745",
+      "title": "Apprentice — AtkinsRéalis",
+      "content_text": "Company: AtkinsRéalis · Location: Noida, Uttar Pradesh, India\n• Create wireframes, mockups, and interactive prototypes\n• Use figma, adobe xd, sketch, or photoshop\n• Collaborate with product managers and developers",
+      "date_published": "2026-08-14T18:42:10.072Z",
+      "authors": [
+        {
+          "name": "AtkinsRéalis"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792",
       "url": "https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792",
       "title": "Contractor - Intern — Veradigm®",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Freight Tiger"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/american-express-apprentice-4451423010",
-      "url": "https://www.internzo.in/jobs/american-express-apprentice-4451423010",
-      "title": "Apprentice — American Express",
-      "content_text": "Company: American Express · Location: Gurugram, Haryana, India · Duration: 12 months\n• Support product enhancements and business initiatives through cross-functional collaboration\n• Work with SQL, Python, Excel, Power BI, and Tableau for data analysis and reporting\n• Gain exposure to risk management, data governance, and digital product development",
-      "date_published": "2026-08-10T17:16:38.202Z",
-      "authors": [
-        {
-          "name": "American Express"
         }
       ]
     }

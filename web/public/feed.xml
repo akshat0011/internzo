@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 18:21:52 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 18:52:24 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice — AtkinsRéalis</title>
+    <link>https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745</guid>
+    <pubDate>Fri, 14 Aug 2026 18:42:10 GMT</pubDate>
+    <description>Company: AtkinsRéalis · Location: Noida, Uttar Pradesh, India
+• Create wireframes, mockups, and interactive prototypes
+• Use figma, adobe xd, sketch, or photoshop
+• Collaborate with product managers and developers</description>
+  </item>
   <item>
     <title>Contractor - Intern — Veradigm®</title>
     <link>https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792</link>
@@ -498,16 +508,6 @@
 • Write production-grade python code for scalable backend and data processing
 • Design data pipelines for real-time high-volume data processing
 • Work on full lifecycle projects with senior engineers and product teams</description>
-  </item>
-  <item>
-    <title>Apprentice — American Express</title>
-    <link>https://www.internzo.in/jobs/american-express-apprentice-4451423010</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/american-express-apprentice-4451423010</guid>
-    <pubDate>Mon, 10 Aug 2026 17:16:38 GMT</pubDate>
-    <description>Company: American Express · Location: Gurugram, Haryana, India · Duration: 12 months
-• Support product enhancements and business initiatives through cross-functional collaboration
-• Work with SQL, Python, Excel, Power BI, and Tableau for data analysis and reporting
-• Gain exposure to risk management, data governance, and digital product development</description>
   </item>
 </channel>
 </rss>
