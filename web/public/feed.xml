@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 13 Aug 2026 23:24:04 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 01:51:50 GMT</lastBuildDate>
+  <item>
+    <title>Junior Accountant Internship in Mumbai, Thane, Navi Mumbai — FynTune Solution Private Limited</title>
+    <link>https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-accountant-internship-in-mumbai-thane-navi-mumbai-4454347012</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-accountant-internship-in-mumbai-thane-navi-mumbai-4454347012</guid>
+    <pubDate>Fri, 14 Aug 2026 00:10:41 GMT</pubDate>
+    <description>Company: FynTune Solution Private Limited · Location: Navi Mumbai</description>
+  </item>
   <item>
     <title>Learning &amp; Development Apprentice — HighLevel</title>
     <link>https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522</link>
@@ -497,16 +504,6 @@
 • Monitor network performance and resolve customer issues with L2 and field teams
 • Track KPIs and raise alerts for network stability
 • Prepare MIS reports and analyze data for operational improvements</description>
-  </item>
-  <item>
-    <title>Backend Intern — Convin</title>
-    <link>https://www.internzo.in/jobs/convin-backend-intern-4451175463</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/convin-backend-intern-4451175463</guid>
-    <pubDate>Mon, 10 Aug 2026 12:53:46 GMT</pubDate>
-    <description>Company: Convin · Location: Bengaluru, Karnataka, India · Duration: 0–1 years
-• Develop backend services and APIs for AI-powered products
-• Work with databases and build integrations for voicebots and chatbots
-• Collaborate with cross-functional teams in Bengaluru office</description>
   </item>
 </channel>
 </rss>

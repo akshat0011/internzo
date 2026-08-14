@@ -1,5 +1,5 @@
 {
- "generatedAt": 1786663444326,
+ "generatedAt": 1786672310390,
  "count": 139,
  "techCount": 139,
  "otherCount": 0,
@@ -93,7 +93,6 @@
   "Times Internet",
   "Tonbo Imaging",
   "Valeo",
-  "Volvo Group",
   "WeWork India",
   "West Pharmaceutical Services",
   "Whatfix",
@@ -130,6 +129,7 @@
   "Mumbai Metropolitan Region",
   "Mumbai, MH",
   "Mumbai, Maharashtra, India",
+  "Navi Mumbai",
   "Navi Mumbai, Maharashtra, India",
   "Noida, Uttar Pradesh",
   "Noida, Uttar Pradesh, India",
@@ -139,6 +139,35 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454347012",
+   "title": "Junior Accountant Internship in Mumbai, Thane, Navi Mumbai",
+   "company": "FynTune Solution Private Limited",
+   "matchedWatchlist": "FynTune Solution Private Limited",
+   "isTech": true,
+   "roleSource": "offline-uncertain",
+   "logo": "/logos/fyntune-solution-private-limited.jpg",
+   "location": "Navi Mumbai",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [],
+   "summary": null,
+   "bullets": [],
+   "roleLabel": null,
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "23 minutes ago",
+   "postedAt": 1786666241871,
+   "firstSeenAt": 1786667621872,
+   "url": "https://www.linkedin.com/jobs/view/4454347012/",
+   "applyUrl": "https://internshala.com/internship/detail/junior-accountant-internship-in-multiple-locations-at-fyntune-solution-private-limited1786608765/?utm_campaign=linkedin_d2002&utm_source=Linkedin_Partnership",
+   "description": null
+  },
   {
    "id": "4450829522",
    "title": "Learning & Development Apprentice",
@@ -5404,47 +5433,6 @@
    "firstSeenAt": 1785484928758,
    "url": "https://www.linkedin.com/jobs/view/4446948754/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446948754/",
-   "description": null
-  },
-  {
-   "id": "4447210792",
-   "title": "Graduate apprentice trainee - SW Verification",
-   "company": "Volvo Group",
-   "matchedWatchlist": "Volvo Group",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/volvo-group.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "c#",
-    "agile"
-   ],
-   "summary": "Transport is at the core of modern society. Imagine using your expertise to shape sustainable transport and infrastructure solutions for the future. You will be part of a dynamic team ensuring the quality, safety, and performance of next-generation truck technologies. You'll become part of a global cross functional team consisting of System Architects, SW development and Verification Engineers.",
-   "bullets": [
-    "Support test planning, execution, and analysis for vehicle systems",
-    "Assist in creating and executing test cases for electrical and software systems",
-    "Analyze test data, report anomalies, and document results for continuous improvement"
-   ],
-   "roleLabel": "Software verification",
-   "degreeLevel": "UG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "c#",
-    "c",
-    "canalyzer",
-    "labview"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "1 hour ago",
-   "postedAt": 1785452637190,
-   "firstSeenAt": 1785456237195,
-   "url": "https://www.linkedin.com/jobs/view/4447210792/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447210792/",
    "description": null
   },
   {
