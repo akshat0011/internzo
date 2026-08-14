@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/emerson-intern-technology-4454391895",
+      "url": "https://www.internzo.in/jobs/emerson-intern-technology-4454391895",
+      "title": "Intern-Technology — Emerson",
+      "content_text": "Company: Emerson · Location: Noida, Uttar Pradesh, India\n• Test and maintain DCS and SCADA systems\n• Use Python, C#, Java, and React for development\n• Work with product teams on virtualization and security",
+      "date_published": "2026-08-14T10:51:23.469Z",
+      "authors": [
+        {
+          "name": "Emerson"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4453519959",
       "url": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4453519959",
       "title": "Apprentice, Software Development/Engineering — S&P Global",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Resollect"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557",
-      "url": "https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557",
-      "title": "Graduate Engineer Trainee — Marmon Technologies India Pvt Ltd",
-      "content_text": "Company: Marmon Technologies India Pvt Ltd · Location: Karnataka, India\n• Analyze data, build reports, and support data platforms daily\n• Sql, python, power bi, tableau, and cloud tools\n• Work on real data projects with cross-functional teams",
-      "date_published": "2026-08-10T12:54:59.174Z",
-      "authors": [
-        {
-          "name": "Marmon Technologies India Pvt Ltd"
         }
       ]
     }

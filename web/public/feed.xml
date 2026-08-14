@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 10:16:11 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 10:58:12 GMT</lastBuildDate>
+  <item>
+    <title>Intern-Technology — Emerson</title>
+    <link>https://www.internzo.in/jobs/emerson-intern-technology-4454391895</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/emerson-intern-technology-4454391895</guid>
+    <pubDate>Fri, 14 Aug 2026 10:51:23 GMT</pubDate>
+    <description>Company: Emerson · Location: Noida, Uttar Pradesh, India
+• Test and maintain DCS and SCADA systems
+• Use Python, C#, Java, and React for development
+• Work with product teams on virtualization and security</description>
+  </item>
   <item>
     <title>Apprentice, Software Development/Engineering — S&amp;P Global</title>
     <link>https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4453519959</link>
@@ -497,16 +507,6 @@
 • Build and ship features across stack, backend, frontend, or AI integration
 • Work with AI/LLM APIs, debug live product issues, and write technical docs
 • 6-month paid internship with potential full-time conversion for 2026/27 grads</description>
-  </item>
-  <item>
-    <title>Graduate Engineer Trainee — Marmon Technologies India Pvt Ltd</title>
-    <link>https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/marmon-technologies-india-pvt-ltd-graduate-engineer-trainee-4451528557</guid>
-    <pubDate>Mon, 10 Aug 2026 12:54:59 GMT</pubDate>
-    <description>Company: Marmon Technologies India Pvt Ltd · Location: Karnataka, India
-• Analyze data, build reports, and support data platforms daily
-• Sql, python, power bi, tableau, and cloud tools
-• Work on real data projects with cross-functional teams</description>
   </item>
 </channel>
 </rss>
