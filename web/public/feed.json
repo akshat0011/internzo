@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121",
+      "url": "https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121",
+      "title": "G - Trainee engineer — Quest Global",
+      "content_text": "Company: Quest Global · Location: Bengaluru, Karnataka, India\n• Develop and implement ar-vr applications\n• Work with unity or unreal engine\n• Collaborate on innovative solutions",
+      "date_published": "2026-08-14T11:02:57.550Z",
+      "authors": [
+        {
+          "name": "Quest Global"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/emerson-intern-technology-4454391895",
       "url": "https://www.internzo.in/jobs/emerson-intern-technology-4454391895",
       "title": "Intern-Technology — Emerson",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "NKT"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/resollect-tech-intern-4451182566",
-      "url": "https://www.internzo.in/jobs/resollect-tech-intern-4451182566",
-      "title": "Tech Intern — Resollect",
-      "content_text": "Company: Resollect · Location: Mumbai, Maharashtra, India\n• Build and ship features across stack, backend, frontend, or AI integration\n• Work with AI/LLM APIs, debug live product issues, and write technical docs\n• 6-month paid internship with potential full-time conversion for 2026/27 grads",
-      "date_published": "2026-08-10T14:06:29.911Z",
-      "authors": [
-        {
-          "name": "Resollect"
         }
       ]
     }

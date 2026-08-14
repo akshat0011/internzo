@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 10:58:12 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 11:28:57 GMT</lastBuildDate>
+  <item>
+    <title>G - Trainee engineer — Quest Global</title>
+    <link>https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121</guid>
+    <pubDate>Fri, 14 Aug 2026 11:02:57 GMT</pubDate>
+    <description>Company: Quest Global · Location: Bengaluru, Karnataka, India
+• Develop and implement ar-vr applications
+• Work with unity or unreal engine
+• Collaborate on innovative solutions</description>
+  </item>
   <item>
     <title>Intern-Technology — Emerson</title>
     <link>https://www.internzo.in/jobs/emerson-intern-technology-4454391895</link>
@@ -497,16 +507,6 @@
 • Analyze tender requirements and perform cable system design
 • Use comsol, matlab, autocad for calculations and documentation
 • Collaborate with internal teams and present to clients</description>
-  </item>
-  <item>
-    <title>Tech Intern — Resollect</title>
-    <link>https://www.internzo.in/jobs/resollect-tech-intern-4451182566</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/resollect-tech-intern-4451182566</guid>
-    <pubDate>Mon, 10 Aug 2026 14:06:29 GMT</pubDate>
-    <description>Company: Resollect · Location: Mumbai, Maharashtra, India
-• Build and ship features across stack, backend, frontend, or AI integration
-• Work with AI/LLM APIs, debug live product issues, and write technical docs
-• 6-month paid internship with potential full-time conversion for 2026/27 grads</description>
   </item>
 </channel>
 </rss>
