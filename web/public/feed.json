@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
+      "url": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
+      "title": "Back End Developer - Intern — Janitri",
+      "content_text": "Company: Janitri · Location: Bengaluru, Karnataka, India · Duration: 6 months\n• Build scalable backend systems for healthcare apps\n• Work with postgres/mysql and django rest framework\n• Contribute to aws deployments and ci/cd pipelines",
+      "date_published": "2026-08-14T13:26:12.412Z",
+      "authors": [
+        {
+          "name": "Janitri"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820",
       "url": "https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820",
       "title": "Young Graduate Trainee — Infineon Technologies",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Valeo"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4449581443",
-      "url": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4449581443",
-      "title": "Intern - SQA — Silicon Labs",
-      "content_text": "Company: Silicon Labs · Location: Hyderabad, Telangana, India\n• Test software and hardware for wireless connectivity devices\n• Use python and jenkins for automation\n• Work with cross-functional teams on product development",
-      "date_published": "2026-08-10T15:47:54.051Z",
-      "authors": [
-        {
-          "name": "Silicon Labs"
         }
       ]
     }

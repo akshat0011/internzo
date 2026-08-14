@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786714213650,
- "count": 136,
- "techCount": 136,
+ "generatedAt": 1786716004688,
+ "count": 137,
+ "techCount": 137,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -134,6 +134,56 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453570923",
+   "title": "Back End Developer - Intern",
+   "company": "Janitri",
+   "matchedWatchlist": "Janitri",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/janitri.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": "20,000 / month",
+   "duration": "6 months",
+   "applicants": "59 applicants",
+   "easyApply": true,
+   "skills": [
+    "python",
+    "sql",
+    "django",
+    "aws",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "postgresql",
+    "mysql",
+    "agile"
+   ],
+   "summary": "This internship involves developing backend systems for healthcare applications, working with django and databases, and contributing to cloud deployments. Ideal for students with python experience looking to gain practical engineering skills in a health-tech environment.",
+   "bullets": [
+    "Build scalable backend systems for healthcare apps",
+    "Work with postgres/mysql and django rest framework",
+    "Contribute to aws deployments and ci/cd pipelines"
+   ],
+   "roleLabel": "Backend Development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "django",
+    "postgresql",
+    "aws",
+    "docker"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "30 minutes ago",
+   "postedAt": 1786713972412,
+   "firstSeenAt": 1786715772413,
+   "url": "https://www.linkedin.com/jobs/view/4453570923/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453570923/",
+   "description": null
+  },
   {
    "id": "4454526820",
    "title": "Young Graduate Trainee",

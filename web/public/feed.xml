@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 13:30:13 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 14:00:04 GMT</lastBuildDate>
+  <item>
+    <title>Back End Developer - Intern — Janitri</title>
+    <link>https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923</guid>
+    <pubDate>Fri, 14 Aug 2026 13:26:12 GMT</pubDate>
+    <description>Company: Janitri · Location: Bengaluru, Karnataka, India · Duration: 6 months
+• Build scalable backend systems for healthcare apps
+• Work with postgres/mysql and django rest framework
+• Contribute to aws deployments and ci/cd pipelines</description>
+  </item>
   <item>
     <title>Young Graduate Trainee — Infineon Technologies</title>
     <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820</link>
@@ -498,16 +508,6 @@
 • Prepare and update system documents per Valeo guidelines
 • Use CoreALM and DOORS for system activities
 • Conduct system testing and generate reports</description>
-  </item>
-  <item>
-    <title>Intern - SQA — Silicon Labs</title>
-    <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4449581443</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sqa-4449581443</guid>
-    <pubDate>Mon, 10 Aug 2026 15:47:54 GMT</pubDate>
-    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
-• Test software and hardware for wireless connectivity devices
-• Use python and jenkins for automation
-• Work with cross-functional teams on product development</description>
   </item>
 </channel>
 </rss>
