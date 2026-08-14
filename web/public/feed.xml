@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 08:16:18 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 08:48:52 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice, Software Development/Engineering — S&amp;P Global</title>
+    <link>https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4453519959</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4453519959</guid>
+    <pubDate>Fri, 14 Aug 2026 08:42:16 GMT</pubDate>
+    <description>Company: S&amp;P Global · Location: Hyderabad, Telangana, India
+• Write code for data tools used by financial analysts
+• Use Python and SQL to process market data
+• Work with a team of 35k+ global professionals</description>
+  </item>
+  <item>
+    <title>Partner Support Intern — Haptik</title>
+    <link>https://www.internzo.in/jobs/haptik-partner-support-intern-4453522788</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/haptik-partner-support-intern-4453522788</guid>
+    <pubDate>Fri, 14 Aug 2026 08:40:23 GMT</pubDate>
+    <description>Company: Haptik · Location: Goregaon, Maharashtra, India
+• Support partners with product questions and basic technical issues
+• Collaborate with product and engineering teams on support processes
+• Monitor and document partner tickets, ensuring timely resolution</description>
+  </item>
   <item>
     <title>Learning &amp; Development Apprentice — HighLevel</title>
     <link>https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522</link>
@@ -487,26 +507,6 @@
 • Analyze data, build reports, and support data platforms daily
 • Sql, python, power bi, tableau, and cloud tools
 • Work on real data projects with cross-functional teams</description>
-  </item>
-  <item>
-    <title>Network Diploma Engineer Trainee — Jio</title>
-    <link>https://www.internzo.in/jobs/jio-network-diploma-engineer-trainee-4451173344</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/jio-network-diploma-engineer-trainee-4451173344</guid>
-    <pubDate>Mon, 10 Aug 2026 12:54:12 GMT</pubDate>
-    <description>Company: Jio · Location: Mumbai, Maharashtra, India · Duration: 12 months
-• Monitor network performance and resolve customer issues with L2 and field teams
-• Track KPIs and raise alerts for network stability
-• Prepare MIS reports and analyze data for operational improvements</description>
-  </item>
-  <item>
-    <title>Backend Intern — Convin</title>
-    <link>https://www.internzo.in/jobs/convin-backend-intern-4451175463</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/convin-backend-intern-4451175463</guid>
-    <pubDate>Mon, 10 Aug 2026 12:53:46 GMT</pubDate>
-    <description>Company: Convin · Location: Bengaluru, Karnataka, India · Duration: 0–1 years
-• Develop backend services and APIs for AI-powered products
-• Work with databases and build integrations for voicebots and chatbots
-• Collaborate with cross-functional teams in Bengaluru office</description>
   </item>
 </channel>
 </rss>
