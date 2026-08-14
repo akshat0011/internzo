@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 17:51:07 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 18:21:52 GMT</lastBuildDate>
+  <item>
+    <title>Contractor - Intern — Veradigm®</title>
+    <link>https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792</guid>
+    <pubDate>Fri, 14 Aug 2026 17:55:35 GMT</pubDate>
+    <description>Company: Veradigm® · Location: Pune Division, Maharashtra, India
+• Answer customer calls and resolve product issues
+• Monitor systems and fix technical problems
+• Work with team to solve customer challenges</description>
+  </item>
   <item>
     <title>Back End Developer - Intern — Janitri</title>
     <link>https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923</link>
@@ -498,16 +508,6 @@
 • Support product enhancements and business initiatives through cross-functional collaboration
 • Work with SQL, Python, Excel, Power BI, and Tableau for data analysis and reporting
 • Gain exposure to risk management, data governance, and digital product development</description>
-  </item>
-  <item>
-    <title>Intern - System Contributor — Valeo</title>
-    <link>https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398</guid>
-    <pubDate>Mon, 10 Aug 2026 15:47:58 GMT</pubDate>
-    <description>Company: Valeo · Location: Chennai, Tamil Nadu, India
-• Prepare and update system documents per Valeo guidelines
-• Use CoreALM and DOORS for system activities
-• Conduct system testing and generate reports</description>
   </item>
 </channel>
 </rss>

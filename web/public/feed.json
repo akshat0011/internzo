@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792",
+      "url": "https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792",
+      "title": "Contractor - Intern — Veradigm®",
+      "content_text": "Company: Veradigm® · Location: Pune Division, Maharashtra, India\n• Answer customer calls and resolve product issues\n• Monitor systems and fix technical problems\n• Work with team to solve customer challenges",
+      "date_published": "2026-08-14T17:55:35.765Z",
+      "authors": [
+        {
+          "name": "Veradigm®"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
       "url": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
       "title": "Back End Developer - Intern — Janitri",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "American Express"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398",
-      "url": "https://www.internzo.in/jobs/valeo-intern-system-contributor-4199558398",
-      "title": "Intern - System Contributor — Valeo",
-      "content_text": "Company: Valeo · Location: Chennai, Tamil Nadu, India\n• Prepare and update system documents per Valeo guidelines\n• Use CoreALM and DOORS for system activities\n• Conduct system testing and generate reports",
-      "date_published": "2026-08-10T15:47:58.930Z",
-      "authors": [
-        {
-          "name": "Valeo"
         }
       ]
     }

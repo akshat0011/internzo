@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786729867857,
- "count": 137,
- "techCount": 137,
+ "generatedAt": 1786731712389,
+ "count": 138,
+ "techCount": 138,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -90,6 +90,7 @@
   "Times Internet",
   "Tonbo Imaging",
   "Valeo",
+  "Veradigm®",
   "WeWork India",
   "West Pharmaceutical Services",
   "Yubi",
@@ -134,6 +135,43 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4418094792",
+   "title": "Contractor - Intern",
+   "company": "Veradigm®",
+   "matchedWatchlist": "Veradigm",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/veradigm.jpg",
+   "location": "Pune Division, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves handling customer calls, resolving product issues, and monitoring systems to ensure smooth operation. It suits students with good communication skills and a willingness to learn technical concepts.",
+   "bullets": [
+    "Answer customer calls and resolve product issues",
+    "Monitor systems and fix technical problems",
+    "Work with team to solve customer challenges"
+   ],
+   "roleLabel": "Customer support",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "communication",
+    "problem solving",
+    "technical concepts"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "25 minutes ago",
+   "postedAt": 1786730135765,
+   "firstSeenAt": 1786731635766,
+   "url": "https://www.linkedin.com/jobs/view/4418094792/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4418094792/",
+   "description": null
+  },
   {
    "id": "4453570923",
    "title": "Back End Developer - Intern",
