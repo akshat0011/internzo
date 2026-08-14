@@ -1,12 +1,13 @@
 {
- "generatedAt": 1786747818943,
- "count": 139,
- "techCount": 139,
+ "generatedAt": 1786749687870,
+ "count": 140,
+ "techCount": 140,
  "otherCount": 0,
  "companies": [
   "Accenture",
   "Accenture in India",
   "Acko",
+  "Adobe",
   "Airmeet",
   "AlphaGrep Securities",
   "American Express",
@@ -135,6 +136,41 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453739058",
+   "title": "Apprentice Tech",
+   "company": "Adobe",
+   "matchedWatchlist": "Adobe",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/adobe.jpg",
+   "location": "Bengaluru East, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "6 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "express"
+   ],
+   "summary": "This apprenticeship involves supporting the development of creative tools using ai, working with python and cloud platforms, and collaborating with cross-functional teams on product features. It suits students interested in contributing to innovative software projects with a focus on ai integration.",
+   "bullets": [
+    "Support development of creative tools using ai",
+    "Work with python and cloud platforms",
+    "Collaborate with cross-functional teams on product features"
+   ],
+   "roleLabel": "Ai tool development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "32 minutes ago",
+   "postedAt": 1786747698033,
+   "firstSeenAt": 1786749618039,
+   "url": "https://www.linkedin.com/jobs/view/4453739058/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453739058/",
+   "description": null
+  },
   {
    "id": "4454565745",
    "title": "Apprentice",

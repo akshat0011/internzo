@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058",
+      "url": "https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058",
+      "title": "Apprentice Tech — Adobe",
+      "content_text": "Company: Adobe · Location: Bengaluru East, Karnataka, India\n• Support development of creative tools using ai\n• Work with python and cloud platforms\n• Collaborate with cross-functional teams on product features",
+      "date_published": "2026-08-14T22:48:18.033Z",
+      "authors": [
+        {
+          "name": "Adobe"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745",
       "url": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745",
       "title": "Apprentice — AtkinsRéalis",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "West Pharmaceutical Services"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/freight-tiger-software-engineering-intern-4451863077",
-      "url": "https://www.internzo.in/jobs/freight-tiger-software-engineering-intern-4451863077",
-      "title": "Software Engineering Intern — Freight Tiger",
-      "content_text": "Company: Freight Tiger · Location: Gurugram, Haryana, India · Duration: 6 months\n• Build agentic ai systems with llm-powered agents and rag workflows\n• Write production-grade python code for scalable backend and data processing\n• Design data pipelines for real-time high-volume data processing\n• Work on full lifecycle projects with senior engineers and product teams",
-      "date_published": "2026-08-10T20:10:10.603Z",
-      "authors": [
-        {
-          "name": "Freight Tiger"
         }
       ]
     }

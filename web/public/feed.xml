@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 14 Aug 2026 22:50:19 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 23:21:27 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice Tech — Adobe</title>
+    <link>https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058</guid>
+    <pubDate>Fri, 14 Aug 2026 22:48:18 GMT</pubDate>
+    <description>Company: Adobe · Location: Bengaluru East, Karnataka, India
+• Support development of creative tools using ai
+• Work with python and cloud platforms
+• Collaborate with cross-functional teams on product features</description>
+  </item>
   <item>
     <title>Apprentice — AtkinsRéalis</title>
     <link>https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745</link>
@@ -497,17 +507,6 @@
 • Design and develop computer vision algorithms for object detection and tracking
 • Integrate vision systems with robotics and PLC for industrial automation
 • Implement IoT solutions for remote monitoring of computer vision systems</description>
-  </item>
-  <item>
-    <title>Software Engineering Intern — Freight Tiger</title>
-    <link>https://www.internzo.in/jobs/freight-tiger-software-engineering-intern-4451863077</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/freight-tiger-software-engineering-intern-4451863077</guid>
-    <pubDate>Mon, 10 Aug 2026 20:10:10 GMT</pubDate>
-    <description>Company: Freight Tiger · Location: Gurugram, Haryana, India · Duration: 6 months
-• Build agentic ai systems with llm-powered agents and rag workflows
-• Write production-grade python code for scalable backend and data processing
-• Design data pipelines for real-time high-volume data processing
-• Work on full lifecycle projects with senior engineers and product teams</description>
   </item>
 </channel>
 </rss>
