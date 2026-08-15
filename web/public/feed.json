@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071",
+      "url": "https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071",
+      "title": "1 year Internship_SW_CDC — Qualcomm",
+      "content_text": "Company: Qualcomm · Location: Chennai, Tamil Nadu, India · Duration: 1 year\n• Develop real-time embedded software and device drivers\n• Work on Linux/UNIX, Linux drivers, and kernel development\n• Collaborate on multimedia technologies like audio and video codecs",
+      "date_published": "2026-08-15T11:25:09.902Z",
+      "authors": [
+        {
+          "name": "Qualcomm"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/american-express-apprentice-4453924046",
+      "url": "https://www.internzo.in/jobs/american-express-apprentice-4453924046",
+      "title": "Apprentice — American Express",
+      "content_text": "Company: American Express · Location: Gurugram, Haryana, India\n• Analyze customer data to find trends and insights\n• Use AI tools like ChatGPT and Microsoft Copilot\n• Support marketing and product teams with reports and dashboards",
+      "date_published": "2026-08-15T11:17:19.696Z",
+      "authors": [
+        {
+          "name": "American Express"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058",
       "url": "https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058",
       "title": "Apprentice Tech — Adobe",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "TeamLease Regtech Pvt. Ltd."
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
-      "url": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
-      "title": "AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group",
-      "content_text": "Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years\n• Build and maintain secure, high-performance software solutions\n• Work with AI/ML tools and integrate APIs between systems\n• Collaborate in permanent teams on full software life cycles",
-      "date_published": "2026-08-10T21:38:35.217Z",
-      "authors": [
-        {
-          "name": "NatWest Group"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
-      "url": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
-      "title": "[Backend] Software Engineering Intern — Teli Labs",
-      "content_text": "Company: Teli Labs · Location: Greater Bengaluru Area\n• Build scalable backend components using AWS\n• Work on AI-native systems with real-world impact\n• Collaborate with engineers on system design and implementation",
-      "date_published": "2026-08-10T21:10:16.518Z",
-      "authors": [
-        {
-          "name": "Teli Labs"
         }
       ]
     }

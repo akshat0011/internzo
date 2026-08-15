@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sat, 15 Aug 2026 10:54:46 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 15 Aug 2026 11:32:59 GMT</lastBuildDate>
+  <item>
+    <title>1 year Internship_SW_CDC — Qualcomm</title>
+    <link>https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071</guid>
+    <pubDate>Sat, 15 Aug 2026 11:25:09 GMT</pubDate>
+    <description>Company: Qualcomm · Location: Chennai, Tamil Nadu, India · Duration: 1 year
+• Develop real-time embedded software and device drivers
+• Work on Linux/UNIX, Linux drivers, and kernel development
+• Collaborate on multimedia technologies like audio and video codecs</description>
+  </item>
+  <item>
+    <title>Apprentice — American Express</title>
+    <link>https://www.internzo.in/jobs/american-express-apprentice-4453924046</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/american-express-apprentice-4453924046</guid>
+    <pubDate>Sat, 15 Aug 2026 11:17:19 GMT</pubDate>
+    <description>Company: American Express · Location: Gurugram, Haryana, India
+• Analyze customer data to find trends and insights
+• Use AI tools like ChatGPT and Microsoft Copilot
+• Support marketing and product teams with reports and dashboards</description>
+  </item>
   <item>
     <title>Apprentice Tech — Adobe</title>
     <link>https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058</link>
@@ -487,26 +507,6 @@
 • Design social media content and marketing visuals using canva, photoshop, and figma
 • Create videos and animations for campaigns with premiere pro and after effects
 • Explore ai tools for creative concepts and collaborate with marketing team</description>
-  </item>
-  <item>
-    <title>AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group</title>
-    <link>https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</guid>
-    <pubDate>Mon, 10 Aug 2026 21:38:35 GMT</pubDate>
-    <description>Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years
-• Build and maintain secure, high-performance software solutions
-• Work with AI/ML tools and integrate APIs between systems
-• Collaborate in permanent teams on full software life cycles</description>
-  </item>
-  <item>
-    <title>[Backend] Software Engineering Intern — Teli Labs</title>
-    <link>https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759</guid>
-    <pubDate>Mon, 10 Aug 2026 21:10:16 GMT</pubDate>
-    <description>Company: Teli Labs · Location: Greater Bengaluru Area
-• Build scalable backend components using AWS
-• Work on AI-native systems with real-world impact
-• Collaborate with engineers on system design and implementation</description>
   </item>
 </channel>
 </rss>

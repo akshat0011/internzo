@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786791286515,
- "count": 134,
- "techCount": 134,
+ "generatedAt": 1786793579204,
+ "count": 135,
+ "techCount": 135,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -134,6 +134,95 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4376091071",
+   "title": "1 year Internship_SW_CDC",
+   "company": "Qualcomm",
+   "matchedWatchlist": "Qualcomm",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/qualcomm.jpg",
+   "location": "Chennai, Tamil Nadu, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "1 year",
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++",
+    "linux",
+    "data structures"
+   ],
+   "summary": "This internship involves developing embedded software for Qualcomm's mobile chipsets, focusing on real-time systems, Linux kernel development, and multimedia technologies. Ideal for master's students with a background in computer science or related fields.",
+   "bullets": [
+    "Develop real-time embedded software and device drivers",
+    "Work on Linux/UNIX, Linux drivers, and kernel development",
+    "Collaborate on multimedia technologies like audio and video codecs"
+   ],
+   "roleLabel": "Embedded Software Development",
+   "degreeLevel": "PG",
+   "degreeText": null,
+   "keySkills": [
+    "c/c++",
+    "linux kernel",
+    "object oriented design",
+    "tcp/udp/ip/sip/rtp"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "4 minutes ago",
+   "postedAt": 1786793109902,
+   "firstSeenAt": 1786793349908,
+   "url": "https://www.linkedin.com/jobs/view/4376091071/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4376091071/",
+   "description": null
+  },
+  {
+   "id": "4453924046",
+   "title": "Apprentice",
+   "company": "American Express",
+   "matchedWatchlist": "American Express",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/american-express.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "9 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "express",
+    "llm",
+    "generative ai",
+    "excel"
+   ],
+   "summary": "This apprenticeship involves analyzing customer data and using AI tools to support marketing and product teams. Ideal for students with strong analytical skills and interest in data-driven business decisions.",
+   "bullets": [
+    "Analyze customer data to find trends and insights",
+    "Use AI tools like ChatGPT and Microsoft Copilot",
+    "Support marketing and product teams with reports and dashboards"
+   ],
+   "roleLabel": "Data Analysis",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "excel",
+    "powerpoint",
+    "sql",
+    "python",
+    "chatgpt",
+    "copilot"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "12 minutes ago",
+   "postedAt": 1786792639696,
+   "firstSeenAt": 1786793359699,
+   "url": "https://www.linkedin.com/jobs/view/4453924046/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453924046/",
+   "description": null
+  },
   {
    "id": "4453739058",
    "title": "Apprentice Tech",
@@ -2314,53 +2403,6 @@
    "firstSeenAt": 1786435810606,
    "url": "https://www.linkedin.com/jobs/view/4451863077/",
    "applyUrl": "https://freighttiger.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6a79a2a089a03?src=LinkedIn",
-   "description": null
-  },
-  {
-   "id": "4451423010",
-   "title": "Apprentice",
-   "company": "American Express",
-   "matchedWatchlist": "American Express",
-   "isTech": true,
-   "roleSource": "model-enrich",
-   "logo": "/logos/american-express.jpg",
-   "location": "Gurugram, Haryana, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": "12 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "sql",
-    "express",
-    "machine learning",
-    "tableau",
-    "power bi",
-    "excel"
-   ],
-   "summary": "This apprenticeship involves supporting credit and fraud risk initiatives through data analysis, product development, and cross-functional collaboration. Ideal for students with a background in analytics, data science, or finance looking to gain hands-on experience in risk management and digital product development.",
-   "bullets": [
-    "Support product enhancements and business initiatives through cross-functional collaboration",
-    "Work with SQL, Python, Excel, Power BI, and Tableau for data analysis and reporting",
-    "Gain exposure to risk management, data governance, and digital product development"
-   ],
-   "roleLabel": "Credit Risk Analyst",
-   "degreeLevel": "UG/PG",
-   "degreeText": null,
-   "keySkills": [
-    "sql",
-    "python",
-    "excel",
-    "power bi",
-    "tableau"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1786382198202,
-   "firstSeenAt": 1786382198202,
-   "url": "https://www.linkedin.com/jobs/view/4451423010/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4451423010/",
    "description": null
   },
   {
