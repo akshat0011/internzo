@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786824099205,
- "count": 134,
- "techCount": 134,
+ "generatedAt": 1786825883593,
+ "count": 133,
+ "techCount": 133,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -44,7 +44,6 @@
   "Hevo Data",
   "HighLevel",
   "Honeywell Technologies",
-  "IMC Trading",
   "IQVIA",
   "Infineon Technologies",
   "Intel",
@@ -5454,52 +5453,6 @@
    "firstSeenAt": 1785942447377,
    "url": "https://www.linkedin.com/jobs/view/4447602250/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447602250/",
-   "description": null
-  },
-  {
-   "id": "4447600419",
-   "title": "2027 - Quant Research Intern - BITS Pilani",
-   "company": "IMC Trading",
-   "matchedWatchlist": "IMC Trading",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/imc-trading.jpg",
-   "location": "Mumbai Metropolitan Region",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "java",
-    "c++",
-    "matlab",
-    "machine learning"
-   ],
-   "summary": "Quant Research Intern We’re a high-performance trading firm powered by technology, for those who want to be the best among the best. IMC is a leading global trading firm that combines technology, advanced quantitative research, and cutting-edge machine learning techniques to make markets more efficient. With a strong focus on innovation, we leverage mathematical models and high-performance computing to drive our trading decisions.",
-   "bullets": [
-    "Design new predictive models, optimize strategies, or leverage alternative data",
-    "Explore large financial and market datasets to develop quantitative models",
-    "Work with Python, C++, Java, Matlab, or R",
-    "Present findings through reports and presentations"
-   ],
-   "roleLabel": "Quant research",
-   "degreeLevel": "Pursuing",
-   "degreeText": "Bachelor's/Master's",
-   "keySkills": [
-    "python",
-    "c++",
-    "java",
-    "matlab",
-    "r"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "54 minutes ago",
-   "postedAt": 1785611786956,
-   "firstSeenAt": 1785615026966,
-   "url": "https://www.linkedin.com/jobs/view/4447600419/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447600419/",
    "description": null
   },
   {
