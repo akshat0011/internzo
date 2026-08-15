@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786751401566,
- "count": 139,
- "techCount": 139,
+ "generatedAt": 1786753242848,
+ "count": 134,
+ "techCount": 134,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -9,7 +9,6 @@
   "Acko",
   "Adobe",
   "Airmeet",
-  "AlphaGrep Securities",
   "American Express",
   "Analog Devices",
   "AtkinsRéalis",
@@ -246,6 +245,50 @@
    "firstSeenAt": 1786731635766,
    "url": "https://www.linkedin.com/jobs/view/4418094792/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4418094792/",
+   "description": null
+  },
+  {
+   "id": "4454538326",
+   "title": "Software Engineer, Intern",
+   "company": "Stripe",
+   "matchedWatchlist": "Stripe",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/stripe.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "33 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "java",
+    "javascript",
+    "ruby",
+    "scala"
+   ],
+   "summary": "As a Stripe intern, you'll develop software that powers global commerce, working with Java, Ruby, and other languages. You'll contribute to real projects, receive mentorship, and ship code that impacts millions of businesses.",
+   "bullets": [
+    "Write production code that impacts Stripe's core systems",
+    "Work with Java, Ruby, JavaScript, Scala, and Go",
+    "Ship real projects with feedback from experienced engineers"
+   ],
+   "roleLabel": "Software Development",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "java",
+    "ruby",
+    "javascript",
+    "scala",
+    "go"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "11 minutes ago",
+   "postedAt": 1786717439574,
+   "firstSeenAt": 1786718099584,
+   "url": "https://www.linkedin.com/jobs/view/4454538326/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454538326/",
    "description": null
   },
   {
@@ -5466,48 +5509,6 @@
    "description": null
   },
   {
-   "id": "ats:workday:sprinklr:wd1:careers:113313-JOB",
-   "title": "UX Research Intern",
-   "company": "Sprinklr",
-   "matchedWatchlist": "Sprinklr",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/sprinklr.jpg",
-   "location": "India - Haryana - Gurgaon",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "figma"
-   ],
-   "summary": "As a UX Research Intern, you will play a critical role in shaping the future of Sprinklr’s multi-product enterprise platform. You will collaborate closely with teams based in the United States, gaining exposure to global product development practices and cross-functional stakeholder engagement. You will work closely with an assigned mentor, senior UX researchers, product designers, and engineers to translate complex workflows into simple, delightful user interactions. This is not a “shadowing” role you will own a multi-phase research study, collect impactful qualitative and quantitative data, and present a final…",
-   "bullets": [
-    "Shape Sprinklr's enterprise platform by planning and conducting generative and evaluative research studies",
-    "Analyze qualitative and quantitative data to build user personas, task analyses, and user journey maps",
-    "Collaborate with product managers and engineers, and present findings to product leadership",
-    "6-month internship, working with global product development teams"
-   ],
-   "roleLabel": "UX Research",
-   "degreeLevel": "Pursuing",
-   "degreeText": "Bachelor's/Master's",
-   "keySkills": [
-    "user interviews",
-    "surveys",
-    "usability tests",
-    "data synthesis",
-    "qualitative analysis"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1785196800000,
-   "firstSeenAt": 1785541865318,
-   "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Haryana---Gurgaon/Research-Intern_113313-JOB",
-   "applyUrl": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Haryana---Gurgaon/Research-Intern_113313-JOB",
-   "description": null
-  },
-  {
    "id": "ats:workday:sprinklr:wd1:careers:113310-JOB",
    "title": "Design Intern",
    "company": "Sprinklr",
@@ -5547,228 +5548,6 @@
    "firstSeenAt": 1785725133920,
    "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Haryana---Gurgaon/Design-Intern_113310-JOB",
    "applyUrl": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Haryana---Gurgaon/Design-Intern_113310-JOB",
-   "description": null
-  },
-  {
-   "id": "ats:greenhouse:stripe:8031833",
-   "title": "Software Engineer, Intern",
-   "company": "Stripe",
-   "matchedWatchlist": "Stripe",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/stripe.jpg",
-   "location": "Bengaluru",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "java",
-    "javascript",
-    "ruby",
-    "scala"
-   ],
-   "summary": "<h2><strong>Who we are </strong></h2> <h3><strong>About Stripe</strong></h3> Through the internship, you will work with many systems and technologies, gain experience in systems design and testing, and have opportunities to present your work to your team and the wider org. <h2><strong>What you’ll do</strong></h2>",
-   "bullets": [
-    "Write production software with meaningful impact on Stripe's mission",
-    "Give and receive technical feedback through code reviews and design discussions",
-    "Collaborate with engineers and cross-functional stakeholders",
-    "Work with Java, Ruby, JavaScript, Scala, and Go"
-   ],
-   "roleLabel": "Software Engineering",
-   "degreeLevel": "Pursuing",
-   "degreeText": "Bachelor's/Master's",
-   "keySkills": [
-    "programming",
-    "java",
-    "ruby",
-    "javascript",
-    "scala"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1784741141000,
-   "firstSeenAt": 1785541864449,
-   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
-   "applyUrl": "https://stripe.com/jobs/search?gh_jid=8031833",
-   "description": null
-  },
-  {
-   "id": "ats:lever:paytm:1155c0e3-bf03-4b46-97f0-44673b6518f7",
-   "title": "Product Management - Intern",
-   "company": "Paytm",
-   "matchedWatchlist": "Paytm",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/paytm.png",
-   "location": "Noida, Uttar Pradesh",
-   "workplaceType": "onsite",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "figma",
-    "excel"
-   ],
-   "summary": "Title: Product Management Intern About Paytm Group: Paytm is India's leading mobile payments and financial services distribution company. We are looking for enthusiastic Product Interns to join our Product & Integrations team and support the execution of key SuperApp and digital experience initiatives.",
-   "bullets": [
-    "Support product planning and execution for SuperApp and digital experience initiatives",
-    "Assist in preparing PRDs, user stories, and flowcharts, and conduct market research",
-    "Coordinate with design and engineering teams, and support sprint planning and QA",
-    "Familiarity with Jira, Confluence, Excel/Sheets, or Figma is a plus"
-   ],
-   "roleLabel": "Product Management",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "jira",
-    "confluence",
-    "excel",
-    "sheets",
-    "figma"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1784712797247,
-   "firstSeenAt": 1785541862136,
-   "url": "https://jobs.lever.co/paytm/1155c0e3-bf03-4b46-97f0-44673b6518f7",
-   "applyUrl": "https://jobs.lever.co/paytm/1155c0e3-bf03-4b46-97f0-44673b6518f7",
-   "description": null
-  },
-  {
-   "id": "ats:lever:paytm:4a9f8209-5c3f-4867-aa17-ed9c7bb21eaf",
-   "title": "Product Management Intern- Bill Payments",
-   "company": "Paytm",
-   "matchedWatchlist": "Paytm",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/paytm.png",
-   "location": "Noida, Uttar Pradesh",
-   "workplaceType": "onsite",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "figma"
-   ],
-   "summary": "About Paytm Group: Paytm is India's leading mobile payments and financial services distribution company. Pioneer of the mobile QR payments revolution in India, Paytm builds technologies that help small businesses with payments and commerce. You'll be part of a fast-paced, data-driven environment with end-to-end ownership, where every experiment and product improvement directly impacts user experience for millions.",
-   "bullets": [
-    "Assist product managers in defining roadmaps, requirements, and user stories for Bill Payments",
-    "Conduct market and competitor research to identify trends and opportunities",
-    "Collaborate with design and tech teams on feature development and testing",
-    "Analyze user behavior and data to improve product performance and user journeys"
-   ],
-   "roleLabel": "Product Management",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "jira",
-    "figma",
-    "notion",
-    "google analytics",
-    "mixpanel"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1784012031340,
-   "firstSeenAt": 1785541862136,
-   "url": "https://jobs.lever.co/paytm/4a9f8209-5c3f-4867-aa17-ed9c7bb21eaf",
-   "applyUrl": "https://jobs.lever.co/paytm/4a9f8209-5c3f-4867-aa17-ed9c7bb21eaf",
-   "description": null
-  },
-  {
-   "id": "ats:greenhouse:alphagrepsecurities:8622142002",
-   "title": "Software Development Intern",
-   "company": "AlphaGrep Securities",
-   "matchedWatchlist": "AlphaGrep Securities",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": null,
-   "location": "India",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "c++",
-    "linux",
-    "data structures",
-    "algorithms"
-   ],
-   "summary": "<p>AlphaGrep seeks a Software Development Intern who will be part of our Core Engineering group. This team designs in –house trading applications which are robust and extremely fast.&nbsp;</p> <li>Design, develop and test proprietary software. Examples include:&nbsp;</li>",
-   "bullets": [
-    "Design, develop, and test proprietary trading software for high-frequency trading",
-    "Work on trading strategy simulation, large-scale data acquisition, and real-time risk analysis",
-    "Collaborate with quantitative traders and researchers in cross-functional teams",
-    "Requires excellent C++ knowledge, object-oriented design, data structures, and algorithms"
-   ],
-   "roleLabel": "Software Development",
-   "degreeLevel": "UG/PG",
-   "degreeText": "Bachelor's/Master's",
-   "keySkills": [
-    "c++",
-    "object-oriented design",
-    "data structures",
-    "algorithms",
-    "network programming"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1783417160000,
-   "firstSeenAt": 1785541846974,
-   "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8622142002",
-   "applyUrl": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8622142002",
-   "description": null
-  },
-  {
-   "id": "ats:greenhouse:alphagrepsecurities:8622004002",
-   "title": "Quantitative Trading Intern",
-   "company": "AlphaGrep Securities",
-   "matchedWatchlist": "AlphaGrep Securities",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": null,
-   "location": "India",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "c++",
-    "matlab",
-    "linux",
-    "machine learning",
-    "algorithms"
-   ],
-   "summary": "<p>AlphaGrep seeks a Quantitative Trading Intern, who will be part of a trading group which executes algorithmic strategies based on market behavior. We cover the global markets by leveraging and integrating technology, risk management and quantitative research. Being a proprietary trading business, we trade our own accounts and have no investors, clients or customers.</p> <li>Designing, implementing, and deploying high-frequency trading algorithms</li>",
-   "bullets": [
-    "Design, implement, and deploy high-frequency trading algorithms",
-    "Analyze market data and microstructure for patterns to explore trading ideas",
-    "Create tools for data analysis and contribute to analytical computation libraries",
-    "Develop and calibrate exchange simulators"
-   ],
-   "roleLabel": "Quantitative Trading",
-   "degreeLevel": "UG/PG",
-   "degreeText": "Bachelor's/Master's",
-   "keySkills": [
-    "machine learning",
-    "data analysis",
-    "market research",
-    "data modeling",
-    "c++"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1783416978000,
-   "firstSeenAt": 1785541846970,
-   "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8622004002",
-   "applyUrl": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8622004002",
    "description": null
   },
   {

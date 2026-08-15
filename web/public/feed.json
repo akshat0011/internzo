@@ -42,6 +42,18 @@
       ]
     },
     {
+      "id": "https://www.internzo.in/jobs/stripe-software-engineer-intern-4454538326",
+      "url": "https://www.internzo.in/jobs/stripe-software-engineer-intern-4454538326",
+      "title": "Software Engineer, Intern — Stripe",
+      "content_text": "Company: Stripe · Location: Bengaluru, Karnataka, India\n• Write production code that impacts Stripe's core systems\n• Work with Java, Ruby, JavaScript, Scala, and Go\n• Ship real projects with feedback from experienced engineers",
+      "date_published": "2026-08-14T14:23:59.574Z",
+      "authors": [
+        {
+          "name": "Stripe"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
       "url": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
       "title": "Back End Developer - Intern — Janitri",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Teli Labs"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/west-pharmaceutical-services-graduate-intern-robotics-and-automation-4451432820",
-      "url": "https://www.internzo.in/jobs/west-pharmaceutical-services-graduate-intern-robotics-and-automation-4451432820",
-      "title": "Graduate Intern, Robotics & Automation — West Pharmaceutical Services",
-      "content_text": "Company: West Pharmaceutical Services · Location: Bengaluru, Karnataka, India · Duration: 1-3 years\n• Design and develop computer vision algorithms for object detection and tracking\n• Integrate vision systems with robotics and PLC for industrial automation\n• Implement IoT solutions for remote monitoring of computer vision systems",
-      "date_published": "2026-08-10T21:04:08.495Z",
-      "authors": [
-        {
-          "name": "West Pharmaceutical Services"
         }
       ]
     }
