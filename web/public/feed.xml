@@ -6,7 +6,7 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sun, 16 Aug 2026 02:01:54 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 02:42:17 GMT</lastBuildDate>
   <item>
     <title>1 year Internship_SW_CDC — Qualcomm</title>
     <link>https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071</link>
@@ -46,16 +46,6 @@
 • Create wireframes, mockups, and interactive prototypes
 • Use figma, adobe xd, sketch, or photoshop
 • Collaborate with product managers and developers</description>
-  </item>
-  <item>
-    <title>Contractor - Intern — Veradigm®</title>
-    <link>https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792</guid>
-    <pubDate>Fri, 14 Aug 2026 17:55:35 GMT</pubDate>
-    <description>Company: Veradigm® · Location: Pune Division, Maharashtra, India
-• Answer customer calls and resolve product issues
-• Monitor systems and fix technical problems
-• Work with team to solve customer challenges</description>
   </item>
   <item>
     <title>Software Engineer, Intern — Stripe</title>
@@ -389,16 +379,6 @@
 • Collaborate with senior data scientists on scalable AI solutions</description>
   </item>
   <item>
-    <title>Training Content &amp; Video Production Intern — Snapdeal</title>
-    <link>https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123</guid>
-    <pubDate>Wed, 12 Aug 2026 07:28:22 GMT</pubDate>
-    <description>Company: Snapdeal · Location: Gurugram, Haryana, India · Duration: 6 months
-• Create training videos, e-learning modules, and explainer videos
-• Use ai tools for video generation and content creation
-• Edit system demos and support lms module uploads</description>
-  </item>
-  <item>
     <title>DevOps Intern (AWS &amp; GitOps) — Freight Tiger</title>
     <link>https://www.internzo.in/jobs/freight-tiger-devops-intern-aws-and-gitops-4453051828</link>
     <guid isPermaLink="true">https://www.internzo.in/jobs/freight-tiger-devops-intern-aws-and-gitops-4453051828</guid>
@@ -507,6 +487,26 @@
 • Design social media content and marketing visuals using canva, photoshop, and figma
 • Create videos and animations for campaigns with premiere pro and after effects
 • Explore ai tools for creative concepts and collaborate with marketing team</description>
+  </item>
+  <item>
+    <title>AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group</title>
+    <link>https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</guid>
+    <pubDate>Mon, 10 Aug 2026 21:38:35 GMT</pubDate>
+    <description>Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years
+• Build and maintain secure, high-performance software solutions
+• Work with AI/ML tools and integrate APIs between systems
+• Collaborate in permanent teams on full software life cycles</description>
+  </item>
+  <item>
+    <title>[Backend] Software Engineering Intern — Teli Labs</title>
+    <link>https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759</guid>
+    <pubDate>Mon, 10 Aug 2026 21:10:16 GMT</pubDate>
+    <description>Company: Teli Labs · Location: Greater Bengaluru Area
+• Build scalable backend components using AWS
+• Work on AI-native systems with real-world impact
+• Collaborate with engineers on system design and implementation</description>
   </item>
 </channel>
 </rss>

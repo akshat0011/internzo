@@ -54,18 +54,6 @@
       ]
     },
     {
-      "id": "https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792",
-      "url": "https://www.internzo.in/jobs/veradigm-contractor-intern-4418094792",
-      "title": "Contractor - Intern — Veradigm®",
-      "content_text": "Company: Veradigm® · Location: Pune Division, Maharashtra, India\n• Answer customer calls and resolve product issues\n• Monitor systems and fix technical problems\n• Work with team to solve customer challenges",
-      "date_published": "2026-08-14T17:55:35.765Z",
-      "authors": [
-        {
-          "name": "Veradigm®"
-        }
-      ]
-    },
-    {
       "id": "https://www.internzo.in/jobs/stripe-software-engineer-intern-4454538326",
       "url": "https://www.internzo.in/jobs/stripe-software-engineer-intern-4454538326",
       "title": "Software Engineer, Intern — Stripe",
@@ -462,18 +450,6 @@
       ]
     },
     {
-      "id": "https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123",
-      "url": "https://www.internzo.in/jobs/snapdeal-training-content-and-video-production-intern-4453073123",
-      "title": "Training Content & Video Production Intern — Snapdeal",
-      "content_text": "Company: Snapdeal · Location: Gurugram, Haryana, India · Duration: 6 months\n• Create training videos, e-learning modules, and explainer videos\n• Use ai tools for video generation and content creation\n• Edit system demos and support lms module uploads",
-      "date_published": "2026-08-12T07:28:22.851Z",
-      "authors": [
-        {
-          "name": "Snapdeal"
-        }
-      ]
-    },
-    {
       "id": "https://www.internzo.in/jobs/freight-tiger-devops-intern-aws-and-gitops-4453051828",
       "url": "https://www.internzo.in/jobs/freight-tiger-devops-intern-aws-and-gitops-4453051828",
       "title": "DevOps Intern (AWS & GitOps) — Freight Tiger",
@@ -602,6 +578,30 @@
       "authors": [
         {
           "name": "TeamLease Regtech Pvt. Ltd."
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
+      "url": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
+      "title": "AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group",
+      "content_text": "Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years\n• Build and maintain secure, high-performance software solutions\n• Work with AI/ML tools and integrate APIs between systems\n• Collaborate in permanent teams on full software life cycles",
+      "date_published": "2026-08-10T21:38:35.217Z",
+      "authors": [
+        {
+          "name": "NatWest Group"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
+      "url": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
+      "title": "[Backend] Software Engineering Intern — Teli Labs",
+      "content_text": "Company: Teli Labs · Location: Greater Bengaluru Area\n• Build scalable backend components using AWS\n• Work on AI-native systems with real-world impact\n• Collaborate with engineers on system design and implementation",
+      "date_published": "2026-08-10T21:10:16.518Z",
+      "authors": [
+        {
+          "name": "Teli Labs"
         }
       ]
     }

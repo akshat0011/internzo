@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786845714350,
- "count": 133,
- "techCount": 133,
+ "generatedAt": 1786848137531,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -79,7 +79,6 @@
   "Siemens",
   "Siemens Healthineers",
   "Silicon Labs",
-  "Snapdeal",
   "Sony Research India",
   "Sprinklr",
   "State Street",
@@ -89,7 +88,6 @@
   "Times Internet",
   "Tonbo Imaging",
   "Valeo",
-  "Veradigm®",
   "WeWork India",
   "West Pharmaceutical Services",
   "Yubi",
@@ -296,43 +294,6 @@
    "firstSeenAt": 1786733470079,
    "url": "https://www.linkedin.com/jobs/view/4454565745/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4454565745/",
-   "description": null
-  },
-  {
-   "id": "4418094792",
-   "title": "Contractor - Intern",
-   "company": "Veradigm®",
-   "matchedWatchlist": "Veradigm",
-   "isTech": true,
-   "roleSource": "model-enrich",
-   "logo": "/logos/veradigm.jpg",
-   "location": "Pune Division, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": "Over 100 people clicked apply",
-   "easyApply": false,
-   "skills": [],
-   "summary": "This internship involves handling customer calls, resolving product issues, and monitoring systems to ensure smooth operation. It suits students with good communication skills and a willingness to learn technical concepts.",
-   "bullets": [
-    "Answer customer calls and resolve product issues",
-    "Monitor systems and fix technical problems",
-    "Work with team to solve customer challenges"
-   ],
-   "roleLabel": "Customer support",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "communication",
-    "problem solving",
-    "technical concepts"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "25 minutes ago",
-   "postedAt": 1786730135765,
-   "firstSeenAt": 1786731635766,
-   "url": "https://www.linkedin.com/jobs/view/4418094792/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4418094792/",
    "description": null
   },
   {
@@ -1697,46 +1658,6 @@
    "firstSeenAt": 1786532483294,
    "url": "https://www.linkedin.com/jobs/view/4452385178/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4452385178/",
-   "description": null
-  },
-  {
-   "id": "4453073123",
-   "title": "Training Content & Video Production Intern",
-   "company": "Snapdeal",
-   "matchedWatchlist": "Snapdeal",
-   "isTech": true,
-   "roleSource": "model-enrich",
-   "logo": "/logos/snapdeal.jpg",
-   "location": "Gurugram, Haryana, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": "1 applicant",
-   "easyApply": true,
-   "skills": [
-    "generative ai"
-   ],
-   "summary": "This internship involves creating training content and videos for snapdeal's internal learning platform. Interns will convert documents into engaging learning materials, use ai tools for content creation, and support lms module development. It suits students with video editing and presentation skills looking to work on real training projects.",
-   "bullets": [
-    "Create training videos, e-learning modules, and explainer videos",
-    "Use ai tools for video generation and content creation",
-    "Edit system demos and support lms module uploads"
-   ],
-   "roleLabel": "Training content creation",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "video editing",
-    "powerpoint",
-    "script writing",
-    "storytelling"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "21 minutes ago",
-   "postedAt": 1786519702851,
-   "firstSeenAt": 1786520962859,
-   "url": "https://www.linkedin.com/jobs/view/4453073123/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4453073123/",
    "description": null
   },
   {
