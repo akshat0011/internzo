@@ -77,6 +77,35 @@ card('remote, piped company', [
 ], { title: 'X/Twitter Intern', company: 'FlowSet Hub | AI Services', location: 'India',
      workplaceType: 'Remote', postedText: '19 hours ago', easyApply: true, viewed: false });
 
+// Captured 12 Aug 2026, after LinkedIn began rendering the stamp as
+// `<time>2 minutes ago<span>Within the past 24 hours</span></time>`. The badge
+// adds a line the parser has never seen, and it lands between the time and
+// "Easy Apply" — where a fixed-index reader would file it as the location. The
+// nesting is what broke scanCardsInPage (see the comment there); these cases
+// pin down that the extra line changes nothing about the parse.
+card('recency badge, undecorated card', [
+  'Marketing Intern', 'Plastics For Change', 'Bengaluru, Karnataka, India (Hybrid)',
+  '1 minute ago', 'Within the past 24 hours',
+], { title: 'Marketing Intern', company: 'Plastics For Change',
+     location: 'Bengaluru, Karnataka, India', workplaceType: 'Hybrid',
+     postedText: '1 minute ago', easyApply: false, viewed: false });
+
+card('recency badge, with stipend and Easy Apply', [
+  'Human Resources Intern', 'SKS Enterpprises - Human Resource Planning and Management',
+  'Mumbai, Maharashtra, India (On-site)', '₹15K/month', '2 minutes ago',
+  'Within the past 24 hours', 'Easy Apply',
+], { title: 'Human Resources Intern',
+     company: 'SKS Enterpprises - Human Resource Planning and Management',
+     location: 'Mumbai, Maharashtra, India', workplaceType: 'On-site',
+     postedText: '2 minutes ago', easyApply: true, viewed: false });
+
+card('recency badge, decorated label', [
+  'Selected, Frontend Developer Intern (Verified job)', 'Frontend Developer Intern',
+  'Udhi Technologies', 'India (Remote)', '6 minutes ago', 'Within the past 24 hours',
+  'Easy Apply',
+], { title: 'Frontend Developer Intern', company: 'Udhi Technologies', location: 'India',
+     workplaceType: 'Remote', postedText: '6 minutes ago', easyApply: true, viewed: false });
+
 console.log('\n== reading by line NUMBER is what breaks ==');
 // Fixed indices work on a decorated card and quietly file metadata as the
 // location on an undecorated one. These two differ by one line and must parse

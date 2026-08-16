@@ -236,9 +236,21 @@ function scanCardsInPage() {
   const MARK = /Be an early applicant|Actively reviewing applicants|\d+\s+(minute|hour|day|week)s?\s+ago/i;
   const linesOf = (el) => (el.innerText ?? '').split('\n').map((l) => l.trim()).filter(Boolean);
 
-  // Leaf elements carrying a recency marker; each sits inside exactly one card.
-  const marks = [...document.querySelectorAll('*')]
-    .filter((e) => e.children.length === 0 && MARK.test(e.textContent ?? ''));
+  // The innermost elements carrying a recency marker; each sits inside exactly
+  // one card.
+  //
+  // This deliberately does NOT require a leaf. On 12 Aug LinkedIn started
+  // rendering the stamp as `<time>2 minutes ago<span>Within the past 24
+  // hours</span></time>`, so the element holding the marker gained a child and
+  // every card in the results column stopped matching. The only leaf left was
+  // the detail pane's own "· 2 minutes ago ·", which is exactly why discovery
+  // collapsed to one card a page again.
+  //
+  // Innermost-match subsumes the old leaf rule — a matching leaf has no
+  // matching descendant — so both shapes are covered and an A/B rollback needs
+  // no further change here.
+  const matching = [...document.querySelectorAll('*')].filter((e) => MARK.test(e.textContent ?? ''));
+  const marks = matching.filter((e) => !matching.some((o) => o !== e && e.contains(o)));
 
   const found = new Set();
   for (const m of marks) {
@@ -813,7 +825,13 @@ export async function openAndExtract(page, card, cfg) {
       (headerText.match(/([₹$€£¥]\s?[\d,][\d,.\s]*(?:k|K)?(?:\s*(?:-|–|to)\s*[₹$€£¥]?\s?[\d,][\d,.\s]*(?:k|K)?)?(?:\s*(?:\/|per\s)\s*\w+)?)/) || [])[1] || null;
 
     const workplaceType = (headerText.match(/\b(Remote|Hybrid|On-site|Onsite)\b/i) || [])[1] || null;
-    const location = factParts[0]
+    // NOT named `location`. A `const location` here is scoped to the whole
+    // page.evaluate callback, which puts the page's own `location` in the
+    // temporal dead zone for every line above — including the `location.href`
+    // fallback that reads currentJobId when the description block is missing.
+    // That fallback could therefore never run: it threw "Cannot access
+    // 'location' before initialization" and lost the posting entirely.
+    const locationText = factParts[0]
       || text(pane.querySelector('.jobs-unified-top-card__bullet, .job-details-jobs-unified-top-card__primary-description-container')).split('·')[0]?.trim()
       || '';
 
@@ -851,7 +869,7 @@ export async function openAndExtract(page, card, cfg) {
 
     const detailLogo = pane.querySelector('img[src*="licdn.com"]')?.getAttribute('src') ?? '';
 
-    return { jobId, title, company, location, workplaceType, applicants, postedText, salaryText, description, easyApply, applyUrl, applyLabel,
+    return { jobId, title, company, location: locationText, workplaceType, applicants, postedText, salaryText, description, easyApply, applyUrl, applyLabel,
              logoUrl: /^https?:\/\//.test(detailLogo) ? detailLogo : '' };
   }, DESCRIPTION_SELECTORS);
 
