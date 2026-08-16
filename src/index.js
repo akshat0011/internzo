@@ -927,7 +927,10 @@ async function main() {
     `${counters.skippedViewed} already viewed · ${counters.listedWithoutOpening} listed without opening` +
     (counters.descriptionsBackfilled ? ` · ${counters.descriptionsBackfilled} descriptions backfilled` : '') +
     (counters.failedDetails ? ` · ${counters.failedDetails} failed to read` : '') +
-    (counters.cardsWithoutId ? ` · ${counters.cardsWithoutId} cards could not be read` : '');
+    (counters.cardsWithoutId ? ` · ${counters.cardsWithoutId} cards could not be read` : '') +
+    // Only while the pre-location card keys are still being moved across. Once
+    // this stops appearing the migration is done and it can be dropped.
+    (counters.cardKeysMigrated ? ` · ${counters.cardKeysMigrated} card keys migrated` : '');
 
   log.section('Summary');
   log.info(summaryLine);
