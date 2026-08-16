@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786907183923,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1786909074137,
+ "count": 133,
+ "techCount": 133,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -13,6 +13,7 @@
   "Analog Devices",
   "AtkinsRéalis",
   "Barclays",
+  "Bristlecone",
   "Bugsmirror",
   "Calix India",
   "CertifyOS",
@@ -132,6 +133,50 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4089384294",
+   "title": "SAP ABAP Intern for M&M",
+   "company": "Bristlecone",
+   "matchedWatchlist": "Bristlecone",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/bristlecone.jpg",
+   "location": "Mumbai, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "java",
+    "c++",
+    "sql"
+   ],
+   "summary": "The intern will support sap abap development by coding and debugging applications, collaborating with teams to translate business needs into technical solutions, and contributing to quality assurance through code reviews and documentation.",
+   "bullets": [
+    "Debug abap code and develop sap applications",
+    "Work with senior developers and functional teams",
+    "Located in mumbai, 6 months duration"
+   ],
+   "roleLabel": "Sap abap development",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "abap",
+    "sql",
+    "java",
+    "c++",
+    "python"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "53 minutes ago",
+   "postedAt": 1786905856229,
+   "firstSeenAt": 1786909036239,
+   "url": "https://www.linkedin.com/jobs/view/4089384294/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4089384294/",
+   "description": null
+  },
   {
    "id": "4436939571",
    "title": "intern",

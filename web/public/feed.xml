@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sun, 16 Aug 2026 19:06:23 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 19:37:54 GMT</lastBuildDate>
+  <item>
+    <title>SAP ABAP Intern for M&amp;M — Bristlecone</title>
+    <link>https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294</guid>
+    <pubDate>Sun, 16 Aug 2026 18:44:16 GMT</pubDate>
+    <description>Company: Bristlecone · Location: Mumbai, Maharashtra, India
+• Debug abap code and develop sap applications
+• Work with senior developers and functional teams
+• Located in mumbai, 6 months duration</description>
+  </item>
   <item>
     <title>intern — eClerx</title>
     <link>https://www.internzo.in/jobs/eclerx-intern-4436939571</link>
@@ -497,16 +507,6 @@
 • Design social media content and marketing visuals using canva, photoshop, and figma
 • Create videos and animations for campaigns with premiere pro and after effects
 • Explore ai tools for creative concepts and collaborate with marketing team</description>
-  </item>
-  <item>
-    <title>AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group</title>
-    <link>https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271</guid>
-    <pubDate>Mon, 10 Aug 2026 21:38:35 GMT</pubDate>
-    <description>Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years
-• Build and maintain secure, high-performance software solutions
-• Work with AI/ML tools and integrate APIs between systems
-• Collaborate in permanent teams on full software life cycles</description>
   </item>
 </channel>
 </rss>

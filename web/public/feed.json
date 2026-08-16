@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294",
+      "url": "https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294",
+      "title": "SAP ABAP Intern for M&M — Bristlecone",
+      "content_text": "Company: Bristlecone · Location: Mumbai, Maharashtra, India\n• Debug abap code and develop sap applications\n• Work with senior developers and functional teams\n• Located in mumbai, 6 months duration",
+      "date_published": "2026-08-16T18:44:16.229Z",
+      "authors": [
+        {
+          "name": "Bristlecone"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/eclerx-intern-4436939571",
       "url": "https://www.internzo.in/jobs/eclerx-intern-4436939571",
       "title": "intern — eClerx",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "TeamLease Regtech Pvt. Ltd."
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
-      "url": "https://www.internzo.in/jobs/natwest-group-ai-ml-intern-2026-graduates-6-month-internship-4452031271",
-      "title": "AI ML Intern (2026 Graduates, 6-Month Internship) — NatWest Group",
-      "content_text": "Company: NatWest Group · Location: Bengaluru, Karnataka, India · Duration: 0–1 years\n• Build and maintain secure, high-performance software solutions\n• Work with AI/ML tools and integrate APIs between systems\n• Collaborate in permanent teams on full software life cycles",
-      "date_published": "2026-08-10T21:38:35.217Z",
-      "authors": [
-        {
-          "name": "NatWest Group"
         }
       ]
     }
