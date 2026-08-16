@@ -465,12 +465,30 @@ const ENRICH_SCHEMA = {
  * opinion. The reverse is not true: a title the vocabulary cannot settle is
  * exactly what the model is here to decide.
  */
-function vetoNonTech(title, modelVerdict, cfg = {}) {
-  const verdict = classifyRole(title, {
+export function vetoNonTech(title, roleLabel, modelVerdict, cfg = {}) {
+  const options = {
     extraPositive: cfg.matching?.extraTechTerms ?? [],
     extraNegative: cfg.matching?.extraNonTechTerms ?? [],
-  }).verdict;
-  if (verdict === 'non-tech') return false;
+  };
+  const verdictOf = (t) => (typeof t === 'string' && t.trim()
+    ? classifyRole(t, options).verdict
+    : 'uncertain');
+
+  const fromTitle = verdictOf(title);
+  if (fromTitle === 'non-tech') return false;
+
+  // The role label is a FALLBACK, consulted only when the title settles
+  // nothing. American Express posts every one of its internships as the single
+  // word "Apprentice", so the title can never decide and the description does;
+  // that is how "Credit Risk Analyst" reached an engineering board.
+  //
+  // It must not outrank a title that is already confidently technical. The
+  // label names the business domain as often as the work — BNP Paribas'
+  // "Data Science Intern" is labelled "Financial NLP modelling", and
+  // `financial` is a negative term. Letting the label veto that would drop a
+  // real data science role to protect against a credit risk one.
+  if (fromTitle === 'uncertain' && verdictOf(roleLabel) === 'non-tech') return false;
+
   return typeof modelVerdict === 'boolean' ? modelVerdict : null;
 }
 
@@ -635,13 +653,15 @@ export async function enrichJobs(items, cfg = {}) {
           : ['paid', 'unpaid', 'unknown'].includes(v.stipendStatus) ? v.stipendStatus
           : 'unknown';
 
+        // Four words is the ceiling: this sits beside the title on one line, and a
+        // label that wraps is a label that has stopped being a label.
+        const roleLabel = typeof v.roleLabel === 'string'
+          ? v.roleLabel.trim().replace(/\s+/g, ' ').replace(/[.]+$/, '').split(' ').slice(0, 4).join(' ')
+          : '';
+
         out.set(start + v.id, {
           bullets,
-          // Four words is the ceiling: this sits beside the title on one line, and a
-          // label that wraps is a label that has stopped being a label.
-          roleLabel: typeof v.roleLabel === 'string'
-            ? v.roleLabel.trim().replace(/\s+/g, ' ').replace(/[.]+$/, '').split(' ').slice(0, 4).join(' ')
-            : '',
+          roleLabel,
           degreeLevel: level,
           degreeText,
           keySkills: tidyList(v.keySkills, { max: 5, maxLen: 24, lower: true }),
@@ -653,7 +673,11 @@ export async function enrichJobs(items, cfg = {}) {
           // builtInPolarity in roles.js: a hand-written rule with tests behind
           // it outranks a model's opinion. The veto is one-way — the model may
           // still promote a role the vocabulary was merely unsure about.
-          isTech: vetoNonTech(slice[v.id].title, v.isTech, cfg),
+          //
+          // The role label is checked alongside the title because employers who
+          // post everything under one generic title ("Apprentice", "Graduate
+          // Trainee") give the vocabulary nothing to bite on otherwise.
+          isTech: vetoNonTech(slice[v.id].title, roleLabel, v.isTech, cfg),
         });
       }
 

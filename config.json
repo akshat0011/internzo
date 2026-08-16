@@ -859,9 +859,21 @@
       "financial",
       "indirect tax",
       "technical support",
-      "support representative"
+      "support representative",
+      "credit risk",
+      "fraud risk",
+      "market risk",
+      "credit analyst",
+      "treasury",
+      "financial crime",
+      "anti-money laundering",
+      "regulatory compliance",
+      "compliance analyst",
+      "underwriting",
+      "actuarial"
     ],
     "_extraNonTechTerms_note": "Matching is whole-word, so the built-in 'finance' never matched 'Financial Analyst' and 'taxation' never matched 'Indirect Tax'. Those fell through as uncertain, and since an uncertain title is now published rather than held, six Amazon finance roles would have gone onto an engineering-only site. Remove 'financial' if a title like 'Financial Systems Software Engineer' ever gets wrongly dropped.",
+    "_riskTerms_note": "The risk/compliance block was added 16 Aug 2026 after 'Apprentice - Credit Risk Analyst' at American Express went live on an engineering board. Amex posts EVERY internship as the bare word 'Apprentice', so the title can never be settled and the description decides; the model called it tech because the prompt counts 'data science and analytics' as tech and the role does run on SQL, Python and Tableau. These terms are matched against the model's own role label as well as the title (see vetoNonTech). They are safe against genuine engineering roles inside risk teams: a negative only wins when no MULTI-WORD positive also matches, so 'Credit Risk Data Engineer' still classifies tech via 'data engineer'. Every term names a FINANCE domain on purpose. A bare 'risk analyst' / 'risk management' was tried first and dropped: it flipped Zscaler's 'Insider Risk Analyst', which is security operations and squarely in scope. The domain-specific terms already caught every bad row, so the broad ones bought nothing and cost a real listing.",
     "_extraTerms_note": "Your own additions to the classifier, checked ahead of the built-in lists.",
     "blocklist": [
       "MedTourEasy",
