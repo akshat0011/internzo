@@ -149,6 +149,21 @@ export async function writeJobsFile(store, cfg) {
   // than a LinkedIn redirect, and its posted date is the actual publish time
   // rather than "3 days ago" parsed from a card.
   //
+  // But only when the two are plausibly the SAME posting. That preference used
+  // to be unconditional, and it is a preference between collectors, not between
+  // postings — so a months-old ATS row silently suppressed a fresh relisting of
+  // the same role. Stripe's "Software Engineer, Intern" was scraped 11 minutes
+  // after going up on 14 Aug and did not reach the site for 9h46m: a Greenhouse
+  // row for the same role, posted 22 Jul, held the slot. It was not fixed, it
+  // expired — the ATS row left the 14-day window at 05:21 on 15 Aug and the
+  // next run published the LinkedIn one at 05:50.
+  //
+  // Beyond this gap they are two postings, not two views of one, and the newer
+  // is the one still open. Three days is deliberately generous: the ATS copy
+  // goes up first and LinkedIn's follows within hours, so a genuine pair stays
+  // well inside it and keeps the better apply URL.
+  const SAME_POSTING_MS = 3 * 24 * 3_600_000;
+  //
   // Where neither is from an ATS, the NEWEST posting wins. This used to keep the
   // row we saw first, on the reasoning that the freshness label stays honest —
   // but the duplicates it actually meets are LinkedIn reposts of one role under
@@ -209,7 +224,8 @@ export async function writeJobsFile(store, cfg) {
     const existing = bestByKey.get(key);
     if (!existing) { bestByKey.set(key, entry); continue; }
 
-    const challengerWins = isAts(entry.row) !== isAts(existing.row)
+    const gap = Math.abs(postedAtOf(entry.row) - postedAtOf(existing.row));
+    const challengerWins = isAts(entry.row) !== isAts(existing.row) && gap <= SAME_POSTING_MS
       ? isAts(entry.row)
       : postedAtOf(entry.row) > postedAtOf(existing.row);
 
