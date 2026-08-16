@@ -564,7 +564,14 @@ function renderDetail(job) {
   };
   addFact('mode', job.workplaceType || '\u2014');
   addFact('duration', job.duration || '\u2014');
-  addFact('posted', job.postedText || relTime(job.postedAt));
+  // Computed from the timestamp, NOT from postedText. postedText is the string
+  // LinkedIn showed at the moment the scraper opened the posting — "4 minutes
+  // ago" — and it never ages. Preferring it meant the detail pane still read
+  // "4 minutes ago" a day later, while the card beside it correctly read "22h"
+  // from shortAge(postedAt). On a site whose whole promise is BE EARLY, that is
+  // the worst possible field to get wrong: every stale posting looked brand new.
+  // postedText is kept only as a fallback for a row with no parsed timestamp.
+  addFact('posted', relTime(job.postedAt) || job.postedText);
   if (job.applicants) addFact('applicants', job.applicants);
   d.append(facts);
 
