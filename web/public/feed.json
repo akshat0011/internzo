@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/eclerx-intern-4436939571",
+      "url": "https://www.internzo.in/jobs/eclerx-intern-4436939571",
+      "title": "intern — eClerx",
+      "content_text": "Company: eClerx · Location: Mumbai, Maharashtra, India\n• Analyze data and build machine learning models\n• Use python, sql, and tools like tableau\n• Work with cross-functional teams on data projects",
+      "date_published": "2026-08-16T12:36:23.023Z",
+      "authors": [
+        {
+          "name": "eClerx"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071",
       "url": "https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071",
       "title": "1 year Internship_SW_CDC — Qualcomm",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "NatWest Group"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
-      "url": "https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759",
-      "title": "[Backend] Software Engineering Intern — Teli Labs",
-      "content_text": "Company: Teli Labs · Location: Greater Bengaluru Area\n• Build scalable backend components using AWS\n• Work on AI-native systems with real-world impact\n• Collaborate with engineers on system design and implementation",
-      "date_published": "2026-08-10T21:10:16.518Z",
-      "authors": [
-        {
-          "name": "Teli Labs"
         }
       ]
     }

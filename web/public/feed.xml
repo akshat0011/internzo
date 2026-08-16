@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sun, 16 Aug 2026 12:37:39 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 13:07:27 GMT</lastBuildDate>
+  <item>
+    <title>intern — eClerx</title>
+    <link>https://www.internzo.in/jobs/eclerx-intern-4436939571</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/eclerx-intern-4436939571</guid>
+    <pubDate>Sun, 16 Aug 2026 12:36:23 GMT</pubDate>
+    <description>Company: eClerx · Location: Mumbai, Maharashtra, India
+• Analyze data and build machine learning models
+• Use python, sql, and tools like tableau
+• Work with cross-functional teams on data projects</description>
+  </item>
   <item>
     <title>1 year Internship_SW_CDC — Qualcomm</title>
     <link>https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071</link>
@@ -497,16 +507,6 @@
 • Build and maintain secure, high-performance software solutions
 • Work with AI/ML tools and integrate APIs between systems
 • Collaborate in permanent teams on full software life cycles</description>
-  </item>
-  <item>
-    <title>[Backend] Software Engineering Intern — Teli Labs</title>
-    <link>https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/teli-labs-backend-software-engineering-intern-4449802759</guid>
-    <pubDate>Mon, 10 Aug 2026 21:10:16 GMT</pubDate>
-    <description>Company: Teli Labs · Location: Greater Bengaluru Area
-• Build scalable backend components using AWS
-• Work on AI-native systems with real-world impact
-• Collaborate with engineers on system design and implementation</description>
   </item>
 </channel>
 </rss>

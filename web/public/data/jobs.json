@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786883859722,
- "count": 131,
- "techCount": 131,
+ "generatedAt": 1786885647525,
+ "count": 132,
+ "techCount": 132,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -92,6 +92,7 @@
   "West Pharmaceutical Services",
   "Yubi",
   "eBay",
+  "eClerx",
   "pharma&",
   "upGrad International"
  ],
@@ -131,6 +132,54 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4436939571",
+   "title": "intern",
+   "company": "eClerx",
+   "matchedWatchlist": "eClerx",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/eclerx.jpg",
+   "location": "Mumbai, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "machine learning",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "tableau",
+    "power bi"
+   ],
+   "summary": "This internship involves working with data to uncover insights and build predictive models. Interns will use python and sql to process data, create visualizations, and support data-driven decisions. It's ideal for students interested in data science and machine learning.",
+   "bullets": [
+    "Analyze data and build machine learning models",
+    "Use python, sql, and tools like tableau",
+    "Work with cross-functional teams on data projects"
+   ],
+   "roleLabel": "Data Science Intern",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "sql",
+    "tableau",
+    "pandas",
+    "numpy"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "30 minutes ago",
+   "postedAt": 1786883783023,
+   "firstSeenAt": 1786885583032,
+   "url": "https://www.linkedin.com/jobs/view/4436939571/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4436939571/",
+   "description": null
+  },
   {
    "id": "4376091071",
    "title": "1 year Internship_SW_CDC",
