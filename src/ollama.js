@@ -23,7 +23,7 @@
  * bounded by a timeout and every failure returns empty rather than throwing.
  */
 import { log } from './logger.js';
-import { classifyRole } from './roles.js';
+import { classifyRole, vetoNonTech } from './roles.js';
 
 const HOST = process.env.OLLAMA_HOST || 'http://127.0.0.1:11434';
 
@@ -462,6 +462,21 @@ export async function enrichJobs(items, cfg = {}) {
     item.bullets = (item.bullets ?? []).map(sentenceCase).filter(Boolean);
     item.summary = sentenceCase(item.summary);
     item.roleLabel = sentenceCase(item.roleLabel);
+
+    // The vocabulary has a veto, and this is the only classifier wired up — the
+    // equivalent in gemini.js guarded a path nothing imports, so in practice
+    // nothing here was ever overruled. That is how "Apprentice", which is how
+    // American Express titles every one of its internships, put a Credit Risk
+    // Analyst role on an engineering-only board.
+    //
+    // Assigned only when the veto actually fires, so a verdict deliberately
+    // withheld above (a description too thin to overturn one) stays withheld:
+    // saveEnrichment writes is_tech through COALESCE and a field that is
+    // present-but-null would clear the title classifier's answer.
+    if (vetoNonTech(job.title, item.roleLabel, true, cfg) === false) {
+      if (item.isTech !== false) log.debug(`  vocabulary overruled the tech verdict for "${job.title}" (${item.roleLabel}).`);
+      item.isTech = false;
+    }
 
     if (dropped.length) {
       guarded++;

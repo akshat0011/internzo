@@ -242,3 +242,42 @@ export function isSoftwareRole(title, { includeUncertain = false, ...options } =
   const { verdict } = classifyRole(title, options);
   return verdict === 'tech' || (includeUncertain && verdict === 'uncertain');
 }
+
+/**
+ * Let this vocabulary overrule a model verdict, in one direction only.
+ *
+ * If the configured terms confidently call a role non-engineering, that stands
+ * whatever the model thinks. Those terms are added deliberately, in response to
+ * something wrong actually reaching the site, so they are evidence rather than
+ * opinion. The reverse is not true: a role the vocabulary cannot settle is
+ * exactly what the model is here to decide.
+ *
+ * The ROLE LABEL is read as well as the title, because employers who post
+ * everything under one generic title give the vocabulary nothing else to bite
+ * on. American Express posts every internship as the bare word "Apprentice",
+ * which is how "Credit Risk Analyst" reached an engineering-only board.
+ *
+ * The label is a FALLBACK, consulted only when the title settles nothing. It
+ * must not outrank a confident title: labels name the business domain as often
+ * as the work, and BNP Paribas' "Data Science Intern" is labelled "Financial
+ * NLP modelling" — with `financial` a negative term, letting the label win
+ * would drop a real data science role to catch a credit risk one.
+ *
+ * Lives here rather than beside either classifier because there are two of
+ * them and only one was ever wired up.
+ */
+export function vetoNonTech(title, roleLabel, modelVerdict, cfg = {}) {
+  const options = {
+    extraPositive: cfg.matching?.extraTechTerms ?? [],
+    extraNegative: cfg.matching?.extraNonTechTerms ?? [],
+  };
+  const verdictOf = (t) => (typeof t === 'string' && t.trim()
+    ? classifyRole(t, options).verdict
+    : 'uncertain');
+
+  const fromTitle = verdictOf(title);
+  if (fromTitle === 'non-tech') return false;
+  if (fromTitle === 'uncertain' && verdictOf(roleLabel) === 'non-tech') return false;
+
+  return typeof modelVerdict === 'boolean' ? modelVerdict : null;
+}

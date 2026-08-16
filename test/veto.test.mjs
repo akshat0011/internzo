@@ -23,7 +23,7 @@
  * extraNonTechTerms fails here instead of silently going live.
  */
 import { readFileSync } from 'node:fs';
-import { vetoNonTech } from '../src/gemini.js';
+import { vetoNonTech } from '../src/roles.js';
 
 const cfg = JSON.parse(readFileSync(new URL('../config.json', import.meta.url), 'utf8'));
 

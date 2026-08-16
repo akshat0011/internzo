@@ -14,7 +14,7 @@
  *    forty candidates should cost one request, not forty.
  */
 import { log } from './logger.js';
-import { classifyRole } from './roles.js';
+import { classifyRole, vetoNonTech } from './roles.js';
 import { normaliseDegree } from './extract.js';
 
 const API_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
@@ -456,41 +456,10 @@ const ENRICH_SCHEMA = {
   required: ['items'],
 };
 
-/**
- * Let the offline vocabulary overrule a model verdict, in one direction only.
- *
- * If the configured terms confidently call a title non-engineering, that stands
- * whatever the model thinks. Those terms are added deliberately, in response to
- * something wrong actually reaching the site, so they are evidence rather than
- * opinion. The reverse is not true: a title the vocabulary cannot settle is
- * exactly what the model is here to decide.
- */
-export function vetoNonTech(title, roleLabel, modelVerdict, cfg = {}) {
-  const options = {
-    extraPositive: cfg.matching?.extraTechTerms ?? [],
-    extraNegative: cfg.matching?.extraNonTechTerms ?? [],
-  };
-  const verdictOf = (t) => (typeof t === 'string' && t.trim()
-    ? classifyRole(t, options).verdict
-    : 'uncertain');
-
-  const fromTitle = verdictOf(title);
-  if (fromTitle === 'non-tech') return false;
-
-  // The role label is a FALLBACK, consulted only when the title settles
-  // nothing. American Express posts every one of its internships as the single
-  // word "Apprentice", so the title can never decide and the description does;
-  // that is how "Credit Risk Analyst" reached an engineering board.
-  //
-  // It must not outrank a title that is already confidently technical. The
-  // label names the business domain as often as the work — BNP Paribas'
-  // "Data Science Intern" is labelled "Financial NLP modelling", and
-  // `financial` is a negative term. Letting the label veto that would drop a
-  // real data science role to protect against a credit risk one.
-  if (fromTitle === 'uncertain' && verdictOf(roleLabel) === 'non-tech') return false;
-
-  return typeof modelVerdict === 'boolean' ? modelVerdict : null;
-}
+// The veto now lives in roles.js, so that ollama.js — the classifier that is
+// actually wired up — shares one implementation with this one. Re-exported
+// here because this module's own callers referenced it.
+export { vetoNonTech };
 
 /** Trim, drop empties, cap length and count — the model is asked for this shape, not trusted for it. */
 function tidyList(value, { max, maxLen, lower = false }) {
