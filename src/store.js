@@ -524,7 +524,20 @@ export class Store {
     this.db.prepare(`
       INSERT INTO seen_cards (job_id, last_seen_at, reason, company, title)
       VALUES (?, ?, ?, ?, ?)
-      ON CONFLICT(job_id) DO UPDATE SET last_seen_at = excluded.last_seen_at
+      ON CONFLICT(job_id) DO UPDATE SET
+        last_seen_at = excluded.last_seen_at,
+        -- The reason has to move with the timestamp. It used to be written once
+        -- and never again, so a card refused in June as off-watchlist still read
+        -- "company not on watchlist" after the employer had been added and the
+        -- card was being refused for something else entirely — with a timestamp
+        -- from today. Every reason-based figure inherits that: the report's skip
+        -- breakdown, topSkippedCompanies, and any attempt to ask why a posting
+        -- never made the site. It read as 92 watchlist companies being turned
+        -- away in six days when the true number was nil.
+        reason       = excluded.reason,
+        -- Null only because an older schema had no such column.
+        company      = COALESCE(excluded.company, seen_cards.company),
+        title        = COALESCE(excluded.title, seen_cards.title)
     `).run(jobId, Date.now(), reason, company, title);
   }
 
