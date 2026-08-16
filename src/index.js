@@ -862,7 +862,7 @@ async function main() {
               title: job.title,
               description: withDesc[i].description,
               company: job.company,
-            }, polarity);
+            }, polarity, cfg.matching.titleMustMatch ?? []);
             if (result === 'added') {
               counters.termsLearned++;
               log.ok(`  learned "${a.keyTerm.toLowerCase()}" -> ${a.isTech ? 'tech' : 'other'}`);

@@ -62,10 +62,26 @@ export function learnedVocabulary(store = loadLearned()) {
  *                                as "term|tech" / "term|other"
  * @returns {'added'|'reinforced'|'rejected'} and why, for logging
  */
-export function learn(store, lesson, builtInPolarity) {
+export function learn(store, lesson, builtInPolarity, blockedTerms = []) {
   const term = String(lesson.term ?? '').toLowerCase().trim().replace(/\s+/g, ' ');
   if (term.length < MIN_LEN || term.length > MAX_LEN) return { result: 'rejected', why: 'implausible length' };
   if (!/[a-z]/.test(term)) return { result: 'rejected', why: 'no letters' };
+
+  // A term the search is BUILT FROM says nothing about what a role is: every
+  // card LinkedIn returns matches one of them by construction. The model
+  // proposes them anyway, and the damage is one-sided — once "intern" was
+  // stored as non-tech it fired on ~100% of titles, and because only
+  // multi-word positives outrank a negative (roles.js), single-word tech
+  // signals could not save them. "Flutter Developer Intern" and "DevOps Intern
+  // (AWS & GitOps)" were both refused before they were ever opened; 34
+  // watchlist matches went that way on 12 Aug alone, and the count had been
+  // climbing for a week as more of these terms were learned.
+  //
+  // Sourced from config.matching.titleMustMatch by the caller so this list and
+  // the query cannot drift apart.
+  if (blockedTerms.includes(term)) {
+    return { result: 'rejected', why: 'a term the search is built from, so every posting contains it' };
+  }
 
   // The term has to come from the text it supposedly explains.
   const haystack = `${lesson.title ?? ''} ${lesson.description ?? ''}`.toLowerCase();
