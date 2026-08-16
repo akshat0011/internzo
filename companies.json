@@ -161,6 +161,7 @@
   "indian-edtech": [
     "BYJU'S", "Unacademy", "Vedantu", "PhysicsWallah", "Cuemath", "upGrad",
     "Simplilearn", "Great Learning", "Scaler", "Coding Ninjas", "GeeksforGeeks",
+    { "name": "AlgoUniversity", "aliases": ["Algo University"] },
     "InterviewBit", "Newton School", "AlmaBetter", "Masai School",
     "Emeritus", "Eruditus", "Skill-Lync", "LEAD School", "Teachmint",
     "Classplus", "Doubtnut", "Toppr", "Testbook", "Adda247", "Oliveboard",
