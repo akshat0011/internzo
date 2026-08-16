@@ -8,7 +8,7 @@
  * from LinkedIn to the site, so it is checked against the real shapes rather
  * than against invented ones.
  */
-import { parseCardLines, cardKey, cardIdentity } from '../src/linkedin.js';
+import { parseCardLines, cardKey, cardIdentity, legacyCardIdentity } from '../src/linkedin.js';
 
 let pass = 0, fail = 0;
 function check(label, actual, expected) {
@@ -135,16 +135,31 @@ check('no lines gives no company', parseCardLines([]).company, '');
 check('title but no company', parseCardLines(['Intern', 'Be an early applicant', '2 hours ago']).company, '');
 
 console.log('\n== keys ==');
-const a = { company: 'IQVIA', title: 'Intern', postedText: '19 hours ago' };
+const a = { company: 'IQVIA', title: 'Intern', location: 'Bengaluru', postedText: '19 hours ago' };
 check('key is namespaced', cardKey(a), 'card:iqvia|intern|19 hours ago');
 check('key is case and space insensitive',
   cardKey({ company: '  iqvia ', title: 'INTERN', postedText: '19  hours ago' }), cardKey(a));
 // A relisting carries the same company and title but a fresh posted time. The
 // skip-record key must separate them; the card_keys identity must not.
 check('key separates a repost', cardKey({ ...a, postedText: '3 minutes ago' }) !== cardKey(a), true);
-check('identity drops the time', cardIdentity(a), 'card:iqvia|intern');
+check('identity drops the time', cardIdentity(a), 'card:iqvia|intern|bengaluru');
 check('identity survives ageing',
   cardIdentity({ ...a, postedText: '3 minutes ago' }), cardIdentity(a));
+
+// One role advertised in several cities is several postings with several ids.
+// On company and title alone they collapse into whichever was opened first and
+// the rest are refused as already known for as long as they stay up — two
+// Qualcomm "Interim Engineering Intern_Systems-2027" cards went up minutes
+// apart on 12 Aug, Hyderabad and Bengaluru, and only Hyderabad was ever opened.
+check('identity separates two cities',
+  cardIdentity({ ...a, location: 'Greater Hyderabad Area' }) !== cardIdentity(a), true);
+check('identity is case and space insensitive',
+  cardIdentity({ company: ' iqvia', title: 'INTERN', location: 'Bengaluru ' }), cardIdentity(a));
+check('a missing location still keys', cardIdentity({ company: 'IQVIA', title: 'Intern' }), 'card:iqvia|intern|');
+// The pre-16-Aug rows are read through this until each is migrated in place.
+check('legacy identity is the old two-part key', legacyCardIdentity(a), 'card:iqvia|intern');
+check('legacy identity ignores location',
+  legacyCardIdentity({ ...a, location: 'Pune' }), legacyCardIdentity(a));
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exitCode = fail ? 1 : 0;

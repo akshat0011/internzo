@@ -417,8 +417,39 @@ export function cardKey({ company, title, postedText }) {
  *
  * This is the stable half, used only as the `card_keys` lookup. Reposts are
  * kept apart by comparing posted times at the point of use, not by the key.
+ *
+ * LOCATION IS PART OF IT. One employer routinely advertises one role in
+ * several cities as separate postings with separate ids, and on company and
+ * title alone they all collapse into whichever was opened first — the rest are
+ * refused as "already known" for as long as they stay up, and unlike a repost
+ * no amount of waiting frees them, because the identity never changes. Two
+ * Qualcomm "Interim Engineering Intern_Systems-2027" postings went up minutes
+ * apart on 12 Aug, Hyderabad and Bengaluru; only Hyderabad was ever opened.
+ * Crisil advertises "Intern" in ten cities and Siemens "Graduate Trainee
+ * Engineer" in four.
+ *
+ * Safe to key on because the card's location is essentially always present —
+ * empty in 2 of 968 stored postings — unlike the accessible label, which
+ * innerText renders only sometimes.
  */
-export function cardIdentity({ company, title }) {
+export function cardIdentity({ company, title, location }) {
+  const norm = (s) => String(s ?? '').toLowerCase().replace(/\s+/g, ' ').trim();
+  return `card:${norm(company)}|${norm(title)}|${norm(location)}`;
+}
+
+/**
+ * The pre-16-Aug-2026 two-part identity, for reading rows written before
+ * location was part of the key.
+ *
+ * Rewriting every stored key in one migration is not possible: `card_keys`
+ * holds the CARD's location text ("Bengaluru") while the jobs table holds the
+ * detail pane's ("Bengaluru, Karnataka, India"), so the old rows cannot be
+ * reconstructed into new ones. Instead the gate falls back to this, and
+ * migrates each row the first time it is hit — see the lookup in index.js.
+ * Dropping the old rows outright would have re-opened every card on the board
+ * in a single sweep, which is the one thing the request budget cannot afford.
+ */
+export function legacyCardIdentity({ company, title }) {
   const norm = (s) => String(s ?? '').toLowerCase().replace(/\s+/g, ' ').trim();
   return `card:${norm(company)}|${norm(title)}`;
 }

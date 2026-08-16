@@ -372,7 +372,7 @@ async function main() {
 
   const clock = budget(cfg.limits.maxRuntimeMinutes);
   const notes = [];
-  const counters = { pagesScanned: 0, cardsSeen: 0, detailsExtracted: 0, newJobs: 0, skippedStale: 0, skippedCompany: 0, skippedTitle: 0, techRoles: 0, nonTechRoles: 0, geminiJudged: 0, termsLearned: 0, nearMisses: 0, skippedViewed: 0, listedWithoutOpening: 0, logosBackfilled: 0, skippedKnown: 0, failedDetails: 0, descriptionsBackfilled: 0, cardsWithoutId: 0 };
+  const counters = { pagesScanned: 0, cardsSeen: 0, detailsExtracted: 0, newJobs: 0, skippedStale: 0, skippedCompany: 0, skippedTitle: 0, techRoles: 0, nonTechRoles: 0, geminiJudged: 0, termsLearned: 0, nearMisses: 0, skippedViewed: 0, listedWithoutOpening: 0, logosBackfilled: 0, skippedKnown: 0, failedDetails: 0, descriptionsBackfilled: 0, cardsWithoutId: 0, cardKeysMigrated: 0 };
 
   log.section(`Run ${runId}`);
   log.info(`${cfg.watchlist.length} watchlist terms across ${cfg.uniqueCompanyCount} companies · mode "${cfg.searchMode ?? 'companies'}" · ${allSearches.length} searches · budget ${cfg.limits.maxRuntimeMinutes}m`);
@@ -487,7 +487,22 @@ async function main() {
           //
           // "Do we already hold this?" is the one gate that genuinely needs the
           // real id, so it is answered from what an earlier click recorded.
-          const known = store.jobIdForCard(card.identity);
+          // Location became part of the identity on 16 Aug 2026, so a row
+          // written before that is found under the old two-part key and moved
+          // across the first time it is hit. Migrating lazily, one card at a
+          // time, is what keeps this from re-opening the whole board in a
+          // single sweep — the old keys cannot be rewritten in bulk because
+          // they hold the card's location text and the jobs table holds the
+          // detail pane's.
+          let known = store.jobIdForCard(card.identity);
+          if (!known) {
+            const legacy = store.jobIdForCard(li.legacyCardIdentity(card));
+            if (legacy) {
+              store.migrateCardKey(li.legacyCardIdentity(card), card.identity, legacy.job_id, legacy.posted_at);
+              known = legacy;
+              counters.cardKeysMigrated++;
+            }
+          }
           if (known && store.hasJob(known.job_id)) {
             const cardPostedAt = parseRelativeTime(card.postedText);
             // Same company, same title — but LinkedIn relists roles under a

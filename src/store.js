@@ -595,6 +595,20 @@ export class Store {
     return this.db.prepare('SELECT job_id, posted_at FROM card_keys WHERE card_key = ?').get(cardKey) ?? null;
   }
 
+  /**
+   * Move a row from the pre-location identity to the current one.
+   *
+   * The old row is DELETED rather than left in place. Leaving it would defeat
+   * the reason location joined the key: the second city's card would miss the
+   * new key, fall back to the old one, and be refused as already known exactly
+   * as before.
+   */
+  migrateCardKey(oldKey, newKey, jobId, postedAt = null) {
+    if (!oldKey || !newKey || oldKey === newKey) return;
+    this.mapCard(newKey, jobId, postedAt);
+    this.db.prepare('DELETE FROM card_keys WHERE card_key = ?').run(oldKey);
+  }
+
   touchJob(jobId) {
     this.db.prepare('UPDATE jobs SET last_seen_at = ? WHERE job_id = ?').run(Date.now(), jobId);
   }
