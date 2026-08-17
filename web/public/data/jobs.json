@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786934203553,
- "count": 131,
- "techCount": 131,
+ "generatedAt": 1786935986760,
+ "count": 130,
+ "techCount": 130,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -80,7 +80,6 @@
   "Siemens Healthineers",
   "Silicon Labs",
   "Sony Research India",
-  "Sprinklr",
   "State Street",
   "Stripe",
   "TeamLease Regtech Pvt. Ltd.",
@@ -110,7 +109,6 @@
   "Gurugram, Haryana, India",
   "Hyderabad, Telangana, India",
   "India",
-  "India - Haryana - Gurgaon",
   "India, Karnataka, Bangalore",
   "India, Multiple Locations, Multiple Locations",
   "India, Telangana, Hyderabad",
@@ -5372,48 +5370,6 @@
    "firstSeenAt": 1785942447377,
    "url": "https://www.linkedin.com/jobs/view/4447602250/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447602250/",
-   "description": null
-  },
-  {
-   "id": "ats:workday:sprinklr:wd1:careers:113310-JOB",
-   "title": "Design Intern",
-   "company": "Sprinklr",
-   "matchedWatchlist": "Sprinklr",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/sprinklr.jpg",
-   "location": "India - Haryana - Gurgaon",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "figma"
-   ],
-   "summary": "Sprinklr is the definitive, AI-native platform for Unified Customer Experience Management (Unified-CXM), empowering brands to deliver extraordinary experiences at scale — across every customer touchpoint. By combining human instinct with the speed and efficiency of AI, Sprinklr helps brands earn trust and loyalty through personalized, seamless, and efficient customer interactions. Sprinklr’s unified platform provides powerful solutions for every customer-facing team — spanning social media management, marketing, advertising, customer feedback, and omnichannel contact center management — enabling enterprises to…",
-   "bullets": [
-    "Support the Product Design team in creating intuitive experiences for enterprise users",
-    "Work on real product features, learn design systems, contribute to user research",
-    "Proficiency in Figma (components, auto-layout, prototyping) is required",
-    "Exposure to AI design tools like Lovable, Cursor, and agentic design practices"
-   ],
-   "roleLabel": "Product Design",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "figma",
-    "lovable",
-    "cursor",
-    "interaction design",
-    "user research"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1785110400000,
-   "firstSeenAt": 1785725133920,
-   "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Haryana---Gurgaon/Design-Intern_113310-JOB",
-   "applyUrl": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Haryana---Gurgaon/Design-Intern_113310-JOB",
    "description": null
   },
   {
