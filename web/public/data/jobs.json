@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786932377735,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1786934203553,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -68,7 +68,6 @@
   "Paytm",
   "Philips",
   "Piramal",
-  "Pixxel",
   "Qualcomm",
   "Quantiphi",
   "Quest Global",
@@ -5269,51 +5268,6 @@
    "firstSeenAt": 1785747692880,
    "url": "https://www.linkedin.com/jobs/view/4448149499/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4448149499/",
-   "description": null
-  },
-  {
-   "id": "4448136135",
-   "title": "Calibration Intern",
-   "company": "Pixxel",
-   "matchedWatchlist": "Pixxel",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/pixxel.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "c++",
-    "matlab",
-    "algorithms"
-   ],
-   "summary": "This job is sourced from a job board. Role: Calibration Engineer Intern Employment Type: Intern (6months) Educational Qualification: BS/MS in Mechanical or Optical Engineering or Quality Engineering; plus strong industry experience Work Experience: Fresher with background with optical or optomechanical assemblies Camera Calibration Engineer responsible for developing and implementing algorithms to accurately calibrate camera systems for optimal image quality and geometric precision.",
-   "bullets": [
-    "Develop and implement algorithms to calibrate camera systems for optimal image quality",
-    "Participate in pre-flight calibration including geometrical, spatial, and radiometric calibration",
-    "Develop and deploy software for imaging system calibration and testing",
-    "Analyze volume data to guide engineering decisions"
-   ],
-   "roleLabel": "Camera Calibration Engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": null,
-   "keySkills": [
-    "c++",
-    "matlab",
-    "python",
-    "image processing",
-    "optical metrology tools"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "33 minutes ago",
-   "postedAt": 1785722359699,
-   "firstSeenAt": 1785724339706,
-   "url": "https://www.linkedin.com/jobs/view/4448136135/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448136135/",
    "description": null
   },
   {
