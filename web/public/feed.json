@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714",
+      "url": "https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714",
+      "title": "Trainee Engineer – Oil & Gas Data Analyst — Quest Global",
+      "content_text": "Company: Quest Global · Location: Bengaluru, Karnataka, India\n• Cleanse and profile technical datasets from APM systems\n• Use sql/python to extract and query enterprise databases\n• Develop dashboards with tableau and power bi\n• Collaborate with experts on data mapping and migration",
+      "date_published": "2026-08-17T11:03:25.922Z",
+      "authors": [
+        {
+          "name": "Quest Global"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4452233764",
       "url": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4452233764",
       "title": "Intern - SQA — Silicon Labs",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "AtkinsRéalis"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/dun-and-bradstreet-r-19691-intern-4452410082",
-      "url": "https://www.internzo.in/jobs/dun-and-bradstreet-r-19691-intern-4452410082",
-      "title": "R-19691 (Intern) — Dun & Bradstreet",
-      "content_text": "Company: Dun & Bradstreet · Location: Mumbai Metropolitan Region · Duration: 3 months\n• Design, develop, deploy agentic ai solutions for enterprise use cases\n• Build scalable middleware and microservices integrating ai/ml models\n• Mentor junior engineers and contribute to ai frameworks and accelerators",
-      "date_published": "2026-08-11T07:05:49.065Z",
-      "authors": [
-        {
-          "name": "Dun & Bradstreet"
         }
       ]
     }

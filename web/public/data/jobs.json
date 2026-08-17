@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786965010736,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1786965333668,
+ "count": 127,
+ "techCount": 127,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -125,6 +125,55 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454249714",
+   "title": "Trainee Engineer – Oil & Gas Data Analyst",
+   "company": "Quest Global",
+   "matchedWatchlist": "Quest Global",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/quest-global.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "13 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "nlp",
+    "pandas",
+    "numpy",
+    "tableau",
+    "power bi",
+    "excel"
+   ],
+   "summary": "This internship involves cleaning and analyzing technical data from oil and gas systems, using python and sql to extract insights, and building dashboards to visualize results. It suits students with data analysis skills and interest in engineering data workflows.",
+   "bullets": [
+    "Cleanse and profile technical datasets from APM systems",
+    "Use sql/python to extract and query enterprise databases",
+    "Develop dashboards with tableau and power bi",
+    "Collaborate with experts on data mapping and migration"
+   ],
+   "roleLabel": "Data Analyst",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "sql",
+    "tableau",
+    "power bi",
+    "excel"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "9 minutes ago",
+   "postedAt": 1786964605922,
+   "firstSeenAt": 1786965145929,
+   "url": "https://www.linkedin.com/jobs/view/4454249714/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454249714/",
+   "description": null
+  },
   {
    "id": "4452233764",
    "title": "Intern - SQA",

@@ -6,7 +6,18 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Mon, 17 Aug 2026 11:10:10 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 11:15:33 GMT</lastBuildDate>
+  <item>
+    <title>Trainee Engineer – Oil &amp; Gas Data Analyst — Quest Global</title>
+    <link>https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714</guid>
+    <pubDate>Mon, 17 Aug 2026 11:03:25 GMT</pubDate>
+    <description>Company: Quest Global · Location: Bengaluru, Karnataka, India
+• Cleanse and profile technical datasets from APM systems
+• Use sql/python to extract and query enterprise databases
+• Develop dashboards with tableau and power bi
+• Collaborate with experts on data mapping and migration</description>
+  </item>
   <item>
     <title>Intern - SQA — Silicon Labs</title>
     <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4452233764</link>
@@ -497,16 +508,6 @@
 • Support hydraulic models for urban drainage and wastewater systems
 • Use tools like InfoWorks ICM, SewerGEMS, HEC-RAS, and QGIS
 • Work on feasibility studies and automation opportunities</description>
-  </item>
-  <item>
-    <title>R-19691 (Intern) — Dun &amp; Bradstreet</title>
-    <link>https://www.internzo.in/jobs/dun-and-bradstreet-r-19691-intern-4452410082</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/dun-and-bradstreet-r-19691-intern-4452410082</guid>
-    <pubDate>Tue, 11 Aug 2026 07:05:49 GMT</pubDate>
-    <description>Company: Dun &amp; Bradstreet · Location: Mumbai Metropolitan Region · Duration: 3 months
-• Design, develop, deploy agentic ai solutions for enterprise use cases
-• Build scalable middleware and microservices integrating ai/ml models
-• Mentor junior engineers and contribute to ai frameworks and accelerators</description>
   </item>
 </channel>
 </rss>
