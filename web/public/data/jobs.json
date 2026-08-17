@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786985108031,
- "count": 121,
- "techCount": 121,
+ "generatedAt": 1786986828562,
+ "count": 120,
+ "techCount": 120,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -4934,48 +4934,6 @@
    "firstSeenAt": 1785781157578,
    "url": "https://www.linkedin.com/jobs/view/4448362081/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4448362081/",
-   "description": null
-  },
-  {
-   "id": "4448317421",
-   "title": "Graduate Engineer Trainee",
-   "company": "Emerson",
-   "matchedWatchlist": "Emerson",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/emerson.jpg",
-   "location": "Pune Division, Maharashtra, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "sql",
-    "system design"
-   ],
-   "summary": "In This Role, Your Responsibilities Will Be: Design, configure, and test SCADA/HMI systems using platforms such as Movicon, CIMPLICITY, and iFIX Develop and maintain reporting systems, including periodic and event-based reports, using SQL and scripting tools Configure and test communication protocols such as Modbus, OPC, and Ethernet-based systems",
-   "bullets": [
-    "Design and test SCADA and HMI systems using Movicon or iFIX",
-    "Develop PLC programs and configure industrial communication protocols",
-    "Collaborate with electrical teams on automation and control projects"
-   ],
-   "roleLabel": "Automation engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "scada",
-    "plc",
-    "hmi",
-    "sql",
-    "modbus"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "11 minutes ago",
-   "postedAt": 1785775906269,
-   "firstSeenAt": 1785776566270,
-   "url": "https://www.linkedin.com/jobs/view/4448317421/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448317421/",
    "description": null
   },
   {
