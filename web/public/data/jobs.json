@@ -1,7 +1,7 @@
 {
- "generatedAt": 1786925163345,
- "count": 133,
- "techCount": 133,
+ "generatedAt": 1786926989993,
+ "count": 132,
+ "techCount": 132,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -92,7 +92,6 @@
   "WeWork India",
   "West Pharmaceutical Services",
   "Yubi",
-  "eBay",
   "eClerx",
   "pharma&",
   "upGrad International"
@@ -5377,55 +5376,6 @@
    "firstSeenAt": 1785744921075,
    "url": "https://piramalpharma.wd102.myworkdayjobs.com/en-US/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Graduate-Engineer-Trainee-SAP_R00003522",
    "applyUrl": "https://piramalpharma.wd102.myworkdayjobs.com/en-US/PIRAMAL_EXTERNAL_CAREERS/job/Mumbai-MH/Graduate-Engineer-Trainee-SAP_R00003522",
-   "description": null
-  },
-  {
-   "id": "4445854769",
-   "title": "Software Engineer Intern",
-   "company": "eBay",
-   "matchedWatchlist": "eBay",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/ebay.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": "0-3 years",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "java",
-    "javascript",
-    "scala",
-    "generative ai",
-    "data structures",
-    "algorithms",
-    "oop"
-   ],
-   "summary": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts. Our customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day.",
-   "bullets": [
-    "Build robust, scalable software and improve code services and system architecture",
-    "Participate in brainstorming sessions and contribute ideas for technology, algorithms, and products",
-    "Work with product and design teams to understand user requirements and deliver results",
-    "Use Java, Python, Scala, JavaScript; focus on OOP/OOD, distributed systems, cloud, and full stack"
-   ],
-   "roleLabel": "Software engineering",
-   "degreeLevel": "Pursuing",
-   "degreeText": "Bachelor's/Master's",
-   "keySkills": [
-    "java",
-    "python",
-    "scala",
-    "javascript",
-    "oop/ood"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "3 hours ago",
-   "postedAt": 1785704774357,
-   "firstSeenAt": 1785715574370,
-   "url": "https://www.linkedin.com/jobs/view/4445854769/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4445854769/",
    "description": null
   },
   {
