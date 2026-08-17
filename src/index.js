@@ -420,6 +420,10 @@ async function main() {
       const firstPage = OVERRIDES.startPage ? OVERRIDES.startPage - 1 : 0;
       const lastPage = firstPage + cfg.limits.maxPagesPerSearch;
       let coveredPages = 0;
+      // Whether any page of THIS search has rendered cards. Once one has, an
+      // empty page is the end of the results rather than a selector break —
+      // see assertListRendered.
+      let renderedEarlierPage = false;
 
       for (let pageIndex = firstPage; pageIndex < lastPage; pageIndex++) {
         // Checked here, before navigating, not only inside the card loop below.
@@ -454,7 +458,8 @@ async function main() {
           counters.cardsWithoutId += unidentified.length;
           log.warn(`${unidentified.length} card(s) on this page had no readable company or title and could not be processed: ${unidentified.filter(Boolean).slice(0, 3).join(' | ')}`);
         }
-        await assertListRendered(page, cards.length, { pageIndex: pageIndex + 1, searchLabel: label });
+        await assertListRendered(page, cards.length, { pageIndex: pageIndex + 1, searchLabel: label, renderedEarlierPage });
+        if (cards.length) renderedEarlierPage = true;
         counters.pagesScanned++;
         counters.cardsSeen += cards.length;
         log.info(`Found ${cards.length} job cards.`);

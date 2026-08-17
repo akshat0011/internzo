@@ -352,12 +352,38 @@ export async function assertSignedIn(page, context, cfg) {
  * markup, selectors silently return zero results — which looks identical to
  * "no jobs today". This makes that failure loud instead.
  */
-export async function assertListRendered(page, cardCount, { pageIndex, searchLabel }) {
+export async function assertListRendered(page, cardCount, { pageIndex, searchLabel, renderedEarlierPage = false }) {
   if (cardCount > 0) return;
+
+  // An earlier page of this same search rendered cards, so the selectors
+  // demonstrably work — a markup change cannot produce 24 cards on page 1 and
+  // 0 on page 2. What this is instead is the tail of the result set.
+  //
+  // LinkedIn does not say "no results" there. It serves a normal results page
+  // carrying the result count and working pagination, pads it out with "Expand
+  // your search" and "Top job picks for you", and puts whatever is left of the
+  // search on it — which can be a single card, or one that carries no recency
+  // marker at all because it is stamped "Viewed" instead. scanCardsInPage finds
+  // cards BY that marker, so it correctly reports zero, and this guard then
+  // called it a markup break. Six runs died that way between 13 and 17 Aug,
+  // every one of them on the page straight after the last good one: page 3
+  // after two pages of 47 cards, page 2 after one page of 20. The 17 Aug
+  // screenshot shows it exactly — "26 results", page 2, one "Viewed" card.
+  //
+  // The guard keeps all its value for the case it was written for, because a
+  // real selector break fails on page 1, where nothing has rendered yet.
+  if (renderedEarlierPage) {
+    log.info(`No more cards for "${searchLabel}" after page ${pageIndex - 1} — treating page ${pageIndex} as the end of the results.`);
+    return;
+  }
 
   const shot = await shoot(page, 'empty-list');
   const emptyState = await page.evaluate(() => {
-    const t = document.body?.innerText ?? '';
+    // Curly quotes normalised to straight first. LinkedIn writes "couldn’t"
+    // with U+2019, so `couldn'?t find` never matched the very page it was
+    // written for — the guard would have called a genuine no-results page a
+    // markup break. Same for every other apostrophe in this list.
+    const t = (document.body?.innerText ?? '').replace(/[‘’]/g, "'");
     return /no matching jobs found|no results found|couldn'?t find|0 results|try a different search/i.test(t);
   }).catch(() => false);
 
