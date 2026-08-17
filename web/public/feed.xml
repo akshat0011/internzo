@@ -6,7 +6,37 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Mon, 17 Aug 2026 03:36:49 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 11:10:10 GMT</lastBuildDate>
+  <item>
+    <title>Intern - SQA — Silicon Labs</title>
+    <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4452233764</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sqa-4452233764</guid>
+    <pubDate>Mon, 17 Aug 2026 10:05:28 GMT</pubDate>
+    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
+• Test software and hardware for connectivity devices
+• Use python and jira for tracking issues
+• Work with cross-functional teams on product development</description>
+  </item>
+  <item>
+    <title>Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com</title>
+    <link>https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560</guid>
+    <pubDate>Mon, 17 Aug 2026 09:06:34 GMT</pubDate>
+    <description>Company: NoBroker.com · Location: Pune City, Maharashtra, India
+• Analyze data to identify business insights and solutions
+• Collaborate with professionals on real industry challenges
+• Present findings and take ownership of project deliverables</description>
+  </item>
+  <item>
+    <title>Engineering Intern – Live Project | Part-Time | Bangalore | Tier-1 Colleges — NoBroker.com</title>
+    <link>https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-bangalore-tier-1-colleges-4452237624</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-bangalore-tier-1-colleges-4452237624</guid>
+    <pubDate>Mon, 17 Aug 2026 09:06:14 GMT</pubDate>
+    <description>Company: NoBroker.com · Location: Bengaluru, Karnataka, India
+• Analyze data to identify business insights and solutions
+• Work with professionals on real industry challenges
+• Present findings and take ownership of deliverables</description>
+  </item>
   <item>
     <title>SAP ABAP Intern for M&amp;M — Bristlecone</title>
     <link>https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294</link>
@@ -477,36 +507,6 @@
 • Design, develop, deploy agentic ai solutions for enterprise use cases
 • Build scalable middleware and microservices integrating ai/ml models
 • Mentor junior engineers and contribute to ai frameworks and accelerators</description>
-  </item>
-  <item>
-    <title>R-19689 (Intern) — Dun &amp; Bradstreet</title>
-    <link>https://www.internzo.in/jobs/dun-and-bradstreet-r-19689-intern-4452412076</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/dun-and-bradstreet-r-19689-intern-4452412076</guid>
-    <pubDate>Tue, 11 Aug 2026 07:02:24 GMT</pubDate>
-    <description>Company: Dun &amp; Bradstreet · Location: Mumbai Metropolitan Region · Duration: 3 months
-• Analyze financial data and market trends to generate insights for clients
-• Use sql python and power bi to build dashboards and reports
-• Work with cross-functional teams on data projects with global impact</description>
-  </item>
-  <item>
-    <title>Software Engineer Internship (Frontend) — FanCode</title>
-    <link>https://www.internzo.in/jobs/fancode-software-engineer-internship-frontend-4452180916</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/fancode-software-engineer-internship-frontend-4452180916</guid>
-    <pubDate>Tue, 11 Aug 2026 06:10:42 GMT</pubDate>
-    <description>Company: FanCode · Location: Mumbai Metropolitan Region
-• Build responsive interfaces with react and modern js
-• Work on web and mobile apps for millions of users
-• Collaborate with engineering and design teams</description>
-  </item>
-  <item>
-    <title>UX/UI Design Internship in Bangalore (Hybrid) — TeamLease Regtech Pvt. Ltd.</title>
-    <link>https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/teamlease-regtech-pvt-ltd-ux-ui-design-internship-in-bangalore-hybrid-4452095662</guid>
-    <pubDate>Tue, 11 Aug 2026 00:36:57 GMT</pubDate>
-    <description>Company: TeamLease Regtech Pvt. Ltd. · Location: Bengaluru, Karnataka, India
-• Design social media content and marketing visuals using canva, photoshop, and figma
-• Create videos and animations for campaigns with premiere pro and after effects
-• Explore ai tools for creative concepts and collaborate with marketing team</description>
   </item>
 </channel>
 </rss>
