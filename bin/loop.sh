@@ -32,6 +32,39 @@
 # stop it is to unload the agent.
 set -uo pipefail
 
+# Hold off idle sleep for the WHOLE loop, not just the scans.
+# -----------------------------------------------------------
+# caffeinate used to wrap only the scan below, which protected ~2.5 of every 30
+# minutes and left the 27-minute wait exposed. On battery this Mac is set to
+# `sleep 1` — system sleep after ONE minute idle — so it went under almost the
+# moment a scan finished and stayed there until something else woke it. The
+# `sleep` in the loop does not advance while the machine is suspended, so the
+# next run simply never came: measured on 17 Aug as a single `sleep 1643` still
+# alive 7h22m later.
+#
+# The cost was not marginal. Over the 14 days to 17 Aug: 66 gaps longer than 45
+# minutes, 118.9 hours of collection lost, 8.5 hours a day — the scraper was
+# down roughly 35% of wall-clock time, which dwarfs every scraper bug found in
+# the same period.
+#
+# Re-exec under caffeinate so the assertion covers the waits too. Guarded on the
+# binary existing, because a missing caffeinate must degrade to an uncaffeinated
+# loop rather than kill the scheduler outright. launchd keeps supervising this:
+# exec replaces the shell in place, and caffeinate exits when its child does, so
+# KeepAlive still sees one process that lives and dies with the loop.
+#
+# This keeps the machine awake on battery as well as on AC — a deliberate
+# choice, made 17 Aug, trading battery life for collection uptime. It still does
+# NOT override closing the lid; nothing short of a system setting does.
+#
+# Re-invoked through /bin/bash explicitly rather than as "$0" alone: launchd
+# already starts this file that way (`exec /bin/bash .../bin/loop.sh`), so the
+# execute bit is not part of the contract and must not silently become one.
+if [ -z "${WATCHER_CAFFEINATED:-}" ] && command -v caffeinate >/dev/null 2>&1; then
+  export WATCHER_CAFFEINATED=1
+  exec caffeinate -i /bin/bash "$0" "$@"
+fi
+
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LOG_DIR="$HOME/Library/Logs/linkedin-watcher"
 LOG="$LOG_DIR/run.log"
@@ -50,14 +83,12 @@ trap 'echo "$(date "+%Y-%m-%d %H:%M:%S") [LOOP STOP] pid=$$" >> "$LOG"; kill 0; 
 while true; do
   started=$(date +%s)
 
-  # caffeinate -i holds off IDLE sleep for exactly as long as the scan runs, and
-  # releases the moment it finishes, so the machine still sleeps normally between
-  # scans. Without it a laptop on battery drops into Maintenance Sleep mid-scan:
-  # observed as ~604-second stalls with no log output at all, a page.goto that
-  # had already blown its 60s timeout by the time the machine woke, and runs
-  # ending 'partial' because most of their 90-minute budget was spent asleep.
-  #
-  # This does NOT override closing the lid, and it changes no system setting.
+  # Redundant with the whole-script assertion above, and kept anyway: this is
+  # the window where sleeping is most expensive. A scan interrupted mid-flight
+  # showed up as ~604-second stalls with no log output, a page.goto that had
+  # already blown its 60s timeout by the time the machine woke, and runs ending
+  # 'partial' with most of a 90-minute budget spent asleep. If the outer exec is
+  # ever removed or skipped, this still covers the scan itself.
   caffeinate -i bash "$HERE/bin/run.sh" --scheduled
 
   elapsed=$(( $(date +%s) - started ))
