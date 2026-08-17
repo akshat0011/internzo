@@ -1,11 +1,10 @@
 {
- "generatedAt": 1786990458356,
- "count": 120,
- "techCount": 120,
+ "generatedAt": 1786992305096,
+ "count": 119,
+ "techCount": 119,
  "otherCount": 0,
  "companies": [
   "Accenture",
-  "Accenture in India",
   "Acko",
   "Adobe",
   "Airmeet",
@@ -4892,48 +4891,6 @@
    "firstSeenAt": 1785814277145,
    "url": "https://www.linkedin.com/jobs/view/4446297083/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446297083/",
-   "description": null
-  },
-  {
-   "id": "4448362081",
-   "title": "Payroll University Trainee – Global Payroll & Automation",
-   "company": "Accenture in India",
-   "matchedWatchlist": "Accenture",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/accenture-in-india.jpg",
-   "location": "Mumbai Metropolitan Region",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "0–6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "power bi",
-    "excel"
-   ],
-   "summary": "Must have skills: Strong Communications & Analytical Skills, Microsoft Office Good to have skills: Technical Skills ( PowerBI or data visualization tools, Basic Python) Experience: 0 – 6 Months Educational Qualification: Bachelor’s degree in Computer Science, IT, Commerce, Finance, HR, Business Administration, Engineering, or related field",
-   "bullets": [
-    "Support end-to-end global payroll processing, audits, and reconciliations",
-    "Analyze payroll data and build operational dashboards using Excel and Power BI",
-    "Contribute to payroll automation initiatives using Python and Power Automate"
-   ],
-   "roleLabel": "Global payroll automation",
-   "degreeLevel": "UG",
-   "degreeText": "Bachelor's",
-   "keySkills": [
-    "microsoft office",
-    "power bi",
-    "python",
-    "power automate"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "2 minutes ago",
-   "postedAt": 1785781037577,
-   "firstSeenAt": 1785781157578,
-   "url": "https://www.linkedin.com/jobs/view/4448362081/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448362081/",
    "description": null
   },
   {
