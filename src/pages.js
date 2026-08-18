@@ -99,6 +99,18 @@ export function companySlug(company) {
   return slugify(company);
 }
 
+/**
+ * "Aug 2026" — the granularity a closed listing deserves.
+ *
+ * Deliberately not a day or a relative age: a past role is context about what an
+ * employer hires for, not a live signal, and printing "2 days ago" beside a
+ * posting nobody can apply to reads as though it were still open.
+ */
+export function monthLabel(ms) {
+  if (!ms) return '';
+  return new Date(ms).toLocaleDateString('en-GB', { month: 'short', year: 'numeric', timeZone: 'Asia/Kolkata' });
+}
+
 /** Postings age out of the public file after 14 days; tell Google the same. */
 const VALID_DAYS = 14;
 
@@ -290,16 +302,49 @@ export function renderJobPage(job) {
 ${FOOT}`;
 }
 
-/** A company hub — the page with a real chance of ranking for "<company> internship". */
-export function renderCompanyPage(company, jobs) {
+/**
+ * A company hub — the page with a real chance of ranking for "<company>
+ * internship".
+ *
+ * PERMANENT. This page outlives the postings on it. It used to be built only
+ * from live jobs and deleted the moment an employer's last one aged out, which
+ * 404'd a URL Google had indexed and threw away months of accumulated ranking;
+ * some flapped in and out four times. Job pages still expire — Google's
+ * JobPosting rules require that — but the hub stays.
+ *
+ * `past` is what keeps an empty hub from being thin content: a page saying only
+ * "no live openings" is a page Google is right to ignore. Past roles are
+ * plain text with NO JobPosting markup, deliberately — marking up an expired
+ * posting is the thing that earns a structured-data manual action, and the
+ * whole domain pays for that.
+ */
+export function renderCompanyPage(company, jobs, past = []) {
   const url = `${SITE}/companies/${companySlug(company)}`;
   const live = jobs.filter(isIndexable);
-  const indexable = live.length > 0;
+  // Newest first, de-duplicated by title against both the live roles and each
+  // other, and capped — a hub is a landing page, not an archive. An employer
+  // that reposts the same role monthly would otherwise fill the page with one
+  // title twelve times over.
+  const seenTitles = new Set(live.map((j) => String(j.title ?? '').toLowerCase()));
+  const history = [];
+  for (const p of [...past].sort((a, b) => (b.postedAt ?? 0) - (a.postedAt ?? 0))) {
+    const key = String(p.title ?? '').toLowerCase();
+    if (!key || seenTitles.has(key)) continue;
+    seenTitles.add(key);
+    history.push(p);
+    if (history.length === 12) break;
+  }
+
+  // Indexable when there is something worth indexing. A hub with no live roles
+  // and nothing to show behind them is exactly the thin page to keep out.
+  const indexable = live.length > 0 || history.length >= 2;
 
   const pageTitle = `${company} Internships in India ${new Date().getFullYear()} — ${live.length} open role${live.length === 1 ? '' : 's'} | Internzo`;
   const description = live.length
     ? `${live.length} live ${company} internship${live.length === 1 ? '' : 's'} in India, updated every 30 minutes. ${live.slice(0, 3).map((j) => j.title).join(', ')}.`
-    : `${company} internships in India, tracked by Internzo and updated every 30 minutes.`;
+    : history.length
+      ? `${company} internships in India. No live openings right now; ${history.length} tracked since we started following them, updated every 30 minutes.`
+      : `${company} internships in India, tracked by Internzo and updated every 30 minutes.`;
 
   const listLd = {
     '@context': 'https://schema.org/',
@@ -333,6 +378,15 @@ export function renderCompanyPage(company, jobs) {
       </li>`).join('')}</ul>`
       : '<p>No live openings right now. New ones appear here within minutes of being posted.</p>'}
 
+    ${history.length ? `<h2>Previously posted</h2>
+    <p class="tiny">Roles ${esc(company)} has advertised since we started tracking them. These listings have closed &mdash; they are here so you can see what this employer hires for, and how often.</p>
+    <ul class="hub past">${history.map((p) => `
+      <li>
+        <span>${esc(p.title)}</span>
+        ${p.roleLabel ? `<span class="qual">${esc(p.roleLabel)}</span>` : ''}
+        <span class="tiny">${p.postedAt ? esc(monthLabel(p.postedAt)) : ''}</span>
+      </li>`).join('')}</ul>` : ''}
+
     <p><a href="/">Browse every company →</a></p>
   </div>
 </main>
@@ -348,18 +402,27 @@ ${FOOT}`;
  * static link from the homepage reaches it, and from here every company hub and
  * then every job page is reachable by following ordinary anchors.
  */
-export function renderCompanyIndex(byCompany) {
+export function renderCompanyIndex(byCompany, pastByCompany = new Map()) {
   const url = `${SITE}/companies/`;
-  const rows = [...byCompany.entries()]
-    .map(([company, list]) => ({ company, live: list.filter(isIndexable).length }))
-    .filter((r) => r.live > 0)
+  // Employers with no live role are still listed, below the ones hiring. This
+  // page is the only crawl path to the hubs — the homepage list is built by
+  // JavaScript — so a hub missing from here is a hub Google reaches through the
+  // sitemap alone, which is a hint rather than a link.
+  const rows = [...new Set([...byCompany.keys(), ...pastByCompany.keys()])]
+    .map((company) => ({
+      company,
+      live: (byCompany.get(company) ?? []).filter(isIndexable).length,
+      past: (pastByCompany.get(company) ?? []).length,
+    }))
+    .filter((r) => r.live > 0 || r.past >= 2)
     .sort((a, b) => b.live - a.live || a.company.localeCompare(b.company));
 
+  const hiring = rows.filter((r) => r.live > 0).length;
   const total = rows.reduce((n, r) => n + r.live, 0);
 
   return `${head({
-    title: `Internships in India by company — ${rows.length} companies hiring | Internzo`,
-    description: `Browse ${total} live internships across ${rows.length} companies in India. Updated every 30 minutes.`,
+    title: `Internships in India by company — ${hiring} companies hiring | Internzo`,
+    description: `Browse ${total} live internships across ${hiring} companies in India, plus every employer we track. Updated every 30 minutes.`,
     canonical: url,
     indexable: rows.length > 0,
   })}
@@ -367,11 +430,11 @@ export function renderCompanyIndex(byCompany) {
   <div class="wrap">
     <nav class="crumbs"><a href="/">Home</a> › <span>Companies</span></nav>
     <h1>Internships by company</h1>
-    <p class="lede-sub">${total} live openings across ${rows.length} companies, refreshed every 30 minutes.</p>
+    <p class="lede-sub">${total} live opening${total === 1 ? '' : 's'} across ${hiring} employer${hiring === 1 ? '' : 's'}, from ${rows.length} we track. Refreshed every 30 minutes.</p>
     <ul class="hub">${rows.map((r) => `
       <li>
         <a href="/companies/${companySlug(r.company)}">${esc(r.company)}</a>
-        <span class="tiny">${r.live} open role${r.live === 1 ? '' : 's'}</span>
+        <span class="tiny">${r.live ? `${r.live} open role${r.live === 1 ? '' : 's'}` : `no live roles &middot; ${r.past} tracked`}</span>
       </li>`).join('')}</ul>
   </div>
 </main>
@@ -437,7 +500,7 @@ function writeHomeListings(jobs, publicDir) {
  *
  * @returns {{jobPages: number, companyPages: number, indexable: number, removed: number}}
  */
-export function writePages(jobs, publicDir) {
+export function writePages(jobs, publicDir, history = []) {
   const jobsDir = join(publicDir, 'jobs');
   const compDir = join(publicDir, 'companies');
   mkdirSync(jobsDir, { recursive: true });
@@ -455,16 +518,29 @@ export function writePages(jobs, publicDir) {
     if (!byCompany.has(job.company)) byCompany.set(job.company, []);
     byCompany.get(job.company).push(job);
   }
-  for (const [company, list] of byCompany) {
+
+  // Every employer we have ever published, not just the ones hiring today. This
+  // union is what makes a hub permanent: a company drops out of `byCompany` the
+  // moment its last posting ages out, and before this the file was then deleted.
+  const pastByCompany = new Map();
+  for (const p of history) {
+    if (!p.company) continue;
+    if (!pastByCompany.has(p.company)) pastByCompany.set(p.company, []);
+    pastByCompany.get(p.company).push(p);
+  }
+
+  const allCompanies = new Set([...byCompany.keys(), ...pastByCompany.keys()]);
+  for (const company of allCompanies) {
     const name = `${companySlug(company)}.html`;
     wanted.add(join(compDir, name));
-    writeIfChanged(join(compDir, name), renderCompanyPage(company, list));
+    writeIfChanged(join(compDir, name),
+      renderCompanyPage(company, byCompany.get(company) ?? [], pastByCompany.get(company) ?? []));
   }
 
   // The directory, at /companies/. index.html rather than a slug so the bare
   // directory URL resolves on Vercel and on the dev server alike.
   wanted.add(join(compDir, 'index.html'));
-  writeIfChanged(join(compDir, 'index.html'), renderCompanyIndex(byCompany));
+  writeIfChanged(join(compDir, 'index.html'), renderCompanyIndex(byCompany, pastByCompany));
 
   let removed = 0;
   for (const dir of [jobsDir, compDir]) {
@@ -476,16 +552,16 @@ export function writePages(jobs, publicDir) {
   }
 
   const indexable = jobs.filter(isIndexable).length;
-  writeSitemap(jobs, byCompany, publicDir);
+  writeSitemap(jobs, byCompany, publicDir, pastByCompany);
   writeRobots(publicDir);
   const feedItems = writeFeeds(jobs, publicDir);
   const homeLinks = writeHomeListings(jobs, publicDir);
 
-  return { jobPages: jobs.length, companyPages: byCompany.size, indexable, removed, feedItems, homeLinks };
+  return { jobPages: jobs.length, companyPages: allCompanies.size, indexable, removed, feedItems, homeLinks };
 }
 
 /** Only indexable URLs go in the sitemap — submitting pages you tell Google to ignore is noise. */
-function writeSitemap(jobs, byCompany, publicDir) {
+function writeSitemap(jobs, byCompany, publicDir, pastByCompany = new Map()) {
   const now = new Date().toISOString();
   const urls = [
     { loc: `${SITE}/`, priority: '1.0', lastmod: now },
@@ -495,9 +571,15 @@ function writeSitemap(jobs, byCompany, publicDir) {
       priority: '0.8',
       lastmod: new Date(j.postedAt ?? j.firstSeenAt).toISOString(),
     })),
-    ...[...byCompany.entries()]
-      .filter(([, list]) => list.some(isIndexable))
-      .map(([company]) => ({ loc: `${SITE}/companies/${companySlug(company)}`, priority: '0.6', lastmod: now })),
+    // Hubs stay in the sitemap whether or not the employer is hiring today.
+    // Dropping a URL from the sitemap the week it has no live roles, then
+    // re-adding it, tells Google the page is unstable — which is most of the
+    // damage the old delete-and-recreate cycle did. Listed once per company,
+    // with the same "enough substance to index" bar the page itself applies.
+    ...[...new Set([...byCompany.keys(), ...pastByCompany.keys()])]
+      .filter((company) => (byCompany.get(company) ?? []).some(isIndexable)
+        || (pastByCompany.get(company) ?? []).length >= 2)
+      .map((company) => ({ loc: `${SITE}/companies/${companySlug(company)}`, priority: '0.6', lastmod: now })),
   ];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

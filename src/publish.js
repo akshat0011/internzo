@@ -276,9 +276,43 @@ export async function writeJobsFile(store, cfg) {
   const next = `${JSON.stringify(payload, null, 1)}\n`;
   writeFileSync(JOBS_FILE, next);
 
+  // Every posting this employer has ever run, not just the live ones.
+  //
+  // A company hub is evergreen — it ranks for "<company> internship" over
+  // months — but it used to be built only from live jobs, so the moment an
+  // employer's last posting aged out the page was DELETED. 198 distinct company
+  // pages had been deleted that way, against 83 live, and several flapped:
+  // piramal-pharma and bain-and-company were each deleted four times and
+  // rebuilt five. Every cycle 404s a URL Google has indexed and throws away the
+  // ranking it had accumulated; the instability itself costs more than the
+  // missing page, because it burns crawl budget and suppresses the URL.
+  //
+  // Passing history separately keeps job-page expiry exactly as it was —
+  // Google's JobPosting rules require an expired posting to stop being served,
+  // and that is still what happens. Only the hub survives.
+  //
+  // Filtered through the same gates as the live set, and deliberately re-run
+  // against the CURRENT watchlist, so an employer removed from it (TAXOSMART,
+  // VAYUZ) does not keep a permanent page.
+  // Grouped on row.company, exactly as the live pages are — the display name on
+  // the posting, NOT company_matched. Using the watchlist label here would slug
+  // to a different URL and quietly fork every hub in two.
+  const history = store.recentJobs(0)
+    .map((row) => ({ row, matchedNow: matchCompany(row.company, cfg.watchlist) }))
+    .filter(({ row, matchedNow }) => row.is_tech === 1
+      && !isBlockedCompany(row.company)
+      && (!cfg.matching?.requireCompanyMatch || matchedNow)
+      && (cfg.publish?.indiaOnly === false || isIndianLocation(row.location)))
+    .map(({ row, matchedNow }) => ({
+      company: row.company || matchedNow || 'Unknown',
+      title: row.title,
+      roleLabel: row.role_label ?? '',
+      postedAt: row.posted_at || row.first_seen_at || 0,
+    }));
+
   // Static pages for search engines. The JSON above serves the app; these serve
   // crawlers, which cannot run the JavaScript that turns it into listings.
-  const pages = writePages(publicJobs, join(ROOT, 'web', 'public'));
+  const pages = writePages(publicJobs, join(ROOT, 'web', 'public'), history);
 
   const withLogo = publicJobs.filter((j) => j.logo).length;
   return { count: publicJobs.length, techCount, path: JOBS_FILE, withLogo, logoBytes: logoDirSize(), pages };
