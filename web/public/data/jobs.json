@@ -1,5 +1,5 @@
 {
- "generatedAt": 1787047898401,
+ "generatedAt": 1787049723163,
  "count": 123,
  "techCount": 123,
  "otherCount": 0,
@@ -108,7 +108,6 @@
   "Hyderabad, Telangana, India",
   "India",
   "India, Multiple Locations, Multiple Locations",
-  "India, Telangana, Hyderabad",
   "Indore, Madhya Pradesh, India",
   "Kanchipuram, Tamil Nadu, India",
   "Karnataka, India",
@@ -4913,6 +4912,45 @@
    "description": null
   },
   {
+   "id": "4448863558",
+   "title": "Technology Consulting INTERN",
+   "company": "Microsoft",
+   "matchedWatchlist": "Microsoft",
+   "isTech": true,
+   "roleSource": "gemini-enrich",
+   "logo": "/logos/microsoft.jpg",
+   "location": "Hyderabad, Telangana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "azure",
+    "agile"
+   ],
+   "summary": "Come build community, explore your passions and do your best work at Microsoft with thousands of University interns from every corner of the world. This opportunity will allow you to bring your aspirations, talent, potential—and excitement for the journey ahead. A Technology Consultant Intern participates in project planning by identifying risks and dependencies and proposing appropriate mitigations. They implement technical solutions by coordinating and aligning with customers’ business goals, and cultivate relationships with customers, partners, and stakeholders to identify drivers of satisfaction.",
+   "bullets": [
+    "Identify project risks and technical dependencies during solution planning",
+    "Define customer technical requirements and propose cloud architecture options",
+    "Support technical pre-sales and cloud adoption initiatives"
+   ],
+   "roleLabel": "Cloud technology consulting",
+   "degreeLevel": "Pursuing",
+   "degreeText": null,
+   "keySkills": [
+    "azure",
+    "agile"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "3 hours ago",
+   "postedAt": 1785849334960,
+   "firstSeenAt": 1785860134962,
+   "url": "https://www.linkedin.com/jobs/view/4448863558/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4448863558/",
+   "description": null
+  },
+  {
    "id": "4446635104",
    "title": "Digital Signal Processing - Intern",
    "company": "HARMAN India",
@@ -5002,47 +5040,6 @@
    "firstSeenAt": 1785841375328,
    "url": "https://www.linkedin.com/jobs/view/4446616938/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4446616938/",
-   "description": null
-  },
-  {
-   "id": "ats:microsoft:India:1970393556955253",
-   "title": "Technology Consulting INTERN",
-   "company": "Microsoft",
-   "matchedWatchlist": "Microsoft",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/microsoft.jpg",
-   "location": "India, Telangana, Hyderabad",
-   "workplaceType": "onsite",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "azure",
-    "agile"
-   ],
-   "summary": "Come build community, explore your passions and do your best work at Microsoft with thousands of University interns from every corner of the world. This opportunity will allow you to bring your aspirations, talent, potential—and excitement for the journey ahead. A Technology Consultant Intern participates in project planning by identifying risks and dependencies and proposing appropriate mitigations. They implement technical solutions by coordinating and aligning with customers’ business goals, and cultivate relationships with customers, partners, and stakeholders to identify drivers of satisfaction.",
-   "bullets": [
-    "Identify project risks and propose technical mitigations aligned with business goals",
-    "Provide technical input in pre-sales and define customer cloud requirements",
-    "Engage with stakeholders to resolve project issues and accelerate cloud adoption"
-   ],
-   "roleLabel": "Technology consulting",
-   "degreeLevel": "UG",
-   "degreeText": null,
-   "keySkills": [
-    "azure",
-    "scrum",
-    "agile",
-    "dynamics"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1785835025000,
-   "firstSeenAt": 1785838825946,
-   "url": "https://jobs.careers.microsoft.com/global/en/job/1970393556955253",
-   "applyUrl": "https://jobs.careers.microsoft.com/global/en/job/1970393556955253",
    "description": null
   },
   {
