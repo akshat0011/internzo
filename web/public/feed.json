@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630",
+      "url": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630",
+      "title": "Fullstack Developer- Internship — GreedyGame",
+      "content_text": "Company: GreedyGame · Location: Bengaluru, Karnataka, India · Duration: 0-1 years\n• Build backend services for ad networks and Google Ad Manager\n• Develop frontend dashboards in React for ad unit management\n• Work with MySQL, PostgreSQL, and MongoDB for data handling\n• Collaborate with engineers and product managers on feature development",
+      "date_published": "2026-08-18T04:26:04.680Z",
+      "authors": [
+        {
+          "name": "GreedyGame"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714",
       "url": "https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714",
       "title": "Trainee Engineer – Oil & Gas Data Analyst — Quest Global",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Paytm"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563",
-      "url": "https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563",
-      "title": "Apprentice — AtkinsRéalis",
-      "content_text": "Company: AtkinsRéalis · Location: Bengaluru East, Karnataka, India · Duration: 6-12 months\n• Support hydraulic models for urban drainage and wastewater systems\n• Use tools like InfoWorks ICM, SewerGEMS, HEC-RAS, and QGIS\n• Work on feasibility studies and automation opportunities",
-      "date_published": "2026-08-11T07:07:44.487Z",
-      "authors": [
-        {
-          "name": "AtkinsRéalis"
         }
       ]
     }

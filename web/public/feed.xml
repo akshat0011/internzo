@@ -6,7 +6,18 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 04:10:12 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 04:41:17 GMT</lastBuildDate>
+  <item>
+    <title>Fullstack Developer- Internship — GreedyGame</title>
+    <link>https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630</guid>
+    <pubDate>Tue, 18 Aug 2026 04:26:04 GMT</pubDate>
+    <description>Company: GreedyGame · Location: Bengaluru, Karnataka, India · Duration: 0-1 years
+• Build backend services for ad networks and Google Ad Manager
+• Develop frontend dashboards in React for ad unit management
+• Work with MySQL, PostgreSQL, and MongoDB for data handling
+• Collaborate with engineers and product managers on feature development</description>
+  </item>
   <item>
     <title>Trainee Engineer – Oil &amp; Gas Data Analyst — Quest Global</title>
     <link>https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714</link>
@@ -498,16 +509,6 @@
 • Support product planning, documentation, and user journey analysis
 • Use Jira, Confluence, Excel, and Figma for coordination and reporting
 • Work on SuperApp initiatives and digital experience improvements</description>
-  </item>
-  <item>
-    <title>Apprentice — AtkinsRéalis</title>
-    <link>https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/atkinsr-alis-apprentice-4448864563</guid>
-    <pubDate>Tue, 11 Aug 2026 07:07:44 GMT</pubDate>
-    <description>Company: AtkinsRéalis · Location: Bengaluru East, Karnataka, India · Duration: 6-12 months
-• Support hydraulic models for urban drainage and wastewater systems
-• Use tools like InfoWorks ICM, SewerGEMS, HEC-RAS, and QGIS
-• Work on feasibility studies and automation opportunities</description>
   </item>
 </channel>
 </rss>
