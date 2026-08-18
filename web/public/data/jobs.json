@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787049723163,
- "count": 123,
- "techCount": 123,
+ "generatedAt": 1787051647694,
+ "count": 124,
+ "techCount": 124,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -48,7 +48,6 @@
   "Intuit",
   "Janitri",
   "Jio",
-  "Joveo",
   "KYC Hub",
   "Larsen & Toubro",
   "Lexsi Labs",
@@ -72,6 +71,7 @@
   "Sanas",
   "Seagate Technology",
   "Siemens",
+  "Siemens Gamesa",
   "Siemens Healthineers",
   "Silicon Labs",
   "Simple Energy",
@@ -124,6 +124,132 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454490931",
+   "title": "Wind Turbine Loads Engineer Project Intern",
+   "company": "Siemens Gamesa",
+   "matchedWatchlist": "Siemens",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/siemens-gamesa.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "python",
+    "matlab"
+   ],
+   "summary": "This internship involves analyzing wind turbine loads through simulations and data analysis to support engineering decisions. It suits students with a background in mechanical or aerospace engineering interested in renewable energy systems and hands-on project work.",
+   "bullets": [
+    "Run aero-elastic simulations to assess controller updates on turbine loads",
+    "Analyze simulation data to support engineering decisions and design verification",
+    "Collaborate with engineers on project deliverables and technical documentation"
+   ],
+   "roleLabel": "Turbine Loads Analysis",
+   "degreeLevel": "UG/PG",
+   "degreeText": "Mechanical Engineering/Aerospace Engineering",
+   "keySkills": [
+    "python",
+    "matlab",
+    "aero-elastic simulations",
+    "data analysis"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "10 minutes ago",
+   "postedAt": 1787050798734,
+   "firstSeenAt": 1787051398737,
+   "url": "https://www.linkedin.com/jobs/view/4454490931/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454490931/",
+   "description": null
+  },
+  {
+   "id": "4452583899",
+   "title": "Student - Intern",
+   "company": "HARMAN India",
+   "matchedWatchlist": "Harman",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/harman-india.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "16 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++",
+    ".net",
+    "linux"
+   ],
+   "summary": "This internship involves developing software for automotive systems using embedded technologies and Linux. Ideal for engineering students with a focus on C/C++ and Android, it offers hands-on experience in a dynamic team environment.",
+   "bullets": [
+    "Work on embedded systems, Android, and Linux software development",
+    "Collaborate on complex software stacks with real-world impact",
+    "Based in Bengaluru, requires office presence and team collaboration"
+   ],
+   "roleLabel": "Software Development",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "c++",
+    "c",
+    "linux",
+    "android"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "18 minutes ago",
+   "postedAt": 1787050371425,
+   "firstSeenAt": 1787051451428,
+   "url": "https://www.linkedin.com/jobs/view/4452583899/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452583899/",
+   "description": null
+  },
+  {
+   "id": "4452589833",
+   "title": "Bluetooth Intern",
+   "company": "HARMAN India",
+   "matchedWatchlist": "Harman",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/harman-india.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "2 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++",
+    ".net",
+    "linux",
+    "agile"
+   ],
+   "summary": "This internship involves working on embedded systems and software development for automotive technology. Ideal for students with a background in computer science or electronics, the role offers hands-on experience with C++, Linux, and testing frameworks. It provides opportunities to engage in real-world projects and contribute to innovative technology platforms.",
+   "bullets": [
+    "Work on embedded systems using C++ and Linux",
+    "Contribute to unit testing with Google Test",
+    "Collaborate in a fast-paced development team"
+   ],
+   "roleLabel": "Embedded Systems Development",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "c++",
+    "linux",
+    "google test",
+    "embedded c"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "18 minutes ago",
+   "postedAt": 1787050348281,
+   "firstSeenAt": 1787051428283,
+   "url": "https://www.linkedin.com/jobs/view/4452589833/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452589833/",
+   "description": null
+  },
   {
    "id": "4452572687",
    "title": "Cybersecurity Intern – Offensive Security",
@@ -4948,98 +5074,6 @@
    "firstSeenAt": 1785860134962,
    "url": "https://www.linkedin.com/jobs/view/4448863558/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4448863558/",
-   "description": null
-  },
-  {
-   "id": "4446635104",
-   "title": "Digital Signal Processing - Intern",
-   "company": "HARMAN India",
-   "matchedWatchlist": "Harman",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/harman-india.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": "9 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "c++",
-    ".net",
-    "agile"
-   ],
-   "summary": "Introduction: A Career at HARMAN Automotive We’re a global, multi-disciplinary team that’s putting the innovative power of technology to work and transforming tomorrow. At HARMAN Automotive, we give you the keys to fast-track your career. Engineer audio systems and integrated technology platforms that augment the driving experience",
-   "bullets": [
-    "Design, implement, and test embedded software for amplifier applications",
-    "Code in C and C++ while working with real-time operating systems and scripting languages",
-    "Troubleshoot code using oscilloscopes, logic analyzers, debuggers, and emulators"
-   ],
-   "roleLabel": "Embedded software engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.E/M.E",
-   "keySkills": [
-    "c",
-    "c++",
-    "python",
-    "perl",
-    "rtos"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "9 minutes ago",
-   "postedAt": 1785840774702,
-   "firstSeenAt": 1785841314717,
-   "url": "https://www.linkedin.com/jobs/view/4446635104/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4446635104/",
-   "description": null
-  },
-  {
-   "id": "4446616938",
-   "title": "Software Engineering Intern (Full Stack)",
-   "company": "Joveo",
-   "matchedWatchlist": "Joveo",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/joveo.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": "Over 100 applicants",
-   "easyApply": true,
-   "skills": [
-    "typescript",
-    "sql",
-    "react",
-    "next.js",
-    "node.js",
-    "express",
-    "git",
-    "machine learning"
-   ],
-   "summary": "Title: Software Engineering Intern (Full Stack) Location: Bengaluru, India (Work from Office, 5 days a week) We're looking for an intern who thinks like a founder, moves fast, and builds like an artist, someone ready to build the future of the company from 0 to 1. What you'll do Build",
-   "bullets": [
-    "Build greenfield AI products across frontend and backend from prototype to release",
-    "Develop full-stack web applications using React, Next.js, Node.js, and Express.js",
-    "Integrate LLMs, embeddings, and vector databases into real applications"
-   ],
-   "roleLabel": "Full stack engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "typescript",
-    "react",
-    "next.js",
-    "node.js",
-    "express.js"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "34 minutes ago",
-   "postedAt": 1785839335325,
-   "firstSeenAt": 1785841375328,
-   "url": "https://www.linkedin.com/jobs/view/4446616938/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4446616938/",
    "description": null
   },
   {
