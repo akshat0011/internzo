@@ -6,7 +6,18 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 05:41:05 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 06:12:25 GMT</lastBuildDate>
+  <item>
+    <title>AI/ML - Internship — D Square Consulting Services Pvt Ltd</title>
+    <link>https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877</guid>
+    <pubDate>Tue, 18 Aug 2026 06:03:52 GMT</pubDate>
+    <description>Company: D Square Consulting Services Pvt Ltd · Location: Bengaluru, Karnataka, India · Duration: 0–6 months
+• Develop and test machine learning models using Python, NumPy, and Pandas
+• Work on end-to-end AI projects from data ingestion to model deployment
+• Collaborate with the AI/ML team on predictive modeling and clustering tasks
+• Deploy models on cloud platforms like AWS SageMaker or Google Colab</description>
+  </item>
   <item>
     <title>Fullstack Developer- Internship — GreedyGame</title>
     <link>https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630</link>
@@ -499,16 +510,6 @@
 • Build and maintain ci/cd pipelines for production systems
 • Manage cloud infrastructure and automate system operations
 • Debug deployment issues and optimize environment performance</description>
-  </item>
-  <item>
-    <title>Product Management - Intern - Telco. — Paytm</title>
-    <link>https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610</guid>
-    <pubDate>Tue, 11 Aug 2026 11:28:19 GMT</pubDate>
-    <description>Company: Paytm · Location: Noida, Uttar Pradesh
-• Support product planning, documentation, and user journey analysis
-• Use Jira, Confluence, Excel, and Figma for coordination and reporting
-• Work on SuperApp initiatives and digital experience improvements</description>
   </item>
 </channel>
 </rss>

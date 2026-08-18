@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877",
+      "url": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877",
+      "title": "AI/ML - Internship — D Square Consulting Services Pvt Ltd",
+      "content_text": "Company: D Square Consulting Services Pvt Ltd · Location: Bengaluru, Karnataka, India · Duration: 0–6 months\n• Develop and test machine learning models using Python, NumPy, and Pandas\n• Work on end-to-end AI projects from data ingestion to model deployment\n• Collaborate with the AI/ML team on predictive modeling and clustering tasks\n• Deploy models on cloud platforms like AWS SageMaker or Google Colab",
+      "date_published": "2026-08-18T06:03:52.562Z",
+      "authors": [
+        {
+          "name": "D Square Consulting Services Pvt Ltd"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630",
       "url": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630",
       "title": "Fullstack Developer- Internship — GreedyGame",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "FanCode"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610",
-      "url": "https://www.internzo.in/jobs/paytm-product-management-intern-telco-ats-lever-paytm-5648edd6-b73b-4156-96f5-343f4d851610",
-      "title": "Product Management - Intern - Telco. — Paytm",
-      "content_text": "Company: Paytm · Location: Noida, Uttar Pradesh\n• Support product planning, documentation, and user journey analysis\n• Use Jira, Confluence, Excel, and Figma for coordination and reporting\n• Work on SuperApp initiatives and digital experience improvements",
-      "date_published": "2026-08-11T11:28:19.381Z",
-      "authors": [
-        {
-          "name": "Paytm"
         }
       ]
     }

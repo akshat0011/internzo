@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787031665128,
- "count": 118,
- "techCount": 118,
+ "generatedAt": 1787033544872,
+ "count": 119,
+ "techCount": 119,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -21,6 +21,7 @@
   "Continental Industry",
   "Convin",
   "Copeland",
+  "D Square Consulting Services Pvt Ltd",
   "DeHaat",
   "Dun & Bradstreet",
   "Emeritus",
@@ -120,6 +121,57 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452546877",
+   "title": "AI/ML - Internship",
+   "company": "D Square Consulting Services Pvt Ltd",
+   "matchedWatchlist": "D Square Consulting Services Pvt Ltd",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/d-square-consulting-services-pvt-ltd.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": "₹10,000 / total",
+   "duration": "0–6 months",
+   "applicants": "12 applicants",
+   "easyApply": true,
+   "skills": [
+    "python",
+    "aws",
+    "git",
+    "machine learning",
+    "deep learning",
+    "pytorch",
+    "tensorflow",
+    "scikit-learn",
+    "pandas",
+    "numpy"
+   ],
+   "summary": "This internship involves building and testing machine learning models using Python and collaborating on AI projects from data collection to deployment. Ideal for students with Python experience and an interest in AI development.",
+   "bullets": [
+    "Develop and test machine learning models using Python, NumPy, and Pandas",
+    "Work on end-to-end AI projects from data ingestion to model deployment",
+    "Collaborate with the AI/ML team on predictive modeling and clustering tasks",
+    "Deploy models on cloud platforms like AWS SageMaker or Google Colab"
+   ],
+   "roleLabel": "AI model development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "6 minutes ago",
+   "postedAt": 1787033032562,
+   "firstSeenAt": 1787033392573,
+   "url": "https://www.linkedin.com/jobs/view/4452546877/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452546877/",
+   "description": null
+  },
   {
    "id": "4454473630",
    "title": "Fullstack Developer- Internship",
