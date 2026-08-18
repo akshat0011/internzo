@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787022665153,
- "count": 118,
- "techCount": 118,
+ "generatedAt": 1787024457297,
+ "count": 117,
+ "techCount": 117,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -11,7 +11,6 @@
   "American Express",
   "Analog Devices",
   "AtkinsRéalis",
-  "Barclays",
   "Bristlecone",
   "Bugsmirror",
   "Calix India",
@@ -4822,41 +4821,6 @@
    "firstSeenAt": 1785998179846,
    "url": "https://www.linkedin.com/jobs/view/4445878655/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4445878655/",
-   "description": null
-  },
-  {
-   "id": "4446297083",
-   "title": "2027 Technology Developer Summer Internship Programme India",
-   "company": "Barclays",
-   "matchedWatchlist": "Barclays",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/barclays.jpg",
-   "location": "Pune Division, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "Key Accountabilities Development and delivery of high-quality software solutions by using industry aligned programming languages, frameworks, and tools. Ensuring that code is scalable, maintainable, and optimized for performance. Cross-functional collaboration with product managers, designers, and other engineers to define software requirements, devise solution strategies, and ensure seamless integration and alignment with business objectives.",
-   "bullets": [
-    "Build and deliver scalable software using standard languages and frameworks",
-    "Work with product managers and engineers to define requirements and design solutions",
-    "Write unit tests, participate in code reviews, and apply secure coding practices"
-   ],
-   "roleLabel": "Software engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "unit testing"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "5 minutes ago",
-   "postedAt": 1785813977139,
-   "firstSeenAt": 1785814277145,
-   "url": "https://www.linkedin.com/jobs/view/4446297083/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4446297083/",
    "description": null
   },
   {
