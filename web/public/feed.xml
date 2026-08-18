@@ -6,7 +6,28 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 06:40:32 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 07:12:47 GMT</lastBuildDate>
+  <item>
+    <title>Data Management Intern — Youtube For Brands</title>
+    <link>https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016</guid>
+    <pubDate>Tue, 18 Aug 2026 07:06:28 GMT</pubDate>
+    <description>Company: Youtube For Brands · Location: Bengaluru, Karnataka, India · Duration: 3 months
+• Track organize maintain production data across storage devices
+• Create trackers for footage projects archives and backups
+• Coordinate with editors and teams to retrieve files quickly</description>
+  </item>
+  <item>
+    <title>AI-Native Product Manager – Graduate Trainee (2026 Passouts) — Zycus</title>
+    <link>https://www.internzo.in/jobs/zycus-ai-native-product-manager-graduate-trainee-2026-passouts-4455587484</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/zycus-ai-native-product-manager-graduate-trainee-2026-passouts-4455587484</guid>
+    <pubDate>Tue, 18 Aug 2026 07:01:33 GMT</pubDate>
+    <description>Company: Zycus · Location: Bengaluru, Karnataka, India
+• Use AI tools for market research, competitive analysis, and user research synthesis
+• Collaborate with senior product managers on AI-assisted workflows and requirements
+• Ship features end-to-end with engineering, design, and QA teams
+• Track product metrics and translate data into actionable insights</description>
+  </item>
   <item>
     <title>AI/ML - Internship — D Square Consulting Services Pvt Ltd</title>
     <link>https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877</link>
@@ -490,26 +511,6 @@
 • Troubleshoot and maintain AV equipment for video conferencing systems
 • Manage inventory and documentation using Gdoc and ticketing systems
 • Collaborate with teams and vendors for break-fix issues and walkthroughs</description>
-  </item>
-  <item>
-    <title>Software Engineer Internship (Backend) — FanCode</title>
-    <link>https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176</guid>
-    <pubDate>Tue, 11 Aug 2026 13:31:32 GMT</pubDate>
-    <description>Company: FanCode · Location: Mumbai, Maharashtra, India
-• Design and build software components for production systems
-• Work with Node.js, Java, REST APIs, and database design
-• Collaborate with engineers on backend and platform infrastructure</description>
-  </item>
-  <item>
-    <title>Software Engineer Internship (DevOps) — FanCode</title>
-    <link>https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143</guid>
-    <pubDate>Tue, 11 Aug 2026 13:29:45 GMT</pubDate>
-    <description>Company: FanCode · Location: Mumbai, Maharashtra, India
-• Build and maintain ci/cd pipelines for production systems
-• Manage cloud infrastructure and automate system operations
-• Debug deployment issues and optimize environment performance</description>
   </item>
 </channel>
 </rss>

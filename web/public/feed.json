@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016",
+      "url": "https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016",
+      "title": "Data Management Intern — Youtube For Brands",
+      "content_text": "Company: Youtube For Brands · Location: Bengaluru, Karnataka, India · Duration: 3 months\n• Track organize maintain production data across storage devices\n• Create trackers for footage projects archives and backups\n• Coordinate with editors and teams to retrieve files quickly",
+      "date_published": "2026-08-18T07:06:28.672Z",
+      "authors": [
+        {
+          "name": "Youtube For Brands"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/zycus-ai-native-product-manager-graduate-trainee-2026-passouts-4455587484",
+      "url": "https://www.internzo.in/jobs/zycus-ai-native-product-manager-graduate-trainee-2026-passouts-4455587484",
+      "title": "AI-Native Product Manager – Graduate Trainee (2026 Passouts) — Zycus",
+      "content_text": "Company: Zycus · Location: Bengaluru, Karnataka, India\n• Use AI tools for market research, competitive analysis, and user research synthesis\n• Collaborate with senior product managers on AI-assisted workflows and requirements\n• Ship features end-to-end with engineering, design, and QA teams\n• Track product metrics and translate data into actionable insights",
+      "date_published": "2026-08-18T07:01:33.548Z",
+      "authors": [
+        {
+          "name": "Zycus"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877",
       "url": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877",
       "title": "AI/ML - Internship — D Square Consulting Services Pvt Ltd",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "WeWork India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176",
-      "url": "https://www.internzo.in/jobs/fancode-software-engineer-internship-backend-4452471176",
-      "title": "Software Engineer Internship (Backend) — FanCode",
-      "content_text": "Company: FanCode · Location: Mumbai, Maharashtra, India\n• Design and build software components for production systems\n• Work with Node.js, Java, REST APIs, and database design\n• Collaborate with engineers on backend and platform infrastructure",
-      "date_published": "2026-08-11T13:31:32.127Z",
-      "authors": [
-        {
-          "name": "FanCode"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143",
-      "url": "https://www.internzo.in/jobs/fancode-software-engineer-internship-devops-4452459143",
-      "title": "Software Engineer Internship (DevOps) — FanCode",
-      "content_text": "Company: FanCode · Location: Mumbai, Maharashtra, India\n• Build and maintain ci/cd pipelines for production systems\n• Manage cloud infrastructure and automate system operations\n• Debug deployment issues and optimize environment performance",
-      "date_published": "2026-08-11T13:29:45.703Z",
-      "authors": [
-        {
-          "name": "FanCode"
         }
       ]
     }

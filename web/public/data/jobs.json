@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787035232073,
- "count": 119,
- "techCount": 119,
+ "generatedAt": 1787037167201,
+ "count": 121,
+ "techCount": 121,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -83,7 +83,9 @@
   "Valeo",
   "WeWork India",
   "West Pharmaceutical Services",
+  "Youtube For Brands",
   "Yubi",
+  "Zycus",
   "eClerx",
   "pharma&",
   "upGrad International"
@@ -121,6 +123,89 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452577016",
+   "title": "Data Management Intern",
+   "company": "Youtube For Brands",
+   "matchedWatchlist": "Google",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/youtube-for-brands.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "3 months",
+   "applicants": "0 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves managing and organizing large volumes of video production data. The intern will track footage, maintain storage inventories, and ensure files are easily retrievable. It suits students with strong organizational skills and an interest in media asset management.",
+   "bullets": [
+    "Track organize maintain production data across storage devices",
+    "Create trackers for footage projects archives and backups",
+    "Coordinate with editors and teams to retrieve files quickly"
+   ],
+   "roleLabel": "Data Management",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "ssds",
+    "file management",
+    "backup processes",
+    "storage devices"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "3 minutes ago",
+   "postedAt": 1787036788672,
+   "firstSeenAt": 1787036968683,
+   "url": "https://www.linkedin.com/jobs/view/4452577016/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452577016/",
+   "description": null
+  },
+  {
+   "id": "4455587484",
+   "title": "AI-Native Product Manager – Graduate Trainee (2026 Passouts)",
+   "company": "Zycus",
+   "matchedWatchlist": "Zycus",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/zycus.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": "2,026",
+   "duration": null,
+   "applicants": "4 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "sql",
+    "llm",
+    "figma",
+    "excel"
+   ],
+   "summary": "This internship involves using AI tools to support product research and documentation, collaborating with senior product managers, and contributing to feature development. It suits students with a background in engineering or computer science who are interested in AI-driven product management and enterprise software.",
+   "bullets": [
+    "Use AI tools for market research, competitive analysis, and user research synthesis",
+    "Collaborate with senior product managers on AI-assisted workflows and requirements",
+    "Ship features end-to-end with engineering, design, and QA teams",
+    "Track product metrics and translate data into actionable insights"
+   ],
+   "roleLabel": "AI Product Management",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "ai tools",
+    "product management tools",
+    "rest apis",
+    "sql",
+    "llms"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "8 minutes ago",
+   "postedAt": 1787036493548,
+   "firstSeenAt": 1787036973553,
+   "url": "https://www.linkedin.com/jobs/view/4455587484/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455587484/",
+   "description": null
+  },
   {
    "id": "4452546877",
    "title": "AI/ML - Internship",
