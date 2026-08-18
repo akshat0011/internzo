@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 11:43:27 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 12:14:18 GMT</lastBuildDate>
+  <item>
+    <title>Intern - AI Engineering — Nuvama Group</title>
+    <link>https://www.internzo.in/jobs/nuvama-group-intern-ai-engineering-4452595267</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/nuvama-group-intern-ai-engineering-4452595267</guid>
+    <pubDate>Tue, 18 Aug 2026 12:01:07 GMT</pubDate>
+    <description>Company: Nuvama Group · Location: Mumbai, Maharashtra, India
+• Build ai-powered prototypes from business needs to testable solutions
+• Use python, ai tools, and git to create clean, reusable code
+• Work with senior engineers to turn demos into secure production use</description>
+  </item>
   <item>
     <title>Product Manager Intern — slice</title>
     <link>https://www.internzo.in/jobs/slice-product-manager-intern-4455706866</link>
@@ -119,6 +129,16 @@
 • Develop frontend dashboards in React for ad unit management
 • Work with MySQL, PostgreSQL, and MongoDB for data handling
 • Collaborate with engineers and product managers on feature development</description>
+  </item>
+  <item>
+    <title>Intern — Valeo</title>
+    <link>https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500</guid>
+    <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    <description>Company: Valeo · Location: Chennai
+• Support r&amp;d projects with experiments, data analysis, and prototype testing
+• Use software tools for automotive design and simulation
+• Work in a global r&amp;d team with 20k engineers and sustainability focus</description>
   </item>
   <item>
     <title>Trainee Engineer – Oil &amp; Gas Data Analyst — Quest Global</title>
@@ -492,26 +512,6 @@
 • Support hardware software and network issues
 • Manage it inventory and troubleshoot connectivity
 • Assist with software updates and security policies</description>
-  </item>
-  <item>
-    <title>Information Technology - IT Help Desk Apprentice — Mizuho</title>
-    <link>https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521</guid>
-    <pubDate>Wed, 12 Aug 2026 12:34:44 GMT</pubDate>
-    <description>Company: Mizuho · Location: Chennai, Tamil Nadu, India
-• Support users with technical issues and resolve problems
-• Manage active directory and network systems
-• Work in a customer-focused team with rotational shifts</description>
-  </item>
-  <item>
-    <title>Apprentice-Document Controller — Oceaneering</title>
-    <link>https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383</guid>
-    <pubDate>Wed, 12 Aug 2026 12:22:32 GMT</pubDate>
-    <description>Company: Oceaneering · Location: Chandigarh, Chandigarh, India · Duration: 0-2 years
-• Manage document numbering, filing, and retrieval for technical projects
-• Use PLM and document management tools to track and submit project files
-• Create reports and dashboards for operations and senior management</description>
   </item>
 </channel>
 </rss>

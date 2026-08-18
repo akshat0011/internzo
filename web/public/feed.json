@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/nuvama-group-intern-ai-engineering-4452595267",
+      "url": "https://www.internzo.in/jobs/nuvama-group-intern-ai-engineering-4452595267",
+      "title": "Intern - AI Engineering — Nuvama Group",
+      "content_text": "Company: Nuvama Group · Location: Mumbai, Maharashtra, India\n• Build ai-powered prototypes from business needs to testable solutions\n• Use python, ai tools, and git to create clean, reusable code\n• Work with senior engineers to turn demos into secure production use",
+      "date_published": "2026-08-18T12:01:07.020Z",
+      "authors": [
+        {
+          "name": "Nuvama Group"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/slice-product-manager-intern-4455706866",
       "url": "https://www.internzo.in/jobs/slice-product-manager-intern-4455706866",
       "title": "Product Manager Intern — slice",
@@ -134,6 +146,18 @@
       "authors": [
         {
           "name": "GreedyGame"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500",
+      "url": "https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500",
+      "title": "Intern — Valeo",
+      "content_text": "Company: Valeo · Location: Chennai\n• Support r&d projects with experiments, data analysis, and prototype testing\n• Use software tools for automotive design and simulation\n• Work in a global r&d team with 20k engineers and sustainability focus",
+      "date_published": "2026-08-18T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Valeo"
         }
       ]
     },
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "DeHaat"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521",
-      "url": "https://www.internzo.in/jobs/mizuho-information-technology-it-help-desk-apprentice-4452387521",
-      "title": "Information Technology - IT Help Desk Apprentice — Mizuho",
-      "content_text": "Company: Mizuho · Location: Chennai, Tamil Nadu, India\n• Support users with technical issues and resolve problems\n• Manage active directory and network systems\n• Work in a customer-focused team with rotational shifts",
-      "date_published": "2026-08-12T12:34:44.777Z",
-      "authors": [
-        {
-          "name": "Mizuho"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383",
-      "url": "https://www.internzo.in/jobs/oceaneering-apprentice-document-controller-4434998383",
-      "title": "Apprentice-Document Controller — Oceaneering",
-      "content_text": "Company: Oceaneering · Location: Chandigarh, Chandigarh, India · Duration: 0-2 years\n• Manage document numbering, filing, and retrieval for technical projects\n• Use PLM and document management tools to track and submit project files\n• Create reports and dashboards for operations and senior management",
-      "date_published": "2026-08-12T12:22:32.348Z",
-      "authors": [
-        {
-          "name": "Oceaneering"
         }
       ]
     }

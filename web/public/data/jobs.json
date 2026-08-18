@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787053406904,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1787055258286,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -59,6 +59,7 @@
   "NatWest Group",
   "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
   "NoBroker.com",
+  "Nuvama Group",
   "Oceaneering",
   "Paytm",
   "Philips",
@@ -100,6 +101,7 @@
   "Bengaluru, Karnataka, India",
   "Bengaluru, Karnataka, India (On-site)",
   "Chandigarh, Chandigarh, India",
+  "Chennai",
   "Chennai, Tamil Nadu, India",
   "Delhi, Delhi, India",
   "Goregaon, Maharashtra, India",
@@ -125,6 +127,52 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452595267",
+   "title": "Intern - AI Engineering",
+   "company": "Nuvama Group",
+   "matchedWatchlist": "Nuvama Wealth",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/nuvama-group.jpg",
+   "location": "Mumbai, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "7 applicants",
+   "easyApply": true,
+   "skills": [
+    "python",
+    "sql",
+    "docker",
+    "ci/cd",
+    "git",
+    "rag"
+   ],
+   "summary": "This internship involves building practical ai prototypes from business requirements, testing them with users, and helping move successful ideas into production. It suits students with coding experience and a focus on ai, automation, or application development.",
+   "bullets": [
+    "Build ai-powered prototypes from business needs to testable solutions",
+    "Use python, ai tools, and git to create clean, reusable code",
+    "Work with senior engineers to turn demos into secure production use"
+   ],
+   "roleLabel": "AI Prototype Builder",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "git",
+    "sql",
+    "apis",
+    "json"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "9 minutes ago",
+   "postedAt": 1787054467020,
+   "firstSeenAt": 1787055007026,
+   "url": "https://www.linkedin.com/jobs/view/4452595267/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452595267/",
+   "description": null
+  },
   {
    "id": "4455706866",
    "title": "Product Manager Intern",
@@ -593,6 +641,44 @@
    "firstSeenAt": 1787028004686,
    "url": "https://www.linkedin.com/jobs/view/4454473630/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4454473630/",
+   "description": null
+  },
+  {
+   "id": "ats:workday:valeo:wd3:valeo_jobs:REQ2026078500",
+   "title": "Intern",
+   "company": "Valeo",
+   "matchedWatchlist": "Valeo",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/valeo.jpg",
+   "location": "Chennai",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "power bi"
+   ],
+   "summary": "This internship involves supporting automotive r&d projects through experiments, data analysis, and prototype testing. Ideal for engineering students interested in innovation and sustainability. Work with global teams and industry-leading tools.",
+   "bullets": [
+    "Support r&d projects with experiments, data analysis, and prototype testing",
+    "Use software tools for automotive design and simulation",
+    "Work in a global r&d team with 20k engineers and sustainability focus"
+   ],
+   "roleLabel": "R&D Support",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "data analysis",
+    "software tools"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": null,
+   "postedAt": 1787011200000,
+   "firstSeenAt": 1787054935142,
+   "url": "https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Chennai/Intern_REQ2026078500",
+   "applyUrl": "https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Chennai/Intern_REQ2026078500",
    "description": null
   },
   {
