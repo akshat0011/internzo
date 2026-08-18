@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 12:14:18 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 12:42:49 GMT</lastBuildDate>
+  <item>
+    <title>Trainee — AtkinsRéalis</title>
+    <link>https://www.internzo.in/jobs/atkinsr-alis-trainee-4455736268</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/atkinsr-alis-trainee-4455736268</guid>
+    <pubDate>Tue, 18 Aug 2026 12:34:30 GMT</pubDate>
+    <description>Company: AtkinsRéalis · Location: Noida, Uttar Pradesh, India
+• Develop real-time 3D apps with Unreal Engine and Unity
+• Work on digital twins and simulation environments
+• Collaborate with global teams on cross-platform projects</description>
+  </item>
   <item>
     <title>Intern - AI Engineering — Nuvama Group</title>
     <link>https://www.internzo.in/jobs/nuvama-group-intern-ai-engineering-4452595267</link>
@@ -502,16 +512,6 @@
 • Design and validate modem baseband algorithms for 3G/4G/5G systems
 • Work with C/C++/MATLAB and UNIX/Linux platforms
 • Contribute to Qualcomm&#39;s IP and air interface standards</description>
-  </item>
-  <item>
-    <title>IT Intern - Gurugram — DeHaat</title>
-    <link>https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714</guid>
-    <pubDate>Wed, 12 Aug 2026 13:04:23 GMT</pubDate>
-    <description>Company: DeHaat · Location: Gurugram, Haryana, India
-• Support hardware software and network issues
-• Manage it inventory and troubleshoot connectivity
-• Assist with software updates and security policies</description>
   </item>
 </channel>
 </rss>

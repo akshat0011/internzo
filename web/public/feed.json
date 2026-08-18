@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/atkinsr-alis-trainee-4455736268",
+      "url": "https://www.internzo.in/jobs/atkinsr-alis-trainee-4455736268",
+      "title": "Trainee — AtkinsRéalis",
+      "content_text": "Company: AtkinsRéalis · Location: Noida, Uttar Pradesh, India\n• Develop real-time 3D apps with Unreal Engine and Unity\n• Work on digital twins and simulation environments\n• Collaborate with global teams on cross-platform projects",
+      "date_published": "2026-08-18T12:34:30.538Z",
+      "authors": [
+        {
+          "name": "AtkinsRéalis"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/nuvama-group-intern-ai-engineering-4452595267",
       "url": "https://www.internzo.in/jobs/nuvama-group-intern-ai-engineering-4452595267",
       "title": "Intern - AI Engineering — Nuvama Group",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Qualcomm"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714",
-      "url": "https://www.internzo.in/jobs/dehaat-it-intern-gurugram-4452381714",
-      "title": "IT Intern - Gurugram — DeHaat",
-      "content_text": "Company: DeHaat · Location: Gurugram, Haryana, India\n• Support hardware software and network issues\n• Manage it inventory and troubleshoot connectivity\n• Assist with software updates and security policies",
-      "date_published": "2026-08-12T13:04:23.276Z",
-      "authors": [
-        {
-          "name": "DeHaat"
         }
       ]
     }

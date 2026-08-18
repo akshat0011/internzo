@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787055258286,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1787056969390,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -127,6 +127,52 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4455736268",
+   "title": "Trainee",
+   "company": "AtkinsRéalis",
+   "matchedWatchlist": "AtkinsRéalis",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/atkinsr-alis.jpg",
+   "location": "Noida, Uttar Pradesh, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "2 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "c++",
+    "c#",
+    "git",
+    "data structures",
+    "algorithms"
+   ],
+   "summary": "This internship involves building interactive 3D applications and digital twins for global projects. Ideal for students with a Computer Science background and interest in real-time 3D technologies. You'll work with Unreal Engine, Unity, and NVIDIA Omniverse, supporting global design teams across multiple regions.",
+   "bullets": [
+    "Develop real-time 3D apps with Unreal Engine and Unity",
+    "Work on digital twins and simulation environments",
+    "Collaborate with global teams on cross-platform projects"
+   ],
+   "roleLabel": "3D Application Development",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "unreal engine",
+    "unity",
+    "c#",
+    "python",
+    "nvidia omniverse"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "5 minutes ago",
+   "postedAt": 1787056470538,
+   "firstSeenAt": 1787056770548,
+   "url": "https://www.linkedin.com/jobs/view/4455736268/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455736268/",
+   "description": null
+  },
   {
    "id": "4452595267",
    "title": "Intern - AI Engineering",
