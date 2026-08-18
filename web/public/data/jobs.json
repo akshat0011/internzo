@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787051647694,
- "count": 124,
- "techCount": 124,
+ "generatedAt": 1787053406904,
+ "count": 126,
+ "techCount": 126,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -90,6 +90,7 @@
   "Zycus",
   "eClerx",
   "pharma&",
+  "slice",
   "upGrad International"
  ],
  "locations": [
@@ -124,6 +125,42 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4455706866",
+   "title": "Product Manager Intern",
+   "company": "slice",
+   "matchedWatchlist": "Slice",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/slice.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "15 applicants",
+   "easyApply": true,
+   "skills": [],
+   "summary": "This internship involves working closely with product teams to understand user needs and develop solutions for digital payment challenges. Ideal for students passionate about fintech and product management, the role offers hands-on experience in shaping impactful tech products for young Indians.",
+   "bullets": [
+    "Analyze user needs and partner requirements to shape product solutions",
+    "Collaborate with cross-functional teams to execute product strategies",
+    "Contribute to iterative improvements and roadmap prioritization"
+   ],
+   "roleLabel": "Product Strategy",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "user research",
+    "product roadmap"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "9 minutes ago",
+   "postedAt": 1787052630735,
+   "firstSeenAt": 1787053170744,
+   "url": "https://www.linkedin.com/jobs/view/4455706866/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455706866/",
+   "description": null
+  },
   {
    "id": "4454490931",
    "title": "Wind Turbine Loads Engineer Project Intern",
@@ -248,6 +285,48 @@
    "firstSeenAt": 1787051428283,
    "url": "https://www.linkedin.com/jobs/view/4452589833/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4452589833/",
+   "description": null
+  },
+  {
+   "id": "4452577911",
+   "title": "Intern - Student",
+   "company": "HARMAN India",
+   "matchedWatchlist": "Harman",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/harman-india.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "40 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++",
+    ".net",
+    "linux"
+   ],
+   "summary": "This internship involves developing software systems for automotive technology, working with C/C++, Linux, and Android. Ideal for students with a technical background looking to gain hands-on experience in embedded systems and software development.",
+   "bullets": [
+    "Develop software systems using C/C++, Linux, and Android",
+    "Work on embedded RTOS and multi-layered software stacks",
+    "Collaborate in a fast-paced team on automotive tech projects"
+   ],
+   "roleLabel": "Software Development",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "c++",
+    "c",
+    "linux",
+    "android"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "49 minutes ago",
+   "postedAt": 1787050346920,
+   "firstSeenAt": 1787053286924,
+   "url": "https://www.linkedin.com/jobs/view/4452577911/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452577911/",
    "description": null
   },
   {

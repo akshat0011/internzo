@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 11:14:07 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 11:43:27 GMT</lastBuildDate>
+  <item>
+    <title>Product Manager Intern — slice</title>
+    <link>https://www.internzo.in/jobs/slice-product-manager-intern-4455706866</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/slice-product-manager-intern-4455706866</guid>
+    <pubDate>Tue, 18 Aug 2026 11:30:30 GMT</pubDate>
+    <description>Company: slice · Location: Bengaluru, Karnataka, India
+• Analyze user needs and partner requirements to shape product solutions
+• Collaborate with cross-functional teams to execute product strategies
+• Contribute to iterative improvements and roadmap prioritization</description>
+  </item>
   <item>
     <title>Wind Turbine Loads Engineer Project Intern — Siemens Gamesa</title>
     <link>https://www.internzo.in/jobs/siemens-gamesa-wind-turbine-loads-engineer-project-intern-4454490931</link>
@@ -36,6 +46,16 @@
 • Work on embedded systems using C++ and Linux
 • Contribute to unit testing with Google Test
 • Collaborate in a fast-paced development team</description>
+  </item>
+  <item>
+    <title>Intern - Student — HARMAN India</title>
+    <link>https://www.internzo.in/jobs/harman-india-intern-student-4452577911</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-intern-student-4452577911</guid>
+    <pubDate>Tue, 18 Aug 2026 10:52:26 GMT</pubDate>
+    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
+• Develop software systems using C/C++, Linux, and Android
+• Work on embedded RTOS and multi-layered software stacks
+• Collaborate in a fast-paced team on automotive tech projects</description>
   </item>
   <item>
     <title>Cybersecurity Intern – Offensive Security — CloudSEK</title>
@@ -492,24 +512,6 @@
 • Manage document numbering, filing, and retrieval for technical projects
 • Use PLM and document management tools to track and submit project files
 • Create reports and dashboards for operations and senior management</description>
-  </item>
-  <item>
-    <title>Graduate Trainee Engineer — GE HealthCare</title>
-    <link>https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473</guid>
-    <pubDate>Wed, 12 Aug 2026 11:52:17 GMT</pubDate>
-    <description>Company: GE HealthCare · Location: Bengaluru, Karnataka, India
-• Support engineering projects with research, analysis, and documentation
-• Use microsoft office for reports and presentations
-• Work with cross-functional teams on departmental tasks
-• Learn company policies and safety protocols</description>
-  </item>
-  <item>
-    <title>Interim Engineering Intern_Systems- 2026 — Qualcomm</title>
-    <link>https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310</guid>
-    <pubDate>Wed, 12 Aug 2026 11:51:23 GMT</pubDate>
-    <description>Company: Qualcomm · Location: Bengaluru, Karnataka, India</description>
   </item>
 </channel>
 </rss>

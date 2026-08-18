@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/slice-product-manager-intern-4455706866",
+      "url": "https://www.internzo.in/jobs/slice-product-manager-intern-4455706866",
+      "title": "Product Manager Intern — slice",
+      "content_text": "Company: slice · Location: Bengaluru, Karnataka, India\n• Analyze user needs and partner requirements to shape product solutions\n• Collaborate with cross-functional teams to execute product strategies\n• Contribute to iterative improvements and roadmap prioritization",
+      "date_published": "2026-08-18T11:30:30.735Z",
+      "authors": [
+        {
+          "name": "slice"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/siemens-gamesa-wind-turbine-loads-engineer-project-intern-4454490931",
       "url": "https://www.internzo.in/jobs/siemens-gamesa-wind-turbine-loads-engineer-project-intern-4454490931",
       "title": "Wind Turbine Loads Engineer Project Intern — Siemens Gamesa",
@@ -35,6 +47,18 @@
       "title": "Bluetooth Intern — HARMAN India",
       "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Work on embedded systems using C++ and Linux\n• Contribute to unit testing with Google Test\n• Collaborate in a fast-paced development team",
       "date_published": "2026-08-18T10:52:28.281Z",
+      "authors": [
+        {
+          "name": "HARMAN India"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/harman-india-intern-student-4452577911",
+      "url": "https://www.internzo.in/jobs/harman-india-intern-student-4452577911",
+      "title": "Intern - Student — HARMAN India",
+      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Develop software systems using C/C++, Linux, and Android\n• Work on embedded RTOS and multi-layered software stacks\n• Collaborate in a fast-paced team on automotive tech projects",
+      "date_published": "2026-08-18T10:52:26.920Z",
       "authors": [
         {
           "name": "HARMAN India"
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "Oceaneering"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473",
-      "url": "https://www.internzo.in/jobs/ge-healthcare-graduate-trainee-engineer-4443378473",
-      "title": "Graduate Trainee Engineer — GE HealthCare",
-      "content_text": "Company: GE HealthCare · Location: Bengaluru, Karnataka, India\n• Support engineering projects with research, analysis, and documentation\n• Use microsoft office for reports and presentations\n• Work with cross-functional teams on departmental tasks\n• Learn company policies and safety protocols",
-      "date_published": "2026-08-12T11:52:17.510Z",
-      "authors": [
-        {
-          "name": "GE HealthCare"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310",
-      "url": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2026-4425561310",
-      "title": "Interim Engineering Intern_Systems- 2026 — Qualcomm",
-      "content_text": "Company: Qualcomm · Location: Bengaluru, Karnataka, India",
-      "date_published": "2026-08-12T11:51:23.077Z",
-      "authors": [
-        {
-          "name": "Qualcomm"
         }
       ]
     }
