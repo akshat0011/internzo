@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200",
+      "url": "https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200",
+      "title": "Intern - Controls — Simple Energy",
+      "content_text": "Company: Simple Energy · Location: Bengaluru, Karnataka, India\n• Develop and validate control algorithms for electric vehicle systems\n• Work with matlab/simulink and embedded systems tools\n• Collaborate on real-time automotive projects with cross-functional teams",
+      "date_published": "2026-08-18T07:31:25.669Z",
+      "authors": [
+        {
+          "name": "Simple Energy"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016",
       "url": "https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016",
       "title": "Data Management Intern — Youtube For Brands",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Bugsmirror"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266",
-      "url": "https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266",
-      "title": "AV Interns - Mumbai (695838) — WeWork India",
-      "content_text": "Company: WeWork India · Location: Mumbai, Maharashtra, India\n• Troubleshoot and maintain AV equipment for video conferencing systems\n• Manage inventory and documentation using Gdoc and ticketing systems\n• Collaborate with teams and vendors for break-fix issues and walkthroughs",
-      "date_published": "2026-08-11T15:12:01.436Z",
-      "authors": [
-        {
-          "name": "WeWork India"
         }
       ]
     }

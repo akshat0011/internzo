@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 07:12:47 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 07:42:52 GMT</lastBuildDate>
+  <item>
+    <title>Intern - Controls — Simple Energy</title>
+    <link>https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200</guid>
+    <pubDate>Tue, 18 Aug 2026 07:31:25 GMT</pubDate>
+    <description>Company: Simple Energy · Location: Bengaluru, Karnataka, India
+• Develop and validate control algorithms for electric vehicle systems
+• Work with matlab/simulink and embedded systems tools
+• Collaborate on real-time automotive projects with cross-functional teams</description>
+  </item>
   <item>
     <title>Data Management Intern — Youtube For Brands</title>
     <link>https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016</link>
@@ -501,16 +511,6 @@
 • Build responsive web interfaces with Flutter for SaaS platform
 • Integrate frontend with backend APIs and cloud services
 • Work with Git, REST APIs, and CI/CD in a startup team</description>
-  </item>
-  <item>
-    <title>AV Interns - Mumbai (695838) — WeWork India</title>
-    <link>https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/wework-india-av-interns-mumbai-695838-4452481266</guid>
-    <pubDate>Tue, 11 Aug 2026 15:12:01 GMT</pubDate>
-    <description>Company: WeWork India · Location: Mumbai, Maharashtra, India
-• Troubleshoot and maintain AV equipment for video conferencing systems
-• Manage inventory and documentation using Gdoc and ticketing systems
-• Collaborate with teams and vendors for break-fix issues and walkthroughs</description>
   </item>
 </channel>
 </rss>

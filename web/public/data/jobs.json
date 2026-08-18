@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787037167201,
- "count": 121,
- "techCount": 121,
+ "generatedAt": 1787038972723,
+ "count": 122,
+ "techCount": 122,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -73,6 +73,7 @@
   "Siemens",
   "Siemens Healthineers",
   "Silicon Labs",
+  "Simple Energy",
   "Sony Research India",
   "State Street",
   "Stripe",
@@ -123,6 +124,49 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454704200",
+   "title": "Intern - Controls",
+   "company": "Simple Energy",
+   "matchedWatchlist": "Simple Energy",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/simple-energy.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "5 applicants",
+   "easyApply": true,
+   "skills": [
+    "python",
+    "matlab",
+    "algorithms"
+   ],
+   "summary": "This internship involves developing control algorithms for electric vehicles, working with matlab and embedded systems. Ideal for students with experience in automotive or embedded projects and familiarity with communication protocols.",
+   "bullets": [
+    "Develop and validate control algorithms for electric vehicle systems",
+    "Work with matlab/simulink and embedded systems tools",
+    "Collaborate on real-time automotive projects with cross-functional teams"
+   ],
+   "roleLabel": "Control Algorithms",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "matlab",
+    "simulink",
+    "embedded systems",
+    "can",
+    "python"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "8 minutes ago",
+   "postedAt": 1787038285669,
+   "firstSeenAt": 1787038765675,
+   "url": "https://www.linkedin.com/jobs/view/4454704200/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454704200/",
+   "description": null
+  },
   {
    "id": "4452577016",
    "title": "Data Management Intern",
