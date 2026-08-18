@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787044294991,
- "count": 122,
- "techCount": 122,
+ "generatedAt": 1787046116128,
+ "count": 123,
+ "techCount": 123,
  "otherCount": 0,
  "companies": [
   "Accenture",
@@ -16,6 +16,7 @@
   "Calix India",
   "CertifyOS",
   "Citi",
+  "CloudSEK",
   "CoinDCX",
   "Colgate-Palmolive",
   "Continental Industry",
@@ -124,6 +125,47 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4452572687",
+   "title": "Cybersecurity Intern – Offensive Security",
+   "company": "CloudSEK",
+   "matchedWatchlist": "CloudSEK",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/cloudsek.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "2 applicants",
+   "easyApply": true,
+   "skills": [
+    "machine learning"
+   ],
+   "summary": "This internship involves hands-on threat intelligence work, including VAPT, dark web monitoring, and automation. You'll contribute to client deliverables and product strategy while gaining real-world exposure to cybersecurity research and consulting.",
+   "bullets": [
+    "Perform VAPT on web, API, mobile, and cloud apps; triage findings into prioritized issues",
+    "Track threat landscape in Americas; monitor dark web for leaks and actor activity",
+    "Build automation scripts to streamline research, triage, and reporting workflows"
+   ],
+   "roleLabel": "Threat Intelligence Research",
+   "degreeLevel": "UG/PG",
+   "degreeText": "Computer Science/Information Security",
+   "keySkills": [
+    "vapt",
+    "dark web monitoring",
+    "osint",
+    "automation scripts",
+    "threat intelligence"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "5 minutes ago",
+   "postedAt": 1787045649921,
+   "firstSeenAt": 1787045949928,
+   "url": "https://www.linkedin.com/jobs/view/4452572687/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4452572687/",
+   "description": null
+  },
   {
    "id": "4454704200",
    "title": "Intern - Controls",

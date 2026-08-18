@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687",
+      "url": "https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687",
+      "title": "Cybersecurity Intern – Offensive Security — CloudSEK",
+      "content_text": "Company: CloudSEK · Location: Bengaluru, Karnataka, India\n• Perform VAPT on web, API, mobile, and cloud apps; triage findings into prioritized issues\n• Track threat landscape in Americas; monitor dark web for leaks and actor activity\n• Build automation scripts to streamline research, triage, and reporting workflows",
+      "date_published": "2026-08-18T09:34:09.921Z",
+      "authors": [
+        {
+          "name": "CloudSEK"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200",
       "url": "https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200",
       "title": "Intern - Controls — Simple Energy",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Freight Tiger"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/bugsmirror-flutter-developer-intern-4444114986",
-      "url": "https://www.internzo.in/jobs/bugsmirror-flutter-developer-intern-4444114986",
-      "title": "Flutter Developer Intern — Bugsmirror",
-      "content_text": "Company: Bugsmirror · Location: Indore, Madhya Pradesh, India · Duration: 6 months\n• Build responsive web interfaces with Flutter for SaaS platform\n• Integrate frontend with backend APIs and cloud services\n• Work with Git, REST APIs, and CI/CD in a startup team",
-      "date_published": "2026-08-12T05:51:25.747Z",
-      "authors": [
-        {
-          "name": "Bugsmirror"
         }
       ]
     }

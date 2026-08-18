@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Tue, 18 Aug 2026 09:11:35 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 09:41:56 GMT</lastBuildDate>
+  <item>
+    <title>Cybersecurity Intern – Offensive Security — CloudSEK</title>
+    <link>https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687</guid>
+    <pubDate>Tue, 18 Aug 2026 09:34:09 GMT</pubDate>
+    <description>Company: CloudSEK · Location: Bengaluru, Karnataka, India
+• Perform VAPT on web, API, mobile, and cloud apps; triage findings into prioritized issues
+• Track threat landscape in Americas; monitor dark web for leaks and actor activity
+• Build automation scripts to streamline research, triage, and reporting workflows</description>
+  </item>
   <item>
     <title>Intern - Controls — Simple Energy</title>
     <link>https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200</link>
@@ -501,16 +511,6 @@
 • Write terraform modules for aws infrastructure like eks and vpcs
 • Use git and argocd to automate deployments to eks clusters
 • Package apps with helm and monitor clusters with prometheus</description>
-  </item>
-  <item>
-    <title>Flutter Developer Intern — Bugsmirror</title>
-    <link>https://www.internzo.in/jobs/bugsmirror-flutter-developer-intern-4444114986</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/bugsmirror-flutter-developer-intern-4444114986</guid>
-    <pubDate>Wed, 12 Aug 2026 05:51:25 GMT</pubDate>
-    <description>Company: Bugsmirror · Location: Indore, Madhya Pradesh, India · Duration: 6 months
-• Build responsive web interfaces with Flutter for SaaS platform
-• Integrate frontend with backend APIs and cloud services
-• Work with Git, REST APIs, and CI/CD in a startup team</description>
   </item>
 </channel>
 </rss>
