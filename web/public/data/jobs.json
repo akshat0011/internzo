@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787159605568,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1787161508166,
+ "count": 126,
+ "techCount": 126,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -5382,85 +5382,6 @@
    "firstSeenAt": 1785956865027,
    "url": "https://www.linkedin.com/jobs/view/4448046701/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4448046701/",
-   "description": null
-  },
-  {
-   "id": "4432065177",
-   "title": "Research Sciences INTERN",
-   "company": "Microsoft",
-   "matchedWatchlist": "Microsoft",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/microsoft.jpg",
-   "location": "India",
-   "workplaceType": "Remote",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "sql",
-    "azure",
-    "machine learning",
-    "computer vision",
-    "algorithms"
-   ],
-   "summary": "Come build community, explore your passions and do your best work at Microsoft with thousands of University interns from every corner of the world. As a Research Science PhD Intern, you will conduct research and leads research collaborations that yield new insights, theories, analyses, data, algorithms, and/or prototypes that advance the state-of-the-art of incorporating AI capabilities into Azure SQL Database platform. The ideal candidates should have the ability to work with researchers and product team colleagues at Microsoft to push forward research agendas, being a team player in a collaborative and…",
-   "bullets": [
-    "Conduct research and build prototypes for AI features in Azure SQL Database",
-    "Analyze and improve algorithm performance on large-scale datasets",
-    "Develop scalable systems and contribute to patents or white papers"
-   ],
-   "roleLabel": "AI research science",
-   "degreeLevel": "PG",
-   "degreeText": "PhD",
-   "keySkills": [
-    "azure sql",
-    "machine learning",
-    "computer vision",
-    "data mining"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "41 minutes ago",
-   "postedAt": 1785949111066,
-   "firstSeenAt": 1785951571072,
-   "url": "https://www.linkedin.com/jobs/view/4432065177/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4432065177/",
-   "description": null
-  },
-  {
-   "id": "4449126967",
-   "title": "Graduate Trainee Engineer",
-   "company": "Siemens",
-   "matchedWatchlist": "Siemens",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/siemens.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "We empower our people to stay resilient and relevant in a constantly changing world. We’re looking for people who are always searching for creative ways to grow and learn. People who want to make a real impact, now and in the future. BE/ BTech with 6 months of experience",
-   "bullets": [
-    "Assist with engineering tasks, programming, graphics, and cost estimation",
-    "Review project inputs, identify initial questions, and conduct quality checks",
-    "Log work hours in timesheets and communicate progress to team leaders"
-   ],
-   "roleLabel": "Graduate engineering trainee",
-   "degreeLevel": "UG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "microsoft office"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "1 hour ago",
-   "postedAt": 1785948086471,
-   "firstSeenAt": 1785951686474,
-   "url": "https://www.linkedin.com/jobs/view/4449126967/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4449126967/",
    "description": null
   },
   {
