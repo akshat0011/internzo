@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 11:39:23 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 12:14:34 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice - Data Analytics — American Express</title>
+    <link>https://www.internzo.in/jobs/american-express-apprentice-data-analytics-4454970922</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/american-express-apprentice-data-analytics-4454970922</guid>
+    <pubDate>Wed, 19 Aug 2026 11:17:20 GMT</pubDate>
+    <description>Company: American Express · Location: Gurugram, Haryana, India · Duration: 0-11 months
+• Analyze data to find trends and insights for offer performance and customer behavior
+• Use sql and ai tools like chatgpt to support marketing and business decisions
+• Work with cross-functional teams on analytics projects in india</description>
+  </item>
   <item>
     <title>Intern — Quest Global</title>
     <link>https://www.internzo.in/jobs/quest-global-intern-4454982858</link>
@@ -497,16 +507,6 @@
 • Develop software using C, C++, Java or other selected languages on Android platform
 • Test software with debuggers, emulators, simulators and perform quality assurance
 • Work from office with hybrid flexibility and minimum three in-office days per week</description>
-  </item>
-  <item>
-    <title>AI Agent Engineer Intern — Lexsi Labs</title>
-    <link>https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106</guid>
-    <pubDate>Thu, 13 Aug 2026 10:41:30 GMT</pubDate>
-    <description>Company: Lexsi Labs · Location: Mumbai Metropolitan Region
-• Build agentic systems that solve real enterprise problems
-• Work on research, product, and applied AI agent tracks
-• Collaborate with research and engineering teams</description>
   </item>
 </channel>
 </rss>

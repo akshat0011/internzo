@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787139563343,
- "count": 131,
- "techCount": 131,
+ "generatedAt": 1787141674179,
+ "count": 132,
+ "techCount": 132,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -132,6 +132,54 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4454970922",
+   "title": "Apprentice - Data Analytics",
+   "company": "American Express",
+   "matchedWatchlist": "American Express",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/american-express.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": "0-11 months",
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "express",
+    "llm",
+    "generative ai",
+    "tableau",
+    "power bi",
+    "excel"
+   ],
+   "summary": "This apprenticeship involves analyzing data to uncover insights for improving offer performance and customer engagement. You'll use SQL and AI tools to support marketing decisions and collaborate with teams across India. Ideal for students with a background in data analytics or related fields.",
+   "bullets": [
+    "Analyze data to find trends and insights for offer performance and customer behavior",
+    "Use sql and ai tools like chatgpt to support marketing and business decisions",
+    "Work with cross-functional teams on analytics projects in india"
+   ],
+   "roleLabel": "Data Analytics Apprentice",
+   "degreeLevel": "UG",
+   "degreeText": "Data Analytics/Business Analytics",
+   "keySkills": [
+    "sql",
+    "chatgpt",
+    "excel",
+    "powerpoint",
+    "tableau"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "55 minutes ago",
+   "postedAt": 1787138240343,
+   "firstSeenAt": 1787141540349,
+   "url": "https://www.linkedin.com/jobs/view/4454970922/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454970922/",
+   "description": null
+  },
   {
    "id": "4454982858",
    "title": "Intern",

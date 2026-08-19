@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/american-express-apprentice-data-analytics-4454970922",
+      "url": "https://www.internzo.in/jobs/american-express-apprentice-data-analytics-4454970922",
+      "title": "Apprentice - Data Analytics — American Express",
+      "content_text": "Company: American Express · Location: Gurugram, Haryana, India · Duration: 0-11 months\n• Analyze data to find trends and insights for offer performance and customer behavior\n• Use sql and ai tools like chatgpt to support marketing and business decisions\n• Work with cross-functional teams on analytics projects in india",
+      "date_published": "2026-08-19T11:17:20.343Z",
+      "authors": [
+        {
+          "name": "American Express"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/quest-global-intern-4454982858",
       "url": "https://www.internzo.in/jobs/quest-global-intern-4454982858",
       "title": "Intern — Quest Global",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106",
-      "url": "https://www.internzo.in/jobs/lexsi-labs-ai-agent-engineer-intern-4452947106",
-      "title": "AI Agent Engineer Intern — Lexsi Labs",
-      "content_text": "Company: Lexsi Labs · Location: Mumbai Metropolitan Region\n• Build agentic systems that solve real enterprise problems\n• Work on research, product, and applied AI agent tracks\n• Collaborate with research and engineering teams",
-      "date_published": "2026-08-13T10:41:30.862Z",
-      "authors": [
-        {
-          "name": "Lexsi Labs"
         }
       ]
     }
