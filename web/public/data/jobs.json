@@ -1,11 +1,10 @@
 {
- "generatedAt": 1787181202881,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1787183022628,
+ "count": 125,
+ "techCount": 125,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
-  "Accenture",
   "Adobe",
   "Airmeet",
   "American Express",
@@ -5379,50 +5378,6 @@
    "firstSeenAt": 1785998117566,
    "url": "https://www.linkedin.com/jobs/view/4449153319/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4449153319/",
-   "description": null
-  },
-  {
-   "id": "ats:workday:accenture:wd103:AccentureCareers:R00340352",
-   "title": "Bygg ekte løsninger. Med ekte innvirkning. Summer Internship for utviklere 💻",
-   "company": "Accenture",
-   "matchedWatchlist": "Accenture",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/accenture.png",
-   "location": null,
-   "workplaceType": null,
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "aws",
-    "azure",
-    "gcp"
-   ],
-   "summary": "Liker du å skrive kode som faktisk brukes? Vil du tilbringe sommeren med å bygge, teste og videreutvikle teknologi i et reelt kundeprosjekt — ikke i en sandkasse? Som Summer Intern hos Accenture jobber du som utvikler i et tverrfaglig team, på et prosjekt der du bidrar til leveranser som betyr noe. Du lærer av erfarne ingeniører, arkitekter og teknologer, og du får se hvordan gode tekniske beslutninger, ren kode og solid systemforståelse faktisk påvirker det vi bygger for kundene våre.",
-   "bullets": [
-    "Build and test software features on real client projects in Oslo",
-    "Work with cloud platforms like Azure, AWS, or GCP and design APIs",
-    "Implement generative AI and machine learning solutions in production",
-    "Six-week paid summer internship requiring Norwegian fluency"
-   ],
-   "roleLabel": "Software development engineering",
-   "degreeLevel": "Pursuing",
-   "degreeText": null,
-   "keySkills": [
-    "azure",
-    "aws",
-    "gcp",
-    "devops",
-    "apis"
-   ],
-   "stipendStatus": "paid",
-   "postedText": null,
-   "postedAt": 1785888000000,
-   "firstSeenAt": 1785973273437,
-   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Oslo/Bygg-ekte-lsninger-Med-ekte-innvirkning-Summer-Internship-for-utviklere---_R00340352",
-   "applyUrl": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Oslo/Bygg-ekte-lsninger-Med-ekte-innvirkning-Summer-Internship-for-utviklere---_R00340352",
    "description": null
   },
   {
