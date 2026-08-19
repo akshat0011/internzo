@@ -380,6 +380,11 @@ async function main() {
   let session;
   let status = 'ok';
   let fatalError = null;
+  // Set when a page load failed before it ever reached LinkedIn, and when
+  // LinkedIn answered with a rate limit. They decide the exit code — see the
+  // EXIT_RETRY_SOON block at the end of the run.
+  let sawNetworkFailure = false;
+  let sawBlocked = false;
   let searchesDone = 0;
   let searchStart = 0;
 
@@ -446,7 +451,12 @@ async function main() {
         const url = li.buildSearchUrl(search, cfg.filters, { start: pageIndex * li.RESULTS_PER_PAGE });
         log.info(`Page ${pageIndex + 1} — ${url}`);
 
-        const navigated = await li.gotoSearch(page, url, cfg);
+        const nav = {};
+        const navigated = await li.gotoSearch(page, url, cfg, nav);
+        // Remembered across the whole run so the exit code can tell the
+        // scheduler whether retrying in two minutes is safe.
+        if (nav.networkError) sawNetworkFailure = true;
+        if (nav.blocked) sawBlocked = true;
         await ensureHealthy(page, cfg, { context: `search "${label}" page ${pageIndex + 1}`, remainingMs: clock.remainingMs() });
         if (!navigated) {
           notes.push(`The job list never finished loading for "${label}" page ${pageIndex + 1}; skipped it.`);
@@ -1078,7 +1088,23 @@ async function main() {
 
   store.setSetting(LOCK_KEY, 0);
   store.close();
-  process.exitCode = status === 'error' ? 1 : 0;
+  // A run that reached no page because the machine had no working network is
+  // NOT a reason to sit out the rest of the interval. On 19 Aug eight runs died
+  // this way — each burned its whole 30-minute slot on a 41-second failure, and
+  // one of them was the slot that should have caught an American Express
+  // posting. It surfaced 55 minutes late, by which point 100+ people had
+  // applied. That is the entire promise of the site, lost to a wifi blip.
+  //
+  // Exit 75 (EX_TEMPFAIL) tells bin/loop.sh to come back in two minutes instead
+  // of thirty. Scoped hard: only when nothing was scanned, only when the failure
+  // was network-level, and NEVER when LinkedIn answered with a rate limit —
+  // retrying into a 429 is how a session gets restricted.
+  const EXIT_RETRY_SOON = 75;
+  const retrySoon = !DRY_RUN && counters.pagesScanned === 0 && sawNetworkFailure && !sawBlocked;
+  if (retrySoon) {
+    log.warn('This run reached no page because the network was down — asking the scheduler to retry shortly rather than wait out the interval.');
+  }
+  process.exitCode = status === 'error' ? 1 : retrySoon ? EXIT_RETRY_SOON : 0;
 }
 
 // Make sure an unexpected crash still leaves a trace in the log file.

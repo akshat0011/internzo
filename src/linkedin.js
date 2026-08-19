@@ -166,9 +166,15 @@ export async function warmUp(page, cfg) {
 }
 
 /** Navigate to a search URL and wait for the results column to exist. */
-export async function gotoSearch(page, url, cfg) {
+export async function gotoSearch(page, url, cfg, outcome = {}) {
   const response = await gotoResilient(page, url, {}, { label: 'the results page' }).catch((err) => {
-    log.warn(`Navigation problem: ${err.message.split('\n')[0]}`);
+    const first = err.message.split('\n')[0];
+    // Why this failed decides whether the scheduler may retry in two minutes or
+    // must wait out its full interval. A request that never left this machine
+    // costs LinkedIn nothing and can be repeated immediately; anything that
+    // reached them and came back unhappy must not be.
+    outcome.networkError = TRANSIENT_NAV.test(first);
+    log.warn(`Navigation problem: ${first}`);
     return null;
   });
 
@@ -177,6 +183,10 @@ export async function gotoSearch(page, url, cfg) {
   const status = response?.status();
   if (status === 429 || status === 999) {
     log.error(`LinkedIn returned HTTP ${status} — backing off.`);
+    // Never fast-retry into a rate limit. This is the one flag that outranks
+    // networkError, because walking straight back into a 429 is how a session
+    // gets restricted.
+    outcome.blocked = true;
     return false;
   }
 

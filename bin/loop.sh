@@ -74,6 +74,12 @@ mkdir -p "$LOG_DIR"
 # file: WATCH_INTERVAL_SECONDS=300 bash bin/loop.sh
 INTERVAL="${WATCH_INTERVAL_SECONDS:-1800}"
 
+# How soon to come back after a run that reached no page because the network was
+# down, and how many times before giving up and using the normal interval.
+RETRY_SECONDS="${WATCH_RETRY_SECONDS:-120}"
+MAX_FAST_RETRIES="${WATCH_MAX_FAST_RETRIES:-5}"
+fast_retries=0
+
 echo "$(date '+%Y-%m-%d %H:%M:%S') [LOOP START] interval=${INTERVAL}s pid=$$" >> "$LOG"
 
 # Stop cleanly when launchd unloads the agent, and take a running scan with us
@@ -90,9 +96,35 @@ while true; do
   # 'partial' with most of a 90-minute budget spent asleep. If the outer exec is
   # ever removed or skipped, this still covers the scan itself.
   caffeinate -i bash "$HERE/bin/run.sh" --scheduled
+  status=$?
 
   elapsed=$(( $(date +%s) - started ))
   remaining=$(( INTERVAL - elapsed ))
+
+  # Exit 75 (EX_TEMPFAIL) means the run reached no page because this machine had
+  # no working network — see EXIT_RETRY_SOON in src/index.js. Waiting out the
+  # rest of the interval after a 41-second failure throws away the whole slot,
+  # and on 19 Aug that cost an American Express posting 55 minutes of latency
+  # against a board whose entire promise is being early.
+  #
+  # src/index.js sets this ONLY when the request never reached LinkedIn, and
+  # never when LinkedIn answered with a rate limit, so a fast retry cannot walk
+  # back into a 429. A retry while the network is still down costs LinkedIn
+  # nothing at all: the request does not leave the machine.
+  #
+  # Capped so a long outage settles back to the normal cadence instead of
+  # relaunching Brave every two minutes for hours.
+  if [ "$status" -eq 75 ] && [ "$fast_retries" -lt "$MAX_FAST_RETRIES" ]; then
+    fast_retries=$(( fast_retries + 1 ))
+    echo "$(date '+%Y-%m-%d %H:%M:%S') [LOOP] run reached no page (network) — retrying in ${RETRY_SECONDS}s (${fast_retries}/${MAX_FAST_RETRIES})" >> "$LOG"
+    sleep "$RETRY_SECONDS"
+    continue
+  fi
+
+  if [ "$status" -eq 75 ]; then
+    echo "$(date '+%Y-%m-%d %H:%M:%S') [LOOP] network still down after ${MAX_FAST_RETRIES} fast retries — back to the normal interval" >> "$LOG"
+  fi
+  fast_retries=0
 
   if [ "$remaining" -gt 0 ]; then
     echo "$(date '+%Y-%m-%d %H:%M:%S') [LOOP] run took ${elapsed}s — next in ${remaining}s" >> "$LOG"
