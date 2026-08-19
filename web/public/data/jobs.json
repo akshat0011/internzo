@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787147794675,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1787148971685,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -18,7 +18,6 @@
   "CloudSEK",
   "CoinDCX",
   "Colgate-Palmolive",
-  "Continental Industry",
   "Convin",
   "Copeland",
   "D Square Consulting Services Pvt Ltd",
@@ -55,6 +54,7 @@
   "Marmon Technologies India Pvt Ltd",
   "Microsoft",
   "Mizuho",
+  "Monotype",
   "NKT",
   "NatWest Group",
   "National Technology Centre for Ports, Waterways and Coasts (NTCPWC)",
@@ -115,7 +115,6 @@
   "Hyderabad, Telangana, India",
   "India",
   "India, Karnataka, Bangalore",
-  "India, Multiple Locations, Multiple Locations",
   "Indore, Madhya Pradesh, India",
   "Kanchipuram, Tamil Nadu, India",
   "Karnataka, India",
@@ -132,6 +131,83 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4456323114",
+   "title": "Information Security Trainee",
+   "company": "Monotype",
+   "matchedWatchlist": "Monotype",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/monotype.jpg",
+   "location": "Noida, Uttar Pradesh, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "12 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "aws",
+    "machine learning"
+   ],
+   "summary": "This internship involves analyzing cybersecurity threats and supporting incident response efforts. The intern will assist in identifying vulnerabilities, participating in breach response, and working with IT teams to secure systems. Ideal for students with a background in computer science or information security.",
+   "bullets": [
+    "Analyze threats and vulnerabilities across networks and systems",
+    "Support malware remediation and security monitoring tools",
+    "Collaborate with IT and security teams on breach response",
+    "Work with AWS and cloud security frameworks"
+   ],
+   "roleLabel": "Cybersecurity Analysis",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "aws"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "22 minutes ago",
+   "postedAt": 1787147442219,
+   "firstSeenAt": 1787148762221,
+   "url": "https://www.linkedin.com/jobs/view/4456323114/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456323114/",
+   "description": null
+  },
+  {
+   "id": "4456198762",
+   "title": "Young Graduate Trainee",
+   "company": "Infineon Technologies",
+   "matchedWatchlist": "Infineon Technologies",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/infineon-technologies.jpg",
+   "location": "Bengaluru East, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "0 to 3 years",
+   "applicants": "30 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python"
+   ],
+   "summary": "This internship involves validating wifi and bluetooth radios for iot products, debugging rf components, and writing automation scripts. It suits students with experience in wireless communication and programming skills.",
+   "bullets": [
+    "Validate wifi radio and debug rf socip for iot products",
+    "Write scripts and generate rf test reports",
+    "Work with rf systems and integration teams"
+   ],
+   "roleLabel": "Wireless Validation",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech",
+   "keySkills": [
+    "python programming",
+    "analog communication"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "1 hour ago",
+   "postedAt": 1787145211068,
+   "firstSeenAt": 1787148811070,
+   "url": "https://www.linkedin.com/jobs/view/4456198762/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456198762/",
+   "description": null
+  },
   {
    "id": "4454970922",
    "title": "Apprentice - Data Analytics",
@@ -1577,45 +1653,6 @@
    "firstSeenAt": 1786715772413,
    "url": "https://www.linkedin.com/jobs/view/4453570923/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4453570923/",
-   "description": null
-  },
-  {
-   "id": "4454526820",
-   "title": "Young Graduate Trainee",
-   "company": "Infineon Technologies",
-   "matchedWatchlist": "Infineon Technologies",
-   "isTech": true,
-   "roleSource": "model-enrich",
-   "logo": "/logos/infineon-technologies.jpg",
-   "location": "Bengaluru East, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "0-2 years",
-   "applicants": "22 people clicked apply",
-   "easyApply": false,
-   "skills": [
-    "python"
-   ],
-   "summary": "This internship involves writing software with python, designing scalable systems using oops and design patterns, and applying ai in development. Ideal for students with coding experience and interest in power systems and iot.",
-   "bullets": [
-    "Write and script software using python",
-    "Design scalable software with oops and patterns",
-    "Apply ai in software development",
-    "Work on power systems and iot projects"
-   ],
-   "roleLabel": "Software automation",
-   "degreeLevel": "UG",
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "oops"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "15 minutes ago",
-   "postedAt": 1786713091787,
-   "firstSeenAt": 1786713991794,
-   "url": "https://www.linkedin.com/jobs/view/4454526820/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4454526820/",
    "description": null
   },
   {
@@ -5363,41 +5400,6 @@
    "description": null
   },
   {
-   "id": "4449119257",
-   "title": "Intern - AI Engineer",
-   "company": "Continental Industry",
-   "matchedWatchlist": "Continental",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/continental-industry.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "Company Description At ContiTech, we are building a world-class Business Hub in Bangalore that supports global business functions and enables excellence across finance, technology, and corporate services. We are inviting students for internship opportunities in the space of AI Engineering in Data and Analytics team work on tasks using Gen AI and other LLMs",
-   "bullets": [
-    "Build proof-of-concepts using generative AI models and large language models",
-    "Conduct R&D in AI to propose practical data and analytics solutions"
-   ],
-   "roleLabel": "AI engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.E/M.E",
-   "keySkills": [
-    "generative ai",
-    "llms"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "13 minutes ago",
-   "postedAt": 1785937503485,
-   "firstSeenAt": 1785938283490,
-   "url": "https://www.linkedin.com/jobs/view/4449119257/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4449119257/",
-   "description": null
-  },
-  {
    "id": "ats:workday:accenture:wd103:AccentureCareers:R00340352",
    "title": "Bygg ekte løsninger. Med ekte innvirkning. Summer Internship for utviklere 💻",
    "company": "Accenture",
@@ -5531,126 +5533,6 @@
    "firstSeenAt": 1785942447377,
    "url": "https://www.linkedin.com/jobs/view/4447602250/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447602250/",
-   "description": null
-  },
-  {
-   "id": "ats:microsoft:India:1970393556911730",
-   "title": "Software Engineering INTERN",
-   "company": "Microsoft",
-   "matchedWatchlist": "Microsoft",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/microsoft.jpg",
-   "location": "India, Multiple Locations, Multiple Locations",
-   "workplaceType": "onsite",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "data structures",
-    "algorithms"
-   ],
-   "summary": "Come build community, explore your passions and do your best work at Microsoft with thousands of University interns from every corner of the world. As a Software Engineering Intern, you will work with teammates to solve problems and build innovative software solutions. You will apply your passion for customers and product quality as you provide technical guidance to Technical Program Managers and Product Managers. You will learn and adopt relevant new technologies, tools, methods, and processes to leverage in your solutions.",
-   "bullets": [
-    "Design, develop, and test software features across products and services",
-    "Work with stakeholders to define requirements and build scalable code",
-    "Adopt new engineering tools to improve system performance and reliability"
-   ],
-   "roleLabel": "Software engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": null,
-   "keySkills": [
-    "oop",
-    "data structures",
-    "algorithms"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1782882475000,
-   "firstSeenAt": 1785938940218,
-   "url": "https://jobs.careers.microsoft.com/global/en/job/1970393556911730",
-   "applyUrl": "https://jobs.careers.microsoft.com/global/en/job/1970393556911730",
-   "description": null
-  },
-  {
-   "id": "ats:microsoft:India:1970393556917520",
-   "title": "Data Science INTERN",
-   "company": "Microsoft",
-   "matchedWatchlist": "Microsoft",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/microsoft.jpg",
-   "location": "India, Multiple Locations, Multiple Locations",
-   "workplaceType": "onsite",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "machine learning",
-    "algorithms"
-   ],
-   "summary": "Come build community, explore your passions and do your best work at Microsoft with thousands of University interns from every corner of the world. As a Data Scientist Intern at Microsoft, you will use machine learning, statistics, experiments, and more to build and improve great products while making business impact. As a Data Scientist intern you will collaborate with stakeholders, formulate approaches to solve problems and use algorithms and data sources in the context of business and engineering needs. You will also be able to combine your engineering abilities with analytical skills to make customer…",
-   "bullets": [
-    "Build product features using machine learning, statistics, and experimental data",
-    "Formulate algorithmic approaches to solve complex business problems",
-    "Share data insights with product stakeholders to improve customer experiences"
-   ],
-   "roleLabel": "Data science",
-   "degreeLevel": "PG",
-   "degreeText": "PhD",
-   "keySkills": [
-    "machine learning",
-    "statistics",
-    "algorithms"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1782798656000,
-   "firstSeenAt": 1785938942198,
-   "url": "https://jobs.careers.microsoft.com/global/en/job/1970393556917520",
-   "applyUrl": "https://jobs.careers.microsoft.com/global/en/job/1970393556917520",
-   "description": null
-  },
-  {
-   "id": "ats:microsoft:India:1970393556917519",
-   "title": "Applied Sciences INTERN",
-   "company": "Microsoft",
-   "matchedWatchlist": "Microsoft",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/microsoft.jpg",
-   "location": "India, Multiple Locations, Multiple Locations",
-   "workplaceType": "onsite",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "machine learning",
-    "algorithms"
-   ],
-   "summary": "Come build community, explore your passions and do your best work at Microsoft with thousands of University interns from every corner of the world. As an Applied Science Intern at Microsoft, you will be at the forefront of technological innovation, working collaboratively to bring research to life in our products and services. You'll gain expertise in cutting-edge research areas, apply advanced concepts to real-world needs, and use state-of-the-art tools to make a tangible impact on product quality and business outcomes. You'll contribute to the creation of intelligent solutions through data analysis, modeling,…",
-   "bullets": [
-    "Improve algorithm performance on large-scale datasets and ML applications",
-    "Design ML experiments and build prototype scalable AI systems",
-    "Prepare, clean, and structure data to build production machine learning models"
-   ],
-   "roleLabel": "Applied science research",
-   "degreeLevel": "UG",
-   "degreeText": null,
-   "keySkills": [
-    "machine learning",
-    "algorithms",
-    "data analysis"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1782798576000,
-   "firstSeenAt": 1785938941184,
-   "url": "https://jobs.careers.microsoft.com/global/en/job/1970393556917519",
-   "applyUrl": "https://jobs.careers.microsoft.com/global/en/job/1970393556917519",
    "description": null
   },
   {

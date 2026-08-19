@@ -6,7 +6,28 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 13:56:34 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 14:16:11 GMT</lastBuildDate>
+  <item>
+    <title>Information Security Trainee — Monotype</title>
+    <link>https://www.internzo.in/jobs/monotype-information-security-trainee-4456323114</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/monotype-information-security-trainee-4456323114</guid>
+    <pubDate>Wed, 19 Aug 2026 13:50:42 GMT</pubDate>
+    <description>Company: Monotype · Location: Noida, Uttar Pradesh, India
+• Analyze threats and vulnerabilities across networks and systems
+• Support malware remediation and security monitoring tools
+• Collaborate with IT and security teams on breach response
+• Work with AWS and cloud security frameworks</description>
+  </item>
+  <item>
+    <title>Young Graduate Trainee — Infineon Technologies</title>
+    <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4456198762</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4456198762</guid>
+    <pubDate>Wed, 19 Aug 2026 13:13:31 GMT</pubDate>
+    <description>Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0 to 3 years
+• Validate wifi radio and debug rf socip for iot products
+• Write scripts and generate rf test reports
+• Work with rf systems and integration teams</description>
+  </item>
   <item>
     <title>Apprentice - Data Analytics — American Express</title>
     <link>https://www.internzo.in/jobs/american-express-apprentice-data-analytics-4454970922</link>
@@ -349,17 +370,6 @@
 • Contribute to aws deployments and ci/cd pipelines</description>
   </item>
   <item>
-    <title>Young Graduate Trainee — Infineon Technologies</title>
-    <link>https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/infineon-technologies-young-graduate-trainee-4454526820</guid>
-    <pubDate>Fri, 14 Aug 2026 13:11:31 GMT</pubDate>
-    <description>Company: Infineon Technologies · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years
-• Write and script software using python
-• Design scalable software with oops and patterns
-• Apply ai in software development
-• Work on power systems and iot projects</description>
-  </item>
-  <item>
     <title>Apprentice - CAD Engineer — Oceaneering</title>
     <link>https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031</link>
     <guid isPermaLink="true">https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031</guid>
@@ -497,16 +507,6 @@
 • Integrate with microsoft 365 tools like sharepoint and teams
 • Work with global teams on data driven solutions
 • Located in hyderabad, 6 month internship</description>
-  </item>
-  <item>
-    <title>Certification Intern — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-certification-intern-4450479358</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-certification-intern-4450479358</guid>
-    <pubDate>Thu, 13 Aug 2026 10:52:46 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
-• Develop software using C, C++, Java or other selected languages on Android platform
-• Test software with debuggers, emulators, simulators and perform quality assurance
-• Work from office with hybrid flexibility and minimum three in-office days per week</description>
   </item>
 </channel>
 </rss>
