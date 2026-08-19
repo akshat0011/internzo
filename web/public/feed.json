@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/quest-global-intern-4454982858",
+      "url": "https://www.internzo.in/jobs/quest-global-intern-4454982858",
+      "title": "Intern — Quest Global",
+      "content_text": "Company: Quest Global · Location: Bengaluru, Karnataka, India",
+      "date_published": "2026-08-19T11:03:01.074Z",
+      "authors": [
+        {
+          "name": "Quest Global"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/roche-intern-4456177737",
       "url": "https://www.internzo.in/jobs/roche-intern-4456177737",
       "title": "Intern — Roche",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Lexsi Labs"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525",
-      "url": "https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525",
-      "title": "Graduate Trainee — Calix India",
-      "content_text": "Company: Calix India · Location: Bengaluru, Karnataka, India\n• Debug code and test software solutions\n• Work with java, python, go, and cloud platforms\n• Collaborate with cross-functional teams in fast-paced environment",
-      "date_published": "2026-08-13T08:12:56.123Z",
-      "authors": [
-        {
-          "name": "Calix India"
         }
       ]
     }

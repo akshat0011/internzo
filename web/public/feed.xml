@@ -6,7 +6,14 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 10:41:58 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 11:12:00 GMT</lastBuildDate>
+  <item>
+    <title>Intern — Quest Global</title>
+    <link>https://www.internzo.in/jobs/quest-global-intern-4454982858</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/quest-global-intern-4454982858</guid>
+    <pubDate>Wed, 19 Aug 2026 11:03:01 GMT</pubDate>
+    <description>Company: Quest Global · Location: Bengaluru, Karnataka, India</description>
+  </item>
   <item>
     <title>Intern — Roche</title>
     <link>https://www.internzo.in/jobs/roche-intern-4456177737</link>
@@ -500,16 +507,6 @@
 • Build agentic systems that solve real enterprise problems
 • Work on research, product, and applied AI agent tracks
 • Collaborate with research and engineering teams</description>
-  </item>
-  <item>
-    <title>Graduate Trainee — Calix India</title>
-    <link>https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/calix-india-graduate-trainee-4453687525</guid>
-    <pubDate>Thu, 13 Aug 2026 08:12:56 GMT</pubDate>
-    <description>Company: Calix India · Location: Bengaluru, Karnataka, India
-• Debug code and test software solutions
-• Work with java, python, go, and cloud platforms
-• Collaborate with cross-functional teams in fast-paced environment</description>
   </item>
 </channel>
 </rss>
