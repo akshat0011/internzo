@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4453427249",
+      "url": "https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4453427249",
+      "title": "Software Engineering Intern (Full Stack) — Joveo",
+      "content_text": "Company: Joveo · Location: Bangalore Urban, Karnataka, India\n• Build greenfield ai products from whiteboard to working prototype\n• Ship full stack with react next.js front end and node express back end\n• Collaborate directly with leadership from first week",
+      "date_published": "2026-08-19T08:13:54.606Z",
+      "authors": [
+        {
+          "name": "Joveo"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/pearson-apprentice-full-stack-engineer-4456101986",
       "url": "https://www.internzo.in/jobs/pearson-apprentice-full-stack-engineer-4456101986",
       "title": "Apprentice, Full Stack Engineer — Pearson",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Larsen & Toubro"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-php-developer-internship-in-thane-mumbai-navi-mumbai-4453612335",
-      "url": "https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-php-developer-internship-in-thane-mumbai-navi-mumbai-4453612335",
-      "title": "Junior PHP Developer Internship in Thane, Mumbai, Navi Mumbai — FynTune Solution Private Limited",
-      "content_text": "Company: FynTune Solution Private Limited · Location: Navi Mumbai, Maharashtra, India\n• Develop and maintain php/laravel web apps for insurance platforms\n• Collaborate with ux team and manage full development lifecycle\n• Refactor code, write tests, and document technical processes",
-      "date_published": "2026-08-13T00:07:04.750Z",
-      "authors": [
-        {
-          "name": "FynTune Solution Private Limited"
         }
       ]
     }

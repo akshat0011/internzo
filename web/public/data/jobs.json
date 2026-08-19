@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787127093643,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1787128961526,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -48,6 +48,7 @@
   "Intuit",
   "Janitri",
   "Jio",
+  "Joveo",
   "KYC Hub",
   "Larsen & Toubro",
   "Lexsi Labs",
@@ -95,6 +96,7 @@
   "upGrad International"
  ],
  "locations": [
+  "Bangalore Urban, Karnataka, India",
   "Bangalore, India",
   "Bengaluru",
   "Bengaluru East, Karnataka, India",
@@ -129,6 +131,56 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453427249",
+   "title": "Software Engineering Intern (Full Stack)",
+   "company": "Joveo",
+   "matchedWatchlist": "Joveo",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/joveo.jpg",
+   "location": "Bangalore Urban, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": "91 applicants",
+   "easyApply": false,
+   "skills": [
+    "typescript",
+    "sql",
+    "react",
+    "next.js",
+    "node.js",
+    "express",
+    "git",
+    "machine learning"
+   ],
+   "summary": "This internship involves building ai products from scratch using modern web technologies. Interns will work on full stack development with react and node.js, integrating llms and vector databases. The role offers direct collaboration with leadership and real ownership of projects.",
+   "bullets": [
+    "Build greenfield ai products from whiteboard to working prototype",
+    "Ship full stack with react next.js front end and node express back end",
+    "Collaborate directly with leadership from first week"
+   ],
+   "roleLabel": "Ai product development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "typescript",
+    "react",
+    "next.js",
+    "node.js",
+    "express.js",
+    "sql",
+    "git"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "26 minutes ago",
+   "postedAt": 1787127234606,
+   "firstSeenAt": 1787128794616,
+   "url": "https://www.linkedin.com/jobs/view/4453427249/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453427249/",
+   "description": null
+  },
   {
    "id": "4456101986",
    "title": "Apprentice, Full Stack Engineer",

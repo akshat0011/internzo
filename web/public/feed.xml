@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 08:11:33 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 08:42:41 GMT</lastBuildDate>
+  <item>
+    <title>Software Engineering Intern (Full Stack) — Joveo</title>
+    <link>https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4453427249</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4453427249</guid>
+    <pubDate>Wed, 19 Aug 2026 08:13:54 GMT</pubDate>
+    <description>Company: Joveo · Location: Bangalore Urban, Karnataka, India
+• Build greenfield ai products from whiteboard to working prototype
+• Ship full stack with react next.js front end and node express back end
+• Collaborate directly with leadership from first week</description>
+  </item>
   <item>
     <title>Apprentice, Full Stack Engineer — Pearson</title>
     <link>https://www.internzo.in/jobs/pearson-apprentice-full-stack-engineer-4456101986</link>
@@ -502,16 +512,6 @@
 • Develop chatbots, ai apps, and integrate with enterprise systems
 • Use tensorflow, pytorch, opencv, and yolov for vision projects
 • Collaborate with engineers and stakeholders in agile teams</description>
-  </item>
-  <item>
-    <title>Junior PHP Developer Internship in Thane, Mumbai, Navi Mumbai — FynTune Solution Private Limited</title>
-    <link>https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-php-developer-internship-in-thane-mumbai-navi-mumbai-4453612335</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/fyntune-solution-private-limited-junior-php-developer-internship-in-thane-mumbai-navi-mumbai-4453612335</guid>
-    <pubDate>Thu, 13 Aug 2026 00:07:04 GMT</pubDate>
-    <description>Company: FynTune Solution Private Limited · Location: Navi Mumbai, Maharashtra, India
-• Develop and maintain php/laravel web apps for insurance platforms
-• Collaborate with ux team and manage full development lifecycle
-• Refactor code, write tests, and document technical processes</description>
   </item>
 </channel>
 </rss>
