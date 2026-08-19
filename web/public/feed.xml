@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 15:44:36 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 16:17:02 GMT</lastBuildDate>
+  <item>
+    <title>Intern - SQA — Silicon Labs</title>
+    <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030</guid>
+    <pubDate>Wed, 19 Aug 2026 15:48:56 GMT</pubDate>
+    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
+• Test software and hardware for wireless connectivity products
+• Use python and automation tools for test scripts
+• Work with cross-functional teams on embedded systems</description>
+  </item>
+  <item>
+    <title>Intern - SW Design — Silicon Labs</title>
+    <link>https://www.internzo.in/jobs/silicon-labs-intern-sw-design-4453467035</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sw-design-4453467035</guid>
+    <pubDate>Wed, 19 Aug 2026 15:48:21 GMT</pubDate>
+    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
+• Design and simulate wireless communication systems
+• Use matlab and c for prototyping
+• Work on smart home and industrial iot projects</description>
+  </item>
   <item>
     <title>Intern, SDET — Icertis</title>
     <link>https://www.internzo.in/jobs/icertis-intern-sdet-4456322346</link>
@@ -281,16 +301,6 @@
 • Collaborate with experts on data mapping and migration</description>
   </item>
   <item>
-    <title>Intern - SQA — Silicon Labs</title>
-    <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4452233764</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sqa-4452233764</guid>
-    <pubDate>Mon, 17 Aug 2026 10:05:28 GMT</pubDate>
-    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
-• Test software and hardware for connectivity devices
-• Use python and jira for tracking issues
-• Work with cross-functional teams on product development</description>
-  </item>
-  <item>
     <title>Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com</title>
     <link>https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560</link>
     <guid isPermaLink="true">https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560</guid>
@@ -496,17 +506,6 @@
 • Write test cases for microcontroller hardware using Python and scripting
 • Use AI tools for coding, debugging, and documentation in software development
 • Collaborate with engineers on test frameworks and automation for automotive systems</description>
-  </item>
-  <item>
-    <title>Outreach Campaign Intern — Airmeet</title>
-    <link>https://www.internzo.in/jobs/airmeet-outreach-campaign-intern-4453209152</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/airmeet-outreach-campaign-intern-4453209152</guid>
-    <pubDate>Thu, 13 Aug 2026 16:18:11 GMT</pubDate>
-    <description>Company: Airmeet · Location: Bengaluru, Karnataka, India · Duration: 3–6 months
-• Research and identify b2b prospects
-• Build prospect lists and track campaigns
-• Create emails and follow up with leads
-• Learn b2b saas sales and ai tools</description>
   </item>
 </channel>
 </rss>
