@@ -6,7 +6,18 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 14:16:11 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 14:45:11 GMT</lastBuildDate>
+  <item>
+    <title>Intern, SDET — Icertis</title>
+    <link>https://www.internzo.in/jobs/icertis-intern-sdet-4456322346</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/icertis-intern-sdet-4456322346</guid>
+    <pubDate>Wed, 19 Aug 2026 14:36:54 GMT</pubDate>
+    <description>Company: Icertis · Location: Pune Division, Maharashtra, India
+• Write automated tests with python and ai tools
+• Review code and improve software quality
+• Work on performance and load testing
+• Collaborate with developers on project goals</description>
+  </item>
   <item>
     <title>Information Security Trainee — Monotype</title>
     <link>https://www.internzo.in/jobs/monotype-information-security-trainee-4456323114</link>
@@ -496,17 +507,6 @@
 • Writes code based on specifications under supervision
 • Uses programming languages and follows technical documentation
 • Communicates progress and issues to manager regularly</description>
-  </item>
-  <item>
-    <title>PowerApps Developer Intern — pharma&amp;</title>
-    <link>https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451</guid>
-    <pubDate>Thu, 13 Aug 2026 11:28:09 GMT</pubDate>
-    <description>Company: pharma&amp; · Location: Hyderabad, Telangana, India · Duration: 6 months
-• Build and customize powerapps for business processes
-• Integrate with microsoft 365 tools like sharepoint and teams
-• Work with global teams on data driven solutions
-• Located in hyderabad, 6 month internship</description>
   </item>
 </channel>
 </rss>

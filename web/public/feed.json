@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/icertis-intern-sdet-4456322346",
+      "url": "https://www.internzo.in/jobs/icertis-intern-sdet-4456322346",
+      "title": "Intern, SDET — Icertis",
+      "content_text": "Company: Icertis · Location: Pune Division, Maharashtra, India\n• Write automated tests with python and ai tools\n• Review code and improve software quality\n• Work on performance and load testing\n• Collaborate with developers on project goals",
+      "date_published": "2026-08-19T14:36:54.996Z",
+      "authors": [
+        {
+          "name": "Icertis"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/monotype-information-security-trainee-4456323114",
       "url": "https://www.internzo.in/jobs/monotype-information-security-trainee-4456323114",
       "title": "Information Security Trainee — Monotype",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "GSK"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451",
-      "url": "https://www.internzo.in/jobs/pharma-and-powerapps-developer-intern-4450483451",
-      "title": "PowerApps Developer Intern — pharma&",
-      "content_text": "Company: pharma& · Location: Hyderabad, Telangana, India · Duration: 6 months\n• Build and customize powerapps for business processes\n• Integrate with microsoft 365 tools like sharepoint and teams\n• Work with global teams on data driven solutions\n• Located in hyderabad, 6 month internship",
-      "date_published": "2026-08-13T11:28:09.332Z",
-      "authors": [
-        {
-          "name": "pharma&"
         }
       ]
     }

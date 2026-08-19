@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787148971685,
- "count": 129,
- "techCount": 129,
+ "generatedAt": 1787150711154,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -32,7 +32,6 @@
   "FynTune Solution Private Limited",
   "GE HealthCare",
   "GSK",
-  "Glance",
   "GoKwik",
   "GreedyGame",
   "HARMAN India",
@@ -41,6 +40,7 @@
   "HighLevel",
   "Honeywell Technologies",
   "IQVIA",
+  "Icertis",
   "Infineon Technologies",
   "Interloop - Zoho Partner| Manage Engine | Managed HR Services",
   "Intuit",
@@ -98,7 +98,6 @@
  "locations": [
   "Bangalore Urban, Karnataka, India",
   "Bangalore, India",
-  "Bengaluru",
   "Bengaluru East, Karnataka, India",
   "Bengaluru, Karnataka, India",
   "Bengaluru, Karnataka, India (On-site)",
@@ -131,6 +130,47 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4456322346",
+   "title": "Intern, SDET",
+   "company": "Icertis",
+   "matchedWatchlist": "Icertis",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/icertis.jpg",
+   "location": "Pune Division, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "36 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "agile"
+   ],
+   "summary": "This internship involves writing automated tests, reviewing code, and optimizing system performance. It suits students with python skills and an interest in quality assurance. The role offers hands-on experience with ai tools and real-world software development practices.",
+   "bullets": [
+    "Write automated tests with python and ai tools",
+    "Review code and improve software quality",
+    "Work on performance and load testing",
+    "Collaborate with developers on project goals"
+   ],
+   "roleLabel": "Software testing",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech",
+   "keySkills": [
+    "python",
+    "ai tools",
+    "code reviews"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "6 minutes ago",
+   "postedAt": 1787150214996,
+   "firstSeenAt": 1787150575008,
+   "url": "https://www.linkedin.com/jobs/view/4456322346/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456322346/",
+   "description": null
+  },
   {
    "id": "4456323114",
    "title": "Information Security Trainee",
@@ -5533,84 +5573,6 @@
    "firstSeenAt": 1785942447377,
    "url": "https://www.linkedin.com/jobs/view/4447602250/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447602250/",
-   "description": null
-  },
-  {
-   "id": "ats:greenhouse:glance:7916115",
-   "title": "UX Design - Intern",
-   "company": "Glance",
-   "matchedWatchlist": "Glance",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/glance.jpg",
-   "location": "Bengaluru",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "<div class=\"content-intro\"><p data-start=\"272\" data-end=\"669\">Glance AI is an AI commerce platform shaping the next wave of e-commerce with inspiration-led shopping, less about searching for what you want and more about discovering who you could be. Operating in 140 countries, Glance AI transforms every screen into a stage for instant, personal, and joyful discovery, where inspiration becomes something you can explore, feel, and shop in the moment.</p> We're looking for a UX Design Intern to work alongside our designers across the full surface area of the product.</p> <p class=\"font-claude-response-body…",
-   "bullets": [
-    "Design UI and visual layouts for shopping cards, brand stores, and TV displays",
-    "Help build and maintain design system components, patterns, and documentation",
-    "Work with visual, motion, and engineering teams from design to product ship"
-   ],
-   "roleLabel": "UX design",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "ux design",
-    "visual design",
-    "design systems"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1782218042000,
-   "firstSeenAt": 1785940207500,
-   "url": "https://job-boards.greenhouse.io/glance/jobs/7916115",
-   "applyUrl": "https://job-boards.greenhouse.io/glance/jobs/7916115",
-   "description": null
-  },
-  {
-   "id": "ats:lever:paytm:4a97658f-ac6f-4a86-b483-ae50dd5c7a46",
-   "title": "Product Management Intern- Insurance",
-   "company": "Paytm",
-   "matchedWatchlist": "Paytm",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/paytm.png",
-   "location": "Noida, Uttar Pradesh",
-   "workplaceType": "onsite",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "figma"
-   ],
-   "summary": "About Paytm Group: Paytm is India's leading mobile payments and financial services distribution company. Pioneer of the mobile QR payments revolution in India, Paytm builds technologies that help small businesses with payments and commerce. Assist product managers in defining product roadmaps, requirements, and user stories.",
-   "bullets": [
-    "Define product roadmaps, requirements, and user stories for insurance products",
-    "Analyze user behavior and product metrics to optimize user journeys",
-    "Collaborate with tech and design teams during feature development"
-   ],
-   "roleLabel": "Product management",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "jira",
-    "figma",
-    "notion",
-    "google analytics",
-    "mixpanel"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1781882794732,
-   "firstSeenAt": 1785940216956,
-   "url": "https://jobs.lever.co/paytm/4a97658f-ac6f-4a86-b483-ae50dd5c7a46",
-   "applyUrl": "https://jobs.lever.co/paytm/4a97658f-ac6f-4a86-b483-ae50dd5c7a46",
    "description": null
   }
  ]
