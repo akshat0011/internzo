@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787165187687,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1787166784318,
+ "count": 125,
+ "techCount": 125,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -65,7 +65,6 @@
   "Pearson",
   "Philips",
   "Qualcomm",
-  "Quantiphi",
   "Quest Global",
   "Resollect",
   "Roche",
@@ -5343,45 +5342,6 @@
    "firstSeenAt": 1785998117566,
    "url": "https://www.linkedin.com/jobs/view/4449153319/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4449153319/",
-   "description": null
-  },
-  {
-   "id": "4448046701",
-   "title": "Intern - IT & Desktop Support",
-   "company": "Quantiphi",
-   "matchedWatchlist": "Quantiphi",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/quantiphi.jpg",
-   "location": "Mumbai, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": "4 applicants",
-   "easyApply": true,
-   "skills": [],
-   "summary": "Role: Intern - IT & Desktop Support Must have knowledge on VC and projector/presentation set-up Must have knowledge of Antivirus / Drive Encryption-Decryption concept should be clear Ability to perform remote troubleshooting and provide Excellent problem-solving and multitasking skills",
-   "bullets": [
-    "Troubleshoot Windows 11, MS Outlook, O365, and hardware or networking issues",
-    "Assist users with installing applications, remote setup, VC, and projectors",
-    "Log technical issues, maintain weekly reports, and update internal databases"
-   ],
-   "roleLabel": "IT desktop support",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "windows 11",
-    "outlook",
-    "office 365",
-    "networking",
-    "antivirus"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "43 minutes ago",
-   "postedAt": 1785954285022,
-   "firstSeenAt": 1785956865027,
-   "url": "https://www.linkedin.com/jobs/view/4448046701/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448046701/",
    "description": null
   },
   {
