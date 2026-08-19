@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787134339088,
- "count": 130,
- "techCount": 130,
+ "generatedAt": 1787136117965,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -115,6 +115,7 @@
   "Gurugram, Haryana, India",
   "Hyderabad, Telangana, India",
   "India",
+  "India, Karnataka, Bangalore",
   "India, Multiple Locations, Multiple Locations",
   "Indore, Madhya Pradesh, India",
   "Kanchipuram, Tamil Nadu, India",
@@ -171,6 +172,42 @@
    "firstSeenAt": 1787134188694,
    "url": "https://www.linkedin.com/jobs/view/4456177737/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4456177737/",
+   "description": null
+  },
+  {
+   "id": "ats:microsoft:India:1970393556971804",
+   "title": "Research Sciences INTERN",
+   "company": "Microsoft",
+   "matchedWatchlist": "Microsoft",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/microsoft.jpg",
+   "location": "India, Karnataka, Bangalore",
+   "workplaceType": "onsite",
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [],
+   "summary": "This research internship involves working on software engineering challenges using ai and formal methods. Ideal for students interested in programming languages and code analysis. Based in bangalore with opportunities to collaborate with microsoft researchers.",
+   "bullets": [
+    "Analyze codebases using AI and formal methods",
+    "Collaborate with researchers on real-world software problems",
+    "Based in bangalore with access to microsoft research"
+   ],
+   "roleLabel": "Software research",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "ai",
+    "formal methods"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": null,
+   "postedAt": 1787131693000,
+   "firstSeenAt": 1787135871164,
+   "url": "https://jobs.careers.microsoft.com/global/en/job/1970393556971804",
+   "applyUrl": "https://jobs.careers.microsoft.com/global/en/job/1970393556971804",
    "description": null
   },
   {

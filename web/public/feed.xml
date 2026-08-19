@@ -6,7 +6,7 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 10:12:19 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 10:41:58 GMT</lastBuildDate>
   <item>
     <title>Intern — Roche</title>
     <link>https://www.internzo.in/jobs/roche-intern-4456177737</link>
@@ -16,6 +16,16 @@
 • Analyze data and build reports for business teams
 • Use python sql and excel to solve real problems
 • Work with global stakeholders in analytics and tech</description>
+  </item>
+  <item>
+    <title>Research Sciences INTERN — Microsoft</title>
+    <link>https://www.internzo.in/jobs/microsoft-research-sciences-intern-ats-microsoft-india-1970393556971804</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/microsoft-research-sciences-intern-ats-microsoft-india-1970393556971804</guid>
+    <pubDate>Wed, 19 Aug 2026 09:28:13 GMT</pubDate>
+    <description>Company: Microsoft · Location: India, Karnataka, Bangalore
+• Analyze codebases using AI and formal methods
+• Collaborate with researchers on real-world software problems
+• Based in bangalore with access to microsoft research</description>
   </item>
   <item>
     <title>Software Engineering Intern (Full Stack) — Joveo</title>
@@ -500,17 +510,6 @@
 • Debug code and test software solutions
 • Work with java, python, go, and cloud platforms
 • Collaborate with cross-functional teams in fast-paced environment</description>
-  </item>
-  <item>
-    <title>Graduate Trainee (Apprentice), Global Technology — Russell Investments</title>
-    <link>https://www.internzo.in/jobs/russell-investments-graduate-trainee-apprentice-global-technology-4452910389</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/russell-investments-graduate-trainee-apprentice-global-technology-4452910389</guid>
-    <pubDate>Thu, 13 Aug 2026 08:11:03 GMT</pubDate>
-    <description>Company: Russell Investments · Location: Mumbai Metropolitan Region
-• Support AI product development by gathering requirements and refining user stories
-• Collaborate with engineers and product managers to shape AI-driven solutions
-• Conduct market research and track product metrics for AI adoption
-• Work with global teams across time zones in a professional corporate environment</description>
   </item>
 </channel>
 </rss>
