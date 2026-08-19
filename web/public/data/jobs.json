@@ -1,11 +1,11 @@
 {
- "generatedAt": 1787105347757,
- "count": 127,
- "techCount": 127,
+ "generatedAt": 1787107359287,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
+  "ARGMAC",
   "Accenture",
-  "Acko",
   "Adobe",
   "Airmeet",
   "American Express",
@@ -62,6 +62,7 @@
   "Nuvama Group",
   "Oceaneering",
   "Paytm",
+  "Pearson",
   "Philips",
   "Qualcomm",
   "Quantiphi",
@@ -106,6 +107,7 @@
   "Goregaon, Maharashtra, India",
   "Greater Bengaluru Area",
   "Greater Hyderabad Area",
+  "Gurgaon, Haryana, India",
   "Gurugram, Haryana, India",
   "Hyderabad, Telangana, India",
   "India",
@@ -126,6 +128,103 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4456101986",
+   "title": "Apprentice, Full Stack Engineer",
+   "company": "Pearson",
+   "matchedWatchlist": "Pearson",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/pearson.jpg",
+   "location": "Bengaluru East, Karnataka, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": "0-2 years",
+   "applicants": "73 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "java",
+    "javascript",
+    "typescript",
+    "react",
+    "aws",
+    "azure",
+    "gcp",
+    "docker",
+    "ci/cd",
+    "git",
+    "mongodb",
+    "postgresql",
+    "mysql",
+    "microservices"
+   ],
+   "summary": "This apprenticeship involves building web applications using react and java, working on both frontend and backend features. You'll collaborate with senior engineers, write clean code, and participate in agile practices. Ideal for students with experience in react and java, looking to gain hands-on development skills.",
+   "bullets": [
+    "Build web apps with react.js and java",
+    "Work on frontend/backend with rest apis",
+    "Code in typescript/javascript and debug issues"
+   ],
+   "roleLabel": "Full Stack Development",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "react.js",
+    "typescript",
+    "java",
+    "rest apis",
+    "git"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "33 minutes ago",
+   "postedAt": 1787105249638,
+   "firstSeenAt": 1787107229646,
+   "url": "https://www.linkedin.com/jobs/view/4456101986/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456101986/",
+   "description": null
+  },
+  {
+   "id": "4455994101",
+   "title": "Flutter Development Internship in Gurgaon, Delhi",
+   "company": "ARGMAC",
+   "matchedWatchlist": "ARGMAC",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/argmac.jpg",
+   "location": "Gurgaon, Haryana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "0 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "javascript",
+    "react",
+    "rest api"
+   ],
+   "summary": "This internship involves improving a shopify store's performance and user experience. The intern will work on fixing technical issues, adding schema markup, and supporting tracking scripts. It's ideal for someone interested in web development and e-commerce optimization.",
+   "bullets": [
+    "Fix broken pages, redirect errors, and site speed issues",
+    "Implement schema markup on product and collection pages",
+    "Assist with tracking scripts for analytics and pixel tracking"
+   ],
+   "roleLabel": "Shopify Development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "flutter",
+    "html",
+    "css",
+    "javascript",
+    "rest api"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "2 hours ago",
+   "postedAt": 1787100109614,
+   "firstSeenAt": 1787107309616,
+   "url": "https://www.linkedin.com/jobs/view/4455994101/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455994101/",
+   "description": null
+  },
   {
    "id": "4455736268",
    "title": "Trainee",
@@ -5165,46 +5264,6 @@
    "firstSeenAt": 1785973273437,
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Oslo/Bygg-ekte-lsninger-Med-ekte-innvirkning-Summer-Internship-for-utviklere---_R00340352",
    "applyUrl": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Oslo/Bygg-ekte-lsninger-Med-ekte-innvirkning-Summer-Internship-for-utviklere---_R00340352",
-   "description": null
-  },
-  {
-   "id": "4448575982",
-   "title": "Internship - GRC (Governance, Risk & Compliance)",
-   "company": "Acko",
-   "matchedWatchlist": "Acko",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/acko.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "excel"
-   ],
-   "summary": "ACKO is the protection destination for over 200 million tech-savvy families across India, protecting their families, assets and money. Launched in 2016, ACKO started by reimagining insurance, making it simple, hassle-free and customer-first.",
-   "bullets": [
-    "Maintain GRC policies, documentation, and internal compliance trackers",
-    "Assist with basic risk assessments and internal audit processes",
-    "Monitor compliance across ISO 27001 and IRDAI regulatory guidelines"
-   ],
-   "roleLabel": "IT compliance and risk",
-   "degreeLevel": "UG/PG",
-   "degreeText": null,
-   "keySkills": [
-    "iso 27001",
-    "gdpr",
-    "excel",
-    "powerpoint"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "4 hours ago",
-   "postedAt": 1785882809563,
-   "firstSeenAt": 1785897209567,
-   "url": "https://www.linkedin.com/jobs/view/4448575982/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448575982/",
    "description": null
   },
   {

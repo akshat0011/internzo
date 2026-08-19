@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/pearson-apprentice-full-stack-engineer-4456101986",
+      "url": "https://www.internzo.in/jobs/pearson-apprentice-full-stack-engineer-4456101986",
+      "title": "Apprentice, Full Stack Engineer — Pearson",
+      "content_text": "Company: Pearson · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years\n• Build web apps with react.js and java\n• Work on frontend/backend with rest apis\n• Code in typescript/javascript and debug issues",
+      "date_published": "2026-08-19T02:07:29.638Z",
+      "authors": [
+        {
+          "name": "Pearson"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/argmac-flutter-development-internship-in-gurgaon-delhi-4455994101",
+      "url": "https://www.internzo.in/jobs/argmac-flutter-development-internship-in-gurgaon-delhi-4455994101",
+      "title": "Flutter Development Internship in Gurgaon, Delhi — ARGMAC",
+      "content_text": "Company: ARGMAC · Location: Gurgaon, Haryana, India\n• Fix broken pages, redirect errors, and site speed issues\n• Implement schema markup on product and collection pages\n• Assist with tracking scripts for analytics and pixel tracking",
+      "date_published": "2026-08-19T00:41:49.614Z",
+      "authors": [
+        {
+          "name": "ARGMAC"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/atkinsr-alis-trainee-4455736268",
       "url": "https://www.internzo.in/jobs/atkinsr-alis-trainee-4455736268",
       "title": "Trainee — AtkinsRéalis",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "State Street"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/valeo-intern-optics-4443503819",
-      "url": "https://www.internzo.in/jobs/valeo-intern-optics-4443503819",
-      "title": "Intern - Optics — Valeo",
-      "content_text": "Company: Valeo · Location: Chennai, Tamil Nadu, India\n• Support optical design simulations and reports\n• Use raytracing and optical simulation software\n• Work on lens and light guide design projects",
-      "date_published": "2026-08-12T15:58:31.921Z",
-      "authors": [
-        {
-          "name": "Valeo"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901",
-      "url": "https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901",
-      "title": "Interim Engineering Intern_Systems- 2027 — Qualcomm",
-      "content_text": "Company: Qualcomm · Location: Greater Hyderabad Area\n• Design and validate modem baseband algorithms for 3G/4G/5G systems\n• Work with C/C++/MATLAB and UNIX/Linux platforms\n• Contribute to Qualcomm's IP and air interface standards",
-      "date_published": "2026-08-12T14:04:50.169Z",
-      "authors": [
-        {
-          "name": "Qualcomm"
         }
       ]
     }

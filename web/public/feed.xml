@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 02:09:07 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 02:42:39 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice, Full Stack Engineer — Pearson</title>
+    <link>https://www.internzo.in/jobs/pearson-apprentice-full-stack-engineer-4456101986</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/pearson-apprentice-full-stack-engineer-4456101986</guid>
+    <pubDate>Wed, 19 Aug 2026 02:07:29 GMT</pubDate>
+    <description>Company: Pearson · Location: Bengaluru East, Karnataka, India · Duration: 0-2 years
+• Build web apps with react.js and java
+• Work on frontend/backend with rest apis
+• Code in typescript/javascript and debug issues</description>
+  </item>
+  <item>
+    <title>Flutter Development Internship in Gurgaon, Delhi — ARGMAC</title>
+    <link>https://www.internzo.in/jobs/argmac-flutter-development-internship-in-gurgaon-delhi-4455994101</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/argmac-flutter-development-internship-in-gurgaon-delhi-4455994101</guid>
+    <pubDate>Wed, 19 Aug 2026 00:41:49 GMT</pubDate>
+    <description>Company: ARGMAC · Location: Gurgaon, Haryana, India
+• Fix broken pages, redirect errors, and site speed issues
+• Implement schema markup on product and collection pages
+• Assist with tracking scripts for analytics and pixel tracking</description>
+  </item>
   <item>
     <title>Trainee — AtkinsRéalis</title>
     <link>https://www.internzo.in/jobs/atkinsr-alis-trainee-4455736268</link>
@@ -492,26 +512,6 @@
 • Support development and maintenance of java-based applications
 • Work with relational databases and sql for query optimization
 • Collaborate on cloud deployments and testing on aws</description>
-  </item>
-  <item>
-    <title>Intern - Optics — Valeo</title>
-    <link>https://www.internzo.in/jobs/valeo-intern-optics-4443503819</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-optics-4443503819</guid>
-    <pubDate>Wed, 12 Aug 2026 15:58:31 GMT</pubDate>
-    <description>Company: Valeo · Location: Chennai, Tamil Nadu, India
-• Support optical design simulations and reports
-• Use raytracing and optical simulation software
-• Work on lens and light guide design projects</description>
-  </item>
-  <item>
-    <title>Interim Engineering Intern_Systems- 2027 — Qualcomm</title>
-    <link>https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/qualcomm-interim-engineering-intern-systems-2027-4452382901</guid>
-    <pubDate>Wed, 12 Aug 2026 14:04:50 GMT</pubDate>
-    <description>Company: Qualcomm · Location: Greater Hyderabad Area
-• Design and validate modem baseband algorithms for 3G/4G/5G systems
-• Work with C/C++/MATLAB and UNIX/Linux platforms
-• Contribute to Qualcomm&#39;s IP and air interface standards</description>
   </item>
 </channel>
 </rss>
