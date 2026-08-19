@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787123495557,
- "count": 129,
- "techCount": 129,
+ "generatedAt": 1787125287021,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -5229,41 +5229,6 @@
    "firstSeenAt": 1785929453503,
    "url": "https://www.linkedin.com/jobs/view/4447396386/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4447396386/",
-   "description": null
-  },
-  {
-   "id": "4447378221",
-   "title": "Graduate Trainee Engineer",
-   "company": "Siemens",
-   "matchedWatchlist": "Siemens",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/siemens.jpg",
-   "location": "Pune Division, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "We empower our people to stay resilient and relevant in a constantly changing world. We’re looking for people who are always searching for creative ways to grow and learn. People who want to make a real impact, now and in the future. BE/ BTech with 6 months of experience",
-   "bullets": [
-    "Assist senior engineers with project tasks and input reviews",
-    "Prepare engineering deliverables, estimates, and basic components",
-    "Track work hours and perform initial quality checks on assigned work"
-   ],
-   "roleLabel": "Engineering process support",
-   "degreeLevel": "UG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "microsoft office"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "11 minutes ago",
-   "postedAt": 1785914531263,
-   "firstSeenAt": 1785915191265,
-   "url": "https://www.linkedin.com/jobs/view/4447378221/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447378221/",
    "description": null
   },
   {
