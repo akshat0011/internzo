@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787132571997,
- "count": 129,
- "techCount": 129,
+ "generatedAt": 1787134339088,
+ "count": 130,
+ "techCount": 130,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -69,6 +69,7 @@
   "Quantiphi",
   "Quest Global",
   "Resollect",
+  "Roche",
   "Russell Investments",
   "S&P Global",
   "Sanas",
@@ -131,6 +132,47 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4456177737",
+   "title": "Intern",
+   "company": "Roche",
+   "matchedWatchlist": "Roche",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/roche.jpg",
+   "location": "Chennai, Tamil Nadu, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "0-1 years",
+   "applicants": "25 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "excel"
+   ],
+   "summary": "This internship involves analyzing data and building reports for Roche's global business teams. You'll use Python, SQL, and Excel to solve real-world problems. Ideal for students with strong quantitative skills and interest in analytics and technology.",
+   "bullets": [
+    "Analyze data and build reports for business teams",
+    "Use python sql and excel to solve real problems",
+    "Work with global stakeholders in analytics and tech"
+   ],
+   "roleLabel": "Data Analysis",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech/B.E.",
+   "keySkills": [
+    "python",
+    "sql",
+    "excel"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "16 minutes ago",
+   "postedAt": 1787133228687,
+   "firstSeenAt": 1787134188694,
+   "url": "https://www.linkedin.com/jobs/view/4456177737/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456177737/",
+   "description": null
+  },
   {
    "id": "4453427249",
    "title": "Software Engineering Intern (Full Stack)",

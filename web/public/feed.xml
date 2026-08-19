@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 09:42:52 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 10:12:19 GMT</lastBuildDate>
+  <item>
+    <title>Intern — Roche</title>
+    <link>https://www.internzo.in/jobs/roche-intern-4456177737</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/roche-intern-4456177737</guid>
+    <pubDate>Wed, 19 Aug 2026 09:53:48 GMT</pubDate>
+    <description>Company: Roche · Location: Chennai, Tamil Nadu, India · Duration: 0-1 years
+• Analyze data and build reports for business teams
+• Use python sql and excel to solve real problems
+• Work with global stakeholders in analytics and tech</description>
+  </item>
   <item>
     <title>Software Engineering Intern (Full Stack) — Joveo</title>
     <link>https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4453427249</link>
@@ -501,17 +511,6 @@
 • Collaborate with engineers and product managers to shape AI-driven solutions
 • Conduct market research and track product metrics for AI adoption
 • Work with global teams across time zones in a professional corporate environment</description>
-  </item>
-  <item>
-    <title>GenAI Trainee — Larsen &amp; Toubro</title>
-    <link>https://www.internzo.in/jobs/larsen-and-toubro-genai-trainee-4453683160</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/larsen-and-toubro-genai-trainee-4453683160</guid>
-    <pubDate>Thu, 13 Aug 2026 07:12:31 GMT</pubDate>
-    <description>Company: Larsen &amp; Toubro · Location: Kurla, Maharashtra, India
-• Work on ml models, data preprocessing, and model evaluation
-• Develop chatbots, ai apps, and integrate with enterprise systems
-• Use tensorflow, pytorch, opencv, and yolov for vision projects
-• Collaborate with engineers and stakeholders in agile teams</description>
   </item>
 </channel>
 </rss>

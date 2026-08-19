@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/roche-intern-4456177737",
+      "url": "https://www.internzo.in/jobs/roche-intern-4456177737",
+      "title": "Intern — Roche",
+      "content_text": "Company: Roche · Location: Chennai, Tamil Nadu, India · Duration: 0-1 years\n• Analyze data and build reports for business teams\n• Use python sql and excel to solve real problems\n• Work with global stakeholders in analytics and tech",
+      "date_published": "2026-08-19T09:53:48.687Z",
+      "authors": [
+        {
+          "name": "Roche"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4453427249",
       "url": "https://www.internzo.in/jobs/joveo-software-engineering-intern-full-stack-4453427249",
       "title": "Software Engineering Intern (Full Stack) — Joveo",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Russell Investments"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/larsen-and-toubro-genai-trainee-4453683160",
-      "url": "https://www.internzo.in/jobs/larsen-and-toubro-genai-trainee-4453683160",
-      "title": "GenAI Trainee — Larsen & Toubro",
-      "content_text": "Company: Larsen & Toubro · Location: Kurla, Maharashtra, India\n• Work on ml models, data preprocessing, and model evaluation\n• Develop chatbots, ai apps, and integrate with enterprise systems\n• Use tensorflow, pytorch, opencv, and yolov for vision projects\n• Collaborate with engineers and stakeholders in agile teams",
-      "date_published": "2026-08-13T07:12:31.239Z",
-      "authors": [
-        {
-          "name": "Larsen & Toubro"
         }
       ]
     }
