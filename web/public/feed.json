@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/pearson-apprentice-quality-assurance-engineer-4455459292",
+      "url": "https://www.internzo.in/jobs/pearson-apprentice-quality-assurance-engineer-4455459292",
+      "title": "Apprentice, Quality Assurance Engineer — Pearson",
+      "content_text": "Company: Pearson · Location: India\n• Execute manual and automated tests for software features\n• Use selenium or playwright for test automation\n• Report and resolve defects with qa and dev teams",
+      "date_published": "2026-08-19T20:01:11.807Z",
+      "authors": [
+        {
+          "name": "Pearson"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030",
       "url": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030",
       "title": "Intern - SQA — Silicon Labs",
@@ -587,18 +599,6 @@
       "title": "Intern - C++ Linux — HARMAN India",
       "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 0 to 1 years\n• Develop and maintain IPC middleware for Linux systems\n• Use C++ for high-performance and scalable code\n• Work with cross-functional teams on real-time systems",
       "date_published": "2026-08-13T16:53:02.930Z",
-      "authors": [
-        {
-          "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/harman-india-intern-4450819463",
-      "url": "https://www.internzo.in/jobs/harman-india-intern-4450819463",
-      "title": "Intern — HARMAN India",
-      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Write test cases for microcontroller hardware using Python and scripting\n• Use AI tools for coding, debugging, and documentation in software development\n• Collaborate with engineers on test frameworks and automation for automotive systems",
-      "date_published": "2026-08-13T16:52:22.691Z",
       "authors": [
         {
           "name": "HARMAN India"

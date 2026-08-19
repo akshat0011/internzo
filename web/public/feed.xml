@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 19:44:15 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 20:13:49 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice, Quality Assurance Engineer — Pearson</title>
+    <link>https://www.internzo.in/jobs/pearson-apprentice-quality-assurance-engineer-4455459292</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/pearson-apprentice-quality-assurance-engineer-4455459292</guid>
+    <pubDate>Wed, 19 Aug 2026 20:01:11 GMT</pubDate>
+    <description>Company: Pearson · Location: India
+• Execute manual and automated tests for software features
+• Use selenium or playwright for test automation
+• Report and resolve defects with qa and dev teams</description>
+  </item>
   <item>
     <title>Intern - SQA — Silicon Labs</title>
     <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030</link>
@@ -496,16 +506,6 @@
 • Develop and maintain IPC middleware for Linux systems
 • Use C++ for high-performance and scalable code
 • Work with cross-functional teams on real-time systems</description>
-  </item>
-  <item>
-    <title>Intern — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-intern-4450819463</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-intern-4450819463</guid>
-    <pubDate>Thu, 13 Aug 2026 16:52:22 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
-• Write test cases for microcontroller hardware using Python and scripting
-• Use AI tools for coding, debugging, and documentation in software development
-• Collaborate with engineers on test frameworks and automation for automotive systems</description>
   </item>
 </channel>
 </rss>
