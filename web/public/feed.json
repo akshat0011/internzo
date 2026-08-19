@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453484371",
+      "url": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453484371",
+      "title": "Intern - SQA — Silicon Labs",
+      "content_text": "Company: Silicon Labs · Location: Hyderabad, Telangana, India\n• Test software and hardware for wireless connectivity products\n• Use python and automation tools for test scripts\n• Work with cross-functional teams on embedded systems",
+      "date_published": "2026-08-19T22:12:52.155Z",
+      "authors": [
+        {
+          "name": "Silicon Labs"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/pearson-apprentice-quality-assurance-engineer-4455459292",
       "url": "https://www.internzo.in/jobs/pearson-apprentice-quality-assurance-engineer-4455459292",
       "title": "Apprentice, Quality Assurance Engineer — Pearson",
@@ -14,18 +26,6 @@
       "authors": [
         {
           "name": "Pearson"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030",
-      "url": "https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030",
-      "title": "Intern - SQA — Silicon Labs",
-      "content_text": "Company: Silicon Labs · Location: Hyderabad, Telangana, India\n• Test software and hardware for wireless connectivity products\n• Use python and automation tools for test scripts\n• Work with cross-functional teams on embedded systems",
-      "date_published": "2026-08-19T15:48:56.545Z",
-      "authors": [
-        {
-          "name": "Silicon Labs"
         }
       ]
     },

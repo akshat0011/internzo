@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 22:43:22 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 23:13:23 GMT</lastBuildDate>
+  <item>
+    <title>Intern - SQA — Silicon Labs</title>
+    <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453484371</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453484371</guid>
+    <pubDate>Wed, 19 Aug 2026 22:12:52 GMT</pubDate>
+    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
+• Test software and hardware for wireless connectivity products
+• Use python and automation tools for test scripts
+• Work with cross-functional teams on embedded systems</description>
+  </item>
   <item>
     <title>Apprentice, Quality Assurance Engineer — Pearson</title>
     <link>https://www.internzo.in/jobs/pearson-apprentice-quality-assurance-engineer-4455459292</link>
@@ -16,16 +26,6 @@
 • Execute manual and automated tests for software features
 • Use selenium or playwright for test automation
 • Report and resolve defects with qa and dev teams</description>
-  </item>
-  <item>
-    <title>Intern - SQA — Silicon Labs</title>
-    <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453473030</guid>
-    <pubDate>Wed, 19 Aug 2026 15:48:56 GMT</pubDate>
-    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
-• Test software and hardware for wireless connectivity products
-• Use python and automation tools for test scripts
-• Work with cross-functional teams on embedded systems</description>
   </item>
   <item>
     <title>Intern - SW Design — Silicon Labs</title>
