@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787108971388,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1787110837990,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -104,6 +104,7 @@
   "Chennai",
   "Chennai, Tamil Nadu, India",
   "Delhi, Delhi, India",
+  "Delhi, India",
   "Goregaon, Maharashtra, India",
   "Greater Bengaluru Area",
   "Greater Hyderabad Area",
@@ -223,6 +224,49 @@
    "firstSeenAt": 1787107309616,
    "url": "https://www.linkedin.com/jobs/view/4455994101/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4455994101/",
+   "description": null
+  },
+  {
+   "id": "4455997063",
+   "title": "Flutter Development Internship in Gurgaon, Delhi",
+   "company": "ARGMAC",
+   "matchedWatchlist": "ARGMAC",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/argmac.jpg",
+   "location": "Delhi, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "javascript",
+    "react",
+    "rest api"
+   ],
+   "summary": "This internship involves improving a shopify store's performance and user experience. The intern will work on site speed, schema markup, and tracking scripts. It's ideal for someone interested in web development and e-commerce optimization.",
+   "bullets": [
+    "Fix broken pages, redirect errors, and site speed issues",
+    "Implement schema markup on product and collection pages",
+    "Assist with tracking scripts for analytics and pixel tracking"
+   ],
+   "roleLabel": "Shopify Development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "flutter",
+    "html",
+    "css",
+    "javascript",
+    "rest api"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "3 hours ago",
+   "postedAt": 1787100018265,
+   "firstSeenAt": 1787110818271,
+   "url": "https://www.linkedin.com/jobs/view/4455997063/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455997063/",
    "description": null
   },
   {
