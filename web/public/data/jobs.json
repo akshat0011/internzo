@@ -1,5 +1,5 @@
 {
- "generatedAt": 1787150711154,
+ "generatedAt": 1787152508365,
  "count": 128,
  "techCount": 128,
  "otherCount": 0,
@@ -22,6 +22,7 @@
   "Copeland",
   "D Square Consulting Services Pvt Ltd",
   "DeHaat",
+  "Dentsu Creative",
   "Dun & Bradstreet",
   "Emeritus",
   "Emerson",
@@ -208,6 +209,44 @@
    "firstSeenAt": 1787148762221,
    "url": "https://www.linkedin.com/jobs/view/4456323114/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4456323114/",
+   "description": null
+  },
+  {
+   "id": "4454993775",
+   "title": "Graduate Trainee - Video Editor & Motion Graphics",
+   "company": "Dentsu Creative",
+   "matchedWatchlist": "dentsu",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/dentsu-creative.jpg",
+   "location": "Mumbai, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "1 applicant",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship offers hands-on experience in video editing and motion graphics, working on real brand campaigns. Ideal for students with a background in animation or design, you'll learn from industry pros and contribute to creative projects. The role requires Adobe skills and a portfolio, with a clear path to a full-time position.",
+   "bullets": [
+    "Edit social media videos using Adobe Premiere Pro",
+    "Create motion graphics and text animations in After Effects",
+    "Work on live brand campaigns with creative teams"
+   ],
+   "roleLabel": "Video Editor",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "adobe premiere pro",
+    "after effects",
+    "motion graphics",
+    "video editing"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "2 hours ago",
+   "postedAt": 1787145267886,
+   "firstSeenAt": 1787152467894,
+   "url": "https://www.linkedin.com/jobs/view/4454993775/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454993775/",
    "description": null
   },
   {
@@ -5531,48 +5570,6 @@
    "firstSeenAt": 1785998179846,
    "url": "https://www.linkedin.com/jobs/view/4445878655/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4445878655/",
-   "description": null
-  },
-  {
-   "id": "4447602250",
-   "title": "Intern- AI Engineer",
-   "company": "upGrad International",
-   "matchedWatchlist": "upGrad",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/upgrad-international.jpg",
-   "location": "Mumbai, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": "30,000 / month",
-   "duration": "3-6 months",
-   "applicants": "Over 100 applicants",
-   "easyApply": true,
-   "skills": [
-    "python",
-    "llm",
-    "rag"
-   ],
-   "summary": "Job Location -Mumbai Qualification -B.Tech/M.tech/MCA [Pursuing or recently graduated] Stipend-30,000 per month As an AI Engineering Intern, you will work directly on LLM-powered products — from prototyping intelligent solutions to improving overall learning experiences.",
-   "bullets": [
-    "Build LLM features, RAG pipelines, and AI agents for learning products",
-    "Develop prototypes for personalization and content generation",
-    "3-6 month role paying ₹30,000 per month"
-   ],
-   "roleLabel": "AI engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.Tech/M.Tech",
-   "keySkills": [
-    "python",
-    "llms",
-    "langchain",
-    "rag"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "3 days ago",
-   "postedAt": 1785683247370,
-   "firstSeenAt": 1785942447377,
-   "url": "https://www.linkedin.com/jobs/view/4447602250/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447602250/",
    "description": null
   }
  ]

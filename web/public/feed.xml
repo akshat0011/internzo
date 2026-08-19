@@ -6,7 +6,7 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 14:45:11 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 15:15:08 GMT</lastBuildDate>
   <item>
     <title>Intern, SDET — Icertis</title>
     <link>https://www.internzo.in/jobs/icertis-intern-sdet-4456322346</link>
@@ -28,6 +28,16 @@
 • Support malware remediation and security monitoring tools
 • Collaborate with IT and security teams on breach response
 • Work with AWS and cloud security frameworks</description>
+  </item>
+  <item>
+    <title>Graduate Trainee - Video Editor &amp; Motion Graphics — Dentsu Creative</title>
+    <link>https://www.internzo.in/jobs/dentsu-creative-graduate-trainee-video-editor-and-motion-graphics-4454993775</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/dentsu-creative-graduate-trainee-video-editor-and-motion-graphics-4454993775</guid>
+    <pubDate>Wed, 19 Aug 2026 13:14:27 GMT</pubDate>
+    <description>Company: Dentsu Creative · Location: Mumbai, Maharashtra, India
+• Edit social media videos using Adobe Premiere Pro
+• Create motion graphics and text animations in After Effects
+• Work on live brand campaigns with creative teams</description>
   </item>
   <item>
     <title>Young Graduate Trainee — Infineon Technologies</title>
@@ -497,16 +507,6 @@
 • Build prospect lists and track campaigns
 • Create emails and follow up with leads
 • Learn b2b saas sales and ai tools</description>
-  </item>
-  <item>
-    <title>Intern Bios Programming — GSK</title>
-    <link>https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/gsk-intern-bios-programming-4450815101</guid>
-    <pubDate>Thu, 13 Aug 2026 14:45:55 GMT</pubDate>
-    <description>Company: GSK · Location: Bengaluru, Karnataka, India
-• Writes code based on specifications under supervision
-• Uses programming languages and follows technical documentation
-• Communicates progress and issues to manager regularly</description>
   </item>
 </channel>
 </rss>
