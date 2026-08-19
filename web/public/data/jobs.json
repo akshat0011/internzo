@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787137919792,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1787139563343,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -9,7 +9,6 @@
   "Adobe",
   "Airmeet",
   "American Express",
-  "Analog Devices",
   "AtkinsRéalis",
   "Bristlecone",
   "Bugsmirror",
@@ -5348,47 +5347,6 @@
    "firstSeenAt": 1785938283490,
    "url": "https://www.linkedin.com/jobs/view/4449119257/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4449119257/",
-   "description": null
-  },
-  {
-   "id": "4447396386",
-   "title": "Digital IC Physical Verification and Design – Engineer Trainee",
-   "company": "Analog Devices",
-   "matchedWatchlist": "Analog Devices",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/analog-devices.jpg",
-   "location": "Greater Bengaluru Area",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "1 year",
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python"
-   ],
-   "summary": "Are you a problem solver looking for a hands-on internship position with a market-leading company that will help develop your career and reward you intellectually and professionally? At ADI, you will learn from the brightest minds who are here to help you grow and succeed. During your internship, you will make an impact through work on meaningful projects alongside a team of experts. To automate various tasks in the day-to-day job, skill in scripting/automation languages like Python/C etc. will be an added advantage.",
-   "bullets": [
-    "Perform chip floor-planning, DRC, LVS, ERC, and power integrity analysis",
-    "Develop automation scripts in Python or C to streamline design workflows",
-    "1-year chip design trainee role based in Bangalore or Hyderabad"
-   ],
-   "roleLabel": "Semiconductor design",
-   "degreeLevel": "UG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "python",
-    "c",
-    "drc",
-    "lvs",
-    "cad"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "20 minutes ago",
-   "postedAt": 1785928253495,
-   "firstSeenAt": 1785929453503,
-   "url": "https://www.linkedin.com/jobs/view/4447396386/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4447396386/",
    "description": null
   },
   {
