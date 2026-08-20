@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787226434106,
- "count": 127,
- "techCount": 127,
+ "generatedAt": 1787228163112,
+ "count": 129,
+ "techCount": 129,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -129,6 +129,104 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4456700881",
+   "title": "Software Engineer - Apprentice",
+   "company": "State Street",
+   "matchedWatchlist": "State Street",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/state-street.jpg",
+   "location": "Hyderabad, Telangana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "java",
+    "sql",
+    "spring boot",
+    "aws",
+    "git",
+    "data structures",
+    "algorithms",
+    "oop",
+    "agile"
+   ],
+   "summary": "This internship involves supporting Java application development, database optimization, and cloud deployment projects. Ideal for students with a strong foundation in Java and SQL, working alongside experienced developers in a collaborative environment.",
+   "bullets": [
+    "Support development and maintenance of Java applications",
+    "Work with databases and optimize SQL queries",
+    "Collaborate on cloud deployments using AWS",
+    "Team of senior developers and business stakeholders"
+   ],
+   "roleLabel": "Java Application Development",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "java",
+    "sql",
+    "aws",
+    "git"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "29 minutes ago",
+   "postedAt": 1787226250082,
+   "firstSeenAt": 1787227990087,
+   "url": "https://www.linkedin.com/jobs/view/4456700881/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456700881/",
+   "description": null
+  },
+  {
+   "id": "4456493859",
+   "title": "Software Engineer - Apprentice",
+   "company": "State Street",
+   "matchedWatchlist": "State Street",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/state-street.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "java",
+    "sql",
+    "spring boot",
+    "aws",
+    "git",
+    "data structures",
+    "algorithms",
+    "oop",
+    "agile"
+   ],
+   "summary": "This internship involves supporting Java application development, database optimization, and cloud deployment. Ideal for students with a strong foundation in Java and SQL, interested in enterprise software and financial systems.",
+   "bullets": [
+    "Support development and maintenance of Java applications",
+    "Work with databases and SQL for data models and queries",
+    "Collaborate on cloud deployments using AWS",
+    "Team of senior developers and business stakeholders"
+   ],
+   "roleLabel": "Java Application Development",
+   "degreeLevel": "UG",
+   "degreeText": null,
+   "keySkills": [
+    "java",
+    "sql",
+    "aws",
+    "git"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "30 minutes ago",
+   "postedAt": 1787226211533,
+   "firstSeenAt": 1787228011535,
+   "url": "https://www.linkedin.com/jobs/view/4456493859/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456493859/",
+   "description": null
+  },
   {
    "id": "4456494909",
    "title": "Intern",

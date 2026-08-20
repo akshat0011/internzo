@@ -6,7 +6,29 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 20 Aug 2026 11:47:14 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 12:16:03 GMT</lastBuildDate>
+  <item>
+    <title>Software Engineer - Apprentice — State Street</title>
+    <link>https://www.internzo.in/jobs/state-street-software-engineer-apprentice-4456700881</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/state-street-software-engineer-apprentice-4456700881</guid>
+    <pubDate>Thu, 20 Aug 2026 11:44:10 GMT</pubDate>
+    <description>Company: State Street · Location: Hyderabad, Telangana, India
+• Support development and maintenance of Java applications
+• Work with databases and optimize SQL queries
+• Collaborate on cloud deployments using AWS
+• Team of senior developers and business stakeholders</description>
+  </item>
+  <item>
+    <title>Software Engineer - Apprentice — State Street</title>
+    <link>https://www.internzo.in/jobs/state-street-software-engineer-apprentice-4456493859</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/state-street-software-engineer-apprentice-4456493859</guid>
+    <pubDate>Thu, 20 Aug 2026 11:43:31 GMT</pubDate>
+    <description>Company: State Street · Location: Bengaluru, Karnataka, India
+• Support development and maintenance of Java applications
+• Work with databases and SQL for data models and queries
+• Collaborate on cloud deployments using AWS
+• Team of senior developers and business stakeholders</description>
+  </item>
   <item>
     <title>Intern — GE Vernova</title>
     <link>https://www.internzo.in/jobs/ge-vernova-intern-4456494909</link>
@@ -491,26 +513,6 @@
 • Build scalable backend systems for healthcare apps
 • Work with postgres/mysql and django rest framework
 • Contribute to aws deployments and ci/cd pipelines</description>
-  </item>
-  <item>
-    <title>Apprentice - CAD Engineer — Oceaneering</title>
-    <link>https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/oceaneering-apprentice-cad-engineer-4444960031</guid>
-    <pubDate>Fri, 14 Aug 2026 13:10:36 GMT</pubDate>
-    <description>Company: Oceaneering · Location: Pune Division, Maharashtra, India
-• Create 3d cad data and detailed drawings for technical projects
-• Use solidworks for modeling, assembly, and weldment design
-• Work on hydraulic and electrical schematics under minimal supervision</description>
-  </item>
-  <item>
-    <title>Software Development Engineer in Test Apprentice — HighLevel</title>
-    <link>https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/highlevel-software-development-engineer-in-test-apprentice-4454532147</guid>
-    <pubDate>Fri, 14 Aug 2026 11:40:25 GMT</pubDate>
-    <description>Company: HighLevel · Location: India · Duration: 12 months
-• Write tests for features, APIs, and workflows before deployment
-• Use Python, Java, or JavaScript for automation and API testing
-• Work with experienced engineers on scalable systems and tools</description>
   </item>
 </channel>
 </rss>
