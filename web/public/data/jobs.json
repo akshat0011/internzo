@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787230042886,
- "count": 129,
- "techCount": 129,
+ "generatedAt": 1787231806802,
+ "count": 130,
+ "techCount": 130,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -83,6 +83,7 @@
   "TeamLease Regtech Pvt. Ltd.",
   "Teli Labs",
   "Times Internet",
+  "Tower Research Capital",
   "Valeo",
   "WeWork India",
   "West Pharmaceutical Services",
@@ -126,9 +127,59 @@
   "Pune Division, Maharashtra, India",
   "Pune Maharashtra India",
   "Pune, India",
-  "Thane, Maharashtra, India"
+  "Thane, Maharashtra, India",
+  "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "ats:greenhouse:towerresearchcapital:8143756",
+   "title": "Intern - AI/ML",
+   "company": "Tower Research Capital",
+   "matchedWatchlist": "Tower Research Capital",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": null,
+   "location": "gurgaon",
+   "workplaceType": null,
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "linux",
+    "git",
+    "machine learning",
+    "pytorch",
+    "tensorflow",
+    "algorithms"
+   ],
+   "summary": "This internship involves building multi-agent systems and ML models for trading, using tools like Claude Code and frameworks like PyTorch. Ideal for students with experience in agentic AI and ML, working in a global, collaborative environment focused on financial technology.",
+   "bullets": [
+    "Build and evaluate multi-agent systems with MCP and agent skills",
+    "Implement agentic coding tools like Claude Code for automation",
+    "Develop ML models for trading and deploy with MLOps practices",
+    "Work in a global team on high-impact financial technology"
+   ],
+   "roleLabel": "AI System Development",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "tensorflow",
+    "pytorch",
+    "git",
+    "linux"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": null,
+   "postedAt": 1787230662000,
+   "firstSeenAt": 1787231465482,
+   "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756",
+   "applyUrl": "https://www.tower-research.com/open-positions/?gh_jid=8143756",
+   "description": null
+  },
   {
    "id": "4456700881",
    "title": "Software Engineer - Apprentice",

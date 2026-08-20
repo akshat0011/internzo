@@ -6,7 +6,18 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 20 Aug 2026 12:47:23 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 13:16:46 GMT</lastBuildDate>
+  <item>
+    <title>Intern - AI/ML — Tower Research Capital</title>
+    <link>https://www.internzo.in/jobs/tower-research-capital-intern-ai-ml-ats-greenhouse-towerresearchcapital-8143756</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/tower-research-capital-intern-ai-ml-ats-greenhouse-towerresearchcapital-8143756</guid>
+    <pubDate>Thu, 20 Aug 2026 12:57:42 GMT</pubDate>
+    <description>Company: Tower Research Capital · Location: gurgaon
+• Build and evaluate multi-agent systems with MCP and agent skills
+• Implement agentic coding tools like Claude Code for automation
+• Develop ML models for trading and deploy with MLOps practices
+• Work in a global team on high-impact financial technology</description>
+  </item>
   <item>
     <title>Software Engineer - Apprentice — State Street</title>
     <link>https://www.internzo.in/jobs/state-street-software-engineer-apprentice-4456700881</link>
@@ -503,16 +514,6 @@
 • Write production code that impacts Stripe&#39;s core systems
 • Work with Java, Ruby, JavaScript, Scala, and Go
 • Ship real projects with feedback from experienced engineers</description>
-  </item>
-  <item>
-    <title>Back End Developer - Intern — Janitri</title>
-    <link>https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923</guid>
-    <pubDate>Fri, 14 Aug 2026 13:26:12 GMT</pubDate>
-    <description>Company: Janitri · Location: Bengaluru, Karnataka, India · Duration: 6 months
-• Build scalable backend systems for healthcare apps
-• Work with postgres/mysql and django rest framework
-• Contribute to aws deployments and ci/cd pipelines</description>
   </item>
 </channel>
 </rss>

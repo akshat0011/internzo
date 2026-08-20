@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/tower-research-capital-intern-ai-ml-ats-greenhouse-towerresearchcapital-8143756",
+      "url": "https://www.internzo.in/jobs/tower-research-capital-intern-ai-ml-ats-greenhouse-towerresearchcapital-8143756",
+      "title": "Intern - AI/ML — Tower Research Capital",
+      "content_text": "Company: Tower Research Capital · Location: gurgaon\n• Build and evaluate multi-agent systems with MCP and agent skills\n• Implement agentic coding tools like Claude Code for automation\n• Develop ML models for trading and deploy with MLOps practices\n• Work in a global team on high-impact financial technology",
+      "date_published": "2026-08-20T12:57:42.000Z",
+      "authors": [
+        {
+          "name": "Tower Research Capital"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/state-street-software-engineer-apprentice-4456700881",
       "url": "https://www.internzo.in/jobs/state-street-software-engineer-apprentice-4456700881",
       "title": "Software Engineer - Apprentice — State Street",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Stripe"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
-      "url": "https://www.internzo.in/jobs/janitri-back-end-developer-intern-4453570923",
-      "title": "Back End Developer - Intern — Janitri",
-      "content_text": "Company: Janitri · Location: Bengaluru, Karnataka, India · Duration: 6 months\n• Build scalable backend systems for healthcare apps\n• Work with postgres/mysql and django rest framework\n• Contribute to aws deployments and ci/cd pipelines",
-      "date_published": "2026-08-14T13:26:12.412Z",
-      "authors": [
-        {
-          "name": "Janitri"
         }
       ]
     }
