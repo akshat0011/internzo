@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 20 Aug 2026 18:14:08 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 18:45:04 GMT</lastBuildDate>
+  <item>
+    <title>Intern — Micron Technology</title>
+    <link>https://www.internzo.in/jobs/micron-technology-intern-4456037085</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/micron-technology-intern-4456037085</guid>
+    <pubDate>Thu, 20 Aug 2026 18:26:23 GMT</pubDate>
+    <description>Company: Micron Technology · Location: Bengaluru, Karnataka, India
+• Work on semiconductor design, data science, and AI solutions
+• Tools include advanced engineering and manufacturing systems
+• Based in bengaluru with opportunities for AI and digital skills development</description>
+  </item>
+  <item>
+    <title>Apprentice — American Express</title>
+    <link>https://www.internzo.in/jobs/american-express-apprentice-4456010848</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/american-express-apprentice-4456010848</guid>
+    <pubDate>Thu, 20 Aug 2026 17:42:47 GMT</pubDate>
+    <description>Company: American Express · Location: Gurugram, Haryana, India
+• Develop products and capabilities to solve business needs with cross-functional teams
+• Use analytics and emerging tech to create data-driven solutions for customer targeting
+• Collaborate on product design, testing, and documentation for efficient operations</description>
+  </item>
   <item>
     <title>Intern - HW — Silicon Labs</title>
     <link>https://www.internzo.in/jobs/silicon-labs-intern-hw-4454105959</link>
@@ -494,26 +514,6 @@
 • Analyze data and build machine learning models
 • Use python, sql, and tools like tableau
 • Work with cross-functional teams on data projects</description>
-  </item>
-  <item>
-    <title>1 year Internship_SW_CDC — Qualcomm</title>
-    <link>https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/qualcomm-1-year-internship-sw-cdc-4376091071</guid>
-    <pubDate>Sat, 15 Aug 2026 11:25:09 GMT</pubDate>
-    <description>Company: Qualcomm · Location: Chennai, Tamil Nadu, India · Duration: 1 year
-• Develop real-time embedded software and device drivers
-• Work on Linux/UNIX, Linux drivers, and kernel development
-• Collaborate on multimedia technologies like audio and video codecs</description>
-  </item>
-  <item>
-    <title>Apprentice — American Express</title>
-    <link>https://www.internzo.in/jobs/american-express-apprentice-4453924046</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/american-express-apprentice-4453924046</guid>
-    <pubDate>Sat, 15 Aug 2026 11:17:19 GMT</pubDate>
-    <description>Company: American Express · Location: Gurugram, Haryana, India
-• Analyze customer data to find trends and insights
-• Use AI tools like ChatGPT and Microsoft Copilot
-• Support marketing and product teams with reports and dashboards</description>
   </item>
 </channel>
 </rss>
