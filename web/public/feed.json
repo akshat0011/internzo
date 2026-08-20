@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/ather-energy-ltd-engineering-apprentice-4453491995",
+      "url": "https://www.internzo.in/jobs/ather-energy-ltd-engineering-apprentice-4453491995",
+      "title": "Engineering Apprentice — Ather Energy Ltd.",
+      "content_text": "Company: Ather Energy Ltd. · Location: Hosur, Tamil Nadu, India\n• Support engineering teams with process setup and equipment monitoring\n• Analyze production data and prepare reports for continuous improvement\n• Collaborate on cross-functional projects with safety and quality focus",
+      "date_published": "2026-08-20T02:11:06.034Z",
+      "authors": [
+        {
+          "name": "Ather Energy Ltd."
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/appversal-golang-developer-internship-in-noida-4456424461",
       "url": "https://www.internzo.in/jobs/appversal-golang-developer-internship-in-noida-4456424461",
       "title": "Golang Developer Internship in Noida — AppVersal",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "HighLevel"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/emeritus-devops-intern-4454063282",
-      "url": "https://www.internzo.in/jobs/emeritus-devops-intern-4454063282",
-      "title": "DevOps Intern — Emeritus",
-      "content_text": "Company: Emeritus · Location: Mumbai Metropolitan Region\n• Set up and maintain ci/cd pipelines for automated software delivery\n• Monitor system performance and infrastructure health with observability tools\n• Manage cloud infrastructure and ensure high availability and uptime",
-      "date_published": "2026-08-13T17:04:04.984Z",
-      "authors": [
-        {
-          "name": "Emeritus"
         }
       ]
     }

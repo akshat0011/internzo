@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787192014846,
- "count": 127,
- "techCount": 127,
+ "generatedAt": 1787193845070,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -9,6 +9,7 @@
   "Airmeet",
   "American Express",
   "AppVersal",
+  "Ather Energy Ltd.",
   "AtkinsRéalis",
   "Bristlecone",
   "Bugsmirror",
@@ -110,6 +111,7 @@
   "Greater Hyderabad Area",
   "Gurgaon, Haryana, India",
   "Gurugram, Haryana, India",
+  "Hosur, Tamil Nadu, India",
   "Hyderabad, Telangana, India",
   "India",
   "India, Karnataka, Bangalore",
@@ -129,6 +131,39 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453491995",
+   "title": "Engineering Apprentice",
+   "company": "Ather Energy Ltd.",
+   "matchedWatchlist": "Ather Energy",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/ather-energy-ltd.jpg",
+   "location": "Hosur, Tamil Nadu, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "10 applicants",
+   "easyApply": false,
+   "skills": [],
+   "summary": "The Engineering Apprentice supports manufacturing and mechanical engineering teams by analyzing production data, preparing reports, and assisting with process improvements. Ideal for students with a background in mechanical or manufacturing engineering, this role offers hands-on experience in EV manufacturing and exposure to modern engineering tools.",
+   "bullets": [
+    "Support engineering teams with process setup and equipment monitoring",
+    "Analyze production data and prepare reports for continuous improvement",
+    "Collaborate on cross-functional projects with safety and quality focus"
+   ],
+   "roleLabel": "Engineering Support",
+   "degreeLevel": "UG",
+   "degreeText": "Mechanical/Manufacturing",
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "32 minutes ago",
+   "postedAt": 1787191866034,
+   "firstSeenAt": 1787193786041,
+   "url": "https://www.linkedin.com/jobs/view/4453491995/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453491995/",
+   "description": null
+  },
   {
    "id": "4456424461",
    "title": "Golang Developer Internship in Noida",
