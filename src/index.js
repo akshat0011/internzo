@@ -385,6 +385,7 @@ async function main() {
   // EXIT_RETRY_SOON block at the end of the run.
   let sawNetworkFailure = false;
   let sawBlocked = false;
+  let braveLaunchFailed = false;
   let searchesDone = 0;
   let searchStart = 0;
 
@@ -822,6 +823,13 @@ async function main() {
     } else {
       status = 'error';
       fatalError = err.message;
+      // Brave failing to start is a LOCAL fault — a leftover process holding the
+      // tool profile, almost always left by the run before it. Nothing reached
+      // LinkedIn, launchBrave has already cleared the profile on its way out,
+      // and the next attempt usually succeeds immediately. Waiting out the full
+      // interval throws away a slot for a condition that fixed itself seconds
+      // ago, so this joins the network case in asking for a fast retry.
+      if (/would not launch/i.test(err.message)) braveLaunchFailed = true;
       log.error(`Run failed: ${err.stack ?? err.message}`);
       notes.push(`The run failed: ${err.message}`);
       if (cfg.notifications.onError) {
@@ -1100,11 +1108,15 @@ async function main() {
   // was network-level, and NEVER when LinkedIn answered with a rate limit —
   // retrying into a 429 is how a session gets restricted.
   const EXIT_RETRY_SOON = 75;
-  const retrySoon = !DRY_RUN && counters.pagesScanned === 0 && sawNetworkFailure && !sawBlocked;
+  const retrySoon = !DRY_RUN && counters.pagesScanned === 0
+    && (sawNetworkFailure || braveLaunchFailed) && !sawBlocked;
   if (retrySoon) {
     log.warn('This run reached no page because the network was down — asking the scheduler to retry shortly rather than wait out the interval.');
   }
-  process.exitCode = status === 'error' ? 1 : retrySoon ? EXIT_RETRY_SOON : 0;
+  // retrySoon is checked FIRST. A Brave launch failure sets status='error', and
+  // testing that first would return 1 and put the scheduler back to sleep for
+  // the full interval — which is the exact slot this is meant to save.
+  process.exitCode = retrySoon ? EXIT_RETRY_SOON : status === 'error' ? 1 : 0;
 }
 
 // Make sure an unexpected crash still leaves a trace in the log file.
