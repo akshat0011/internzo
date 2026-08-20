@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/ge-vernova-intern-4456494909",
+      "url": "https://www.internzo.in/jobs/ge-vernova-intern-4456494909",
+      "title": "Intern — GE Vernova",
+      "content_text": "Company: GE Vernova · Location: Bengaluru, Karnataka, India\n• Design and develop research experiments in time series analysis and deep learning\n• Implement ai/ml algorithms in python with torch or tensorflow\n• Analyze results and derive insights for model refinement\n• Collaborate with researchers on cutting-edge ai projects",
+      "date_published": "2026-08-20T11:36:14.503Z",
+      "authors": [
+        {
+          "name": "GE Vernova"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/biocon-ai-and-digital-excellence-intern-4455648616",
+      "url": "https://www.internzo.in/jobs/biocon-ai-and-digital-excellence-intern-4455648616",
+      "title": "AI & Digital Excellence Intern — Biocon",
+      "content_text": "Company: Biocon · Location: Bengaluru, Karnataka, India\n• Support digital strategy and ai projects by analyzing data and creating dashboards\n• Collaborate with cross-functional teams on digital marketing and transformation initiatives\n• Prepare reports, track project milestones, and maintain clear documentation",
+      "date_published": "2026-08-20T11:25:35.397Z",
+      "authors": [
+        {
+          "name": "Biocon"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/dehaat-data-analyst-data-engineer-intern-4455603847",
       "url": "https://www.internzo.in/jobs/dehaat-data-analyst-data-engineer-intern-4455603847",
       "title": "Data Analyst/Data Engineer Intern — DeHaat",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "HighLevel"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121",
-      "url": "https://www.internzo.in/jobs/quest-global-g-trainee-engineer-4453566121",
-      "title": "G - Trainee engineer — Quest Global",
-      "content_text": "Company: Quest Global · Location: Bengaluru, Karnataka, India\n• Develop and implement ar-vr applications\n• Work with unity or unreal engine\n• Collaborate on innovative solutions",
-      "date_published": "2026-08-14T11:02:57.550Z",
-      "authors": [
-        {
-          "name": "Quest Global"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/emerson-intern-technology-4454391895",
-      "url": "https://www.internzo.in/jobs/emerson-intern-technology-4454391895",
-      "title": "Intern-Technology — Emerson",
-      "content_text": "Company: Emerson · Location: Noida, Uttar Pradesh, India\n• Test and maintain DCS and SCADA systems\n• Use Python, C#, Java, and React for development\n• Work with product teams on virtualization and security",
-      "date_published": "2026-08-14T10:51:23.469Z",
-      "authors": [
-        {
-          "name": "Emerson"
         }
       ]
     }

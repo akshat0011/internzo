@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787224498005,
- "count": 125,
- "techCount": 125,
+ "generatedAt": 1787226434106,
+ "count": 127,
+ "techCount": 127,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -11,6 +11,7 @@
   "AppVersal",
   "Ather Energy Ltd.",
   "AtkinsRéalis",
+  "Biocon",
   "Bristlecone",
   "Bugsmirror",
   "Calix India",
@@ -31,6 +32,7 @@
   "Freight Tiger",
   "FynTune Solution Private Limited",
   "GE HealthCare",
+  "GE Vernova",
   "GSK",
   "GoKwik",
   "GreedyGame",
@@ -127,6 +129,99 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4456494909",
+   "title": "Intern",
+   "company": "GE Vernova",
+   "matchedWatchlist": "GE Vernova",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/ge-vernova.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "19 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "machine learning",
+    "deep learning",
+    "computer vision",
+    "pytorch",
+    "tensorflow",
+    "pandas",
+    "numpy",
+    "algorithms"
+   ],
+   "summary": "This internship involves working on ai research projects focused on time series analysis and deep learning. Interns will develop and evaluate machine learning models, conduct experiments, and contribute to research in ai and ml. Ideal for students with a master's or phd in computer science or related fields.",
+   "bullets": [
+    "Design and develop research experiments in time series analysis and deep learning",
+    "Implement ai/ml algorithms in python with torch or tensorflow",
+    "Analyze results and derive insights for model refinement",
+    "Collaborate with researchers on cutting-edge ai projects"
+   ],
+   "roleLabel": "AI Research",
+   "degreeLevel": "PG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "pytorch",
+    "tensorflow",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "opencv"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "7 minutes ago",
+   "postedAt": 1787225774503,
+   "firstSeenAt": 1787226194509,
+   "url": "https://www.linkedin.com/jobs/view/4456494909/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456494909/",
+   "description": null
+  },
+  {
+   "id": "4455648616",
+   "title": "AI & Digital Excellence Intern",
+   "company": "Biocon",
+   "matchedWatchlist": "Biocon",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/biocon.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "18 applicants",
+   "easyApply": false,
+   "skills": [
+    "power bi",
+    "excel"
+   ],
+   "summary": "This internship involves supporting digital and ai initiatives by analyzing data, creating dashboards, and contributing to digital transformation projects. Ideal for students with analytical skills and interest in digital strategy, with exposure to healthcare or pharma preferred.",
+   "bullets": [
+    "Support digital strategy and ai projects by analyzing data and creating dashboards",
+    "Collaborate with cross-functional teams on digital marketing and transformation initiatives",
+    "Prepare reports, track project milestones, and maintain clear documentation"
+   ],
+   "roleLabel": "Digital Strategy Support",
+   "degreeLevel": "UG/PG",
+   "degreeText": "Engineering/Data Science/Computer Science/Business",
+   "keySkills": [
+    "excel",
+    "power bi",
+    "data analysis",
+    "project management"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "18 minutes ago",
+   "postedAt": 1787225135397,
+   "firstSeenAt": 1787226215398,
+   "url": "https://www.linkedin.com/jobs/view/4455648616/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455648616/",
+   "description": null
+  },
   {
    "id": "4455603847",
    "title": "Data Analyst/Data Engineer Intern",
