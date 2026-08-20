@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787240730909,
- "count": 131,
- "techCount": 131,
+ "generatedAt": 1787242439895,
+ "count": 133,
+ "techCount": 133,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -132,6 +132,75 @@
   "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "4454105959",
+   "title": "Intern - HW",
+   "company": "Silicon Labs",
+   "matchedWatchlist": "Silicon Labs",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/silicon-labs.jpg",
+   "location": "Hyderabad, Telangana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "6 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves supporting the development of hardware modules for smart home devices. Interns will work with cadence tools and simulation software, collaborating with cross-functional teams on product integration. It is ideal for students with a strong interest in embedded systems and hardware design.",
+   "bullets": [
+    "Support development of hardware modules for smart home devices",
+    "Work with cadence tools and simulation software",
+    "Collaborate with cross-functional teams on product integration"
+   ],
+   "roleLabel": "Hardware Development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [],
+   "stipendStatus": "unknown",
+   "postedText": "23 minutes ago",
+   "postedAt": 1787240932969,
+   "firstSeenAt": 1787242312975,
+   "url": "https://www.linkedin.com/jobs/view/4454105959/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4454105959/",
+   "description": null
+  },
+  {
+   "id": "4446823345",
+   "title": "Graduate Trainee - GISOCC R&D DSIS",
+   "company": "Valeo",
+   "matchedWatchlist": "Valeo",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/valeo.jpg",
+   "location": "Chennai, Tamil Nadu, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves supporting key users and coe centres with catia v5, collaborating on cad topics, and assisting with mechanical l2 support logic. It suits students with technical skills and good communication abilities.",
+   "bullets": [
+    "Support key users and coe centres with catia v5",
+    "Collaborate on cad topics with team members",
+    "Assist with mechanical l2 support logic"
+   ],
+   "roleLabel": "Cad support",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "catia v5",
+    "cad"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "29 minutes ago",
+   "postedAt": 1787240577530,
+   "firstSeenAt": 1787242317532,
+   "url": "https://www.linkedin.com/jobs/view/4446823345/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4446823345/",
+   "description": null
+  },
   {
    "id": "4456746489",
    "title": "2027 Quantitative Analytics Program Intern",

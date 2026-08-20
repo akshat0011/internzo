@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 20 Aug 2026 15:45:31 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 16:14:00 GMT</lastBuildDate>
+  <item>
+    <title>Intern - HW — Silicon Labs</title>
+    <link>https://www.internzo.in/jobs/silicon-labs-intern-hw-4454105959</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/silicon-labs-intern-hw-4454105959</guid>
+    <pubDate>Thu, 20 Aug 2026 15:48:52 GMT</pubDate>
+    <description>Company: Silicon Labs · Location: Hyderabad, Telangana, India
+• Support development of hardware modules for smart home devices
+• Work with cadence tools and simulation software
+• Collaborate with cross-functional teams on product integration</description>
+  </item>
+  <item>
+    <title>Graduate Trainee - GISOCC R&amp;D DSIS — Valeo</title>
+    <link>https://www.internzo.in/jobs/valeo-graduate-trainee-gisocc-r-and-d-dsis-4446823345</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-graduate-trainee-gisocc-r-and-d-dsis-4446823345</guid>
+    <pubDate>Thu, 20 Aug 2026 15:42:57 GMT</pubDate>
+    <description>Company: Valeo · Location: Chennai, Tamil Nadu, India
+• Support key users and coe centres with catia v5
+• Collaborate on cad topics with team members
+• Assist with mechanical l2 support logic</description>
+  </item>
   <item>
     <title>2027 Quantitative Analytics Program Intern — Wells Fargo</title>
     <link>https://www.internzo.in/jobs/wells-fargo-2027-quantitative-analytics-program-intern-4456746489</link>
@@ -494,26 +514,6 @@
 • Analyze customer data to find trends and insights
 • Use AI tools like ChatGPT and Microsoft Copilot
 • Support marketing and product teams with reports and dashboards</description>
-  </item>
-  <item>
-    <title>Apprentice Tech — Adobe</title>
-    <link>https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/adobe-apprentice-tech-4453739058</guid>
-    <pubDate>Fri, 14 Aug 2026 22:48:18 GMT</pubDate>
-    <description>Company: Adobe · Location: Bengaluru East, Karnataka, India
-• Support development of creative tools using ai
-• Work with python and cloud platforms
-• Collaborate with cross-functional teams on product features</description>
-  </item>
-  <item>
-    <title>Apprentice — AtkinsRéalis</title>
-    <link>https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/atkinsr-alis-apprentice-4454565745</guid>
-    <pubDate>Fri, 14 Aug 2026 18:42:10 GMT</pubDate>
-    <description>Company: AtkinsRéalis · Location: Noida, Uttar Pradesh, India
-• Create wireframes, mockups, and interactive prototypes
-• Use figma, adobe xd, sketch, or photoshop
-• Collaborate with product managers and developers</description>
   </item>
 </channel>
 </rss>
