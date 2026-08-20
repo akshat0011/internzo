@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787199219510,
- "count": 128,
- "techCount": 128,
+ "generatedAt": 1787201061624,
+ "count": 127,
+ "techCount": 127,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -5411,53 +5411,6 @@
    "firstSeenAt": 1785994678984,
    "url": "https://www.linkedin.com/jobs/view/4449989732/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4449989732/",
-   "description": null
-  },
-  {
-   "id": "4449971505",
-   "title": "Data Science Intern",
-   "company": "Sony Research India",
-   "matchedWatchlist": "Sony",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/sony-research-india.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Remote",
-   "stipend": "₹9,00,000 / year",
-   "duration": null,
-   "applicants": "Over 100 applicants",
-   "easyApply": true,
-   "skills": [
-    "python",
-    "sql",
-    "machine learning",
-    "pytorch",
-    "tensorflow",
-    "algorithms"
-   ],
-   "summary": "For our research center to blaze a trail in the latest technologies, we seek to foster the growth of a diverse pool of research and engineering talent and create a technology talent bank to drive research excellence worldwide. In this role, you will transition seamlessly between exploration and execution: parsing complex data, testing frontier machine learning techniques, and translating business hypotheses into robust software assets. Duration of the paid internship: The paid internship will be for six months starting first week of September 2026.",
-   "bullets": [
-    "Mine and analyze high-dimensional user interaction data for video analysis",
-    "Build and optimize machine learning and LLM algorithms in Python",
-    "Write production-ready code using PyTorch, TensorFlow, or Jax",
-    "Six-month remote internship starting September 2026"
-   ],
-   "roleLabel": "Data science and AI",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.Tech/M.Tech",
-   "keySkills": [
-    "python",
-    "pytorch",
-    "tensorflow",
-    "jax",
-    "sql"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "1 hour ago",
-   "postedAt": 1785986853818,
-   "firstSeenAt": 1785990453829,
-   "url": "https://www.linkedin.com/jobs/view/4449971505/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4449971505/",
    "description": null
   },
   {
