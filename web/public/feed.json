@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/nuvama-group-intern-hr-data-analyst-4453832504",
+      "url": "https://www.internzo.in/jobs/nuvama-group-intern-hr-data-analyst-4453832504",
+      "title": "Intern - HR Data Analyst — Nuvama Group",
+      "content_text": "Company: Nuvama Group · Location: Mumbai, Maharashtra, India · Duration: 1 year\n• Analyse hr data on compensation, headcount, and workforce trends\n• Build dashboards in power bi and use excel for data cleaning\n• Collaborate with hr to turn data into strategic insights",
+      "date_published": "2026-08-20T06:11:33.595Z",
+      "authors": [
+        {
+          "name": "Nuvama Group"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/haystackanalytics-intern-zoho-crm-developer-4455495909",
+      "url": "https://www.internzo.in/jobs/haystackanalytics-intern-zoho-crm-developer-4455495909",
+      "title": "Intern - Zoho CRM Developer — HaystackAnalytics",
+      "content_text": "Company: HaystackAnalytics · Location: Navi Mumbai, Maharashtra, India · Duration: 6 months\n• Manage and optimize crm system for efficiency\n• Develop workflows and data strategies in zoho\n• Collaborate with sales and marketing teams\n• Generate reports for management decisions",
+      "date_published": "2026-08-20T05:49:28.168Z",
+      "authors": [
+        {
+          "name": "HaystackAnalytics"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/ather-energy-ltd-engineering-apprentice-4453491995",
       "url": "https://www.internzo.in/jobs/ather-energy-ltd-engineering-apprentice-4453491995",
       "title": "Engineering Apprentice — Ather Energy Ltd.",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "S&P Global"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/haptik-partner-support-intern-4453522788",
-      "url": "https://www.internzo.in/jobs/haptik-partner-support-intern-4453522788",
-      "title": "Partner Support Intern — Haptik",
-      "content_text": "Company: Haptik · Location: Goregaon, Maharashtra, India\n• Support partners with product questions and basic technical issues\n• Collaborate with product and engineering teams on support processes\n• Monitor and document partner tickets, ensuring timely resolution",
-      "date_published": "2026-08-14T08:40:23.270Z",
-      "authors": [
-        {
-          "name": "Haptik"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522",
-      "url": "https://www.internzo.in/jobs/highlevel-learning-and-development-apprentice-4450829522",
-      "title": "Learning & Development Apprentice — HighLevel",
-      "content_text": "Company: HighLevel · Location: India · Duration: 6 months\n• Manage onboarding workflows and LMS data for global hires\n• Create structured learning content with AI tools and internal teams\n• Track learner engagement and generate insights from course data",
-      "date_published": "2026-08-13T21:13:10.524Z",
-      "authors": [
-        {
-          "name": "HighLevel"
         }
       ]
     }

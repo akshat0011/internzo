@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787204628381,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1787206492453,
+ "count": 128,
+ "techCount": 128,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -38,6 +38,7 @@
   "GreedyGame",
   "HARMAN India",
   "Haptik",
+  "HaystackAnalytics",
   "Hevo Data",
   "HighLevel",
   "Honeywell Technologies",
@@ -129,6 +130,85 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4453832504",
+   "title": "Intern - HR Data Analyst",
+   "company": "Nuvama Group",
+   "matchedWatchlist": "Nuvama Wealth",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/nuvama-group.jpg",
+   "location": "Mumbai, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "1 year",
+   "applicants": "1 applicant",
+   "easyApply": false,
+   "skills": [
+    "power bi",
+    "excel"
+   ],
+   "summary": "This internship involves analysing hr data to uncover workforce trends and support decision-making. You will use excel and power bi to create dashboards and reports, working closely with hr teams to translate data into actionable insights.",
+   "bullets": [
+    "Analyse hr data on compensation, headcount, and workforce trends",
+    "Build dashboards in power bi and use excel for data cleaning",
+    "Collaborate with hr to turn data into strategic insights"
+   ],
+   "roleLabel": "Hr data analyst",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "excel",
+    "power bi"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "2 minutes ago",
+   "postedAt": 1787206293595,
+   "firstSeenAt": 1787206413599,
+   "url": "https://www.linkedin.com/jobs/view/4453832504/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4453832504/",
+   "description": null
+  },
+  {
+   "id": "4455495909",
+   "title": "Intern - Zoho CRM Developer",
+   "company": "HaystackAnalytics",
+   "matchedWatchlist": "HaystackAnalytics",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/haystackanalytics.jpg",
+   "location": "Navi Mumbai, Maharashtra, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "6 months",
+   "applicants": "0 applicants",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship involves managing and improving a crm system to boost efficiency and data accuracy. The intern will develop workflows, train teams, and create reports for management. It suits students with experience in crm tools like zoho.",
+   "bullets": [
+    "Manage and optimize crm system for efficiency",
+    "Develop workflows and data strategies in zoho",
+    "Collaborate with sales and marketing teams",
+    "Generate reports for management decisions"
+   ],
+   "roleLabel": "Crm system management",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "zoho crm",
+    "data management",
+    "dashboards",
+    "crm workflows",
+    "communication"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "23 minutes ago",
+   "postedAt": 1787204968168,
+   "firstSeenAt": 1787206348179,
+   "url": "https://www.linkedin.com/jobs/view/4455495909/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455495909/",
+   "description": null
+  },
   {
    "id": "4453491995",
    "title": "Engineering Apprentice",
