@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 20 Aug 2026 15:18:42 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 15:45:31 GMT</lastBuildDate>
+  <item>
+    <title>2027 Quantitative Analytics Program Intern — Wells Fargo</title>
+    <link>https://www.internzo.in/jobs/wells-fargo-2027-quantitative-analytics-program-intern-4456746489</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/wells-fargo-2027-quantitative-analytics-program-intern-4456746489</guid>
+    <pubDate>Thu, 20 Aug 2026 15:34:41 GMT</pubDate>
+    <description>Company: Wells Fargo · Location: Bengaluru, Karnataka, India
+• Review basic issues and policies with quick answers
+• Use Python, R, SQL, and statistical tools
+• Attend training and workshops in low-risk tasks</description>
+  </item>
   <item>
     <title>Intern - AI/ML — Tower Research Capital</title>
     <link>https://www.internzo.in/jobs/tower-research-capital-intern-ai-ml-ats-greenhouse-towerresearchcapital-8143756</link>
@@ -504,16 +514,6 @@
 • Create wireframes, mockups, and interactive prototypes
 • Use figma, adobe xd, sketch, or photoshop
 • Collaborate with product managers and developers</description>
-  </item>
-  <item>
-    <title>Software Engineer, Intern — Stripe</title>
-    <link>https://www.internzo.in/jobs/stripe-software-engineer-intern-4454538326</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/stripe-software-engineer-intern-4454538326</guid>
-    <pubDate>Fri, 14 Aug 2026 14:23:59 GMT</pubDate>
-    <description>Company: Stripe · Location: Bengaluru, Karnataka, India
-• Write production code that impacts Stripe&#39;s core systems
-• Work with Java, Ruby, JavaScript, Scala, and Go
-• Ship real projects with feedback from experienced engineers</description>
   </item>
 </channel>
 </rss>

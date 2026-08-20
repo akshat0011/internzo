@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787239122802,
- "count": 130,
- "techCount": 130,
+ "generatedAt": 1787240730909,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -86,6 +86,7 @@
   "Tower Research Capital",
   "Valeo",
   "WeWork India",
+  "Wells Fargo",
   "West Pharmaceutical Services",
   "Youtube For Brands",
   "Yubi",
@@ -131,6 +132,50 @@
   "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "4456746489",
+   "title": "2027 Quantitative Analytics Program Intern",
+   "company": "Wells Fargo",
+   "matchedWatchlist": "Wells Fargo",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/wells-fargo.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "4 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "java",
+    "c++",
+    "c#",
+    "sql"
+   ],
+   "summary": "This internship involves analyzing basic issues and policies, using statistical tools like Python and SQL, and participating in training sessions. It suits students with a quantitative background looking for hands-on experience in a structured environment.",
+   "bullets": [
+    "Review basic issues and policies with quick answers",
+    "Use Python, R, SQL, and statistical tools",
+    "Attend training and workshops in low-risk tasks"
+   ],
+   "roleLabel": "Quantitative Analysis",
+   "degreeLevel": "UG/PG",
+   "degreeText": null,
+   "keySkills": [
+    "python",
+    "r",
+    "sql",
+    "statistical software"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "8 minutes ago",
+   "postedAt": 1787240081548,
+   "firstSeenAt": 1787240561554,
+   "url": "https://www.linkedin.com/jobs/view/4456746489/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456746489/",
+   "description": null
+  },
   {
    "id": "ats:greenhouse:towerresearchcapital:8143756",
    "title": "Intern - AI/ML",
