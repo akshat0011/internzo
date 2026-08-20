@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Wed, 19 Aug 2026 23:43:42 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 00:14:24 GMT</lastBuildDate>
+  <item>
+    <title>Golang Developer Internship in Noida — AppVersal</title>
+    <link>https://www.internzo.in/jobs/appversal-golang-developer-internship-in-noida-4456424461</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/appversal-golang-developer-internship-in-noida-4456424461</guid>
+    <pubDate>Thu, 20 Aug 2026 00:07:18 GMT</pubDate>
+    <description>Company: AppVersal · Location: Noida, Uttar Pradesh, India
+• Write scalable backend apps with golang and restful apis
+• Work with mysql, postgres, mongodb, and cloud platforms
+• Collaborate with frontend teams and debug production issues</description>
+  </item>
+  <item>
+    <title>DevOps Engineer Internship in Delhi, Delhi — FynTune Solution Private Limited</title>
+    <link>https://www.internzo.in/jobs/fyntune-solution-private-limited-devops-engineer-internship-in-delhi-delhi-4456414581</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/fyntune-solution-private-limited-devops-engineer-internship-in-delhi-delhi-4456414581</guid>
+    <pubDate>Thu, 20 Aug 2026 00:06:23 GMT</pubDate>
+    <description>Company: FynTune Solution Private Limited · Location: Delhi, India
+• Manage linux servers and troubleshoot issues
+• Configure aws infrastructure and ci/cd pipelines
+• Write shell scripts and maintain cron jobs</description>
+  </item>
   <item>
     <title>Intern - SQA — Silicon Labs</title>
     <link>https://www.internzo.in/jobs/silicon-labs-intern-sqa-4453484371</link>
@@ -489,23 +509,6 @@
 • Set up and maintain ci/cd pipelines for automated software delivery
 • Monitor system performance and infrastructure health with observability tools
 • Manage cloud infrastructure and ensure high availability and uptime</description>
-  </item>
-  <item>
-    <title>Intern — Quest Global</title>
-    <link>https://www.internzo.in/jobs/quest-global-intern-4453215117</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/quest-global-intern-4453215117</guid>
-    <pubDate>Thu, 13 Aug 2026 17:01:40 GMT</pubDate>
-    <description>Company: Quest Global · Location: Mumbai, Maharashtra, India</description>
-  </item>
-  <item>
-    <title>Intern - C++ Linux — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-intern-c-linux-4450809558</guid>
-    <pubDate>Thu, 13 Aug 2026 16:53:02 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India · Duration: 0 to 1 years
-• Develop and maintain IPC middleware for Linux systems
-• Use C++ for high-performance and scalable code
-• Work with cross-functional teams on real-time systems</description>
   </item>
 </channel>
 </rss>
