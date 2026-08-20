@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787210120196,
- "count": 126,
- "techCount": 126,
+ "generatedAt": 1787212017999,
+ "count": 127,
+ "techCount": 127,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -128,6 +128,55 @@
   "Thane, Maharashtra, India"
  ],
  "jobs": [
+  {
+   "id": "4455603847",
+   "title": "Data Analyst/Data Engineer Intern",
+   "company": "DeHaat",
+   "matchedWatchlist": "DeHaat",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/dehaat.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": "6–9 months",
+   "applicants": "92 applicants",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "javascript",
+    "sql",
+    "aws",
+    "linux",
+    "git",
+    "postgresql",
+    "mysql",
+    "excel"
+   ],
+   "summary": "This internship involves building data pipelines and dashboards for operational tools using SQL, Python, and Frappe. You'll work on real data workflows, automate processes, and support product teams with data-driven insights. Ideal for someone with SQL and Python skills who enjoys solving data problems and working with databases.",
+   "bullets": [
+    "Build and maintain data pipelines across AWS, Redshift, and internal systems",
+    "Develop dashboards and tools using Frappe and Python",
+    "Work on real data workflows with SQL, APIs, and automation"
+   ],
+   "roleLabel": "Data Pipeline Development",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "sql",
+    "python",
+    "frappe",
+    "aws",
+    "api"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "26 minutes ago",
+   "postedAt": 1787210254904,
+   "firstSeenAt": 1787211814905,
+   "url": "https://www.linkedin.com/jobs/view/4455603847/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4455603847/",
+   "description": null
+  },
   {
    "id": "4453832504",
    "title": "Intern - HR Data Analyst",

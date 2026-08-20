@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/dehaat-data-analyst-data-engineer-intern-4455603847",
+      "url": "https://www.internzo.in/jobs/dehaat-data-analyst-data-engineer-intern-4455603847",
+      "title": "Data Analyst/Data Engineer Intern — DeHaat",
+      "content_text": "Company: DeHaat · Location: Gurugram, Haryana, India · Duration: 6–9 months\n• Build and maintain data pipelines across AWS, Redshift, and internal systems\n• Develop dashboards and tools using Frappe and Python\n• Work on real data workflows with SQL, APIs, and automation",
+      "date_published": "2026-08-20T07:17:34.904Z",
+      "authors": [
+        {
+          "name": "DeHaat"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/nuvama-group-intern-hr-data-analyst-4453832504",
       "url": "https://www.internzo.in/jobs/nuvama-group-intern-hr-data-analyst-4453832504",
       "title": "Intern - HR Data Analyst — Nuvama Group",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Emerson"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4453519959",
-      "url": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4453519959",
-      "title": "Apprentice, Software Development/Engineering — S&P Global",
-      "content_text": "Company: S&P Global · Location: Hyderabad, Telangana, India\n• Write code for data tools used by financial analysts\n• Use Python and SQL to process market data\n• Work with a team of 35k+ global professionals",
-      "date_published": "2026-08-14T08:42:16.960Z",
-      "authors": [
-        {
-          "name": "S&P Global"
         }
       ]
     }
