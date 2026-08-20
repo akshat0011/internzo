@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787246193875,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1787247835043,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -18,7 +18,6 @@
   "CertifyOS",
   "Citi",
   "CloudSEK",
-  "Colgate-Palmolive",
   "Convin",
   "Copeland",
   "D Square Consulting Services Pvt Ltd",
@@ -5686,54 +5685,6 @@
    "firstSeenAt": 1786080875660,
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Young-Apprentice---C00---PUNE_26984617",
    "applyUrl": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Young-Apprentice---C00---PUNE_26984617",
-   "description": null
-  },
-  {
-   "id": "4395013887",
-   "title": "GIT Trainee (Contractual)",
-   "company": "Colgate-Palmolive",
-   "matchedWatchlist": "Colgate-Palmolive",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/colgate-palmolive.jpg",
-   "location": "Mumbai Metropolitan Region",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "javascript",
-    "sql",
-    "react",
-    "git",
-    "agile",
-    "tableau",
-    "power bi"
-   ],
-   "summary": "No Relocation Assistance Offered Job Number #172352 - Mumbai, Maharashtra, India Colgate-Palmolive Company is a global consumer products company operating in over 200 countries specializing in Oral Care, Personal Care, Home Care, Skin Care, and Pet Nutrition. The experience you'll gain is multifaceted, designed to be immersive, and will provide a realistic preview of what a full-time role in such a company entails.",
-   "bullets": [
-    "Build and maintain software products within an agile engineering team",
-    "Connect user requirements to technical features and system module integration",
-    "Develop features using Python, React, Node.js, and cloud technologies"
-   ],
-   "roleLabel": "Software engineering",
-   "degreeLevel": "UG",
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "react",
-    "node.js",
-    "html",
-    "css"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "26 minutes ago",
-   "postedAt": 1786035126593,
-   "firstSeenAt": 1786036686600,
-   "url": "https://www.linkedin.com/jobs/view/4395013887/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4395013887/",
    "description": null
   }
  ]
