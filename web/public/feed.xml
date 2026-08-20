@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Thu, 20 Aug 2026 18:45:04 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 19:15:34 GMT</lastBuildDate>
+  <item>
+    <title>AI Intern — Whatfix</title>
+    <link>https://www.internzo.in/jobs/whatfix-ai-intern-4456792001</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/whatfix-ai-intern-4456792001</guid>
+    <pubDate>Thu, 20 Aug 2026 18:44:16 GMT</pubDate>
+    <description>Company: Whatfix · Location: Bengaluru, Karnataka, India
+• Design and build AI agents to automate business processes across Sales, HR, and Finance
+• Integrate LLMs with CRMs and APIs to create autonomous workflow agents
+• Collaborate with stakeholders to define automation goals and success metrics</description>
+  </item>
+  <item>
+    <title>Intern — Micron Technology</title>
+    <link>https://www.internzo.in/jobs/micron-technology-intern-4456023598</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/micron-technology-intern-4456023598</guid>
+    <pubDate>Thu, 20 Aug 2026 18:26:39 GMT</pubDate>
+    <description>Company: Micron Technology · Location: Hyderabad, Telangana, India
+• Work on semiconductor design, data science, and AI solutions
+• Tools include AI, machine learning, and engineering platforms
+• Based in hyderabad with opportunities in manufacturing and operations</description>
+  </item>
   <item>
     <title>Intern — Micron Technology</title>
     <link>https://www.internzo.in/jobs/micron-technology-intern-4456037085</link>
@@ -494,26 +514,6 @@
 • Analyze data to identify business insights and solutions
 • Work with professionals on real industry challenges
 • Present findings and take ownership of deliverables</description>
-  </item>
-  <item>
-    <title>SAP ABAP Intern for M&amp;M — Bristlecone</title>
-    <link>https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294</guid>
-    <pubDate>Sun, 16 Aug 2026 18:44:16 GMT</pubDate>
-    <description>Company: Bristlecone · Location: Mumbai, Maharashtra, India
-• Debug abap code and develop sap applications
-• Work with senior developers and functional teams
-• Located in mumbai, 6 months duration</description>
-  </item>
-  <item>
-    <title>intern — eClerx</title>
-    <link>https://www.internzo.in/jobs/eclerx-intern-4436939571</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/eclerx-intern-4436939571</guid>
-    <pubDate>Sun, 16 Aug 2026 12:36:23 GMT</pubDate>
-    <description>Company: eClerx · Location: Mumbai, Maharashtra, India
-• Analyze data and build machine learning models
-• Use python, sql, and tools like tableau
-• Work with cross-functional teams on data projects</description>
   </item>
 </channel>
 </rss>

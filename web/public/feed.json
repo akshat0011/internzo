@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/whatfix-ai-intern-4456792001",
+      "url": "https://www.internzo.in/jobs/whatfix-ai-intern-4456792001",
+      "title": "AI Intern — Whatfix",
+      "content_text": "Company: Whatfix · Location: Bengaluru, Karnataka, India\n• Design and build AI agents to automate business processes across Sales, HR, and Finance\n• Integrate LLMs with CRMs and APIs to create autonomous workflow agents\n• Collaborate with stakeholders to define automation goals and success metrics",
+      "date_published": "2026-08-20T18:44:16.760Z",
+      "authors": [
+        {
+          "name": "Whatfix"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/micron-technology-intern-4456023598",
+      "url": "https://www.internzo.in/jobs/micron-technology-intern-4456023598",
+      "title": "Intern — Micron Technology",
+      "content_text": "Company: Micron Technology · Location: Hyderabad, Telangana, India\n• Work on semiconductor design, data science, and AI solutions\n• Tools include AI, machine learning, and engineering platforms\n• Based in hyderabad with opportunities in manufacturing and operations",
+      "date_published": "2026-08-20T18:26:39.487Z",
+      "authors": [
+        {
+          "name": "Micron Technology"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/micron-technology-intern-4456037085",
       "url": "https://www.internzo.in/jobs/micron-technology-intern-4456037085",
       "title": "Intern — Micron Technology",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "NoBroker.com"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294",
-      "url": "https://www.internzo.in/jobs/bristlecone-sap-abap-intern-for-m-and-m-4089384294",
-      "title": "SAP ABAP Intern for M&M — Bristlecone",
-      "content_text": "Company: Bristlecone · Location: Mumbai, Maharashtra, India\n• Debug abap code and develop sap applications\n• Work with senior developers and functional teams\n• Located in mumbai, 6 months duration",
-      "date_published": "2026-08-16T18:44:16.229Z",
-      "authors": [
-        {
-          "name": "Bristlecone"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/eclerx-intern-4436939571",
-      "url": "https://www.internzo.in/jobs/eclerx-intern-4436939571",
-      "title": "intern — eClerx",
-      "content_text": "Company: eClerx · Location: Mumbai, Maharashtra, India\n• Analyze data and build machine learning models\n• Use python, sql, and tools like tableau\n• Work with cross-functional teams on data projects",
-      "date_published": "2026-08-16T12:36:23.023Z",
-      "authors": [
-        {
-          "name": "eClerx"
         }
       ]
     }

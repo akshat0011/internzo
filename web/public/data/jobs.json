@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787251503977,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1787253334774,
+ "count": 134,
+ "techCount": 134,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -88,6 +88,7 @@
   "WeWork India",
   "Wells Fargo",
   "West Pharmaceutical Services",
+  "Whatfix",
   "Youtube For Brands",
   "Yubi",
   "Zycus",
@@ -132,6 +133,82 @@
   "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "4456792001",
+   "title": "AI Intern",
+   "company": "Whatfix",
+   "matchedWatchlist": "Whatfix",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/whatfix.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "42 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "llm",
+    "rag"
+   ],
+   "summary": "This internship involves building AI agents to automate business processes across Sales, HR, and Finance. You'll integrate large language models with internal tools and CRMs to create autonomous workflows. Ideal for students with strong Python skills and curiosity about AI and automation.",
+   "bullets": [
+    "Design and build AI agents to automate business processes across Sales, HR, and Finance",
+    "Integrate LLMs with CRMs and APIs to create autonomous workflow agents",
+    "Collaborate with stakeholders to define automation goals and success metrics"
+   ],
+   "roleLabel": "AI Agent Development",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech",
+   "keySkills": [
+    "python",
+    "llms",
+    "prompt engineering"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "29 minutes ago",
+   "postedAt": 1787251456760,
+   "firstSeenAt": 1787253196767,
+   "url": "https://www.linkedin.com/jobs/view/4456792001/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456792001/",
+   "description": null
+  },
+  {
+   "id": "4456023598",
+   "title": "Intern",
+   "company": "Micron Technology",
+   "matchedWatchlist": "Micron Technology",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/micron-technology.png",
+   "location": "Hyderabad, Telangana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "59 people clicked apply",
+   "easyApply": false,
+   "skills": [],
+   "summary": "This internship offers hands-on experience in semiconductor design, data science, and AI solutions. Interns will contribute to cutting-edge projects in memory and storage technologies, working alongside teams focused on innovation and operational excellence. Ideal for students passionate about engineering and technology with a strong foundation in relevant fields.",
+   "bullets": [
+    "Work on semiconductor design, data science, and AI solutions",
+    "Tools include AI, machine learning, and engineering platforms",
+    "Based in hyderabad with opportunities in manufacturing and operations"
+   ],
+   "roleLabel": "Semiconductor Design",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "ai"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "47 minutes ago",
+   "postedAt": 1787250399487,
+   "firstSeenAt": 1787253219490,
+   "url": "https://www.linkedin.com/jobs/view/4456023598/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456023598/",
+   "description": null
+  },
   {
    "id": "4456037085",
    "title": "Intern",
