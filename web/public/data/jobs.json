@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787242439895,
- "count": 133,
- "techCount": 133,
+ "generatedAt": 1787244277418,
+ "count": 132,
+ "techCount": 132,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -5734,52 +5734,6 @@
    "firstSeenAt": 1786036686600,
    "url": "https://www.linkedin.com/jobs/view/4395013887/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4395013887/",
-   "description": null
-  },
-  {
-   "id": "4449762238",
-   "title": "Young Apprentice - C00 - Chennai",
-   "company": "Citi",
-   "matchedWatchlist": "Citi",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/citi.jpg",
-   "location": "Chennai, Tamil Nadu, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "react",
-    "aws",
-    "terraform",
-    "git",
-    "mongodb"
-   ],
-   "summary": "Citi is launching a strategic Coding Workshop initiative aimed at identifying and nurturing top-tier AI engineering talent. The primary purpose of this role is to engage with and contribute to this innovative program, which is designed to evaluate and showcase participants' technical acumen, adaptability in new environments, and creative problem-solving skills. This initiative seeks to establish Citi as a leading employer in the AI space, positioning the firm at the forefront of AI innovation and directly addressing critical talent acquisition objectives for high-potential engineers. Be mentored by experienced…",
-   "bullets": [
-    "Build full-stack web applications using React, Python, and MongoDB",
-    "Work with cloud infrastructure using Terraform, shell scripts, and AWS serverless",
-    "Collaborate with engineering mentors to solve technical issues and refine systems"
-   ],
-   "roleLabel": "Full stack engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "react.js",
-    "python",
-    "mongodb",
-    "git",
-    "aws"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "26 minutes ago",
-   "postedAt": 1786032338382,
-   "firstSeenAt": 1786033898388,
-   "url": "https://www.linkedin.com/jobs/view/4449762238/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4449762238/",
    "description": null
   }
  ]
