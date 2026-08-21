@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787321266120,
- "count": 138,
- "techCount": 138,
+ "generatedAt": 1787323039604,
+ "count": 137,
+ "techCount": 137,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -33,7 +33,6 @@
   "GE HealthCare",
   "GE Vernova",
   "GSK",
-  "GoKwik",
   "GreedyGame",
   "HARMAN India",
   "Haptik",
@@ -5905,45 +5904,6 @@
    "firstSeenAt": 1786114808708,
    "url": "https://jobs.ashbyhq.com/certifyos/4bcdec99-9f2e-416c-8e26-498c94c5898a",
    "applyUrl": "https://jobs.ashbyhq.com/certifyos/4bcdec99-9f2e-416c-8e26-498c94c5898a",
-   "description": null
-  },
-  {
-   "id": "4450330540",
-   "title": "Intern - Customer Engineering",
-   "company": "GoKwik",
-   "matchedWatchlist": "GoKwik",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/gokwik.jpg",
-   "location": "Gurugram, Haryana, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "GoKwik is a growth operating system empowering D2C and eCommerce brands across the funnel—from optimizing checkout and reducing RTOs to driving better retention and post-purchase engagement. Today, we serve over 15,000+ merchants, enable $2B+ in GMV annually, and are scaling rapidly across India, the UK, Europe, and the US. As a Customer Engineering Intern, you'll work at the intersection of technology, customer success, and program management. You'll help merchants successfully onboard onto GoKwik's platform by configuring integrations, troubleshooting technical issues, and coordinating cross-functional…",
-   "bullets": [
-    "Configure merchant accounts and integrations for Shopify, WooCommerce, and custom sites",
-    "Troubleshoot technical onboarding issues using API responses, JSON payloads, and logs",
-    "Maintain onboarding documentation, SOPs, and playbooks to streamline go-lives"
-   ],
-   "roleLabel": "Customer integration engineering",
-   "degreeLevel": "UG",
-   "degreeText": "B.E/B.Tech",
-   "keySkills": [
-    "rest api",
-    "json",
-    "webhooks",
-    "shopify",
-    "woocommerce"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "53 minutes ago",
-   "postedAt": 1786108708260,
-   "firstSeenAt": 1786111888264,
-   "url": "https://www.linkedin.com/jobs/view/4450330540/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4450330540/",
    "description": null
   }
  ]
