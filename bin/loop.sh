@@ -77,6 +77,10 @@ INTERVAL="${WATCH_INTERVAL_SECONDS:-1800}"
 # How soon to come back after a run that reached no page because the network was
 # down, and how many times before giving up and using the normal interval.
 RETRY_SECONDS="${WATCH_RETRY_SECONDS:-120}"
+
+# Neutral host used only to answer "is there a network". Overridable so the
+# offline path can actually be tested rather than assumed.
+PROBE_URL="${WATCH_PROBE_URL:-https://1.1.1.1/}"
 MAX_FAST_RETRIES="${WATCH_MAX_FAST_RETRIES:-5}"
 fast_retries=0
 
@@ -88,6 +92,31 @@ trap 'echo "$(date "+%Y-%m-%d %H:%M:%S") [LOOP STOP] pid=$$" >> "$LOG"; kill 0; 
 
 while true; do
   started=$(date +%s)
+
+  # Preflight: is there a network at all?
+  # ------------------------------------
+  # Discovering the network is down by launching Brave, loading the feed, and
+  # timing out costs ~114 seconds and leaves a junk `partial` row in the runs
+  # table. On 21 Aug the network was down from 09:17 to about 11:30 and that
+  # happened 25 times — 25 Brave launches, 45 minutes of CPU, and nothing to
+  # show for any of it.
+  #
+  # Worse, because each attempt was expensive the retries had to be capped, so
+  # once the cap was hit the loop slept a full 30 minutes. The network could
+  # come back one minute later and nothing would notice for another 29.
+  #
+  # A 5-second probe makes a failed cycle almost free, which is what lets the
+  # retry stay short indefinitely: collection now resumes within RETRY_SECONDS
+  # of the network returning, however long the outage was.
+  #
+  # Deliberately NOT linkedin.com. While the network is up this probe would be
+  # an extra request to them on every single run, for no reason — and while it
+  # is down nothing leaves the machine either way.
+  if ! curl -sS --max-time 5 -o /dev/null "$PROBE_URL" 2>/dev/null; then
+    echo "$(date '+%Y-%m-%d %H:%M:%S') [LOOP] no network — skipping this run, retrying in ${RETRY_SECONDS}s" >> "$LOG"
+    sleep "$RETRY_SECONDS"
+    continue
+  fi
 
   # Redundant with the whole-script assertion above, and kept anyway: this is
   # the window where sleeping is most expensive. A scan interrupted mid-flight
