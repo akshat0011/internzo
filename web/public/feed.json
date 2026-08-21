@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/honeywell-technologies-intern-masters-software-eng-4457321584",
+      "url": "https://www.internzo.in/jobs/honeywell-technologies-intern-masters-software-eng-4457321584",
+      "title": "Intern Masters Software Eng — Honeywell Technologies",
+      "content_text": "Company: Honeywell Technologies · Location: Bengaluru, Karnataka, India\n• Design develop test software applications\n• Collaborate with crossfunctional teams\n• Participate in code reviews and debugging",
+      "date_published": "2026-08-21T12:03:02.107Z",
+      "authors": [
+        {
+          "name": "Honeywell Technologies"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/ge-vernova-graduate-engineering-trainee-4445934063",
       "url": "https://www.internzo.in/jobs/ge-vernova-graduate-engineering-trainee-4445934063",
       "title": "Graduate Engineering Trainee — GE Vernova",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Zycus"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877",
-      "url": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877",
-      "title": "AI/ML - Internship — D Square Consulting Services Pvt Ltd",
-      "content_text": "Company: D Square Consulting Services Pvt Ltd · Location: Bengaluru, Karnataka, India · Duration: 0–6 months\n• Develop and test machine learning models using Python, NumPy, and Pandas\n• Work on end-to-end AI projects from data ingestion to model deployment\n• Collaborate with the AI/ML team on predictive modeling and clustering tasks\n• Deploy models on cloud platforms like AWS SageMaker or Google Colab",
-      "date_published": "2026-08-18T06:03:52.562Z",
-      "authors": [
-        {
-          "name": "D Square Consulting Services Pvt Ltd"
         }
       ]
     }

@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 12:03:21 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 12:09:48 GMT</lastBuildDate>
+  <item>
+    <title>Intern Masters Software Eng — Honeywell Technologies</title>
+    <link>https://www.internzo.in/jobs/honeywell-technologies-intern-masters-software-eng-4457321584</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/honeywell-technologies-intern-masters-software-eng-4457321584</guid>
+    <pubDate>Fri, 21 Aug 2026 12:03:02 GMT</pubDate>
+    <description>Company: Honeywell Technologies · Location: Bengaluru, Karnataka, India
+• Design develop test software applications
+• Collaborate with crossfunctional teams
+• Participate in code reviews and debugging</description>
+  </item>
   <item>
     <title>Graduate Engineering Trainee — GE Vernova</title>
     <link>https://www.internzo.in/jobs/ge-vernova-graduate-engineering-trainee-4445934063</link>
@@ -501,17 +511,6 @@
 • Collaborate with senior product managers on AI-assisted workflows and requirements
 • Ship features end-to-end with engineering, design, and QA teams
 • Track product metrics and translate data into actionable insights</description>
-  </item>
-  <item>
-    <title>AI/ML - Internship — D Square Consulting Services Pvt Ltd</title>
-    <link>https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-internship-4452546877</guid>
-    <pubDate>Tue, 18 Aug 2026 06:03:52 GMT</pubDate>
-    <description>Company: D Square Consulting Services Pvt Ltd · Location: Bengaluru, Karnataka, India · Duration: 0–6 months
-• Develop and test machine learning models using Python, NumPy, and Pandas
-• Work on end-to-end AI projects from data ingestion to model deployment
-• Collaborate with the AI/ML team on predictive modeling and clustering tasks
-• Deploy models on cloud platforms like AWS SageMaker or Google Colab</description>
   </item>
 </channel>
 </rss>
