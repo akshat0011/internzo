@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787280621398,
- "count": 134,
- "techCount": 134,
+ "generatedAt": 1787282351145,
+ "count": 133,
+ "techCount": 133,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -77,7 +77,6 @@
   "Siemens Gamesa",
   "Silicon Labs",
   "Simple Energy",
-  "Sony Research India",
   "State Street",
   "Stripe",
   "TeamLease Regtech Pvt. Ltd.",
@@ -5702,54 +5701,6 @@
    "firstSeenAt": 1786073500077,
    "url": "https://www.linkedin.com/jobs/view/4450040519/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4450040519/",
-   "description": null
-  },
-  {
-   "id": "4448494663",
-   "title": "AI Research Intern",
-   "company": "Sony Research India",
-   "matchedWatchlist": "Sony",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/sony-research-india.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "Remote",
-   "stipend": "2,026",
-   "duration": null,
-   "applicants": "58 applicants",
-   "easyApply": true,
-   "skills": [
-    "python",
-    "sql",
-    "aws",
-    "machine learning",
-    "deep learning",
-    "pytorch",
-    "algorithms"
-   ],
-   "summary": "For our research center to blaze a trail in the latest technologies, we seek to foster the growth of a diverse pool of research and engineering talent and create a technology talent bank to drive research excellence worldwide. We are looking for a highly motivated AI Research Intern to work on user behavior modeling for OTT platforms. Duration of the paid internship: The paid internship will be for six months starting third week of August 2026.",
-   "bullets": [
-    "Develop ML, deep learning, and LLM models for OTT user behavior",
-    "Apply causal inference techniques to analyze user retention and engagement",
-    "Experiment with algorithms and large interaction datasets using Python and PyTorch",
-    "6-month paid remote internship starting August 2026"
-   ],
-   "roleLabel": "AI research",
-   "degreeLevel": "UG/PG",
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "pytorch",
-    "sql",
-    "machine learning",
-    "causal inference"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "25 minutes ago",
-   "postedAt": 1786070244007,
-   "firstSeenAt": 1786071744016,
-   "url": "https://www.linkedin.com/jobs/view/4448494663/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448494663/",
    "description": null
   },
   {
