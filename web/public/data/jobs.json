@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787328375794,
- "count": 136,
- "techCount": 136,
+ "generatedAt": 1787330202171,
+ "count": 135,
+ "techCount": 135,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -15,7 +15,6 @@
   "Bristlecone",
   "Bugsmirror",
   "Calix India",
-  "Citi",
   "CloudSEK",
   "Convin",
   "Copeland",
@@ -5808,53 +5807,6 @@
    "firstSeenAt": 1786158797113,
    "url": "https://www.linkedin.com/jobs/view/4450392562/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4450392562/",
-   "description": null
-  },
-  {
-   "id": "4450335829",
-   "title": "Young Apprentice - C00 - PUNE",
-   "company": "Citi",
-   "matchedWatchlist": "Citi",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/citi.jpg",
-   "location": "Pune Division, Maharashtra, India",
-   "workplaceType": "Hybrid",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "sql",
-    "aws",
-    "terraform",
-    "git",
-    "pandas",
-    "postgresql"
-   ],
-   "summary": "Citi is launching a strategic Coding Workshop initiative aimed at identifying and nurturing top-tier AI engineering talent. The primary purpose of this role is to engage with and contribute to this innovative program, which is designed to evaluate and showcase participants' technical acumen, adaptability in new environments, and creative problem-solving skills.",
-   "bullets": [
-    "Build data engineering workflows using Apache Spark, PySpark, Python, and Pandas",
-    "Manage and query data in AWS S3 data lakes and PostgreSQL databases",
-    "Validate data schemas using Pydantic and build visualizations in Jupyter Notebooks"
-   ],
-   "roleLabel": "AI data engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "pyspark",
-    "python",
-    "pandas",
-    "postgresql",
-    "aws s3"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "29 minutes ago",
-   "postedAt": 1786118691063,
-   "firstSeenAt": 1786120431065,
-   "url": "https://www.linkedin.com/jobs/view/4450335829/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4450335829/",
    "description": null
   }
  ]
