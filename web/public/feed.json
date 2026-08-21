@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/workday-software-development-engineer-intern-4454640334",
+      "url": "https://www.internzo.in/jobs/workday-software-development-engineer-intern-4454640334",
+      "title": "Software Development Engineer - Intern — Workday",
+      "content_text": "Company: Workday · Location: Greater Chennai Area\n• Work on features for enterprise applications using proprietary language and business logic\n• Learn full development lifecycle with object-oriented design and UML\n• Join a team building tools for 37 million users in a Fortune 500 company",
+      "date_published": "2026-08-21T13:19:31.150Z",
+      "authors": [
+        {
+          "name": "Workday"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/tonbo-imaging-intern-junior-engineer-manufacturing-engineering-documentation-4456230063",
+      "url": "https://www.internzo.in/jobs/tonbo-imaging-intern-junior-engineer-manufacturing-engineering-documentation-4456230063",
+      "title": "Intern Junior Engineer – Manufacturing Engineering Documentation — Tonbo Imaging",
+      "content_text": "Company: Tonbo Imaging · Location: Bengaluru, Karnataka, India · Duration: 1 to 3 years\n• Create and update technical documents for production line efficiency and quality assurance\n• Work with CAD files and BOMs to produce assembly guides and checklists\n• Collaborate with engineering, production, and quality teams across 6 months",
+      "date_published": "2026-08-21T13:19:24.305Z",
+      "authors": [
+        {
+          "name": "Tonbo Imaging"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/cloudsek-devops-intern-4454626356",
       "url": "https://www.internzo.in/jobs/cloudsek-devops-intern-4454626356",
       "title": "DevOps Intern — CloudSEK",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687",
-      "url": "https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687",
-      "title": "Cybersecurity Intern – Offensive Security — CloudSEK",
-      "content_text": "Company: CloudSEK · Location: Bengaluru, Karnataka, India\n• Perform VAPT on web, API, mobile, and cloud apps; triage findings into prioritized issues\n• Track threat landscape in Americas; monitor dark web for leaks and actor activity\n• Build automation scripts to streamline research, triage, and reporting workflows",
-      "date_published": "2026-08-18T09:34:09.921Z",
-      "authors": [
-        {
-          "name": "CloudSEK"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200",
-      "url": "https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200",
-      "title": "Intern - Controls — Simple Energy",
-      "content_text": "Company: Simple Energy · Location: Bengaluru, Karnataka, India\n• Develop and validate control algorithms for electric vehicle systems\n• Work with matlab/simulink and embedded systems tools\n• Collaborate on real-time automotive projects with cross-functional teams",
-      "date_published": "2026-08-18T07:31:25.669Z",
-      "authors": [
-        {
-          "name": "Simple Energy"
         }
       ]
     }

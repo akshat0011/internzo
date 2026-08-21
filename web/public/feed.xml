@@ -6,7 +6,27 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 13:08:47 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 13:24:20 GMT</lastBuildDate>
+  <item>
+    <title>Software Development Engineer - Intern — Workday</title>
+    <link>https://www.internzo.in/jobs/workday-software-development-engineer-intern-4454640334</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/workday-software-development-engineer-intern-4454640334</guid>
+    <pubDate>Fri, 21 Aug 2026 13:19:31 GMT</pubDate>
+    <description>Company: Workday · Location: Greater Chennai Area
+• Work on features for enterprise applications using proprietary language and business logic
+• Learn full development lifecycle with object-oriented design and UML
+• Join a team building tools for 37 million users in a Fortune 500 company</description>
+  </item>
+  <item>
+    <title>Intern Junior Engineer – Manufacturing Engineering Documentation — Tonbo Imaging</title>
+    <link>https://www.internzo.in/jobs/tonbo-imaging-intern-junior-engineer-manufacturing-engineering-documentation-4456230063</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/tonbo-imaging-intern-junior-engineer-manufacturing-engineering-documentation-4456230063</guid>
+    <pubDate>Fri, 21 Aug 2026 13:19:24 GMT</pubDate>
+    <description>Company: Tonbo Imaging · Location: Bengaluru, Karnataka, India · Duration: 1 to 3 years
+• Create and update technical documents for production line efficiency and quality assurance
+• Work with CAD files and BOMs to produce assembly guides and checklists
+• Collaborate with engineering, production, and quality teams across 6 months</description>
+  </item>
   <item>
     <title>DevOps Intern — CloudSEK</title>
     <link>https://www.internzo.in/jobs/cloudsek-devops-intern-4454626356</link>
@@ -491,26 +511,6 @@
 • Develop software systems using C/C++, Linux, and Android
 • Work on embedded RTOS and multi-layered software stacks
 • Collaborate in a fast-paced team on automotive tech projects</description>
-  </item>
-  <item>
-    <title>Cybersecurity Intern – Offensive Security — CloudSEK</title>
-    <link>https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/cloudsek-cybersecurity-intern-offensive-security-4452572687</guid>
-    <pubDate>Tue, 18 Aug 2026 09:34:09 GMT</pubDate>
-    <description>Company: CloudSEK · Location: Bengaluru, Karnataka, India
-• Perform VAPT on web, API, mobile, and cloud apps; triage findings into prioritized issues
-• Track threat landscape in Americas; monitor dark web for leaks and actor activity
-• Build automation scripts to streamline research, triage, and reporting workflows</description>
-  </item>
-  <item>
-    <title>Intern - Controls — Simple Energy</title>
-    <link>https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/simple-energy-intern-controls-4454704200</guid>
-    <pubDate>Tue, 18 Aug 2026 07:31:25 GMT</pubDate>
-    <description>Company: Simple Energy · Location: Bengaluru, Karnataka, India
-• Develop and validate control algorithms for electric vehicle systems
-• Work with matlab/simulink and embedded systems tools
-• Collaborate on real-time automotive projects with cross-functional teams</description>
   </item>
 </channel>
 </rss>
