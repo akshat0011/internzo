@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787282351145,
- "count": 133,
- "techCount": 133,
+ "generatedAt": 1787284097974,
+ "count": 132,
+ "techCount": 132,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -5662,45 +5662,6 @@
    "firstSeenAt": 1786081043054,
    "url": "https://www.linkedin.com/jobs/view/4448705984/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4448705984/",
-   "description": null
-  },
-  {
-   "id": "4450040519",
-   "title": "Intern - SAP PP",
-   "company": "Seagate Technology",
-   "matchedWatchlist": "Seagate Technology",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/seagate-technology.jpg",
-   "location": "Pune Division, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "Our SAP Manufacturing Applications team supports and enhances SAP S/4HANA solutions that enable efficient production planning and manufacturing operations across the enterprise. The team partners closely with business users, manufacturing sites, and IT stakeholders to ensure stable operations, continuous improvement, and successful delivery of SAP-enabled business processes. About The Role - You Will Assist in validating master data including Bills of Material (BOM), routings, work centers, and production-related data.",
-   "bullets": [
-    "Support SAP PP functional modules, master data validation, and testing",
-    "Validate BOMs, routings, work centers, and material requirements planning",
-    "Document test results, analyze support issues, and assist business users"
-   ],
-   "roleLabel": "SAP PP functional support",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "sap pp",
-    "bom",
-    "mrp",
-    "sap s/4hana",
-    "uat"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "Just now",
-   "postedAt": 1786073500071,
-   "firstSeenAt": 1786073500077,
-   "url": "https://www.linkedin.com/jobs/view/4450040519/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4450040519/",
    "description": null
   },
   {
