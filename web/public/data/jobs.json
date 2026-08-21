@@ -1,5 +1,5 @@
 {
- "generatedAt": 1787301784977,
+ "generatedAt": 1787303703143,
  "count": 132,
  "techCount": 132,
  "otherCount": 0,
@@ -130,6 +130,50 @@
   "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "4456222088",
+   "title": "Apprentice, Software Development/Engineering",
+   "company": "S&P Global",
+   "matchedWatchlist": "S&P Global",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/s-and-p-global.jpg",
+   "location": "Gurugram, Haryana, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "19 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "azure",
+    "agile",
+    "power bi",
+    "excel"
+   ],
+   "summary": "This internship offers hands-on experience in project management, focusing on tracking deliverables and coordinating with engineering and product teams. Ideal for students interested in software delivery and governance, with exposure to enterprise tools and Agile practices.",
+   "bullets": [
+    "Track project milestones, deliverables, and timelines across workstreams",
+    "Use Azure DevOps, JIRA, MS Project, and Power BI for reporting",
+    "Work with cross-functional teams on stakeholder coordination"
+   ],
+   "roleLabel": "Project Management Apprentice",
+   "degreeLevel": "UG",
+   "degreeText": "Engineering / Technology / Management",
+   "keySkills": [
+    "azure devops",
+    "jira",
+    "power bi",
+    "ms project",
+    "confluence"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "20 minutes ago",
+   "postedAt": 1787302329328,
+   "firstSeenAt": 1787303529339,
+   "url": "https://www.linkedin.com/jobs/view/4456222088/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456222088/",
+   "description": null
+  },
   {
    "id": "4457083427",
    "title": "Data Analytics Intern",
@@ -5097,60 +5141,6 @@
    "firstSeenAt": 1786356330901,
    "url": "https://www.linkedin.com/jobs/view/4451142228/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4451142228/",
-   "description": null
-  },
-  {
-   "id": "4451122227",
-   "title": "Apprentice, Software Development/Engineering",
-   "company": "S&P Global",
-   "matchedWatchlist": "S&P Global",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/s-and-p-global.jpg",
-   "location": "Gurugram, Haryana, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "docker",
-    "ci/cd",
-    "git",
-    "machine learning",
-    "deep learning",
-    "pytorch",
-    "tensorflow",
-    "scikit-learn",
-    "pandas",
-    "numpy",
-    "generative ai",
-    "rag",
-    "algorithms"
-   ],
-   "summary": "Grade Level (for internal use): Starting your Career with Us - Apprenticeship Program You'll have access to learning resources that will build vital skills and industry knowledge while being mentored by experienced professionals. You'll be part of a global community, building an invaluable network of knowledge and support from your mentors, peer group, and wider teams.",
-   "bullets": [
-    "Build ML models, perform EDA, and implement GenAI solutions using LLMs and RAG",
-    "Write and maintain Python code using Pandas, NumPy, and Scikit-Learn",
-    "Containerize models with Docker, manage version control in Git, and support CI/CD"
-   ],
-   "roleLabel": "Data science",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "pandas",
-    "numpy",
-    "scikit-learn",
-    "docker"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "2 minutes ago",
-   "postedAt": 1786351381898,
-   "firstSeenAt": 1786351501909,
-   "url": "https://www.linkedin.com/jobs/view/4451122227/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4451122227/",
    "description": null
   },
   {

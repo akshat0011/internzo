@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 08:43:05 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 09:15:03 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice, Software Development/Engineering — S&amp;P Global</title>
+    <link>https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4456222088</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4456222088</guid>
+    <pubDate>Fri, 21 Aug 2026 08:52:09 GMT</pubDate>
+    <description>Company: S&amp;P Global · Location: Gurugram, Haryana, India
+• Track project milestones, deliverables, and timelines across workstreams
+• Use Azure DevOps, JIRA, MS Project, and Power BI for reporting
+• Work with cross-functional teams on stakeholder coordination</description>
+  </item>
   <item>
     <title>Data Analytics Intern — Freight Tiger</title>
     <link>https://www.internzo.in/jobs/freight-tiger-data-analytics-intern-4457083427</link>
@@ -504,16 +514,6 @@
 • Use sql/python to extract and query enterprise databases
 • Develop dashboards with tableau and power bi
 • Collaborate with experts on data mapping and migration</description>
-  </item>
-  <item>
-    <title>Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com</title>
-    <link>https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560</guid>
-    <pubDate>Mon, 17 Aug 2026 09:06:34 GMT</pubDate>
-    <description>Company: NoBroker.com · Location: Pune City, Maharashtra, India
-• Analyze data to identify business insights and solutions
-• Collaborate with professionals on real industry challenges
-• Present findings and take ownership of project deliverables</description>
   </item>
 </channel>
 </rss>

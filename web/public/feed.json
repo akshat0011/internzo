@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4456222088",
+      "url": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4456222088",
+      "title": "Apprentice, Software Development/Engineering — S&P Global",
+      "content_text": "Company: S&P Global · Location: Gurugram, Haryana, India\n• Track project milestones, deliverables, and timelines across workstreams\n• Use Azure DevOps, JIRA, MS Project, and Power BI for reporting\n• Work with cross-functional teams on stakeholder coordination",
+      "date_published": "2026-08-21T08:52:09.328Z",
+      "authors": [
+        {
+          "name": "S&P Global"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/freight-tiger-data-analytics-intern-4457083427",
       "url": "https://www.internzo.in/jobs/freight-tiger-data-analytics-intern-4457083427",
       "title": "Data Analytics Intern — Freight Tiger",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Quest Global"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560",
-      "url": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-pune-tier-1-colleges-4452229560",
-      "title": "Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com",
-      "content_text": "Company: NoBroker.com · Location: Pune City, Maharashtra, India\n• Analyze data to identify business insights and solutions\n• Collaborate with professionals on real industry challenges\n• Present findings and take ownership of project deliverables",
-      "date_published": "2026-08-17T09:06:34.393Z",
-      "authors": [
-        {
-          "name": "NoBroker.com"
         }
       ]
     }
