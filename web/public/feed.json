@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/icertis-intern-development-4457522090",
+      "url": "https://www.internzo.in/jobs/icertis-intern-development-4457522090",
+      "title": "Intern, Development — Icertis",
+      "content_text": "Company: Icertis · Location: Pune Division, Maharashtra, India\n• Debug and optimize code in c# and .net\n• Work with databases and understand sdlc\n• Team focuses on contract intelligence platform",
+      "date_published": "2026-08-21T20:34:26.218Z",
+      "authors": [
+        {
+          "name": "Icertis"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/workday-software-development-engineer-intern-4454640334",
       "url": "https://www.internzo.in/jobs/workday-software-development-engineer-intern-4454640334",
       "title": "Software Development Engineer - Intern — Workday",
@@ -587,18 +599,6 @@
       "title": "Bluetooth Intern — HARMAN India",
       "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Work on embedded systems using C++ and Linux\n• Contribute to unit testing with Google Test\n• Collaborate in a fast-paced development team",
       "date_published": "2026-08-18T10:52:28.281Z",
-      "authors": [
-        {
-          "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/harman-india-intern-student-4452577911",
-      "url": "https://www.internzo.in/jobs/harman-india-intern-student-4452577911",
-      "title": "Intern - Student — HARMAN India",
-      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Develop software systems using C/C++, Linux, and Android\n• Work on embedded RTOS and multi-layered software stacks\n• Collaborate in a fast-paced team on automotive tech projects",
-      "date_published": "2026-08-18T10:52:26.920Z",
       "authors": [
         {
           "name": "HARMAN India"

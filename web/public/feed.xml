@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 20:36:13 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 21:06:12 GMT</lastBuildDate>
+  <item>
+    <title>Intern, Development — Icertis</title>
+    <link>https://www.internzo.in/jobs/icertis-intern-development-4457522090</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/icertis-intern-development-4457522090</guid>
+    <pubDate>Fri, 21 Aug 2026 20:34:26 GMT</pubDate>
+    <description>Company: Icertis · Location: Pune Division, Maharashtra, India
+• Debug and optimize code in c# and .net
+• Work with databases and understand sdlc
+• Team focuses on contract intelligence platform</description>
+  </item>
   <item>
     <title>Software Development Engineer - Intern — Workday</title>
     <link>https://www.internzo.in/jobs/workday-software-development-engineer-intern-4454640334</link>
@@ -501,16 +511,6 @@
 • Work on embedded systems using C++ and Linux
 • Contribute to unit testing with Google Test
 • Collaborate in a fast-paced development team</description>
-  </item>
-  <item>
-    <title>Intern - Student — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-intern-student-4452577911</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-intern-student-4452577911</guid>
-    <pubDate>Tue, 18 Aug 2026 10:52:26 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
-• Develop software systems using C/C++, Linux, and Android
-• Work on embedded RTOS and multi-layered software stacks
-• Collaborate in a fast-paced team on automotive tech projects</description>
   </item>
 </channel>
 </rss>
