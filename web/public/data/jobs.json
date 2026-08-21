@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787323039604,
- "count": 137,
- "techCount": 137,
+ "generatedAt": 1787324881746,
+ "count": 136,
+ "techCount": 136,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -15,7 +15,6 @@
   "Bristlecone",
   "Bugsmirror",
   "Calix India",
-  "CertifyOS",
   "Citi",
   "CloudSEK",
   "Convin",
@@ -125,7 +124,6 @@
   "Noida, Uttar Pradesh, India",
   "Pune City, Maharashtra, India",
   "Pune Division, Maharashtra, India",
-  "Pune, India",
   "Thane, Maharashtra, India",
   "gurgaon"
  ],
@@ -5857,53 +5855,6 @@
    "firstSeenAt": 1786120431065,
    "url": "https://www.linkedin.com/jobs/view/4450335829/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4450335829/",
-   "description": null
-  },
-  {
-   "id": "ats:ashby:certifyos:4bcdec99-9f2e-416c-8e26-498c94c5898a",
-   "title": "AI Intern",
-   "company": "CertifyOS",
-   "matchedWatchlist": "CertifyOS",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/certifyos.png",
-   "location": "Pune, India",
-   "workplaceType": "Remote",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "java",
-    "sql",
-    "gcp",
-    "ci/cd",
-    "git",
-    "machine learning"
-   ],
-   "summary": "CertifyOS is building the data infrastructure that powers modern healthcare. Today, healthcare organizations rely on fragmented and outdated provider data. This creates unnecessary administrative work, regulatory risk, and higher costs across the system. As an Intern Machine Learning Engineer on a 6-month contract, you will help build, test, and deploy ML-powered services on our provider data platform.",
-   "bullets": [
-    "Develop, test, and maintain ML-driven services and data workflows in Python",
-    "Build evaluation pipelines and metrics to track model performance in production",
-    "Deploy ML workloads on GCP using Cloud Run, GKE, Cloud Functions, and BigQuery"
-   ],
-   "roleLabel": "Machine learning engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "python",
-    "gcp",
-    "sql",
-    "git",
-    "bigquery"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1786114282086,
-   "firstSeenAt": 1786114808708,
-   "url": "https://jobs.ashbyhq.com/certifyos/4bcdec99-9f2e-416c-8e26-498c94c5898a",
-   "applyUrl": "https://jobs.ashbyhq.com/certifyos/4bcdec99-9f2e-416c-8e26-498c94c5898a",
    "description": null
   }
  ]
