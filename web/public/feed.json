@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/greedygame-product-designer-intern-4456223026",
+      "url": "https://www.internzo.in/jobs/greedygame-product-designer-intern-4456223026",
+      "title": "Product Designer Intern — GreedyGame",
+      "content_text": "Company: GreedyGame · Location: Bengaluru, Karnataka, India\n• Design mobile apps, websites, and dashboards from concept to handoff\n• Use Figma for prototyping and collaborate with developers\n• Work on products used by 100M+ daily users in India and globally",
+      "date_published": "2026-08-21T09:32:25.846Z",
+      "authors": [
+        {
+          "name": "GreedyGame"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4456222088",
       "url": "https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4456222088",
       "title": "Apprentice, Software Development/Engineering — S&P Global",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Valeo"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714",
-      "url": "https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714",
-      "title": "Trainee Engineer – Oil & Gas Data Analyst — Quest Global",
-      "content_text": "Company: Quest Global · Location: Bengaluru, Karnataka, India\n• Cleanse and profile technical datasets from APM systems\n• Use sql/python to extract and query enterprise databases\n• Develop dashboards with tableau and power bi\n• Collaborate with experts on data mapping and migration",
-      "date_published": "2026-08-17T11:03:25.922Z",
-      "authors": [
-        {
-          "name": "Quest Global"
         }
       ]
     }

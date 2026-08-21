@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 09:15:03 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 09:43:03 GMT</lastBuildDate>
+  <item>
+    <title>Product Designer Intern — GreedyGame</title>
+    <link>https://www.internzo.in/jobs/greedygame-product-designer-intern-4456223026</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/greedygame-product-designer-intern-4456223026</guid>
+    <pubDate>Fri, 21 Aug 2026 09:32:25 GMT</pubDate>
+    <description>Company: GreedyGame · Location: Bengaluru, Karnataka, India
+• Design mobile apps, websites, and dashboards from concept to handoff
+• Use Figma for prototyping and collaborate with developers
+• Work on products used by 100M+ daily users in India and globally</description>
+  </item>
   <item>
     <title>Apprentice, Software Development/Engineering — S&amp;P Global</title>
     <link>https://www.internzo.in/jobs/s-and-p-global-apprentice-software-development-engineering-4456222088</link>
@@ -503,17 +513,6 @@
 • Support r&amp;d projects with experiments, data analysis, and prototype testing
 • Use software tools for automotive design and simulation
 • Work in a global r&amp;d team with 20k engineers and sustainability focus</description>
-  </item>
-  <item>
-    <title>Trainee Engineer – Oil &amp; Gas Data Analyst — Quest Global</title>
-    <link>https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/quest-global-trainee-engineer-oil-and-gas-data-analyst-4454249714</guid>
-    <pubDate>Mon, 17 Aug 2026 11:03:25 GMT</pubDate>
-    <description>Company: Quest Global · Location: Bengaluru, Karnataka, India
-• Cleanse and profile technical datasets from APM systems
-• Use sql/python to extract and query enterprise databases
-• Develop dashboards with tableau and power bi
-• Collaborate with experts on data mapping and migration</description>
   </item>
 </channel>
 </rss>

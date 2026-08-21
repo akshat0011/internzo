@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787303703143,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1787305383550,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -72,8 +72,6 @@
   "Roche",
   "Russell Investments",
   "S&P Global",
-  "Sanas",
-  "Seagate Technology",
   "Siemens Gamesa",
   "Silicon Labs",
   "Simple Energy",
@@ -130,6 +128,47 @@
   "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "4456223026",
+   "title": "Product Designer Intern",
+   "company": "GreedyGame",
+   "matchedWatchlist": "GreedyGame",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/greedygame.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "2 applicants",
+   "easyApply": false,
+   "skills": [
+    "figma"
+   ],
+   "summary": "As a product designer intern, you’ll shape user experiences for apps and platforms used by millions. You’ll design features, create mockups, and work with developers to bring ideas to life. Ideal for someone passionate about UI/UX and eager to contribute to real products with global impact.",
+   "bullets": [
+    "Design mobile apps, websites, and dashboards from concept to handoff",
+    "Use Figma for prototyping and collaborate with developers",
+    "Work on products used by 100M+ daily users in India and globally"
+   ],
+   "roleLabel": "Product Design",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "figma",
+    "ux",
+    "ui",
+    "motion",
+    "design"
+   ],
+   "stipendStatus": "paid",
+   "postedText": "8 minutes ago",
+   "postedAt": 1787304745846,
+   "firstSeenAt": 1787305225854,
+   "url": "https://www.linkedin.com/jobs/view/4456223026/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4456223026/",
+   "description": null
+  },
   {
    "id": "4456222088",
    "title": "Apprentice, Software Development/Engineering",
@@ -5612,93 +5651,6 @@
    "firstSeenAt": 1786111888264,
    "url": "https://www.linkedin.com/jobs/view/4450330540/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4450330540/",
-   "description": null
-  },
-  {
-   "id": "4450084755",
-   "title": "Intern - SAP MM",
-   "company": "Seagate Technology",
-   "matchedWatchlist": "Seagate Technology",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/seagate-technology.jpg",
-   "location": "Pune Division, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [],
-   "summary": "The SAP Applications team supports critical enterprise and manufacturing business processes across Seagate. As an SAP MM Intern, you will gain exposure to real-world SAP S/4HANA Materials Management processes and contribute to day-to-day support, testing, documentation, and continuous improvement activities. About The Role - You Will Assist with material master and vendor master validation and data quality checks.",
-   "bullets": [
-    "Support SAP MM consultants with testing, documentation, and issue tracking",
-    "Validate material master and vendor master data across procurement workflows",
-    "Prepare test scenarios and support user acceptance testing for SAP S/4HANA"
-   ],
-   "roleLabel": "SAP MM consulting",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "sap s/4hana",
-    "sap mm"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "Just now",
-   "postedAt": 1786095093637,
-   "firstSeenAt": 1786095093643,
-   "url": "https://www.linkedin.com/jobs/view/4450084755/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4450084755/",
-   "description": null
-  },
-  {
-   "id": "4450086026",
-   "title": "Software Engineering Intern - SI & Agentic AI Platform",
-   "company": "Sanas",
-   "matchedWatchlist": "Sanas",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/sanas.jpg",
-   "location": "Bengaluru, Karnataka, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "typescript",
-    "sql",
-    "react",
-    "aws",
-    "nlp",
-    "llm",
-    "redis",
-    "kafka",
-    "data structures"
-   ],
-   "summary": "Sanas is pioneering the future of human communication. Founded by a team of Stanford researchers and entrepreneurs with deep industry experience, Sanas has developed the world's first real-time speech AI platform capable of accent translation, noise cancellation, speech enhancement, cross-language communication, and more. Sanas makes conversations clearer, more inclusive, and more effective, removing barriers that prevent people from being understood, regardless of accent, background noise, or native language. This internship is a four-month, onsite opportunity at our Bangalore location.",
-   "bullets": [
-    "Build and deploy features for speech intelligence and agentic AI platforms",
-    "Develop backend and frontend code using Python, Go, TypeScript, and React",
-    "Work with APIs, distributed systems, Kafka, and data backends",
-    "Four-month onsite internship in Bangalore"
-   ],
-   "roleLabel": "Software engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.Sc/M.Sc",
-   "keySkills": [
-    "python",
-    "go",
-    "typescript",
-    "react",
-    "kafka"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "2 hours ago",
-   "postedAt": 1786087956365,
-   "firstSeenAt": 1786095156370,
-   "url": "https://www.linkedin.com/jobs/view/4450086026/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4450086026/",
    "description": null
   }
  ]
