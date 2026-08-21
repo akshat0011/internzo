@@ -173,7 +173,179 @@ function jobPostingLd(job, url) {
   return ld;
 }
 
-/** Shared <head>, so every generated page carries the same rules. */
+/**
+ * Presentation helpers.
+ *
+ * Everything below is display-only. None of it touches extraction, the store or
+ * the JSON the app reads — a value we decline to print is still in the data.
+ */
+
+/** Two letters when there is no logo file, so a crest is never an empty box. */
+function initials(name) {
+  const words = String(name ?? '').replace(/[^A-Za-z0-9 ]/g, ' ').trim().split(/\s+/);
+  return (words.slice(0, 2).map((w) => w[0]).join('') || '?').toUpperCase();
+}
+
+/**
+ * The logo, with the initials underneath rather than instead.
+ *
+ * Same reasoning as the card list: if the image 404s the alt text would leave a
+ * blank square, so the initials are painted first and the image covers them.
+ * 130 of 131 live postings carry a logo, and a page of pure type is the single
+ * strongest signal that nobody designed it.
+ */
+function crest(name, logo, { cls = 'jp-crest', href = '' } = {}) {
+  const inner = `${esc(initials(name))}${logo ? `<img src="${esc(logo)}" alt="" loading="lazy" decoding="async" width="80" height="80">` : ''}`;
+  return href
+    ? `<a class="${cls}" href="${esc(href)}" aria-hidden="true" tabindex="-1">${inner}</a>`
+    : `<span class="${cls}" aria-hidden="true">${inner}</span>`;
+}
+
+const DAY = 86_400_000;
+
+/** "11 Aug 2026" — IST, because every reader of this site is in India. */
+function dayLabel(ms) {
+  if (!ms) return '';
+  return new Date(ms).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Asia/Kolkata' });
+}
+function isoDay(ms) {
+  return ms ? new Date(ms).toISOString().slice(0, 10) : '';
+}
+
+/**
+ * How old the posting is, as a badge.
+ *
+ * The label rendered here is the ABSOLUTE date, and page.js rewrites it to
+ * "3h ago" on load. That split is deliberate on both sides:
+ *
+ * - Never `postedText`. It is the string LinkedIn showed at scrape time and it
+ *   never ages, so a day-old posting kept reading "4 minutes ago".
+ * - Never a relative label baked into the file either. These pages are
+ *   regenerated every 30 minutes, so a server-rendered "3h ago" would rewrite
+ *   every job page on nearly every run and commit the churn to a public repo.
+ *   An absolute date is stable, and the freshness class is applied by script.
+ */
+function agePill(ms) {
+  if (!ms) return '';
+  const age = Date.now() - ms;
+  const cls = age < DAY ? ' is-hot' : age < 3 * DAY ? ' is-fresh' : '';
+  return `<span class="pill${cls}" data-ago="${ms}"><i aria-hidden="true"></i>`
+    + `Posted <time datetime="${isoDay(ms)}">${esc(dayLabel(ms))}</time></span>`;
+}
+
+/**
+ * A stipend we are willing to print.
+ *
+ * The field is dirty: alongside "₹25,000 / month" it holds bare numbers lifted
+ * out of the description — "2,026" is a year that reached the money slot. A
+ * figure with no currency and no period is not a stipend, and printing one on a
+ * student-facing page is worse than printing nothing.
+ */
+function stipendText(job) {
+  const raw = String(job.stipend ?? '').trim();
+  if (!raw) return '';
+  return /[₹$]|\brs\b|\blpa\b|\bper\b|\/\s*(month|year|week|total)|\b(month|year|week)ly\b/i.test(raw) ? raw : '';
+}
+
+/**
+ * A duration we are willing to print.
+ *
+ * Same problem: "0 to 3 years" and "0-11 months" are experience requirements
+ * that landed in the duration slot. Anything opening with a zero, or reading as
+ * a range of years, is not how long an internship lasts.
+ */
+function durationText(job) {
+  const raw = String(job.duration ?? '').trim();
+  if (!raw) return '';
+  if (/^0\b/.test(raw)) return '';
+  if (/\d\s*(?:to|[-–—])\s*\d+\s*(?:\+\s*)?(?:years?|yrs?)\b/i.test(raw)) return '';
+  return raw;
+}
+
+/** "On-site" and "onsite" both occur. One spelling reaches the page. */
+function modeText(job) {
+  const raw = String(job.workplaceType ?? '').trim();
+  if (!raw) return '';
+  if (/^on-?site$/i.test(raw)) return 'On-site';
+  return raw[0].toUpperCase() + raw.slice(1);
+}
+
+/**
+ * Competition, in the posting's own terms.
+ *
+ * LinkedIn phrases this two ways — "42 applicants" and "42 people clicked
+ * apply" — and they mean different things, so neither is rewritten into the
+ * other. Only the count is lifted out; the rest is dropped rather than guessed.
+ */
+function applicantsText(job) {
+  const raw = String(job.applicants ?? '').trim();
+  const n = (raw.match(/([\d,]+)/) || [])[1];
+  if (!n) return '';
+  if (/clicked/i.test(raw)) return `${n} clicked apply`;
+  return `${n} applicant${n === '1' ? '' : 's'}`;
+}
+
+/** The badges under the headline: freshness, pay, competition. */
+function statusPills(job) {
+  const money = stipendText(job);
+  return [
+    agePill(job.postedAt ?? job.firstSeenAt),
+    money
+      ? `<span class="pill is-paid"><i aria-hidden="true"></i>${esc(money)}</span>`
+      : job.stipendStatus === 'paid' ? '<span class="pill is-paid"><i aria-hidden="true"></i>Paid</span>'
+        : job.stipendStatus === 'unpaid' ? '<span class="pill">Unpaid</span>' : '',
+    applicantsText(job) ? `<span class="pill">${esc(applicantsText(job))}</span>` : '',
+    modeText(job) ? `<span class="pill">${esc(modeText(job))}</span>` : '',
+  ].filter(Boolean).join('');
+}
+
+/**
+ * One role, as a card.
+ *
+ * The same object serves the "more at this employer" strip, the "just landed"
+ * strip page.js builds from jobs.json, and the company hub's live list — so a
+ * reader meets one shape everywhere and page.js has one markup to mirror.
+ */
+function tile(job, { showCompany = true } = {}) {
+  const posted = job.postedAt ?? job.firstSeenAt;
+  const age = posted ? Date.now() - posted : Infinity;
+  const cls = age < DAY ? ' is-hot' : '';
+  const meta = [
+    // The inner <time> is not decoration: page.js finds the text to rewrite by
+    // looking for it, and without one the tile kept its absolute date while the
+    // pill above went relative.
+    posted ? `<span class="tile-age${age < DAY ? ' is-hot' : age < 3 * DAY ? ' is-fresh' : ''}" data-ago="${posted}"><time datetime="${isoDay(posted)}">${esc(dayLabel(posted))}</time></span>` : '',
+    esc(cityOf(job.location)),
+    modeText(job) ? esc(modeText(job)) : '',
+  ].filter(Boolean).join('<span aria-hidden="true">·</span>');
+
+  return `<a class="tile${cls}" href="/jobs/${jobSlug(job)}">
+        ${showCompany ? `<span class="tile-top">${crest(job.company, job.logo, { cls: 'tile-crest' })}<span class="tile-co">${esc(job.company)}</span></span>` : ''}
+        <span class="tile-role">${esc(job.title)}</span>
+        ${job.roleLabel && !showCompany ? `<span class="tile-co">${esc(job.roleLabel)}</span>` : ''}
+        <span class="tile-meta">${meta}</span>
+      </a>`;
+}
+
+/**
+ * "Bengaluru, Karnataka, India" -> "Bengaluru".
+ *
+ * Tiles only. The full string stays on the job page, where there is room for
+ * it; in a tile it pushed the workplace mode onto its own line and stranded the
+ * separator dot at the end of the one above. Every listing here is in India, so
+ * the state and the country are the two least useful words on the card.
+ */
+function cityOf(location) {
+  const first = String(location ?? '').split(',')[0].trim();
+  return first || 'India';
+}
+
+/** Newest first, and only ones worth opening. */
+function newestFirst(jobs) {
+  return [...jobs].sort((a, b) => (b.postedAt ?? b.firstSeenAt ?? 0) - (a.postedAt ?? a.firstSeenAt ?? 0));
+}
+
+/** Shared <head> and page chrome, so every generated page carries the same rules. */
 function head({ title, description, canonical, indexable, extraLd = '' }) {
   return `<!doctype html>
 <html lang="en">
@@ -184,6 +356,8 @@ function head({ title, description, canonical, indexable, extraLd = '' }) {
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${esc(canonical)}">
 ${indexable ? '' : '<meta name="robots" content="noindex,follow">\n'}<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f4f3ee" media="(prefers-color-scheme: light)">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Internzo">
 <meta property="og:url" content="${esc(canonical)}">
@@ -195,20 +369,26 @@ ${indexable ? '' : '<meta name="robots" content="noindex,follow">\n'}<meta name=
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Internzo — new internships" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/page.css">
-${extraLd}<script defer src="/_vercel/insights/script.js"></script>
+${extraLd}<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script defer src="/page.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
+<div class="grain" aria-hidden="true"></div>
 <header class="bar">
   <div class="wrap bar-in">
     <a class="brand" href="/" aria-label="Internzo">
       <span class="scope" aria-hidden="true">
         <svg viewBox="0 0 44 44">
           <circle class="s-ring" cx="22" cy="22" r="20"/><circle class="s-ring" cx="22" cy="22" r="13"/>
-          <circle class="s-ring" cx="22" cy="22" r="6"/><circle class="s-dot" cx="22" cy="22" r="2.8"/>
+          <circle class="s-ring" cx="22" cy="22" r="6"/>
+          <g class="s-sweep"><path d="M22 22 L22 1 A21 21 0 0 1 40 12 Z"/></g>
+          <circle class="s-dot" cx="22" cy="22" r="2.8"/>
         </svg>
       </span>
       <span class="word">INTERN<em>ZO</em></span>
@@ -219,29 +399,67 @@ ${extraLd}<script defer src="/_vercel/insights/script.js"></script>
         <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
         <span>Get alerts</span>
       </a>
+      <button class="ghost-btn" id="theme-toggle" type="button" aria-label="Switch theme">
+        <svg class="i-sun" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z"/></svg>
+      </button>
     </div>
   </div>
 </header>
 `;
 }
 
-const FOOT = `
+/**
+ * The closing invitation, then the disclaimer.
+ *
+ * A visitor who arrived from a search for one job and has now read it is at the
+ * only moment they will ever consider subscribing. The old foot spent that
+ * moment on a sentence about sources of truth. That sentence is still here —
+ * underneath, in the footer, where a disclaimer belongs.
+ */
+function foot({ headline, sub }) {
+  return `
+<section class="outro">
+  <div class="wrap">
+    <b>${headline}</b>
+    <p>${sub}</p>
+    <div class="outro-acts">
+      <a class="a-1" href="https://t.me/internzo" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        Get every new role on Telegram
+      </a>
+      <a class="a-2" href="/">Browse all live internships</a>
+    </div>
+  </div>
+</section>
 <footer class="foot">
   <div class="wrap">
     <p>Every listing links back to its original posting — always apply there. Summaries are written by Internzo; the linked posting is the source of truth.</p>
-    <p><a href="/">See every live internship →</a></p>
+    <p class="dim"><a href="/">Home</a> · <a href="/companies/">All companies</a> · <a href="/feed.xml">RSS</a></p>
   </div>
 </footer>
 </body>
 </html>
 `;
+}
 
-/** A single job page. */
-export function renderJobPage(job) {
+/**
+ * A single job page.
+ *
+ * `siblings` is the employer's other live roles. It is the whole reason this
+ * page has a second click in it: somebody who landed here from Google has
+ * either applied or decided not to, and in both cases the next useful thing is
+ * another role — not the back button. The "just landed" strip below it is
+ * filled by page.js from jobs.json rather than baked in, because a baked list
+ * of the newest roles would rewrite all ~130 job pages every time one arrived.
+ */
+export function renderJobPage(job, siblings = []) {
   const url = `${SITE}/jobs/${jobSlug(job)}`;
   const apply = safeUrl(job.applyUrl);
   const indexable = isIndexable(job);
-  const year = new Date(job.postedAt ?? Date.now()).getFullYear();
+  const posted = job.postedAt ?? job.firstSeenAt ?? Date.now();
+  const year = new Date(posted).getFullYear();
+  const hub = `/companies/${companySlug(job.company)}`;
 
   // Title shaped the way people actually search: company, role, the word
   // internship, then India and the year.
@@ -251,20 +469,25 @@ export function renderJobPage(job) {
     : `${job.company} is hiring a ${job.title} intern in India.`;
 
   const facts = [
-    ['Company', esc(job.company)],
-    ['Role', esc(job.title)],
-    job.roleLabel ? ['Focus', esc(job.roleLabel)] : null,
     job.location ? ['Location', esc(job.location)] : null,
-    job.workplaceType ? ['Mode', esc(job.workplaceType)] : null,
+    modeText(job) ? ['Mode', esc(modeText(job))] : null,
+    job.roleLabel ? ['Focus', esc(job.roleLabel)] : null,
     job.degreeLevel ? ['Eligibility', esc([job.degreeLevel, job.degreeText].filter(Boolean).join(' · '))] : null,
-    job.duration ? ['Duration', esc(job.duration)] : null,
+    durationText(job) ? ['Duration', esc(durationText(job))] : null,
+    stipendText(job) ? ['Stipend', `<span class="cash">${esc(stipendText(job))}</span>`] : null,
     // Same fallback as validThrough and the JSON-LD above. It was the one date
     // here without it, and toISOString on an Invalid Date throws — which would
     // not lose one page, it would abort writePages and with it the whole publish.
-    ['Posted', new Date(job.postedAt ?? job.firstSeenAt ?? Date.now()).toISOString().slice(0, 10)],
+    ['Posted', `<time datetime="${isoDay(posted)}">${esc(dayLabel(posted))}</time>`],
   ].filter(Boolean);
 
   const postingLd = jobPostingLd(job, url);
+  const where = apply ? applyTarget(apply) : '';
+  const applyBtn = (extra = '') => (apply
+    ? `<a class="btn-apply${extra}" href="${apply}" target="_blank" rel="nofollow noopener"><span>Apply on ${where}</span><em aria-hidden="true"></em></a>`
+    : '');
+
+  const others = newestFirst(siblings.filter((j) => String(j.id) !== String(job.id))).slice(0, 6);
 
   return `${head({
     title: pageTitle,
@@ -275,31 +498,97 @@ export function renderJobPage(job) {
   })}
 <main class="page">
   <div class="wrap">
-    <nav class="crumbs"><a href="/">Home</a> › <a href="/companies/${companySlug(job.company)}">${esc(job.company)}</a> › <span>${esc(job.title)}</span></nav>
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <i aria-hidden="true">›</i>
+      <a href="${hub}">${esc(job.company)}</a> <i aria-hidden="true">›</i>
+      <span>${esc(job.title)}</span>
+    </nav>
 
-    <h1>${esc(job.company)} — ${esc(job.title)}</h1>
-    ${job.roleLabel ? `<p class="lede-sub">${esc(job.roleLabel)}</p>` : ''}
+    <div class="jp-grid">
+      <div class="jp-main">
+        <header class="jp-hero">
+          <div class="jp-id">
+            ${crest(job.company, job.logo, { href: hub })}
+            <div>
+              <a class="jp-co" href="${hub}">${esc(job.company)}</a>
+            </div>
+          </div>
 
-    ${apply ? `<a class="apply" href="${apply}" target="_blank" rel="nofollow noopener">Apply on ${applyTarget(apply)} →</a>` : ''}
+          <h1>${esc(job.title)}</h1>
+          ${job.roleLabel ? `<p class="jp-focus">${esc(job.roleLabel)}</p>` : ''}
 
-    <dl class="facts">
-      ${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('\n      ')}
-    </dl>
+          <div class="pills">${statusPills(job)}</div>
+        </header>
 
-    ${(job.bullets ?? []).length ? `<h2>What the role involves</h2>
-    <ul class="gist-list">${(job.bullets ?? []).map((b) => `<li>${esc(b)}</li>`).join('')}</ul>` : ''}
+        ${job.summary ? `<section>
+          <h2>The gist</h2>
+          <p class="summary">${esc(job.summary)}</p>
+        </section>` : ''}
 
-    ${(job.keySkills ?? []).length ? `<h2>Skills mentioned</h2>
-    <div class="skills">${(job.keySkills ?? []).map((s) => `<span class="skill">${esc(s)}</span>`).join('')}</div>` : ''}
+        ${(job.bullets ?? []).length ? `<section>
+          <h2>What you would actually do</h2>
+          <ul class="do-list">${(job.bullets ?? []).map((b) => `<li>${esc(b)}</li>`).join('')}</ul>
+        </section>` : ''}
 
-    <h2>How to apply</h2>
-    <p>${apply ? `This one is applied for on ${applyTarget(apply)}.` : 'Apply through the original posting.'} Internships in India often collect hundreds of applicants within a day, so applying early matters more than applying perfectly.</p>
-    ${apply ? `<a class="apply" href="${apply}" target="_blank" rel="nofollow noopener">Open the original posting →</a>` : ''}
+        ${(job.keySkills ?? []).length ? `<section>
+          <h2>Skills mentioned</h2>
+          <div class="chips">${(job.keySkills ?? []).map((s) => `<span class="chip">${esc(s)}</span>`).join('')}</div>
+        </section>` : ''}
 
-    <p class="tiny">This summary was written by Internzo from the public posting. The linked posting is the source of truth — check it before you apply.</p>
+        <section>
+          <h2>How to apply</h2>
+          <div class="apply-band">
+            <p>${apply ? `This one is applied for on <strong>${where}</strong>.` : 'Apply through the original posting.'}
+            Internships in India often collect hundreds of applicants within a day, so <strong>applying early matters more than applying perfectly</strong>.</p>
+            ${applyBtn()}
+          </div>
+          <p class="note">This summary was written by Internzo from the public posting, and is not the employer's own wording. The linked posting is the source of truth — check it before you apply.</p>
+        </section>
+      </div>
+
+      <aside class="jp-side">
+        <div class="jp-card">
+          ${apply ? `<div class="jp-card-top">
+            ${applyBtn()}
+            <p class="jp-card-note">Opens ${where} in a new tab. Free — we never ask for a fee.</p>
+          </div>` : ''}
+          <dl class="facts">
+            ${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('\n            ')}
+          </dl>
+          <a class="jp-sub" href="https://t.me/internzo" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            Get roles like this the minute they post
+          </a>
+        </div>
+      </aside>
+    </div>
+
+    ${others.length ? `<section class="strip">
+      <div class="strip-head">
+        <h2>More at ${esc(job.company)}</h2>
+        <a class="strip-more" href="${hub}">All ${esc(job.company)} roles →</a>
+      </div>
+      <div class="tiles">${others.map((j) => tile(j, { showCompany: false })).join('')}</div>
+    </section>` : ''}
+
+    <section class="strip" id="fresh" hidden>
+      <div class="strip-head">
+        <h2>Just landed on Internzo</h2>
+        <a class="strip-more" href="/">See all live roles →</a>
+      </div>
+      <div class="tiles" id="fresh-list"></div>
+    </section>
   </div>
 </main>
-${FOOT}`;
+
+${apply ? `<div class="dock" id="dock" aria-hidden="true">
+  <div class="dock-t"><b>${esc(job.title)}</b><span>${esc(job.company)}</span></div>
+  <a class="btn-apply" href="${apply}" target="_blank" rel="nofollow noopener" tabindex="-1"><span>Apply</span><em aria-hidden="true"></em></a>
+</div>` : ''}
+${foot({
+    headline: 'Do not let the next one pass you by',
+    sub: 'Every engineering internship in India, on the board within minutes of going live.',
+  })}`;
 }
 
 /**
@@ -314,13 +603,13 @@ ${FOOT}`;
  *
  * `past` is what keeps an empty hub from being thin content: a page saying only
  * "no live openings" is a page Google is right to ignore. Past roles are
- * plain text with NO JobPosting markup, deliberately — marking up an expired
- * posting is the thing that earns a structured-data manual action, and the
- * whole domain pays for that.
+ * plain text with NO markup and NO links, deliberately — describing an expired
+ * posting as a live one is the thing that earns a structured-data manual
+ * action, and the whole domain pays for that.
  */
-export function renderCompanyPage(company, jobs, past = []) {
+export function renderCompanyPage(company, jobs, past = [], logo = '') {
   const url = `${SITE}/companies/${companySlug(company)}`;
-  const live = jobs.filter(isIndexable);
+  const live = newestFirst(jobs.filter(isIndexable));
   // Newest first, de-duplicated by title against both the live roles and each
   // other, and capped — a hub is a landing page, not an archive. An employer
   // that reposts the same role monthly would otherwise fill the page with one
@@ -357,6 +646,8 @@ export function renderCompanyPage(company, jobs, past = []) {
     })),
   };
 
+  const cities = [...new Set(live.map((j) => String(j.location ?? '').split(',')[0].trim()).filter(Boolean))];
+
   return `${head({
     title: pageTitle,
     description,
@@ -366,31 +657,58 @@ export function renderCompanyPage(company, jobs, past = []) {
   })}
 <main class="page">
   <div class="wrap">
-    <nav class="crumbs"><a href="/">Home</a> › <span>${esc(company)}</span></nav>
-    <h1>${esc(company)} internships in India</h1>
-    <p class="lede-sub">${live.length} live opening${live.length === 1 ? '' : 's'}, refreshed every 30 minutes.</p>
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <i aria-hidden="true">›</i>
+      <a href="/companies/">Companies</a> <i aria-hidden="true">›</i>
+      <span>${esc(company)}</span>
+    </nav>
 
-    ${live.length ? `<ul class="hub">${live.map((j) => `
-      <li>
-        <a href="/jobs/${jobSlug(j)}">${esc(j.title)}</a>
-        ${j.roleLabel ? `<span class="qual">${esc(j.roleLabel)}</span>` : ''}
-        <span class="tiny">${esc(j.location || 'India')}${j.workplaceType ? ` · ${esc(j.workplaceType)}` : ''}</span>
-      </li>`).join('')}</ul>`
-      : '<p>No live openings right now. New ones appear here within minutes of being posted.</p>'}
+    <header class="hub-hero">
+      ${crest(company, logo)}
+      <div class="hub-hero-t">
+        <h1>${esc(company)} internships in India</h1>
+        <div class="hub-count pills">
+          <span class="pill ${live.length ? 'is-fresh' : ''}"><i aria-hidden="true"></i>${live.length} live opening${live.length === 1 ? '' : 's'}</span>
+          ${cities.length ? `<span class="pill">${esc(cities.slice(0, 3).join(' · '))}</span>` : ''}
+          <span class="pill">Refreshed every 30 min</span>
+        </div>
+      </div>
+    </header>
 
-    ${history.length ? `<h2>Previously posted</h2>
-    <p class="tiny">Roles ${esc(company)} has advertised since we started tracking them. These listings have closed &mdash; they are here so you can see what this employer hires for, and how often.</p>
-    <ul class="hub past">${history.map((p) => `
-      <li>
-        <span>${esc(p.title)}</span>
-        ${p.roleLabel ? `<span class="qual">${esc(p.roleLabel)}</span>` : ''}
-        <span class="tiny">${p.postedAt ? esc(monthLabel(p.postedAt)) : ''}</span>
-      </li>`).join('')}</ul>` : ''}
+    <section class="strip">
+      <div class="strip-head"><h2>${live.length ? 'Open right now' : 'Open right now'}</h2></div>
+      ${live.length
+        ? `<div class="tiles">${live.map((j) => tile(j, { showCompany: false })).join('')}</div>`
+        : `<div class="empty">
+             <b>Nothing open today</b>
+             <p>${esc(company)} is on our watchlist, so a new posting appears here within minutes of going live. The Telegram channel will tell you the moment it does.</p>
+           </div>`}
+    </section>
 
-    <p><a href="/">Browse every company →</a></p>
+    ${history.length ? `<section class="strip">
+      <div class="strip-head"><h2>Previously posted</h2></div>
+      <p class="past-note">Roles ${esc(company)} has advertised since we started tracking them. These listings have closed &mdash; they are here so you can see what this employer hires for, and how often.</p>
+      <ul class="past">${history.map((p) => `
+        <li>
+          <b>${esc(p.title)}</b>
+          ${p.roleLabel ? `<span class="qual">${esc(p.roleLabel)}</span>` : ''}
+          ${p.postedAt ? `<time datetime="${isoDay(p.postedAt)}">${esc(monthLabel(p.postedAt))}</time>` : ''}
+        </li>`).join('')}</ul>
+    </section>` : ''}
+
+    <section class="strip" id="fresh" hidden>
+      <div class="strip-head">
+        <h2>Just landed on Internzo</h2>
+        <a class="strip-more" href="/">See all live roles →</a>
+      </div>
+      <div class="tiles" id="fresh-list"></div>
+    </section>
   </div>
 </main>
-${FOOT}`;
+${foot({
+    headline: `Know before anyone else applies to ${esc(company)}`,
+    sub: 'One message the minute a new engineering internship goes live in India. No email, no account.',
+  })}`;
 }
 
 /**
@@ -402,7 +720,7 @@ ${FOOT}`;
  * static link from the homepage reaches it, and from here every company hub and
  * then every job page is reachable by following ordinary anchors.
  */
-export function renderCompanyIndex(byCompany, pastByCompany = new Map()) {
+export function renderCompanyIndex(byCompany, pastByCompany = new Map(), logos = new Map()) {
   const url = `${SITE}/companies/`;
   // Employers with no live role are still listed, below the ones hiring. This
   // page is the only crawl path to the hubs — the homepage list is built by
@@ -420,6 +738,17 @@ export function renderCompanyIndex(byCompany, pastByCompany = new Map()) {
   const hiring = rows.filter((r) => r.live > 0).length;
   const total = rows.reduce((n, r) => n + r.live, 0);
 
+  const card = (r) => `<a class="dir-card${r.live ? '' : ' is-quiet'}" href="/companies/${companySlug(r.company)}" data-name="${esc(r.company.toLowerCase())}">
+        ${crest(r.company, logos.get(r.company), { cls: 'tile-crest' })}
+        <span class="dir-t">
+          <span class="dir-name">${esc(r.company)}</span>
+          <span class="dir-n">${r.live ? `${r.live} open role${r.live === 1 ? '' : 's'}` : `no live roles · ${r.past} tracked`}</span>
+        </span>
+      </a>`;
+
+  const open = rows.filter((r) => r.live > 0);
+  const quiet = rows.filter((r) => r.live === 0);
+
   return `${head({
     title: `Internships in India by company — ${hiring} companies hiring | Internzo`,
     description: `Browse ${total} live internships across ${hiring} companies in India, plus every employer we track. Updated every 30 minutes.`,
@@ -428,17 +757,43 @@ export function renderCompanyIndex(byCompany, pastByCompany = new Map()) {
   })}
 <main class="page">
   <div class="wrap">
-    <nav class="crumbs"><a href="/">Home</a> › <span>Companies</span></nav>
-    <h1>Internships by company</h1>
-    <p class="lede-sub">${total} live opening${total === 1 ? '' : 's'} across ${hiring} employer${hiring === 1 ? '' : 's'}, from ${rows.length} we track. Refreshed every 30 minutes.</p>
-    <ul class="hub">${rows.map((r) => `
-      <li>
-        <a href="/companies/${companySlug(r.company)}">${esc(r.company)}</a>
-        <span class="tiny">${r.live ? `${r.live} open role${r.live === 1 ? '' : 's'}` : `no live roles &middot; ${r.past} tracked`}</span>
-      </li>`).join('')}</ul>
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <i aria-hidden="true">›</i>
+      <span>Companies</span>
+    </nav>
+
+    <header class="dir-hero">
+      <h1>Internships by company</h1>
+      <div class="stats">
+        <div class="stat"><b>${total}</b><span>Live openings</span></div>
+        <div class="stat"><b>${hiring}</b><span>Hiring right now</span></div>
+        <div class="stat"><b>${rows.length}</b><span>Employers tracked</span></div>
+      </div>
+      <div class="filter" id="filter">
+        <label>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+          <input type="search" id="filter-input" placeholder="Filter ${rows.length} employers — try “Qualcomm”" aria-label="Filter companies">
+        </label>
+      </div>
+    </header>
+
+    <p class="dir-none" id="dir-none">No employer matches that. Try a shorter word.</p>
+
+    <section class="strip" data-group>
+      <div class="strip-head"><h2>Hiring right now</h2></div>
+      <div class="dir">${open.map(card).join('')}</div>
+    </section>
+
+    ${quiet.length ? `<section class="strip" data-group>
+      <div class="strip-head"><h2>Tracked, nothing open today</h2></div>
+      <div class="dir">${quiet.map(card).join('')}</div>
+    </section>` : ''}
   </div>
 </main>
-${FOOT}`;
+${foot({
+    headline: 'Never refresh this page again',
+    sub: 'Every new engineering internship in India, pushed to Telegram within minutes of going live.',
+  })}`;
 }
 
 function writeIfChanged(path, contents) {
@@ -500,24 +855,63 @@ function writeHomeListings(jobs, publicDir) {
  *
  * @returns {{jobPages: number, companyPages: number, indexable: number, removed: number}}
  */
+/**
+ * company name -> logo path, for the pages that have no job object to read it
+ * from.
+ *
+ * A live posting carries its own `logo`, so that is preferred. A hub whose
+ * employer is not hiring today has no posting at all, and a hub is permanent —
+ * so the logos directory is scanned by slug as a fallback and the crest
+ * survives the last opening ageing out. Extensions vary (.jpg and .png both
+ * occur), which is why this reads the directory rather than guessing a name.
+ *
+ * Returns a Map-shaped object so callers can treat it as one.
+ */
+function companyLogos(jobs, publicDir) {
+  const live = new Map();
+  for (const job of jobs) if (job.company && job.logo) live.set(job.company, job.logo);
+
+  const bySlug = new Map();
+  const dir = join(publicDir, 'logos');
+  if (existsSync(dir)) {
+    for (const f of readdirSync(dir)) {
+      if (/\.(jpe?g|png|webp|svg)$/i.test(f)) bySlug.set(f.replace(/\.[a-z0-9]+$/i, ''), f);
+    }
+  }
+
+  return {
+    get(company) {
+      const known = live.get(company);
+      if (known) return known;
+      const file = bySlug.get(companySlug(company));
+      return file ? `/logos/${file}` : '';
+    },
+  };
+}
+
 export function writePages(jobs, publicDir, history = []) {
   const jobsDir = join(publicDir, 'jobs');
   const compDir = join(publicDir, 'companies');
   mkdirSync(jobsDir, { recursive: true });
   mkdirSync(compDir, { recursive: true });
 
-  const wanted = new Set();
-  for (const job of jobs) {
-    const name = `${jobSlug(job)}.html`;
-    wanted.add(join(jobsDir, name));
-    writeIfChanged(join(jobsDir, name), renderJobPage(job));
-  }
-
   const byCompany = new Map();
   for (const job of jobs) {
     if (!byCompany.has(job.company)) byCompany.set(job.company, []);
     byCompany.get(job.company).push(job);
   }
+
+  // Grouped BEFORE the job pages are written, not after, because each job page
+  // now carries its employer's other live roles — the only second click a
+  // visitor who arrived from a search has.
+  const wanted = new Set();
+  for (const job of jobs) {
+    const name = `${jobSlug(job)}.html`;
+    wanted.add(join(jobsDir, name));
+    writeIfChanged(join(jobsDir, name), renderJobPage(job, byCompany.get(job.company) ?? []));
+  }
+
+  const logos = companyLogos(jobs, publicDir);
 
   // Every employer we have ever published, not just the ones hiring today. This
   // union is what makes a hub permanent: a company drops out of `byCompany` the
@@ -534,13 +928,14 @@ export function writePages(jobs, publicDir, history = []) {
     const name = `${companySlug(company)}.html`;
     wanted.add(join(compDir, name));
     writeIfChanged(join(compDir, name),
-      renderCompanyPage(company, byCompany.get(company) ?? [], pastByCompany.get(company) ?? []));
+      renderCompanyPage(company, byCompany.get(company) ?? [], pastByCompany.get(company) ?? [],
+        logos.get(company) ?? ''));
   }
 
   // The directory, at /companies/. index.html rather than a slug so the bare
   // directory URL resolves on Vercel and on the dev server alike.
   wanted.add(join(compDir, 'index.html'));
-  writeIfChanged(join(compDir, 'index.html'), renderCompanyIndex(byCompany, pastByCompany));
+  writeIfChanged(join(compDir, 'index.html'), renderCompanyIndex(byCompany, pastByCompany, logos));
 
   let removed = 0;
   for (const dir of [jobsDir, compDir]) {

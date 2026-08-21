@@ -1,71 +1,651 @@
 /* ============================================================
-   Generated pages: one per job, one per company.
-   Loaded after styles.css, so it inherits every token and only
-   adds what a long-form page needs and the feed does not.
+   Generated pages: one per job, one per company, plus the
+   company directory.
+
+   Loaded after styles.css, so every token, the type scale, the
+   motion curves and the light theme all come from there. This
+   file only adds what a long-form landing page needs.
+
+   These pages are where Google drops a stranger. The homepage
+   gets a visitor who already chose to come; these get one who
+   has never heard of the site and will leave in four seconds
+   unless something holds them. So they are built to do three
+   things in order: say what the job is, make applying obvious,
+   and give a reason to open a second page.
    ============================================================ */
 
-.page { padding: 26px 0 70px; }
-.page .wrap { max-width: 760px; }
+.page { padding: 22px 0 0; }
+.page .wrap { max-width: 1120px; }
+
+/* ---------- breadcrumbs ---------- */
 
 .crumbs {
-  font-family: var(--mono); font-size: 11px; letter-spacing: .06em;
-  text-transform: uppercase; color: var(--ink-3); margin-bottom: 20px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 7px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-3); margin-bottom: 22px;
 }
-.crumbs a { color: var(--ink-2); text-decoration: none; }
-.crumbs a:hover { color: var(--live); }
+.crumbs a { color: var(--ink-2); text-decoration: none; transition: color .16s; }
+.crumbs i { font-style: normal; color: var(--rule-2); }
+.crumbs span { color: var(--ink-3); }
+@media (hover: hover) and (pointer: fine) {
+  .crumbs a:hover { color: var(--live); }
+}
 
+/* ============================================================
+   THE JOB PAGE
+   ============================================================ */
+
+/* Two columns on a desktop. The old single 760px column left the
+   right-hand third of a 1440px screen completely empty while the
+   Apply button scrolled away off the top — the one control the
+   whole page exists to deliver. The rail fixes both at once. */
+.jp-grid {
+  display: grid; grid-template-columns: minmax(0, 1fr) 336px;
+  gap: 44px; align-items: start;
+}
+
+/* ---------- hero ---------- */
+
+/* No border. Every h2 below already draws a hairline from its label to the
+   edge, and a rule here put two of them 30px apart. */
+.jp-hero { padding-bottom: 4px; }
+
+.jp-id { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; }
+
+/* The logo. 130 of 131 postings carry one and the old page showed none of
+   them — a page of nothing but type is the thing that reads as auto-generated.
+   White plate behind it because most logos are drawn for white. */
+.jp-crest {
+  width: 58px; height: 58px; flex: none; position: relative; overflow: hidden;
+  display: grid; place-items: center; border-radius: var(--r-2);
+  background: var(--card-2); border: 1px solid var(--rule);
+  font-family: var(--display); font-weight: 800; font-size: 20px; color: var(--ink-2);
+  text-decoration: none;
+  transition: border-color .16s, transform var(--d-press) var(--snap);
+}
+.jp-crest img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; padding: 6px; background: #fff; }
+@media (hover: hover) and (pointer: fine) {
+  a.jp-crest:hover { border-color: var(--live); }
+}
+a.jp-crest:active { transform: scale(.97); }
+
+.jp-co {
+  display: inline-block;
+  font-family: var(--ui); font-weight: 600; font-size: 13px;
+  letter-spacing: .04em; text-transform: uppercase; color: var(--ink-2);
+  text-decoration: none; transition: color .16s;
+}
+@media (hover: hover) and (pointer: fine) {
+  .jp-co:hover { color: var(--live); }
+}
+.jp-co::after {
+  content: "›"; margin-left: 6px; color: var(--ink-3);
+  display: inline-block; transition: transform .2s var(--snap);
+}
+@media (hover: hover) and (pointer: fine) {
+  .jp-co:hover::after { transform: translateX(3px); }
+}
+
+/* The role is the headline and the company is the eyebrow above it — the same
+   correction the card list already carries. Nobody arrives searching for
+   "FanCode"; they arrive searching for "backend intern". */
 .page h1 {
-  font-size: clamp(28px, 5vw, 42px); line-height: 1.04;
-  letter-spacing: -.035em; text-transform: uppercase;
+  font-size: clamp(30px, 4.6vw, 52px); line-height: .98;
+  letter-spacing: -.04em; text-transform: uppercase;
+  overflow-wrap: break-word;
+  /* Tracking this tight eats the word space with it, and titles here are full
+     of them: "Software Engineer Internship (Backend)" set solid read as
+     "Internship(Backend)". Put back what the tracking took. */
+  word-spacing: .06em;
 }
+.jp-focus {
+  margin-top: 12px; font-size: 17px; font-weight: 500; color: var(--live);
+  letter-spacing: -.01em;
+}
+
+/* ---------- status pills ---------- */
+
+/* Freshness, pay and competition. The site's entire promise is being early and
+   none of the three appeared anywhere on the page before. */
+.pills { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 7px;
+  height: 27px; padding: 0 11px; border-radius: var(--r-pill);
+  border: 1px solid var(--rule); background: var(--card);
+  font-family: var(--mono); font-size: 10.5px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2);
+  white-space: nowrap;
+}
+.pill i {
+  width: 6px; height: 6px; border-radius: 50%; flex: none;
+  background: currentColor; opacity: .85;
+}
+
+/* Under 24 hours old. The one badge allowed to shout, because it is the only
+   fact on the page that expires. */
+.pill.is-hot {
+  color: var(--hot); border-color: color-mix(in oklab, var(--hot) 45%, transparent);
+  background: color-mix(in oklab, var(--hot) 10%, transparent);
+}
+.pill.is-hot i { animation: livedot 1.8s var(--snap) infinite; }
+.pill.is-fresh {
+  color: var(--live); border-color: color-mix(in oklab, var(--live) 40%, transparent);
+  background: color-mix(in oklab, var(--live) 8%, transparent);
+}
+.pill.is-paid {
+  color: var(--cash); border-color: color-mix(in oklab, var(--cash) 40%, transparent);
+  background: color-mix(in oklab, var(--cash) 8%, transparent);
+}
+@keyframes livedot {
+  0%, 55% { opacity: 1; transform: scale(1); }
+  75%     { opacity: .25; transform: scale(.8); }
+  100%    { opacity: 1; transform: scale(1); }
+}
+
+/* ---------- body sections ---------- */
+
+.jp-main > section { padding-top: 34px; }
+
 .page h2 {
-  font-size: 15px; letter-spacing: .1em; text-transform: uppercase;
-  color: var(--ink-3); margin: 34px 0 12px; font-family: var(--mono); font-weight: 700;
+  font-family: var(--mono); font-weight: 700;
+  font-size: 10.5px; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--ink-3); margin: 0 0 14px;
+  display: flex; align-items: center; gap: 11px;
 }
-.lede-sub { margin-top: 10px; font-size: 17px; color: var(--live); }
+/* A hairline that runs from the label to the edge. Cheap, and it stops a page
+   of stacked text blocks reading as one undifferentiated column. */
+.page h2::after {
+  content: ""; flex: 1; height: 1px; background: var(--rule);
+}
 
-.apply {
-  display: inline-block; margin: 22px 0 6px;
+/* The summary. Named .summary rather than .gist: styles.css already owns
+   .gist as the card list's two-line clamped blurb, and inheriting
+   -webkit-line-clamp:2 silently cut this paragraph off mid-sentence.
+   This is our own writing about the posting — not the employer's
+   copy — and it is the paragraph that tells somebody in one breath whether to
+   care. It was sitting unused in the data. */
+.summary {
+  position: relative; padding: 20px 22px 20px 24px;
+  background: var(--card); border: 1px solid var(--rule);
+  border-radius: var(--r-2); overflow: hidden;
+  font-size: 16px; line-height: 1.62; color: var(--ink);
+  max-width: 68ch;
+}
+.summary::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--live);
+}
+
+.do-list { display: grid; gap: 12px; max-width: 68ch; }
+.do-list li {
+  position: relative; padding-left: 26px;
+  font-size: 15.5px; line-height: 1.55; color: var(--ink);
+}
+/* A drawn marker rather than a bullet glyph: it sits on the cap height instead
+   of the baseline, and it carries the accent so the list reads as ours. */
+.do-list li::before {
+  content: ""; position: absolute; left: 2px; top: .58em;
+  width: 7px; height: 7px; background: var(--live);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ink-2);
+  background: var(--card-2); border: 1px solid var(--rule);
+  border-radius: var(--r); padding: 5px 10px;
+}
+
+/* ---------- the apply rail ---------- */
+
+.jp-side { position: sticky; top: calc(var(--bar-h) + 18px); }
+
+.jp-card {
+  background: var(--card); border: 1px solid var(--rule);
+  border-radius: var(--r-2); overflow: hidden;
+}
+.jp-card-top { padding: 18px; border-bottom: 1px solid var(--rule); }
+
+/* The one button the page is built around. Full width, full accent, and it
+   states its destination — a button that says LinkedIn and lands on Workday
+   costs more trust than it saves space. */
+.btn-apply {
+  position: relative; overflow: hidden;
+  display: flex; align-items: center; justify-content: center; gap: 9px;
+  width: 100%; height: 50px; padding: 0 18px;
+  border: 1px solid var(--live); border-radius: var(--r);
   background: var(--live); color: var(--live-ink);
-  font-weight: 700; font-size: 14px; text-decoration: none;
-  padding: 12px 20px; border-radius: var(--r);
+  font-size: 15px; font-weight: 700; letter-spacing: -.01em;
+  text-decoration: none; text-align: center;
+  transition: transform var(--d-press) var(--snap), filter .18s;
 }
-.apply:hover { filter: brightness(1.08); }
+.btn-apply span { position: relative; z-index: 1; }
+.btn-apply em {
+  position: relative; z-index: 1; flex: none;
+  width: 14px; height: 10px; background: currentColor;
+  clip-path: polygon(0 38%, 62% 38%, 62% 0, 100% 50%, 62% 100%, 62% 62%, 0 62%);
+  transition: transform .2s var(--snap);
+}
+.btn-apply:active { transform: scale(.975); }
+@media (hover: hover) and (pointer: fine) {
+  .btn-apply:hover { filter: brightness(1.07); }
+  .btn-apply:hover em { transform: translateX(3px); }
+}
+/* A sheen crossing the button, once, on hover. Decorative only — the global
+   reduced-motion rule at the foot of this file removes it. */
+.btn-apply::after {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(100deg, transparent 22%, rgba(255,255,255,.5) 50%, transparent 78%);
+  transform: translateX(-130%);
+}
+@media (hover: hover) and (pointer: fine) {
+  .btn-apply:hover::after { animation: sheen .62s var(--snap); }
+}
+@keyframes sheen { to { transform: translateX(130%); } }
 
-/* Facts as a definition list: it is genuinely term-and-value data, which is
-   what <dl> is for, and it gives assistive tech the pairing for free. */
-.facts {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 1px; margin: 26px 0 0; background: var(--rule);
-  border: 1px solid var(--rule); border-radius: var(--r-2); overflow: hidden;
+.jp-card-note {
+  margin-top: 12px; font-size: 12px; line-height: 1.5; color: var(--ink-3);
+  text-align: center;
 }
-.facts > div { background: var(--bg); padding: 13px 15px; }
+
+/* Facts as a definition list: genuinely term-and-value data, which is what
+   <dl> is for, and assistive tech gets the pairing for free. Rows rather than
+   the old auto-fit grid — that grid left a dead empty cell whenever the count
+   was not a multiple of the column count, which it usually was not. */
+/* styles.css defines .facts as the detail pane's auto-fit column grid. Every
+   one of those properties is reset here rather than only the ones that looked
+   wrong: leaving grid-template-columns behind laid the rail out in two columns
+   and hyphenated "Maharashtra" down the middle of a card. */
+.jp-card .facts {
+  display: grid; grid-template-columns: 1fr;
+  border: 0; border-radius: 0; margin: 0;
+}
+.facts > div {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+  padding: 11px 18px; border-bottom: 1px solid var(--rule);
+}
+.facts > div:last-child { border-bottom: 0; }
 .facts dt {
-  font-family: var(--mono); font-size: 10px; letter-spacing: .12em;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .13em;
+  text-transform: uppercase; color: var(--ink-3); flex: none;
+}
+.facts dd {
+  margin: 0; font-size: 13.5px; font-weight: 500; color: var(--ink);
+  text-align: right; overflow-wrap: anywhere;
+}
+.facts dd.cash { color: var(--cash); font-weight: 700; }
+
+/* The retention link, repeated where somebody has just decided to apply and is
+   at their most willing to hear about the next one. */
+.jp-sub {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 13px 18px; border-top: 1px solid var(--rule);
+  background: var(--card-2); color: var(--live);
+  font-size: 13px; font-weight: 600; text-decoration: none;
+  transition: background .16s;
+}
+.jp-sub svg { flex: none; }
+@media (hover: hover) and (pointer: fine) {
+  .jp-sub:hover { background: color-mix(in oklab, var(--live) 9%, var(--card-2)); }
+}
+
+/* ---------- how to apply ---------- */
+
+.apply-band {
+  margin-top: 34px; padding: 24px; border-radius: var(--r-2);
+  border: 1px solid var(--rule); background: var(--bg-2);
+}
+.apply-band p { font-size: 14.5px; line-height: 1.6; color: var(--ink-2); max-width: 62ch; }
+.apply-band strong { color: var(--ink); font-weight: 600; }
+.apply-band .btn-apply { width: auto; display: inline-flex; margin-top: 18px; padding: 0 26px; }
+
+.note {
+  margin: 26px 0 0; padding-top: 18px; border-top: 1px solid var(--rule);
+  font-size: 12px; line-height: 1.65; color: var(--ink-3); max-width: 74ch;
+}
+
+/* ---------- the mobile apply dock ---------- */
+
+/* A phone reader scrolls past the button and then has nothing to press. The
+   dock appears only once the real button has left the screen — it is set by
+   an IntersectionObserver in page.js, so it never covers the button it
+   duplicates. */
+.dock {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 70;
+  display: none; align-items: center; gap: 12px;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  background: color-mix(in oklab, var(--bg) 88%, transparent);
+  backdrop-filter: blur(18px) saturate(180%); -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border-top: 1px solid var(--rule);
+  transform: translateY(100%);
+  transition: transform .26s var(--snap);
+}
+.dock.is-up { transform: translateY(0); }
+.dock-t { min-width: 0; flex: 1; }
+.dock-t b {
+  display: block; font-size: 13.5px; font-weight: 600; color: var(--ink);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.dock-t span {
+  display: block; margin-top: 1px;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-3);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.dock .btn-apply { width: auto; flex: none; height: 42px; padding: 0 18px; font-size: 14px; }
+
+/* ============================================================
+   TILES — the shared "here is another role" object
+   Used by the job page's two exploration strips, and by the
+   company hub's live list.
+   ============================================================ */
+
+.strip { padding: 48px 0 0; }
+.strip-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 16px; margin-bottom: 16px; flex-wrap: wrap;
+}
+.strip-head h2 { margin: 0; }
+.strip-more {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--live); text-decoration: none;
+  white-space: nowrap;
+}
+@media (hover: hover) and (pointer: fine) {
+  .strip-more:hover { text-decoration: underline; text-underline-offset: 3px; }
+}
+
+.tiles {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  gap: 12px;
+}
+
+.tile {
+  position: relative; display: flex; flex-direction: column; gap: 10px;
+  padding: 16px; min-height: 100%;
+  background: var(--card); border: 1px solid var(--rule);
+  border-radius: var(--r-2); text-decoration: none; overflow: hidden;
+  transition: border-color .16s, background .16s, transform var(--d-press) var(--snap);
+}
+.tile:active { transform: scale(.985); }
+@media (hover: hover) and (pointer: fine) {
+  .tile:hover { border-color: var(--rule-2); background: var(--card-2); }
+  .tile:hover .tile-role { color: var(--live); }
+}
+/* The lit left edge, the same signal the register uses for a live row. */
+.tile::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
+  background: transparent; transition: background .16s;
+}
+@media (hover: hover) and (pointer: fine) {
+  .tile:hover::before { background: var(--live); }
+}
+.tile.is-hot::before { background: var(--hot); }
+
+.tile-top { display: flex; align-items: center; gap: 10px; }
+.tile-crest {
+  width: 28px; height: 28px; flex: none; position: relative; overflow: hidden;
+  border-radius: 5px; background: var(--card-2); border: 1px solid var(--rule);
+  display: grid; place-items: center;
+  font-family: var(--display); font-weight: 800; font-size: 11px; color: var(--ink-3);
+}
+.tile-crest img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; padding: 3px; background: #fff; }
+.tile-co {
+  font-family: var(--ui); font-size: var(--t-micro); line-height: 1.25;
+  letter-spacing: var(--t-micro-tr); text-transform: uppercase;
+  font-weight: 600; color: var(--ink-2); min-width: 0;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+  overflow: hidden; overflow-wrap: anywhere;
+}
+.tile-role {
+  font-size: 15px; font-weight: 600; line-height: 1.32; letter-spacing: -.015em;
+  color: var(--ink); overflow-wrap: anywhere; transition: color .16s;
+}
+.tile-meta {
+  margin-top: auto; padding-top: 4px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--ink-3);
 }
-.facts dd { margin: 5px 0 0; font-size: 14.5px; color: var(--ink); }
+.tile-meta .tile-age { color: var(--ink-2); font-weight: 700; }
+.tile-meta .tile-age.is-hot { color: var(--hot); }
+.tile-meta .tile-age.is-fresh { color: var(--live); }
 
-.page .gist-list { margin-top: 4px; max-width: none; gap: 9px; }
-.page .gist-list li { font-size: 15px; line-height: 1.5; }
+/* First paint only. page.js sets .in on the container once, so nothing
+   re-animates on a filter keystroke. */
+.tiles.in > *, .dir.in > * { animation: tileIn .26s var(--snap) both; }
+@keyframes tileIn { from { opacity: 0; transform: translateY(8px); } }
 
-.hub { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: var(--r-2); overflow: hidden; }
-.hub li { background: var(--bg); padding: 15px 17px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
-.hub li a { font-size: 16px; font-weight: 600; color: var(--ink); text-decoration: none; }
-.hub li a:hover { color: var(--live); }
-.hub .qual { color: var(--live); font-size: 13px; }
-.hub .tiny { margin-left: auto; }
+/* ============================================================
+   THE COMPANY HUB
+   ============================================================ */
+
+.hub-hero {
+  display: flex; align-items: center; gap: 20px;
+  padding-bottom: 26px; border-bottom: 1px solid var(--rule);
+  flex-wrap: wrap;
+}
+.hub-hero .jp-crest { width: 72px; height: 72px; font-size: 24px; }
+.hub-hero-t { min-width: 0; flex: 1 1 320px; }
+.hub-hero h1 { font-size: clamp(28px, 4.4vw, 46px); }
+.hub-count {
+  margin-top: 12px; display: flex; flex-wrap: wrap; gap: 7px;
+}
+
+/* Past roles. Deliberately quieter than the live list and deliberately not
+   links — marking up or linking a closed posting is what earns a
+   structured-data manual action, and that lands on the whole domain. */
+.past-note { font-size: 13px; line-height: 1.6; color: var(--ink-2); max-width: 70ch; margin-bottom: 14px; }
+.past {
+  display: grid; gap: 1px; background: var(--rule);
+  border: 1px solid var(--rule); border-radius: var(--r-2); overflow: hidden;
+}
+.past li {
+  background: var(--bg); padding: 12px 16px;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px;
+  font-size: 14px; color: var(--ink-2);
+}
+.past b { font-weight: 600; color: var(--ink); }
+.past .qual { color: var(--ink-3); font-size: 12.5px; }
+.past time {
+  margin-left: auto; font-family: var(--mono); font-size: 10px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3);
+}
+
+.empty {
+  padding: 40px 26px; text-align: center;
+  border: 1px dashed var(--rule-2); border-radius: var(--r-2);
+}
+.empty b {
+  display: block; font-family: var(--display); font-weight: 800; font-size: 19px;
+  text-transform: uppercase; letter-spacing: -.025em; color: var(--ink);
+}
+.empty p { margin-top: 8px; font-size: 14px; color: var(--ink-2); }
+
+/* ============================================================
+   THE COMPANY DIRECTORY
+   ============================================================ */
+
+.dir-hero { padding-bottom: 26px; border-bottom: 1px solid var(--rule); }
+
+/* Three numbers instead of one sentence. A count is the cheapest possible
+   proof that a site is maintained, and this page is the only one that can
+   state the size of the whole board. */
+.stats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.stat {
+  flex: 1 1 150px; padding: 14px 16px;
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--r-2);
+}
+.stat b {
+  display: block; font-family: var(--display); font-weight: 900;
+  font-size: 30px; line-height: 1; letter-spacing: -.04em; color: var(--live);
+  font-variant-numeric: tabular-nums;
+}
+.stat span {
+  display: block; margin-top: 7px;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+
+/* A hundred-row list with no way to jump to a name is a list nobody reads.
+   Progressive enhancement: page.js reveals it, so a crawler and a reader
+   without JS just get the full list, which is what they want anyway. */
+.filter { display: none; margin-top: 24px; }
+.filter.on { display: block; }
+.filter label {
+  display: flex; align-items: center; gap: 10px;
+  height: 44px; padding: 0 16px;
+  border: 1px solid var(--rule); border-radius: var(--r);
+  background: var(--card); color: var(--ink-3);
+  transition: border-color .16s;
+}
+.filter label:focus-within { border-color: var(--live); }
+.filter input {
+  flex: 1; min-width: 0; border: 0; background: none; outline: none;
+  font-size: 15px; color: var(--ink);
+}
+.filter input::-webkit-search-cancel-button { display: none; }
+
+.dir-none { display: none; padding: 34px 4px; color: var(--ink-2); font-size: 15px; }
+.dir-none.on { display: block; }
+
+.dir {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+  gap: 10px;
+}
+.dir-card {
+  display: flex; align-items: center; gap: 12px;
+  padding: 13px 15px; text-decoration: none;
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--r-2);
+  transition: border-color .16s, background .16s, transform var(--d-press) var(--snap);
+}
+.dir-card:active { transform: scale(.985); }
+@media (hover: hover) and (pointer: fine) {
+  .dir-card:hover { border-color: var(--rule-2); background: var(--card-2); }
+  .dir-card:hover .dir-name { color: var(--live); }
+}
+.dir-card .tile-crest { width: 34px; height: 34px; font-size: 12px; }
+.dir-t { min-width: 0; flex: 1; }
+.dir-name {
+  font-size: 14.5px; font-weight: 600; letter-spacing: -.01em; color: var(--ink);
+  overflow-wrap: anywhere; transition: color .16s;
+}
+.dir-n {
+  display: block; margin-top: 3px;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--live);
+}
+.dir-card.is-quiet .dir-n { color: var(--ink-3); }
+
+/* ============================================================
+   FOOT
+   ============================================================ */
+
+/* The last thing on the page is an invitation, not a disclaimer. The
+   disclaimer is still there, underneath, where it belongs. */
+.outro {
+  margin-top: 64px; padding: 40px 30px; text-align: center;
+  border-top: 1px solid var(--rule);
+  background:
+    radial-gradient(60% 120% at 50% 0%, color-mix(in oklab, var(--live) 7%, transparent), transparent 70%),
+    var(--bg-2);
+}
+.outro b {
+  display: block; font-family: var(--display); font-weight: 900;
+  font-size: clamp(20px, 3vw, 30px); line-height: 1.04; letter-spacing: -.035em;
+  text-transform: uppercase; color: var(--ink);
+}
+.outro p { margin-top: 10px; font-size: 14.5px; color: var(--ink-2); }
+.outro-acts { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 22px; }
+.outro-acts a {
+  display: inline-flex; align-items: center; gap: 8px;
+  height: 44px; padding: 0 20px; border-radius: var(--r);
+  font-size: 14px; font-weight: 600; text-decoration: none;
+  transition: transform var(--d-press) var(--snap), background .16s, border-color .16s, color .16s;
+}
+.outro-acts a:active { transform: scale(.97); }
+.outro-acts .a-1 { background: var(--live); color: var(--live-ink); border: 1px solid var(--live); font-weight: 700; }
+.outro-acts .a-2 { background: none; color: var(--ink); border: 1px solid var(--rule-2); }
+@media (hover: hover) and (pointer: fine) {
+  .outro-acts .a-1:hover { filter: brightness(1.07); }
+  .outro-acts .a-2:hover { border-color: var(--live); color: var(--live); }
+}
+
+.foot { margin-top: 0; }
+.foot a { color: var(--ink-2); }
+@media (hover: hover) and (pointer: fine) {
+  .foot a:hover { color: var(--live); }
+}
 
 .tiny {
   font-family: var(--mono); font-size: 10.5px; letter-spacing: .05em;
   text-transform: uppercase; color: var(--ink-3);
 }
-.page > .wrap > .tiny { margin-top: 30px; line-height: 1.7; }
 
-.page + .foot { border-top: 1px solid var(--rule); }
-.foot a { color: var(--live); }
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
 
-@media (max-width: 680px) {
-  .facts { grid-template-columns: 1fr 1fr; }
-  .hub .tiny { margin-left: 0; width: 100%; }
+@media (max-width: 1000px) {
+  .jp-grid { grid-template-columns: 1fr; gap: 0; }
+  /* The rail becomes the first thing under the headline. Somebody on a phone
+     has already decided by the time they have read the title; make the button
+     the next thing they meet, not the last. */
+  /* display:contents dissolves the column so the rail can be re-ordered into
+     the single stack. Explicit orders, because the default would put the rail
+     above the headline rather than under it. */
+  .jp-main { display: contents; }
+  .jp-hero { order: -2; }
+  .jp-side { position: static; order: -1; margin-top: 26px; }
+  .jp-hero { padding-bottom: 0; }
+  .jp-main > section { padding-top: 32px; }
+  .dock { display: flex; }
+}
+
+@media (max-width: 620px) {
+  .page .wrap { width: min(1120px, 100% - 32px); }
+
+  /* One line, truncated. The last crumb repeats the headline directly below
+     it, so wrapping it onto a second line spends 30px saying nothing — but
+     removing it would break the trail a search result shows. */
+  .crumbs { flex-wrap: nowrap; overflow: hidden; margin-bottom: 15px; }
+  .crumbs > * { flex: none; }
+  .crumbs > span:last-child { flex: 0 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  /* The headline is four lines on a long title at this width. Everything
+     around it gives up a few pixels so the Apply button is closer to it. */
+  .jp-id { margin-bottom: 13px; }
+  .jp-focus { margin-top: 9px; font-size: 16px; }
+  .pills { margin-top: 14px; }
+  .jp-side { margin-top: 20px; }
+
+  .jp-crest { width: 50px; height: 50px; font-size: 17px; }
+  .hub-hero .jp-crest { width: 58px; height: 58px; font-size: 20px; }
+  .summary { font-size: 15px; padding: 17px 18px 17px 20px; }
+  .do-list li { font-size: 15px; }
+  .tiles, .dir { grid-template-columns: 1fr; }
+  .stat b { font-size: 26px; }
+  .outro { padding: 34px 22px; margin-left: -22px; margin-right: -22px; }
+  .outro-acts a { width: 100%; justify-content: center; }
+}
+
+/* ============================================================
+   REDUCED MOTION
+   Fewer and gentler, not zero: opacity still carries the
+   entrance, everything that moves or pulses stops.
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .tiles.in > *, .dir.in > * { animation: none; }
+  .pill.is-hot i { animation: none; }
+  .btn-apply::after { display: none; }
+  .dock { transition: none; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

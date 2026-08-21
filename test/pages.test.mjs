@@ -31,16 +31,21 @@ const wd = (n) => ({ company: 'Piramal Pharma', title: 'Intern', id: `ats:workda
 check('long ids are not truncated', jobSlug(wd(2295)) !== jobSlug(wd(2296)), true);
 check('long id survives in full', jobSlug(wd(2295)).endsWith('r00002295'), true);
 
-console.log('\n== slug parity with the browser copy ==');
-// web/public/app.js duplicates this function to link to the generated pages. If
-// the two ever drift the site links to a 404, so the duplication is pinned here.
-const appSrc = readFileSync(join(ROOT, 'web', 'public', 'app.js'), 'utf8');
-const start = appSrc.indexOf('function jobPageSlug(job) {');
-const end = appSrc.indexOf('\n}', start);
-const browserSlug = new Function(`${appSrc.slice(start, end + 2)}; return jobPageSlug;`)();
+console.log('\n== slug parity with the browser copies ==');
+// app.js and page.js each duplicate this function to link to the generated
+// pages. If any copy drifts the site links to a 404, so all three are pinned.
+function slugFrom(file) {
+  const src = readFileSync(join(ROOT, 'web', 'public', file), 'utf8');
+  const start = src.indexOf('function jobPageSlug(job) {');
+  const end = src.indexOf('\n}', start);
+  return new Function(`${src.slice(start, end + 2)}; return jobPageSlug;`)();
+}
 
-for (const job of [ats, linkedin, { id: 'x', company: 'Ford & Co', title: 'Intern — Data' }]) {
-  check(`parity: ${job.company}`, browserSlug(job), jobSlug(job));
+for (const file of ['app.js', 'page.js']) {
+  const browserSlug = slugFrom(file);
+  for (const job of [ats, linkedin, { id: 'x', company: 'Ford & Co', title: 'Intern — Data' }]) {
+    check(`parity ${file}: ${job.company}`, browserSlug(job), jobSlug(job));
+  }
 }
 
 console.log('\n== slugify ==');
@@ -56,9 +61,52 @@ check('javascript: url is not rendered', withJs.includes('javascript:alert(1)'),
 check('no empty apply href', withJs.includes('href=""'), false);
 const withHttps = renderJobPage({ ...page, applyUrl: 'https://www.linkedin.com/jobs/view/1' });
 check('https url is rendered', withHttps.includes('href="https://www.linkedin.com/jobs/view/1"'), true);
-check('posted date is rendered', withHttps.includes('<dd>2026-07-01</dd>'), true);
+// Checked on the machine-readable attribute, not the visible string: the
+// visible one is a human date ("1 Jul 2026") and page.js rewrites the pill
+// above it to a relative age, so pinning display text pins the design.
+check('posted date is rendered', withHttps.includes('datetime="2026-07-01"'), true);
+// The trap this whole file exists downstream of: postedText is frozen at scrape
+// time and never ages, so a day-old posting kept reading "4 minutes ago".
+check('postedText never reaches the page',
+  renderJobPage({ ...page, postedText: '4 minutes ago' }).includes('4 minutes ago'), false);
 // A row with no dates at all must not abort the whole publish step.
 check('undated job still renders', typeof renderJobPage({ ...linkedin, bullets: [] }), 'string');
+
+console.log('\n== the page shows our summary, and only clean facts ==');
+
+// The summary is our own writing about the posting — the field was in the data
+// and unused, and it is the paragraph that decides whether anyone reads on.
+const summarised = renderJobPage({ ...page, summary: 'Builds the payments API.' });
+check('the summary is rendered', summarised.includes('Builds the payments API.'), true);
+check('and it is escaped', renderJobPage({ ...page, summary: '<img src=x onerror=1>' })
+  .includes('<img src=x'), false);
+
+// Both fields carry mis-parsed values: "2,026" is a year that reached the money
+// slot, and "0 to 3 years" is an experience requirement that reached the
+// duration slot. Neither belongs in front of a student.
+check('a stipend with no currency is dropped',
+  renderJobPage({ ...page, stipend: '2,026' }).includes('2,026'), false);
+check('a real stipend is kept',
+  renderJobPage({ ...page, stipend: '\u20b925,000 / month' }).includes('25,000 / month'), true);
+check('an experience range is not shown as a duration',
+  renderJobPage({ ...page, duration: '0 to 3 years' }).includes('0 to 3 years'), false);
+check('a real duration is kept',
+  renderJobPage({ ...page, duration: '6 months' }).includes('6 months'), true);
+
+console.log('\n== a job page offers somewhere else to go ==');
+
+// The reason this exists: somebody arriving from a search has either applied or
+// decided not to, and in both cases the next useful thing is another role.
+const sibling = { id: '999', company: 'Adobe', title: 'Data Intern', bullets: ['a', 'b'],
+  postedAt: Date.UTC(2026, 6, 2), firstSeenAt: Date.UTC(2026, 6, 2) };
+const withSiblings = renderJobPage(page, [page, sibling]);
+check('the employer\u2019s other role is linked',
+  withSiblings.includes(`/jobs/${jobSlug(sibling)}`), true);
+check('the page does not link to itself in that strip',
+  withSiblings.split(`href="/jobs/${jobSlug(page)}"`).length - 1, 0);
+check('the hub is always linked', withSiblings.includes('/companies/adobe'), true);
+// The default has to keep working: the tests above all call it with one arg.
+check('siblings are optional', typeof renderJobPage(page), 'string');
 
 //==============================================================================
 // Company hubs are PERMANENT.

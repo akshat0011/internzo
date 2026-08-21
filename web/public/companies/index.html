@@ -7,6 +7,8 @@
 <meta name="description" content="Browse 128 live internships across 88 companies in India, plus every employer we track. Updated every 30 minutes.">
 <link rel="canonical" href="https://www.internzo.in/companies/">
 <meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f4f3ee" media="(prefers-color-scheme: light)">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Internzo">
 <meta property="og:url" content="https://www.internzo.in/companies/">
@@ -18,20 +20,26 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Internzo — new internships" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/page.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script defer src="/page.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
+<div class="grain" aria-hidden="true"></div>
 <header class="bar">
   <div class="wrap bar-in">
     <a class="brand" href="/" aria-label="Internzo">
       <span class="scope" aria-hidden="true">
         <svg viewBox="0 0 44 44">
           <circle class="s-ring" cx="22" cy="22" r="20"/><circle class="s-ring" cx="22" cy="22" r="13"/>
-          <circle class="s-ring" cx="22" cy="22" r="6"/><circle class="s-dot" cx="22" cy="22" r="2.8"/>
+          <circle class="s-ring" cx="22" cy="22" r="6"/>
+          <g class="s-sweep"><path d="M22 22 L22 1 A21 21 0 0 1 40 12 Z"/></g>
+          <circle class="s-dot" cx="22" cy="22" r="2.8"/>
         </svg>
       </span>
       <span class="word">INTERN<em>ZO</em></span>
@@ -42,451 +50,709 @@
         <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
         <span>Get alerts</span>
       </a>
+      <button class="ghost-btn" id="theme-toggle" type="button" aria-label="Switch theme">
+        <svg class="i-sun" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z"/></svg>
+      </button>
     </div>
   </div>
 </header>
 
 <main class="page">
   <div class="wrap">
-    <nav class="crumbs"><a href="/">Home</a> › <span>Companies</span></nav>
-    <h1>Internships by company</h1>
-    <p class="lede-sub">128 live openings across 88 employers, from 107 we track. Refreshed every 30 minutes.</p>
-    <ul class="hub">
-      <li>
-        <a href="/companies/harman-india">HARMAN India</a>
-        <span class="tiny">7 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/valeo">Valeo</a>
-        <span class="tiny">4 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/atkinsr-alis">AtkinsRéalis</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/fancode">FanCode</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/freight-tiger">Freight Tiger</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/fyntune-solution-private-limited">FynTune Solution Private Limited</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/highlevel">HighLevel</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/nobroker-com">NoBroker.com</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/silicon-labs">Silicon Labs</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/state-street">State Street</a>
-        <span class="tiny">3 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/american-express">American Express</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/argmac">ARGMAC</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/convin">Convin</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/dehaat">DeHaat</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/dun-and-bradstreet">Dun &amp; Bradstreet</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/greedygame">GreedyGame</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/janitri">Janitri</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/micron-technology">Micron Technology</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc">National Technology Centre for Ports, Waterways and Coasts (NTCPWC)</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/nuvama-group">Nuvama Group</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/oceaneering">Oceaneering</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/pearson">Pearson</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/qualcomm">Qualcomm</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/quest-global">Quest Global</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/s-and-p-global">S&amp;P Global</a>
-        <span class="tiny">2 open roles</span>
-      </li>
-      <li>
-        <a href="/companies/adobe">Adobe</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/airmeet">Airmeet</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/appversal">AppVersal</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/ather-energy-ltd">Ather Energy Ltd.</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/biocon">Biocon</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/bristlecone">Bristlecone</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/bugsmirror">Bugsmirror</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/calix-india">Calix India</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/certifyos">CertifyOS</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/citi">Citi</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/cloudsek">CloudSEK</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/copeland">Copeland</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/d-square-consulting-services-pvt-ltd">D Square Consulting Services Pvt Ltd</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/dentsu-creative">Dentsu Creative</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/eclerx">eClerx</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/emeritus">Emeritus</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/emerson">Emerson</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/enterpret">Enterpret</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/ge-healthcare">GE HealthCare</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/ge-vernova">GE Vernova</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/gokwik">GoKwik</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/gsk">GSK</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/haptik">Haptik</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/haystackanalytics">HaystackAnalytics</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/hevo-data">Hevo Data</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/honeywell-technologies">Honeywell Technologies</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/icertis">Icertis</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/infineon-technologies">Infineon Technologies</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/interloop-zoho-partner-manage-engine-managed-hr-services">Interloop - Zoho Partner| Manage Engine | Managed HR Services</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/intuit">Intuit</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/iqvia">IQVIA</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/jio">Jio</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/joveo">Joveo</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/kyc-hub">KYC Hub</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/larsen-and-toubro">Larsen &amp; Toubro</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/lexsi-labs">Lexsi Labs</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/marmon-technologies-india-pvt-ltd">Marmon Technologies India Pvt Ltd</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/microsoft">Microsoft</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/mizuho">Mizuho</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/monotype">Monotype</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/natwest-group">NatWest Group</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/nkt">NKT</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/paytm">Paytm</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/pharma-and">pharma&amp;</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/philips">Philips</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/resollect">Resollect</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/roche">Roche</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/russell-investments">Russell Investments</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/siemens-gamesa">Siemens Gamesa</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/simple-energy">Simple Energy</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/slice">slice</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/stripe">Stripe</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/teamlease-regtech-pvt-ltd">TeamLease Regtech Pvt. Ltd.</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/teli-labs">Teli Labs</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/tower-research-capital">Tower Research Capital</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/upgrad-international">upGrad International</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/wells-fargo">Wells Fargo</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/west-pharmaceutical-services">West Pharmaceutical Services</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/wework-india">WeWork India</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/whatfix">Whatfix</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/youtube-for-brands">Youtube For Brands</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/yubi">Yubi</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/zycus">Zycus</a>
-        <span class="tiny">1 open role</span>
-      </li>
-      <li>
-        <a href="/companies/accenture-in-india">Accenture in India</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/alphagrep-securities">AlphaGrep Securities</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/barclays">Barclays</a>
-        <span class="tiny">no live roles &middot; 3 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/bnp-paribas">BNP Paribas</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/ebay">eBay</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/intel">Intel</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/magna-international">Magna International</a>
-        <span class="tiny">no live roles &middot; 3 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/newton-school">Newton School</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/noise">Noise</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/one97-communications-limited">One97 Communications Limited</a>
-        <span class="tiny">no live roles &middot; 3 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/pixxel">Pixxel</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/red-hat">Red Hat</a>
-        <span class="tiny">no live roles &middot; 4 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/salesforce">Salesforce</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/seagate-technology">Seagate Technology</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/siemens">Siemens</a>
-        <span class="tiny">no live roles &middot; 13 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/siemens-healthineers">Siemens Healthineers</a>
-        <span class="tiny">no live roles &middot; 9 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/sony-research-india">Sony Research India</a>
-        <span class="tiny">no live roles &middot; 2 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/sprinklr">Sprinklr</a>
-        <span class="tiny">no live roles &middot; 4 tracked</span>
-      </li>
-      <li>
-        <a href="/companies/volvo-group">Volvo Group</a>
-        <span class="tiny">no live roles &middot; 3 tracked</span>
-      </li></ul>
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <i aria-hidden="true">›</i>
+      <span>Companies</span>
+    </nav>
+
+    <header class="dir-hero">
+      <h1>Internships by company</h1>
+      <div class="stats">
+        <div class="stat"><b>128</b><span>Live openings</span></div>
+        <div class="stat"><b>88</b><span>Hiring right now</span></div>
+        <div class="stat"><b>107</b><span>Employers tracked</span></div>
+      </div>
+      <div class="filter" id="filter">
+        <label>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+          <input type="search" id="filter-input" placeholder="Filter 107 employers — try “Qualcomm”" aria-label="Filter companies">
+        </label>
+      </div>
+    </header>
+
+    <p class="dir-none" id="dir-none">No employer matches that. Try a shorter word.</p>
+
+    <section class="strip" data-group>
+      <div class="strip-head"><h2>Hiring right now</h2></div>
+      <div class="dir"><a class="dir-card" href="/companies/harman-india" data-name="harman india">
+        <span class="tile-crest" aria-hidden="true">HI<img src="/logos/harman-india.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">HARMAN India</span>
+          <span class="dir-n">7 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/valeo" data-name="valeo">
+        <span class="tile-crest" aria-hidden="true">V<img src="/logos/valeo.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Valeo</span>
+          <span class="dir-n">4 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/atkinsr-alis" data-name="atkinsréalis">
+        <span class="tile-crest" aria-hidden="true">AA<img src="/logos/atkinsr-alis.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">AtkinsRéalis</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/fancode" data-name="fancode">
+        <span class="tile-crest" aria-hidden="true">F<img src="/logos/fancode.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">FanCode</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/freight-tiger" data-name="freight tiger">
+        <span class="tile-crest" aria-hidden="true">FT<img src="/logos/freight-tiger.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Freight Tiger</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/fyntune-solution-private-limited" data-name="fyntune solution private limited">
+        <span class="tile-crest" aria-hidden="true">FS<img src="/logos/fyntune-solution-private-limited.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">FynTune Solution Private Limited</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/highlevel" data-name="highlevel">
+        <span class="tile-crest" aria-hidden="true">H<img src="/logos/highlevel.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">HighLevel</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/nobroker-com" data-name="nobroker.com">
+        <span class="tile-crest" aria-hidden="true">NC<img src="/logos/nobroker-com.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">NoBroker.com</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/silicon-labs" data-name="silicon labs">
+        <span class="tile-crest" aria-hidden="true">SL<img src="/logos/silicon-labs.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Silicon Labs</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/state-street" data-name="state street">
+        <span class="tile-crest" aria-hidden="true">SS<img src="/logos/state-street.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">State Street</span>
+          <span class="dir-n">3 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/american-express" data-name="american express">
+        <span class="tile-crest" aria-hidden="true">AE<img src="/logos/american-express.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">American Express</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/argmac" data-name="argmac">
+        <span class="tile-crest" aria-hidden="true">A<img src="/logos/argmac.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">ARGMAC</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/convin" data-name="convin">
+        <span class="tile-crest" aria-hidden="true">C<img src="/logos/convin.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Convin</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/dehaat" data-name="dehaat">
+        <span class="tile-crest" aria-hidden="true">D<img src="/logos/dehaat.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">DeHaat</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/dun-and-bradstreet" data-name="dun &amp; bradstreet">
+        <span class="tile-crest" aria-hidden="true">DB<img src="/logos/dun-and-bradstreet.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Dun &amp; Bradstreet</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/greedygame" data-name="greedygame">
+        <span class="tile-crest" aria-hidden="true">G<img src="/logos/greedygame.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">GreedyGame</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/janitri" data-name="janitri">
+        <span class="tile-crest" aria-hidden="true">J<img src="/logos/janitri.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Janitri</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/micron-technology" data-name="micron technology">
+        <span class="tile-crest" aria-hidden="true">MT<img src="/logos/micron-technology.png" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Micron Technology</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/national-technology-centre-for-ports-waterways-and-coasts-ntcpwc" data-name="national technology centre for ports, waterways and coasts (ntcpwc)">
+        <span class="tile-crest" aria-hidden="true">NT<img src="/logos/national-technology-centre-for-ports-waterways-and-coasts-nt.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">National Technology Centre for Ports, Waterways and Coasts (NTCPWC)</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/nuvama-group" data-name="nuvama group">
+        <span class="tile-crest" aria-hidden="true">NG<img src="/logos/nuvama-group.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Nuvama Group</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/oceaneering" data-name="oceaneering">
+        <span class="tile-crest" aria-hidden="true">O<img src="/logos/oceaneering.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Oceaneering</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/pearson" data-name="pearson">
+        <span class="tile-crest" aria-hidden="true">P<img src="/logos/pearson.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Pearson</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/qualcomm" data-name="qualcomm">
+        <span class="tile-crest" aria-hidden="true">Q<img src="/logos/qualcomm.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Qualcomm</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/quest-global" data-name="quest global">
+        <span class="tile-crest" aria-hidden="true">QG<img src="/logos/quest-global.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Quest Global</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/s-and-p-global" data-name="s&amp;p global">
+        <span class="tile-crest" aria-hidden="true">SP<img src="/logos/s-and-p-global.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">S&amp;P Global</span>
+          <span class="dir-n">2 open roles</span>
+        </span>
+      </a><a class="dir-card" href="/companies/adobe" data-name="adobe">
+        <span class="tile-crest" aria-hidden="true">A<img src="/logos/adobe.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Adobe</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/airmeet" data-name="airmeet">
+        <span class="tile-crest" aria-hidden="true">A<img src="/logos/airmeet.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Airmeet</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/appversal" data-name="appversal">
+        <span class="tile-crest" aria-hidden="true">A<img src="/logos/appversal.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">AppVersal</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/ather-energy-ltd" data-name="ather energy ltd.">
+        <span class="tile-crest" aria-hidden="true">AE<img src="/logos/ather-energy-ltd.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Ather Energy Ltd.</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/biocon" data-name="biocon">
+        <span class="tile-crest" aria-hidden="true">B<img src="/logos/biocon.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Biocon</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/bristlecone" data-name="bristlecone">
+        <span class="tile-crest" aria-hidden="true">B<img src="/logos/bristlecone.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Bristlecone</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/bugsmirror" data-name="bugsmirror">
+        <span class="tile-crest" aria-hidden="true">B<img src="/logos/bugsmirror.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Bugsmirror</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/calix-india" data-name="calix india">
+        <span class="tile-crest" aria-hidden="true">CI<img src="/logos/calix-india.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Calix India</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/certifyos" data-name="certifyos">
+        <span class="tile-crest" aria-hidden="true">C<img src="/logos/certifyos.png" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">CertifyOS</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/citi" data-name="citi">
+        <span class="tile-crest" aria-hidden="true">C<img src="/logos/citi.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Citi</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/cloudsek" data-name="cloudsek">
+        <span class="tile-crest" aria-hidden="true">C<img src="/logos/cloudsek.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">CloudSEK</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/copeland" data-name="copeland">
+        <span class="tile-crest" aria-hidden="true">C<img src="/logos/copeland.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Copeland</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/d-square-consulting-services-pvt-ltd" data-name="d square consulting services pvt ltd">
+        <span class="tile-crest" aria-hidden="true">DS<img src="/logos/d-square-consulting-services-pvt-ltd.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">D Square Consulting Services Pvt Ltd</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/dentsu-creative" data-name="dentsu creative">
+        <span class="tile-crest" aria-hidden="true">DC<img src="/logos/dentsu-creative.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Dentsu Creative</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/eclerx" data-name="eclerx">
+        <span class="tile-crest" aria-hidden="true">E<img src="/logos/eclerx.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">eClerx</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/emeritus" data-name="emeritus">
+        <span class="tile-crest" aria-hidden="true">E<img src="/logos/emeritus.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Emeritus</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/emerson" data-name="emerson">
+        <span class="tile-crest" aria-hidden="true">E<img src="/logos/emerson.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Emerson</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/enterpret" data-name="enterpret">
+        <span class="tile-crest" aria-hidden="true">E<img src="/logos/enterpret.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Enterpret</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/ge-healthcare" data-name="ge healthcare">
+        <span class="tile-crest" aria-hidden="true">GH<img src="/logos/ge-healthcare.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">GE HealthCare</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/ge-vernova" data-name="ge vernova">
+        <span class="tile-crest" aria-hidden="true">GV<img src="/logos/ge-vernova.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">GE Vernova</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/gokwik" data-name="gokwik">
+        <span class="tile-crest" aria-hidden="true">G<img src="/logos/gokwik.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">GoKwik</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/gsk" data-name="gsk">
+        <span class="tile-crest" aria-hidden="true">G<img src="/logos/gsk.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">GSK</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/haptik" data-name="haptik">
+        <span class="tile-crest" aria-hidden="true">H<img src="/logos/haptik.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Haptik</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/haystackanalytics" data-name="haystackanalytics">
+        <span class="tile-crest" aria-hidden="true">H<img src="/logos/haystackanalytics.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">HaystackAnalytics</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/hevo-data" data-name="hevo data">
+        <span class="tile-crest" aria-hidden="true">HD<img src="/logos/hevo-data.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Hevo Data</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/honeywell-technologies" data-name="honeywell technologies">
+        <span class="tile-crest" aria-hidden="true">HT<img src="/logos/honeywell-technologies.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Honeywell Technologies</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/icertis" data-name="icertis">
+        <span class="tile-crest" aria-hidden="true">I<img src="/logos/icertis.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Icertis</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/infineon-technologies" data-name="infineon technologies">
+        <span class="tile-crest" aria-hidden="true">IT<img src="/logos/infineon-technologies.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Infineon Technologies</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/interloop-zoho-partner-manage-engine-managed-hr-services" data-name="interloop - zoho partner| manage engine | managed hr services">
+        <span class="tile-crest" aria-hidden="true">IZ<img src="/logos/interloop-zoho-partner-manage-engine-managed-hr-services.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Interloop - Zoho Partner| Manage Engine | Managed HR Services</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/intuit" data-name="intuit">
+        <span class="tile-crest" aria-hidden="true">I<img src="/logos/intuit.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Intuit</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/iqvia" data-name="iqvia">
+        <span class="tile-crest" aria-hidden="true">I<img src="/logos/iqvia.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">IQVIA</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/jio" data-name="jio">
+        <span class="tile-crest" aria-hidden="true">J<img src="/logos/jio.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Jio</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/joveo" data-name="joveo">
+        <span class="tile-crest" aria-hidden="true">J<img src="/logos/joveo.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Joveo</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/kyc-hub" data-name="kyc hub">
+        <span class="tile-crest" aria-hidden="true">KH<img src="/logos/kyc-hub.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">KYC Hub</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/larsen-and-toubro" data-name="larsen &amp; toubro">
+        <span class="tile-crest" aria-hidden="true">LT<img src="/logos/larsen-and-toubro.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Larsen &amp; Toubro</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/lexsi-labs" data-name="lexsi labs">
+        <span class="tile-crest" aria-hidden="true">LL<img src="/logos/lexsi-labs.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Lexsi Labs</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/marmon-technologies-india-pvt-ltd" data-name="marmon technologies india pvt ltd">
+        <span class="tile-crest" aria-hidden="true">MT<img src="/logos/marmon-technologies-india-pvt-ltd.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Marmon Technologies India Pvt Ltd</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/microsoft" data-name="microsoft">
+        <span class="tile-crest" aria-hidden="true">M<img src="/logos/microsoft.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Microsoft</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/mizuho" data-name="mizuho">
+        <span class="tile-crest" aria-hidden="true">M<img src="/logos/mizuho.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Mizuho</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/monotype" data-name="monotype">
+        <span class="tile-crest" aria-hidden="true">M<img src="/logos/monotype.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Monotype</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/natwest-group" data-name="natwest group">
+        <span class="tile-crest" aria-hidden="true">NG<img src="/logos/natwest-group.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">NatWest Group</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/nkt" data-name="nkt">
+        <span class="tile-crest" aria-hidden="true">N<img src="/logos/nkt.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">NKT</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/paytm" data-name="paytm">
+        <span class="tile-crest" aria-hidden="true">P<img src="/logos/paytm.png" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Paytm</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/pharma-and" data-name="pharma&amp;">
+        <span class="tile-crest" aria-hidden="true">P<img src="/logos/pharma-and.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">pharma&amp;</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/philips" data-name="philips">
+        <span class="tile-crest" aria-hidden="true">P<img src="/logos/philips.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Philips</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/resollect" data-name="resollect">
+        <span class="tile-crest" aria-hidden="true">R<img src="/logos/resollect.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Resollect</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/roche" data-name="roche">
+        <span class="tile-crest" aria-hidden="true">R<img src="/logos/roche.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Roche</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/russell-investments" data-name="russell investments">
+        <span class="tile-crest" aria-hidden="true">RI<img src="/logos/russell-investments.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Russell Investments</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/siemens-gamesa" data-name="siemens gamesa">
+        <span class="tile-crest" aria-hidden="true">SG<img src="/logos/siemens-gamesa.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Siemens Gamesa</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/simple-energy" data-name="simple energy">
+        <span class="tile-crest" aria-hidden="true">SE<img src="/logos/simple-energy.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Simple Energy</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/slice" data-name="slice">
+        <span class="tile-crest" aria-hidden="true">S<img src="/logos/slice.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">slice</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/stripe" data-name="stripe">
+        <span class="tile-crest" aria-hidden="true">S<img src="/logos/stripe.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Stripe</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/teamlease-regtech-pvt-ltd" data-name="teamlease regtech pvt. ltd.">
+        <span class="tile-crest" aria-hidden="true">TR<img src="/logos/teamlease-regtech-pvt-ltd.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">TeamLease Regtech Pvt. Ltd.</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/teli-labs" data-name="teli labs">
+        <span class="tile-crest" aria-hidden="true">TL<img src="/logos/teli-labs.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Teli Labs</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/tower-research-capital" data-name="tower research capital">
+        <span class="tile-crest" aria-hidden="true">TR</span>
+        <span class="dir-t">
+          <span class="dir-name">Tower Research Capital</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/upgrad-international" data-name="upgrad international">
+        <span class="tile-crest" aria-hidden="true">UI<img src="/logos/upgrad-international.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">upGrad International</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/wells-fargo" data-name="wells fargo">
+        <span class="tile-crest" aria-hidden="true">WF<img src="/logos/wells-fargo.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Wells Fargo</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/west-pharmaceutical-services" data-name="west pharmaceutical services">
+        <span class="tile-crest" aria-hidden="true">WP<img src="/logos/west-pharmaceutical-services.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">West Pharmaceutical Services</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/wework-india" data-name="wework india">
+        <span class="tile-crest" aria-hidden="true">WI<img src="/logos/wework-india.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">WeWork India</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/whatfix" data-name="whatfix">
+        <span class="tile-crest" aria-hidden="true">W<img src="/logos/whatfix.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Whatfix</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/youtube-for-brands" data-name="youtube for brands">
+        <span class="tile-crest" aria-hidden="true">YF<img src="/logos/youtube-for-brands.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Youtube For Brands</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/yubi" data-name="yubi">
+        <span class="tile-crest" aria-hidden="true">Y<img src="/logos/yubi.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Yubi</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a><a class="dir-card" href="/companies/zycus" data-name="zycus">
+        <span class="tile-crest" aria-hidden="true">Z<img src="/logos/zycus.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Zycus</span>
+          <span class="dir-n">1 open role</span>
+        </span>
+      </a></div>
+    </section>
+
+    <section class="strip" data-group>
+      <div class="strip-head"><h2>Tracked, nothing open today</h2></div>
+      <div class="dir"><a class="dir-card is-quiet" href="/companies/accenture-in-india" data-name="accenture in india">
+        <span class="tile-crest" aria-hidden="true">AI<img src="/logos/accenture-in-india.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Accenture in India</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/alphagrep-securities" data-name="alphagrep securities">
+        <span class="tile-crest" aria-hidden="true">AS</span>
+        <span class="dir-t">
+          <span class="dir-name">AlphaGrep Securities</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/barclays" data-name="barclays">
+        <span class="tile-crest" aria-hidden="true">B<img src="/logos/barclays.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Barclays</span>
+          <span class="dir-n">no live roles · 3 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/bnp-paribas" data-name="bnp paribas">
+        <span class="tile-crest" aria-hidden="true">BP<img src="/logos/bnp-paribas.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">BNP Paribas</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/ebay" data-name="ebay">
+        <span class="tile-crest" aria-hidden="true">E<img src="/logos/ebay.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">eBay</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/intel" data-name="intel">
+        <span class="tile-crest" aria-hidden="true">I<img src="/logos/intel.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Intel</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/magna-international" data-name="magna international">
+        <span class="tile-crest" aria-hidden="true">MI<img src="/logos/magna-international.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Magna International</span>
+          <span class="dir-n">no live roles · 3 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/newton-school" data-name="newton school">
+        <span class="tile-crest" aria-hidden="true">NS<img src="/logos/newton-school.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Newton School</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/noise" data-name="noise">
+        <span class="tile-crest" aria-hidden="true">N<img src="/logos/noise.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Noise</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/one97-communications-limited" data-name="one97 communications limited">
+        <span class="tile-crest" aria-hidden="true">OC<img src="/logos/one97-communications-limited.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">One97 Communications Limited</span>
+          <span class="dir-n">no live roles · 3 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/pixxel" data-name="pixxel">
+        <span class="tile-crest" aria-hidden="true">P<img src="/logos/pixxel.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Pixxel</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/red-hat" data-name="red hat">
+        <span class="tile-crest" aria-hidden="true">RH<img src="/logos/red-hat.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Red Hat</span>
+          <span class="dir-n">no live roles · 4 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/salesforce" data-name="salesforce">
+        <span class="tile-crest" aria-hidden="true">S<img src="/logos/salesforce.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Salesforce</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/seagate-technology" data-name="seagate technology">
+        <span class="tile-crest" aria-hidden="true">ST<img src="/logos/seagate-technology.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Seagate Technology</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/siemens" data-name="siemens">
+        <span class="tile-crest" aria-hidden="true">S<img src="/logos/siemens.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Siemens</span>
+          <span class="dir-n">no live roles · 13 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/siemens-healthineers" data-name="siemens healthineers">
+        <span class="tile-crest" aria-hidden="true">SH<img src="/logos/siemens-healthineers.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Siemens Healthineers</span>
+          <span class="dir-n">no live roles · 9 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/sony-research-india" data-name="sony research india">
+        <span class="tile-crest" aria-hidden="true">SR<img src="/logos/sony-research-india.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Sony Research India</span>
+          <span class="dir-n">no live roles · 2 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/sprinklr" data-name="sprinklr">
+        <span class="tile-crest" aria-hidden="true">S<img src="/logos/sprinklr.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Sprinklr</span>
+          <span class="dir-n">no live roles · 4 tracked</span>
+        </span>
+      </a><a class="dir-card is-quiet" href="/companies/volvo-group" data-name="volvo group">
+        <span class="tile-crest" aria-hidden="true">VG<img src="/logos/volvo-group.jpg" alt="" loading="lazy" decoding="async" width="80" height="80"></span>
+        <span class="dir-t">
+          <span class="dir-name">Volvo Group</span>
+          <span class="dir-n">no live roles · 3 tracked</span>
+        </span>
+      </a></div>
+    </section>
   </div>
 </main>
 
+<section class="outro">
+  <div class="wrap">
+    <b>Never refresh this page again</b>
+    <p>Every new engineering internship in India, pushed to Telegram within minutes of going live.</p>
+    <div class="outro-acts">
+      <a class="a-1" href="https://t.me/internzo" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        Get every new role on Telegram
+      </a>
+      <a class="a-2" href="/">Browse all live internships</a>
+    </div>
+  </div>
+</section>
 <footer class="foot">
   <div class="wrap">
     <p>Every listing links back to its original posting — always apply there. Summaries are written by Internzo; the linked posting is the source of truth.</p>
-    <p><a href="/">See every live internship →</a></p>
+    <p class="dim"><a href="/">Home</a> · <a href="/companies/">All companies</a> · <a href="/feed.xml">RSS</a></p>
   </div>
 </footer>
 </body>
