@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787290553156,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1787290751856,
+ "count": 131,
+ "techCount": 131,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -81,7 +81,6 @@
   "Stripe",
   "TeamLease Regtech Pvt. Ltd.",
   "Teli Labs",
-  "Times Internet",
   "Tower Research Capital",
   "Valeo",
   "WeWork India",
@@ -5666,48 +5665,6 @@
    "firstSeenAt": 1786095156370,
    "url": "https://www.linkedin.com/jobs/view/4450086026/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4450086026/",
-   "description": null
-  },
-  {
-   "id": "4448705984",
-   "title": "UX Research Intern",
-   "company": "Times Internet",
-   "matchedWatchlist": "Times Internet",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/times-internet.jpg",
-   "location": "Noida, Uttar Pradesh, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": "6 months",
-   "applicants": "13 applicants",
-   "easyApply": true,
-   "skills": [
-    "figma"
-   ],
-   "summary": "UX Research Intern Work Location - Film City, Noida (No Hybrid) Duration - 6 Months We're looking for a UX Research Intern to join our team and help us build products that reach millions of users.",
-   "bullets": [
-    "Conduct user interviews, surveys, and usability tests for digital products",
-    "Recruit participants, transcribe sessions, and build insight decks",
-    "Maintain research repositories and share findings with design and dev teams",
-    "6-month full-time internship in Noida"
-   ],
-   "roleLabel": "UX research",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "figma",
-    "google forms",
-    "maze",
-    "usability testing",
-    "surveys"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "52 minutes ago",
-   "postedAt": 1786077923049,
-   "firstSeenAt": 1786081043054,
-   "url": "https://www.linkedin.com/jobs/view/4448705984/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4448705984/",
    "description": null
   }
  ]
