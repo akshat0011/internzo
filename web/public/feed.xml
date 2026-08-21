@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 11:46:34 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 11:50:45 GMT</lastBuildDate>
+  <item>
+    <title>Graduate Engineering Trainee — GE Vernova</title>
+    <link>https://www.internzo.in/jobs/ge-vernova-graduate-engineering-trainee-4445934063</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/ge-vernova-graduate-engineering-trainee-4445934063</guid>
+    <pubDate>Fri, 21 Aug 2026 11:38:28 GMT</pubDate>
+    <description>Company: GE Vernova · Location: Noida, Uttar Pradesh, India
+• Work on engineering studies, designs, simulations, and tests across multiple departments
+• Rotate through engineering functions with hands-on lab and commissioning experiences
+• Collaborate on group projects and present to executive managers in real-world settings</description>
+  </item>
   <item>
     <title>Diploma Trainee – Electrical / Civil – Fixed Term contract — AtkinsRéalis</title>
     <link>https://www.internzo.in/jobs/atkinsr-alis-diploma-trainee-electrical-civil-fixed-term-contract-4418945505</link>
@@ -502,17 +512,6 @@
 • Work on end-to-end AI projects from data ingestion to model deployment
 • Collaborate with the AI/ML team on predictive modeling and clustering tasks
 • Deploy models on cloud platforms like AWS SageMaker or Google Colab</description>
-  </item>
-  <item>
-    <title>Fullstack Developer- Internship — GreedyGame</title>
-    <link>https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630</guid>
-    <pubDate>Tue, 18 Aug 2026 04:26:04 GMT</pubDate>
-    <description>Company: GreedyGame · Location: Bengaluru, Karnataka, India · Duration: 0-1 years
-• Build backend services for ad networks and Google Ad Manager
-• Develop frontend dashboards in React for ad unit management
-• Work with MySQL, PostgreSQL, and MongoDB for data handling
-• Collaborate with engineers and product managers on feature development</description>
   </item>
 </channel>
 </rss>

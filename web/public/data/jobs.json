@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787312793853,
- "count": 132,
- "techCount": 132,
+ "generatedAt": 1787313044788,
+ "count": 133,
+ "techCount": 133,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -128,6 +128,47 @@
   "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "4445934063",
+   "title": "Graduate Engineering Trainee",
+   "company": "GE Vernova",
+   "matchedWatchlist": "GE Vernova",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/ge-vernova.jpg",
+   "location": "Noida, Uttar Pradesh, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++",
+    "matlab"
+   ],
+   "summary": "This internship offers engineering graduates the chance to work on real projects in power systems and HVDC technology. You'll rotate through different departments, gain hands-on experience, and contribute to global projects. Ideal for those passionate about renewable energy and eager to grow in a technical environment.",
+   "bullets": [
+    "Work on engineering studies, designs, simulations, and tests across multiple departments",
+    "Rotate through engineering functions with hands-on lab and commissioning experiences",
+    "Collaborate on group projects and present to executive managers in real-world settings"
+   ],
+   "roleLabel": "Engineering Rotation",
+   "degreeLevel": "UG/PG",
+   "degreeText": "Electrical / Mechanical / Electronics / Controls",
+   "keySkills": [
+    "matlab/simulink",
+    "autocad",
+    "c/c++",
+    "power systems"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "10 minutes ago",
+   "postedAt": 1787312308549,
+   "firstSeenAt": 1787312908551,
+   "url": "https://www.linkedin.com/jobs/view/4445934063/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4445934063/",
+   "description": null
+  },
   {
    "id": "4418945505",
    "title": "Diploma Trainee – Electrical / Civil – Fixed Term contract",

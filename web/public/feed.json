@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/ge-vernova-graduate-engineering-trainee-4445934063",
+      "url": "https://www.internzo.in/jobs/ge-vernova-graduate-engineering-trainee-4445934063",
+      "title": "Graduate Engineering Trainee — GE Vernova",
+      "content_text": "Company: GE Vernova · Location: Noida, Uttar Pradesh, India\n• Work on engineering studies, designs, simulations, and tests across multiple departments\n• Rotate through engineering functions with hands-on lab and commissioning experiences\n• Collaborate on group projects and present to executive managers in real-world settings",
+      "date_published": "2026-08-21T11:38:28.549Z",
+      "authors": [
+        {
+          "name": "GE Vernova"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/atkinsr-alis-diploma-trainee-electrical-civil-fixed-term-contract-4418945505",
       "url": "https://www.internzo.in/jobs/atkinsr-alis-diploma-trainee-electrical-civil-fixed-term-contract-4418945505",
       "title": "Diploma Trainee – Electrical / Civil – Fixed Term contract — AtkinsRéalis",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "D Square Consulting Services Pvt Ltd"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630",
-      "url": "https://www.internzo.in/jobs/greedygame-fullstack-developer-internship-4454473630",
-      "title": "Fullstack Developer- Internship — GreedyGame",
-      "content_text": "Company: GreedyGame · Location: Bengaluru, Karnataka, India · Duration: 0-1 years\n• Build backend services for ad networks and Google Ad Manager\n• Develop frontend dashboards in React for ad unit management\n• Work with MySQL, PostgreSQL, and MongoDB for data handling\n• Collaborate with engineers and product managers on feature development",
-      "date_published": "2026-08-18T04:26:04.680Z",
-      "authors": [
-        {
-          "name": "GreedyGame"
         }
       ]
     }
