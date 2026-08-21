@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787314188131,
- "count": 134,
- "techCount": 134,
+ "generatedAt": 1787315860262,
+ "count": 135,
+ "techCount": 135,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -168,6 +168,45 @@
    "firstSeenAt": 1787314022108,
    "url": "https://www.linkedin.com/jobs/view/4457321584/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4457321584/",
+   "description": null
+  },
+  {
+   "id": "4457308735",
+   "title": "Intern Masters Embedded Eng",
+   "company": "Honeywell Technologies",
+   "matchedWatchlist": "Honeywell",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/honeywell-technologies.jpg",
+   "location": "Bengaluru, Karnataka, India",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "8 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "c++"
+   ],
+   "summary": "This internship involves working on embedded software and firmware for aerospace systems. You'll collaborate with engineers on innovative projects and gain hands-on experience in embedded systems development. Ideal for students pursuing a master's in electrical or computer engineering with a focus on embedded systems.",
+   "bullets": [
+    "Assist in designing and debugging embedded software and firmware",
+    "Work with engineers on cutting-edge aerospace systems",
+    "Learn embedded systems and software development methodologies"
+   ],
+   "roleLabel": "Embedded Systems Development",
+   "degreeLevel": "PG",
+   "degreeText": null,
+   "keySkills": [
+    "c/c++",
+    "embedded systems",
+    "software development"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "33 minutes ago",
+   "postedAt": 1787313779402,
+   "firstSeenAt": 1787315759409,
+   "url": "https://www.linkedin.com/jobs/view/4457308735/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4457308735/",
    "description": null
   },
   {

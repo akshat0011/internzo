@@ -6,7 +6,7 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 12:09:48 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 12:37:40 GMT</lastBuildDate>
   <item>
     <title>Intern Masters Software Eng — Honeywell Technologies</title>
     <link>https://www.internzo.in/jobs/honeywell-technologies-intern-masters-software-eng-4457321584</link>
@@ -16,6 +16,16 @@
 • Design develop test software applications
 • Collaborate with crossfunctional teams
 • Participate in code reviews and debugging</description>
+  </item>
+  <item>
+    <title>Intern Masters Embedded Eng — Honeywell Technologies</title>
+    <link>https://www.internzo.in/jobs/honeywell-technologies-intern-masters-embedded-eng-4457308735</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/honeywell-technologies-intern-masters-embedded-eng-4457308735</guid>
+    <pubDate>Fri, 21 Aug 2026 12:02:59 GMT</pubDate>
+    <description>Company: Honeywell Technologies · Location: Bengaluru, Karnataka, India
+• Assist in designing and debugging embedded software and firmware
+• Work with engineers on cutting-edge aerospace systems
+• Learn embedded systems and software development methodologies</description>
   </item>
   <item>
     <title>Graduate Engineering Trainee — GE Vernova</title>
@@ -500,17 +510,6 @@
 • Track organize maintain production data across storage devices
 • Create trackers for footage projects archives and backups
 • Coordinate with editors and teams to retrieve files quickly</description>
-  </item>
-  <item>
-    <title>AI-Native Product Manager – Graduate Trainee (2026 Passouts) — Zycus</title>
-    <link>https://www.internzo.in/jobs/zycus-ai-native-product-manager-graduate-trainee-2026-passouts-4455587484</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/zycus-ai-native-product-manager-graduate-trainee-2026-passouts-4455587484</guid>
-    <pubDate>Tue, 18 Aug 2026 07:01:33 GMT</pubDate>
-    <description>Company: Zycus · Location: Bengaluru, Karnataka, India
-• Use AI tools for market research, competitive analysis, and user research synthesis
-• Collaborate with senior product managers on AI-assisted workflows and requirements
-• Ship features end-to-end with engineering, design, and QA teams
-• Track product metrics and translate data into actionable insights</description>
   </item>
 </channel>
 </rss>
