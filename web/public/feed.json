@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/cloudsek-devops-intern-4454626356",
+      "url": "https://www.internzo.in/jobs/cloudsek-devops-intern-4454626356",
+      "title": "DevOps Intern — CloudSEK",
+      "content_text": "Company: CloudSEK · Location: Bengaluru, Karnataka, India\n• Deploy and manage Kubernetes clusters across cloud platforms\n• Build monitoring and CI/CD pipelines for production systems\n• Troubleshoot networking and cloud service issues\n• Collaborate with security and application teams",
+      "date_published": "2026-08-21T13:00:19.325Z",
+      "authors": [
+        {
+          "name": "CloudSEK"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/honeywell-technologies-intern-masters-software-eng-4457321584",
       "url": "https://www.internzo.in/jobs/honeywell-technologies-intern-masters-software-eng-4457321584",
       "title": "Intern Masters Software Eng — Honeywell Technologies",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Simple Energy"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016",
-      "url": "https://www.internzo.in/jobs/youtube-for-brands-data-management-intern-4452577016",
-      "title": "Data Management Intern — Youtube For Brands",
-      "content_text": "Company: Youtube For Brands · Location: Bengaluru, Karnataka, India · Duration: 3 months\n• Track organize maintain production data across storage devices\n• Create trackers for footage projects archives and backups\n• Coordinate with editors and teams to retrieve files quickly",
-      "date_published": "2026-08-18T07:06:28.672Z",
-      "authors": [
-        {
-          "name": "Youtube For Brands"
         }
       ]
     }
