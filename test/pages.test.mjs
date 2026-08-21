@@ -72,6 +72,19 @@ check('postedText never reaches the page',
 // A row with no dates at all must not abort the whole publish step.
 check('undated job still renders', typeof renderJobPage({ ...linkedin, bullets: [] }), 'string');
 
+// ONE apply button, in the rail, plus the mobile dock's copy of it — and that
+// is all. The rail is sticky on a desktop and the dock catches a phone reader
+// who has scrolled past it, so a third copy in the how-to-apply band was never
+// reachable at a moment neither of these was. Two identical primary buttons in
+// the same column also cost the first one its weight.
+check('exactly two apply buttons: the rail and the dock',
+  withHttps.split('class="btn-apply"').length - 1, 2);
+// Bounded at the rail, because both surviving buttons sit after the band in
+// source order and an open-ended slice catches them.
+const band = withHttps.slice(withHttps.indexOf('apply-band'), withHttps.indexOf('<aside class="jp-side"'));
+check('the how-to-apply band carries no button', band.includes('btn-apply'), false);
+check('but it still gives the advice', band.includes('applying early matters'), true);
+
 console.log('\n== the page shows our summary, and only clean facts ==');
 
 // The summary is our own writing about the posting — the field was in the data

@@ -483,9 +483,14 @@ export function renderJobPage(job, siblings = []) {
 
   const postingLd = jobPostingLd(job, url);
   const where = apply ? applyTarget(apply) : '';
-  const applyBtn = (extra = '') => (apply
-    ? `<a class="btn-apply${extra}" href="${apply}" target="_blank" rel="nofollow noopener"><span>Apply on ${where}</span><em aria-hidden="true"></em></a>`
-    : '');
+  // ONE apply button on the page, in the rail. It is sticky on a desktop and
+  // sits under the headline on a phone, and the dock catches a reader who has
+  // scrolled past it — so a second copy lower down was never reachable at a
+  // moment the first one was not. Two identical primary buttons also cost the
+  // first one its weight: whichever the eye lands on reads as one of a pair.
+  const applyBtn = apply
+    ? `<a class="btn-apply" href="${apply}" target="_blank" rel="nofollow noopener"><span>Apply on ${where}</span><em aria-hidden="true"></em></a>`
+    : '';
 
   const others = newestFirst(siblings.filter((j) => String(j.id) !== String(job.id))).slice(0, 6);
 
@@ -540,7 +545,6 @@ export function renderJobPage(job, siblings = []) {
           <div class="apply-band">
             <p>${apply ? `This one is applied for on <strong>${where}</strong>.` : 'Apply through the original posting.'}
             Internships in India often collect hundreds of applicants within a day, so <strong>applying early matters more than applying perfectly</strong>.</p>
-            ${applyBtn()}
           </div>
           <p class="note">This summary was written by Internzo from the public posting, and is not the employer's own wording. The linked posting is the source of truth — check it before you apply.</p>
         </section>
@@ -549,7 +553,7 @@ export function renderJobPage(job, siblings = []) {
       <aside class="jp-side">
         <div class="jp-card">
           ${apply ? `<div class="jp-card-top">
-            ${applyBtn()}
+            ${applyBtn}
             <p class="jp-card-note">Opens ${where} in a new tab. Free — we never ask for a fee.</p>
           </div>` : ''}
           <dl class="facts">

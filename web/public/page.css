@@ -219,7 +219,7 @@ a.jp-crest:active { transform: scale(.97); }
   background: var(--live); color: var(--live-ink);
   font-size: 15px; font-weight: 700; letter-spacing: -.01em;
   text-decoration: none; text-align: center;
-  transition: transform var(--d-press) var(--snap), filter .18s;
+  transition: transform var(--d-press) var(--snap), filter .18s, box-shadow .2s;
 }
 .btn-apply span { position: relative; z-index: 1; }
 .btn-apply em {
@@ -229,21 +229,74 @@ a.jp-crest:active { transform: scale(.97); }
   transition: transform .2s var(--snap);
 }
 .btn-apply:active { transform: scale(.975); }
-@media (hover: hover) and (pointer: fine) {
-  .btn-apply:hover { filter: brightness(1.07); }
-  .btn-apply:hover em { transform: translateX(3px); }
-}
-/* A sheen crossing the button, once, on hover. Decorative only — the global
-   reduced-motion rule at the foot of this file removes it. */
+
 .btn-apply::after {
   content: ""; position: absolute; inset: 0; z-index: 0;
   background: linear-gradient(100deg, transparent 22%, rgba(255,255,255,.5) 50%, transparent 78%);
   transform: translateX(-130%);
 }
+
 @media (hover: hover) and (pointer: fine) {
+  .btn-apply:hover {
+    filter: brightness(1.07);
+    /* A ring rather than a blurred glow. The whole design is flat and hard-
+       edged; a soft halo would be the one gaussian thing on the page. */
+    box-shadow: 0 0 0 4px color-mix(in oklab, var(--live) 20%, transparent);
+  }
+  .btn-apply:hover em { transform: translateX(3px); }
   .btn-apply:hover::after { animation: sheen .62s var(--snap); }
 }
 @keyframes sheen { to { transform: translateX(130%); } }
+
+/* ---------- the ambient loop ---------- */
+
+/* Only the rail button, and only because it is now the ONLY apply button on
+   the page — the second copy lower down is gone.
+ *
+ * The frequency rule says do not animate what somebody sees dozens of times a
+ * day. This is the opposite case: a stranger arrives from a search, sees this
+ * page once, and the button is the single thing the page exists to deliver. So
+ * it moves on its own until they touch it.
+ *
+ * One 4.6s cycle: about 700ms of motion, then four seconds of stillness. A
+ * sheen that swept continuously would read as a progress bar, and anything
+ * that never rests stops being seen within about three passes. Nothing here
+ * touches a layout property — two transforms on compositor layers, and that
+ * is the whole cost. */
+
+/* LINEAR, not --snap. A sheen is constant motion, like a marquee, and the site
+   curve is a strong ease-out: at --snap the band covered the whole button in
+   the first 180ms and then spent 800ms crawling across dead space off the
+   right edge. It read as a blink. Linear over 15% of the cycle puts the band
+   on the button for about 530ms, which is a sweep you can follow. */
+.jp-card-top .btn-apply::after { animation: sheen-loop 4.6s linear 1.4s infinite; }
+@keyframes sheen-loop {
+  0%   { transform: translateX(-130%); }
+  15%  { transform: translateX(130%); }
+  100% { transform: translateX(130%); }
+}
+
+/* The arrow leans out as the sheen reaches it and settles back behind it.
+   The numbers are not decorative: the arrow sits at the right-hand end, the
+   sheen is over that end at 13% of the cycle, so the lean peaks at 13%. Timed
+   any later — the first attempt peaked at 22% — the two stop reading as one
+   gesture and become a flash followed, half a second on, by an unrelated
+   twitch. Ease-out on the way out, slower on the way back. */
+.jp-card-top .btn-apply em { animation: nudge 4.6s var(--snap) 1.4s infinite; }
+@keyframes nudge {
+  0%, 8%    { transform: translateX(0); }
+  13%       { transform: translateX(5px); }
+  22%, 100% { transform: translateX(0); }
+}
+
+/* Hover cancels both loops rather than pausing them — a paused sheen freezes a
+   bright band across the middle of the button, and a paused arrow strands
+   itself mid-lean. Cancelled, each falls back to the transition above and
+   answers the pointer instead. */
+@media (hover: hover) and (pointer: fine) {
+  .jp-card-top .btn-apply:hover em { animation: none; transform: translateX(3px); }
+  .jp-card-top .btn-apply:hover::after { animation: sheen .62s var(--snap); }
+}
 
 .jp-card-note {
   margin-top: 12px; font-size: 12px; line-height: 1.5; color: var(--ink-3);
@@ -299,8 +352,6 @@ a.jp-crest:active { transform: scale(.97); }
 }
 .apply-band p { font-size: 14.5px; line-height: 1.6; color: var(--ink-2); max-width: 62ch; }
 .apply-band strong { color: var(--ink); font-weight: 600; }
-.apply-band .btn-apply { width: auto; display: inline-flex; margin-top: 18px; padding: 0 26px; }
-
 .note {
   margin: 26px 0 0; padding-top: 18px; border-top: 1px solid var(--rule);
   font-size: 12px; line-height: 1.65; color: var(--ink-3); max-width: 74ch;
@@ -641,6 +692,7 @@ a.jp-crest:active { transform: scale(.97); }
   .tiles.in > *, .dir.in > * { animation: none; }
   .pill.is-hot i { animation: none; }
   .btn-apply::after { display: none; }
+  .jp-card-top .btn-apply em { animation: none; }
   .dock { transition: none; }
   *, *::before, *::after {
     animation-duration: .01ms !important;
