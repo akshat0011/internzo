@@ -6,7 +6,28 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 22:07:25 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 22:37:52 GMT</lastBuildDate>
+  <item>
+    <title>AI ML INTERN — D Square Consulting Services Pvt Ltd</title>
+    <link>https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-intern-4456083889</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-intern-4456083889</guid>
+    <pubDate>Fri, 21 Aug 2026 22:23:54 GMT</pubDate>
+    <description>Company: D Square Consulting Services Pvt Ltd · Location: Bengaluru, Karnataka, India · Duration: 0–6 months
+• Build supervised and unsupervised models for prediction and clustering
+• Use Python, NumPy, Pandas, and Matplotlib for data analysis
+• Work on end-to-end AI projects from data to deployment
+• Collaborate with team on model testing and optimization</description>
+  </item>
+  <item>
+    <title>Software Engineer – Network/Embedded/Application Development (Summer Internship) - India EG Requisition — Cisco</title>
+    <link>https://www.internzo.in/jobs/cisco-software-engineer-network-embedded-application-development-summer-inte-4457511742</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/cisco-software-engineer-network-embedded-application-development-summer-inte-4457511742</guid>
+    <pubDate>Fri, 21 Aug 2026 22:04:59 GMT</pubDate>
+    <description>Company: Cisco · Location: Bengaluru, Karnataka, India
+• Develop and refine software for global networking platforms
+• Work with C/C++, AI tools, and cloud environments
+• Collaborate on protocols, embedded systems, or cloud apps</description>
+  </item>
   <item>
     <title>Intern, Development — Icertis</title>
     <link>https://www.internzo.in/jobs/icertis-intern-development-4457522090</link>
@@ -491,26 +512,6 @@
 • Run aero-elastic simulations to assess controller updates on turbine loads
 • Analyze simulation data to support engineering decisions and design verification
 • Collaborate with engineers on project deliverables and technical documentation</description>
-  </item>
-  <item>
-    <title>Student - Intern — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-student-intern-4452583899</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-student-intern-4452583899</guid>
-    <pubDate>Tue, 18 Aug 2026 10:52:51 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
-• Work on embedded systems, Android, and Linux software development
-• Collaborate on complex software stacks with real-world impact
-• Based in Bengaluru, requires office presence and team collaboration</description>
-  </item>
-  <item>
-    <title>Bluetooth Intern — HARMAN India</title>
-    <link>https://www.internzo.in/jobs/harman-india-bluetooth-intern-4452589833</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/harman-india-bluetooth-intern-4452589833</guid>
-    <pubDate>Tue, 18 Aug 2026 10:52:28 GMT</pubDate>
-    <description>Company: HARMAN India · Location: Bengaluru, Karnataka, India
-• Work on embedded systems using C++ and Linux
-• Contribute to unit testing with Google Test
-• Collaborate in a fast-paced development team</description>
   </item>
 </channel>
 </rss>

@@ -6,6 +6,30 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-intern-4456083889",
+      "url": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-intern-4456083889",
+      "title": "AI ML INTERN — D Square Consulting Services Pvt Ltd",
+      "content_text": "Company: D Square Consulting Services Pvt Ltd · Location: Bengaluru, Karnataka, India · Duration: 0–6 months\n• Build supervised and unsupervised models for prediction and clustering\n• Use Python, NumPy, Pandas, and Matplotlib for data analysis\n• Work on end-to-end AI projects from data to deployment\n• Collaborate with team on model testing and optimization",
+      "date_published": "2026-08-21T22:23:54.326Z",
+      "authors": [
+        {
+          "name": "D Square Consulting Services Pvt Ltd"
+        }
+      ]
+    },
+    {
+      "id": "https://www.internzo.in/jobs/cisco-software-engineer-network-embedded-application-development-summer-inte-4457511742",
+      "url": "https://www.internzo.in/jobs/cisco-software-engineer-network-embedded-application-development-summer-inte-4457511742",
+      "title": "Software Engineer – Network/Embedded/Application Development (Summer Internship) - India EG Requisition — Cisco",
+      "content_text": "Company: Cisco · Location: Bengaluru, Karnataka, India\n• Develop and refine software for global networking platforms\n• Work with C/C++, AI tools, and cloud environments\n• Collaborate on protocols, embedded systems, or cloud apps",
+      "date_published": "2026-08-21T22:04:59.958Z",
+      "authors": [
+        {
+          "name": "Cisco"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/icertis-intern-development-4457522090",
       "url": "https://www.internzo.in/jobs/icertis-intern-development-4457522090",
       "title": "Intern, Development — Icertis",
@@ -578,30 +602,6 @@
       "authors": [
         {
           "name": "Siemens Gamesa"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/harman-india-student-intern-4452583899",
-      "url": "https://www.internzo.in/jobs/harman-india-student-intern-4452583899",
-      "title": "Student - Intern — HARMAN India",
-      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Work on embedded systems, Android, and Linux software development\n• Collaborate on complex software stacks with real-world impact\n• Based in Bengaluru, requires office presence and team collaboration",
-      "date_published": "2026-08-18T10:52:51.425Z",
-      "authors": [
-        {
-          "name": "HARMAN India"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/harman-india-bluetooth-intern-4452589833",
-      "url": "https://www.internzo.in/jobs/harman-india-bluetooth-intern-4452589833",
-      "title": "Bluetooth Intern — HARMAN India",
-      "content_text": "Company: HARMAN India · Location: Bengaluru, Karnataka, India\n• Work on embedded systems using C++ and Linux\n• Contribute to unit testing with Google Test\n• Collaborate in a fast-paced development team",
-      "date_published": "2026-08-18T10:52:28.281Z",
-      "authors": [
-        {
-          "name": "HARMAN India"
         }
       ]
     }
