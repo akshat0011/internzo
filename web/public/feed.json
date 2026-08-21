@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/freight-tiger-data-analytics-intern-4457083427",
+      "url": "https://www.internzo.in/jobs/freight-tiger-data-analytics-intern-4457083427",
+      "title": "Data Analytics Intern — Freight Tiger",
+      "content_text": "Company: Freight Tiger · Location: Bengaluru, Karnataka, India\n• Clean, transform, and analyze structured and semi-structured datasets\n• Use sql, python, and excel to automate reports and workflows\n• Collaborate with product and engineering teams on data-driven solutions",
+      "date_published": "2026-08-21T06:32:06.324Z",
+      "authors": [
+        {
+          "name": "Freight Tiger"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/whatfix-ai-intern-4456792001",
       "url": "https://www.internzo.in/jobs/whatfix-ai-intern-4456792001",
       "title": "AI Intern — Whatfix",
@@ -587,18 +599,6 @@
       "title": "Engineering Intern – Live Project | Part-Time | Pune | Tier-1 Colleges — NoBroker.com",
       "content_text": "Company: NoBroker.com · Location: Pune City, Maharashtra, India\n• Analyze data to identify business insights and solutions\n• Collaborate with professionals on real industry challenges\n• Present findings and take ownership of project deliverables",
       "date_published": "2026-08-17T09:06:34.393Z",
-      "authors": [
-        {
-          "name": "NoBroker.com"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-bangalore-tier-1-colleges-4452237624",
-      "url": "https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-bangalore-tier-1-colleges-4452237624",
-      "title": "Engineering Intern – Live Project | Part-Time | Bangalore | Tier-1 Colleges — NoBroker.com",
-      "content_text": "Company: NoBroker.com · Location: Bengaluru, Karnataka, India\n• Analyze data to identify business insights and solutions\n• Work with professionals on real industry challenges\n• Present findings and take ownership of deliverables",
-      "date_published": "2026-08-17T09:06:14.194Z",
       "authors": [
         {
           "name": "NoBroker.com"

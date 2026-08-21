@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 06:10:58 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 06:42:14 GMT</lastBuildDate>
+  <item>
+    <title>Data Analytics Intern — Freight Tiger</title>
+    <link>https://www.internzo.in/jobs/freight-tiger-data-analytics-intern-4457083427</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/freight-tiger-data-analytics-intern-4457083427</guid>
+    <pubDate>Fri, 21 Aug 2026 06:32:06 GMT</pubDate>
+    <description>Company: Freight Tiger · Location: Bengaluru, Karnataka, India
+• Clean, transform, and analyze structured and semi-structured datasets
+• Use sql, python, and excel to automate reports and workflows
+• Collaborate with product and engineering teams on data-driven solutions</description>
+  </item>
   <item>
     <title>AI Intern — Whatfix</title>
     <link>https://www.internzo.in/jobs/whatfix-ai-intern-4456792001</link>
@@ -504,16 +514,6 @@
 • Analyze data to identify business insights and solutions
 • Collaborate with professionals on real industry challenges
 • Present findings and take ownership of project deliverables</description>
-  </item>
-  <item>
-    <title>Engineering Intern – Live Project | Part-Time | Bangalore | Tier-1 Colleges — NoBroker.com</title>
-    <link>https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-bangalore-tier-1-colleges-4452237624</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/nobroker-com-engineering-intern-live-project-part-time-bangalore-tier-1-colleges-4452237624</guid>
-    <pubDate>Mon, 17 Aug 2026 09:06:14 GMT</pubDate>
-    <description>Company: NoBroker.com · Location: Bengaluru, Karnataka, India
-• Analyze data to identify business insights and solutions
-• Work with professionals on real industry challenges
-• Present findings and take ownership of deliverables</description>
   </item>
 </channel>
 </rss>
