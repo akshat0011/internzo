@@ -82,12 +82,35 @@ function companyBadge(job) {
 
   if (job.logo) {
     const img = el('img', 'crest-img');
-    img.src = job.logo;
     img.alt = '';               // decorative: the company name is right beside it
     img.loading = 'lazy';
     img.decoding = 'async';
     img.addEventListener('load', () => badge.classList.add('lit'));
-    img.addEventListener('error', () => img.remove());
+
+    // A failed logo is RETRIED, not written off.
+    //
+    // The logo file and jobs.json ship in the same commit, but they are
+    // separate objects on the CDN with opposite caching: jobs.json is
+    // max-age=0 and revalidates on every load, logos are immutable and pulled
+    // to an edge only when something asks for them. So the first person to see
+    // a brand-new employer can get the listing before the image exists at
+    // their edge. It 404s, and before this the img was removed on the spot and
+    // the card sat on initials for the life of the page.
+    //
+    // That lands on exactly the worst card: a new employer is by definition a
+    // JUST NOW listing at the top of the board. Workday went up on 21 Aug and
+    // showed as "WO".
+    //
+    // The query string is the point of the retry — without it the browser
+    // serves its own cached 404 back and the second attempt fails identically.
+    let tries = 0;
+    img.addEventListener('error', () => {
+      if (tries >= 2) { img.remove(); return; }   // genuinely missing; show initials
+      tries += 1;
+      setTimeout(() => { img.src = `${job.logo}?r=${tries}`; }, tries * 1500);
+    });
+
+    img.src = job.logo;         // set last, so both handlers are already attached
     badge.append(img);
   }
   return badge;
