@@ -527,11 +527,19 @@ function renderDetail(job) {
     // redesign, plenty of LinkedIn ones too, apply on the employer's own site.
     const host = (applyHref.match(/^https?:\/\/([^/?#]+)/i) || [])[1] || '';
     const where = /(^|\.)linkedin\.com$/i.test(host) ? 'LinkedIn' : 'company site';
-    const apply = el('a', 'go', 'Apply on ' + where + ' \u2192');
+    // Built as label + drawn arrow rather than one string with a "\u2192" in it,
+    // and wrapped, so this button carries the same ambient loop as the card
+    // buttons and the generated job pages: the halo and the ping hang off
+    // .apply-glow, the sheen and the arrow off the button itself. The arrow has
+    // to be an element for it to lean on its own.
+    const apply = el('a', 'go');
     apply.href = applyHref;
     apply.target = '_blank';
     apply.rel = 'noopener noreferrer';
-    actions.append(apply);
+    apply.append(el('span', 'go-t', 'Apply on ' + where), el('i', 'card-go-a'));
+    const glow = el('span', 'apply-glow');
+    glow.append(apply);
+    actions.append(glow);
   }
 
   const tailorBtn = el('button', 'alt');

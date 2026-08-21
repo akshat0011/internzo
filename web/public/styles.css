@@ -491,6 +491,182 @@ button, input, select, textarea { font: inherit; color: inherit; }
    badge is already signalling rather than fighting it. */
 .row.is-hot .card-go { background: var(--hot); border-color: var(--hot); }
 
+
+/* ============================================================
+   THE APPLY BUTTON — the ambient loop
+   ------------------------------------------------------------
+   Shared by every apply button on the site: the card list and
+   the detail pane here, and the generated job page's rail
+   button through page.css, which loads after this file.
+
+   The frequency rule says do not animate what somebody sees
+   dozens of times a day. Apply is the opposite case — it is the
+   one action every visitor came to take, and on a job page a
+   stranger from a search sees it exactly once. So it moves on
+   its own until they touch it.
+
+   One 2.6s cycle: about 900ms of motion, then most of two
+   seconds of stillness. Anything that never rests stops being
+   seen within about three passes.
+   ============================================================ */
+
+/* The wrapper exists so the halo and the ping can escape the overflow:hidden
+   that the sheen requires. Any button that wants the full treatment gets one;
+   the card buttons do not, for reasons in the stagger note below. */
+/* THE GLOW IS PERMANENT AND EVERY MOVING PART STAYS INSIDE THE BUTTON.
+ *
+ * Both halves are deliberate, and the reason is layer promotion. An animated
+ * element gets its own compositor layer, Chrome promotes whatever overlaps it,
+ * and text on a promoted layer drops from subpixel to greyscale antialiasing —
+ * thinner and greyer. In a dense panel like the detail pane, an effect that
+ * spills past the button (a blurred halo, a ring, an expanding shadow) reaches
+ * the company name, the facts grid and the summary; the sheen and the arrow
+ * are clipped inside the button and reach nothing.
+ *
+ * Caveat worth recording, because it cost a lot of time: the greyed-out pane
+ * is INTERMITTENT and shows up in screenshots only when the capture happens to
+ * catch the promoted state. Two captures of an identical page gave different
+ * results. So it is not something to bisect by eye — several confident
+ * conclusions drawn that way here turned out to be wrong. Keeping the reach of
+ * anything animated inside the button sidesteps the question entirely, and
+ * costs nothing worth having.
+ *
+ * A permanent glow is also simply more visible than one that breathes: it is
+ * never in its off phase. */
+
+.apply-glow { position: relative; display: inline-block; }
+
+/* The bloom. Static, and on the button rather than the wrapper so it traces
+   the button's own radius. */
+.apply-glow > .go, .apply-glow > .btn-apply {
+  box-shadow: 0 0 34px 3px color-mix(in oklab, var(--live) 52%, transparent);
+  transition: box-shadow .2s;
+}
+
+/* The detail pane's apply button. Rounded like its neighbours, so the halo and
+   the ping follow the same radius. */
+/* relative + overflow so the sheen below can sit inside it. .btn-apply already
+   carries both from page.css. */
+.apply-glow > .go { position: relative; overflow: hidden; }
+.apply-glow > .go .go-t { position: relative; z-index: 1; }
+.apply-glow > .go::after {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(100deg, transparent 16%, rgba(255,255,255,.85) 50%, transparent 84%);
+  transform: translateX(-130%);
+  animation: sheen-loop 2.6s linear .8s infinite;
+}
+.apply-glow > .go .card-go-a { animation: nudge 2.6s var(--snap) .8s infinite; }
+
+/* LINEAR, not --snap. A sheen is constant motion, like a marquee, and the site
+   curve is a strong ease-out: at --snap the band covered the whole button in
+   180ms and then spent 800ms crawling across dead space off the right edge. It
+   read as a blink. Two passes rather than one — the second is what makes it
+   read as deliberate rather than as a stray reflection. */
+@keyframes sheen-loop {
+  0%   { transform: translateX(-130%); }
+  20%  { transform: translateX(130%); }
+  26%  { transform: translateX(-130%); }
+  42%  { transform: translateX(130%); }
+  100% { transform: translateX(130%); }
+}
+
+/* The arrow leans out as each pass reaches it. The numbers are not decorative:
+   the arrow sits at the right-hand end and the sheen is over that end at 17%
+   and again at 36%, so the leans peak there. Timed any later the two stop
+   reading as one gesture and become a flash followed by an unrelated twitch. */
+@keyframes nudge {
+  0%, 11%   { transform: translateX(0); }
+  17%       { transform: translateX(9px); }
+  26%       { transform: translateX(2px); }
+  36%       { transform: translateX(9px); }
+  48%, 100% { transform: translateX(0); }
+}
+
+/* ---------- the card buttons ---------- */
+
+/* 134 of these are in the DOM at once, so they get the two cheap effects and
+   neither of the expensive ones. No halo: that is 134 blurred layers, each
+   rasterised and composited whether or not it is on screen. No ping: that is
+   134 elements repainting on a timer. Sheen and arrow are transforms on
+   compositor layers and cost effectively nothing at any count.
+   ------------------------------------------------------------------------
+   And they are STAGGERED. Fired in unison, ten lime pills flashing together
+   down a column reads as a fault in the page — the eye cannot pick a target
+   because they all move at once. Offset, the same motion becomes a wave
+   travelling down the list, which is both calmer and far more noticeable.
+   Six phases. Note that the phase count does not change HOW MANY are lit at
+   once — two passes put the band on the button for about 34% of the cycle, so
+   about a third of them are mid-sweep whatever you choose. What the phases
+   decide is whether that third reads as a wave down the column or as ten
+   things twitching at once. Measured on the real list: 46 of 134. */
+.card-go::after { animation: sheen-loop 2.6s linear var(--go-lag, 0s) infinite; }
+.card-go-a { animation: nudge 2.6s var(--snap) var(--go-lag, 0s) infinite; }
+
+/* They get the bloom as well — it is static, so 134 of them are 134 paints and
+   nothing more. Smaller than the two big buttons get: at their strength a
+   column of lime pills glowing at full power reads as a fault rather than as
+   emphasis. */
+.card-go { box-shadow: 0 0 14px 0 color-mix(in oklab, var(--live) 34%, transparent); }
+.row.is-hot .card-go { box-shadow: 0 0 14px 0 color-mix(in oklab, var(--hot) 40%, transparent); }
+
+.feed > li:nth-child(6n+1) .card-go { --go-lag: .8s; }
+.feed > li:nth-child(6n+2) .card-go { --go-lag: 1.23s; }
+.feed > li:nth-child(6n+3) .card-go { --go-lag: 1.67s; }
+.feed > li:nth-child(6n+4) .card-go { --go-lag: 2.1s; }
+.feed > li:nth-child(6n+5) .card-go { --go-lag: 2.53s; }
+.feed > li:nth-child(6n+6) .card-go { --go-lag: 2.97s; }
+
+/* ---------- hover ---------- */
+
+/* Hover CANCELS the loops rather than pausing them. Paused, a sheen freezes as
+   a bright band across the middle of the button and the arrow strands itself
+   mid-lean. Cancelled, each falls back to its transition and answers the
+   pointer instead — and the halo settles at its bright end and holds, because
+   nothing should keep breathing under a finger already on it. */
+@media (hover: hover) and (pointer: fine) {
+  .apply-glow:hover > .go, .apply-glow:hover > .btn-apply {
+    box-shadow: 0 0 44px 6px color-mix(in oklab, var(--live) 80%, transparent);
+  }
+  .apply-glow > .go:hover::after { animation: sheen-loop .62s linear; }
+  .apply-glow > .go:hover .card-go-a { animation: none; transform: translateX(3px); }
+  .card-go:hover::after { animation: sheen-loop .62s linear; }
+  .card-go:hover .card-go-a { animation: none; transform: translateX(3px); }
+}
+
+/* ---------- the light theme ---------- */
+
+/* NO SHEEN IN THE LIGHT THEME, on any of these buttons.
+ *
+ * The two themes invert them: dark is near-black ink on bright lime, light is
+ * white ink on olive. A white band sweeping over the first LIFTS the label's
+ * contrast, 15.4:1 to 17.5:1. Over the second it erases it — 4.9:1 falls to
+ * 1.2:1, which is white text on a white button, and the word "Apply"
+ * disappearing every few seconds. Measured, not guessed: composite the sheen
+ * alpha over the button colour and run the contrast formula before touching
+ * any of this.
+ *
+ * A dark band would be legible but reads as a shadow crossing the button
+ * rather than as light coming off it. The halo and the arrow carry the light
+ * theme instead, at about half strength — olive on cream needs far less than
+ * lime on black. */
+:root[data-theme="light"] .card-go::after,
+:root[data-theme="light"] .apply-glow > .go::after,
+:root[data-theme="light"] .btn-apply::after { display: none; }
+
+/* Olive on cream, not lime on black: the same bloom reads as a dirty smudge
+   under the button at the dark theme's strength. */
+:root[data-theme="light"] .apply-glow > .go,
+:root[data-theme="light"] .apply-glow > .btn-apply {
+  box-shadow: 0 0 22px 1px color-mix(in oklab, var(--live) 26%, transparent);
+}
+
+/* ---------- reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .apply-glow > .go::after, .card-go::after { display: none; }
+  .card-go-a, .apply-glow > .go .card-go-a { animation: none; }
+}
+
 /* ---------- empty ---------- */
 
 .void { padding: 66px 20px; text-align: center; border: 1px dashed var(--rule-2); border-radius: var(--r-2); }
