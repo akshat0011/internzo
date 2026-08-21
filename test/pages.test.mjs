@@ -1,4 +1,5 @@
 import { readFileSync, existsSync, mkdtempSync, rmSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -120,6 +121,42 @@ check('the page does not link to itself in that strip',
 check('the hub is always linked', withSiblings.includes('/companies/adobe'), true);
 // The default has to keep working: the tests above all call it with one arg.
 check('siblings are optional', typeof renderJobPage(page), 'string');
+
+console.log('\n== every inline script is allowed by the CSP ==');
+
+//==============================================================================
+// The site ships a strict Content-Security-Policy with a `script-src` hash
+// allowlist and no 'unsafe-inline'. An inline <script> whose hash is not in
+// web/vercel.json is silently BLOCKED in production and works perfectly on
+// every local server, because none of them send the header.
+//
+// That is exactly what happened on 21 Aug: the no-flash theme read was added
+// to the generated pages' <head> and blocked on the live site, so a reader who
+// chose light mode on the homepage got dark mode on every job page. Nothing in
+// the local preview showed it.
+//
+// This computes the hash of what actually renders and checks it against the
+// real vercel.json, so editing that one-liner by a single character fails here
+// rather than in front of a user.
+//==============================================================================
+const csp = readFileSync(join(ROOT, 'web', 'vercel.json'), 'utf8');
+const inlineScripts = [...renderJobPage(page).matchAll(/<script>([\s\S]*?)<\/script>/g)].map((m) => m[1]);
+
+check('the page carries the inline scripts we expect', inlineScripts.length, 1);
+for (const body of inlineScripts) {
+  const hash = `sha256-${createHash('sha256').update(body, 'utf8').digest('base64')}`;
+  check(`csp allows ${body.slice(0, 28)}\u2026`, csp.includes(hash), true);
+}
+// The hub and the directory share head(), so they must not drift from it.
+// `live()` is declared further down, so this uses its own row.
+const aRole = { id: 'a1', company: 'Adobe', title: 'AI Intern', bullets: ['a', 'b'],
+  postedAt: Date.UTC(2026, 7, 1), firstSeenAt: Date.UTC(2026, 7, 1) };
+for (const [name, html] of [['hub', renderCompanyPage('Adobe', [aRole], [])],
+  ['directory', renderCompanyIndex(new Map([['Adobe', [aRole]]]))]]) {
+  const bodies = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((m) => m[1]);
+  const allowed = bodies.every((b) => csp.includes(`sha256-${createHash('sha256').update(b, 'utf8').digest('base64')}`));
+  check(`csp allows every inline script on the ${name}`, allowed, true);
+}
 
 //==============================================================================
 // Company hubs are PERMANENT.
