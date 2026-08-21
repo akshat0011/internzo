@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Fri, 21 Aug 2026 11:33:09 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 11:41:28 GMT</lastBuildDate>
+  <item>
+    <title>Diploma Trainee – Electrical / Civil – Fixed Term contract — AtkinsRéalis</title>
+    <link>https://www.internzo.in/jobs/atkinsr-alis-diploma-trainee-electrical-civil-fixed-term-contract-4418945505</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/atkinsr-alis-diploma-trainee-electrical-civil-fixed-term-contract-4418945505</guid>
+    <pubDate>Fri, 21 Aug 2026 11:37:11 GMT</pubDate>
+    <description>Company: AtkinsRéalis · Location: Chennai, Tamil Nadu, India
+• Assist engineers with drawings and documentation
+• Learn cad/bim tools and digital project techniques
+• Train in substation design and global power projects</description>
+  </item>
   <item>
     <title>Product Designer Intern — GreedyGame</title>
     <link>https://www.internzo.in/jobs/greedygame-product-designer-intern-4456223026</link>
@@ -503,16 +513,6 @@
 • Develop frontend dashboards in React for ad unit management
 • Work with MySQL, PostgreSQL, and MongoDB for data handling
 • Collaborate with engineers and product managers on feature development</description>
-  </item>
-  <item>
-    <title>Intern — Valeo</title>
-    <link>https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    <description>Company: Valeo · Location: Chennai
-• Support r&amp;d projects with experiments, data analysis, and prototype testing
-• Use software tools for automotive design and simulation
-• Work in a global r&amp;d team with 20k engineers and sustainability focus</description>
   </item>
 </channel>
 </rss>

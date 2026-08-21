@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/atkinsr-alis-diploma-trainee-electrical-civil-fixed-term-contract-4418945505",
+      "url": "https://www.internzo.in/jobs/atkinsr-alis-diploma-trainee-electrical-civil-fixed-term-contract-4418945505",
+      "title": "Diploma Trainee – Electrical / Civil – Fixed Term contract — AtkinsRéalis",
+      "content_text": "Company: AtkinsRéalis · Location: Chennai, Tamil Nadu, India\n• Assist engineers with drawings and documentation\n• Learn cad/bim tools and digital project techniques\n• Train in substation design and global power projects",
+      "date_published": "2026-08-21T11:37:11.837Z",
+      "authors": [
+        {
+          "name": "AtkinsRéalis"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/greedygame-product-designer-intern-4456223026",
       "url": "https://www.internzo.in/jobs/greedygame-product-designer-intern-4456223026",
       "title": "Product Designer Intern — GreedyGame",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "GreedyGame"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500",
-      "url": "https://www.internzo.in/jobs/valeo-intern-ats-workday-valeo-wd3-valeo-jobs-req2026078500",
-      "title": "Intern — Valeo",
-      "content_text": "Company: Valeo · Location: Chennai\n• Support r&d projects with experiments, data analysis, and prototype testing\n• Use software tools for automotive design and simulation\n• Work in a global r&d team with 20k engineers and sustainability focus",
-      "date_published": "2026-08-18T00:00:00.000Z",
-      "authors": [
-        {
-          "name": "Valeo"
         }
       ]
     }
