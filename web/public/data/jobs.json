@@ -1,5 +1,5 @@
 {
- "generatedAt": 1787290349082,
+ "generatedAt": 1787290553156,
  "count": 132,
  "techCount": 132,
  "otherCount": 0,
@@ -126,7 +126,6 @@
   "Noida, Uttar Pradesh, India",
   "Pune City, Maharashtra, India",
   "Pune Division, Maharashtra, India",
-  "Pune Maharashtra India",
   "Pune, India",
   "Thane, Maharashtra, India",
   "gurgaon"
@@ -5450,6 +5449,53 @@
    "description": null
   },
   {
+   "id": "4450335829",
+   "title": "Young Apprentice - C00 - PUNE",
+   "company": "Citi",
+   "matchedWatchlist": "Citi",
+   "isTech": true,
+   "roleSource": "gemini-enrich",
+   "logo": "/logos/citi.jpg",
+   "location": "Pune Division, Maharashtra, India",
+   "workplaceType": "Hybrid",
+   "stipend": null,
+   "duration": null,
+   "applicants": null,
+   "easyApply": false,
+   "skills": [
+    "python",
+    "sql",
+    "aws",
+    "terraform",
+    "git",
+    "pandas",
+    "postgresql"
+   ],
+   "summary": "Citi is launching a strategic Coding Workshop initiative aimed at identifying and nurturing top-tier AI engineering talent. The primary purpose of this role is to engage with and contribute to this innovative program, which is designed to evaluate and showcase participants' technical acumen, adaptability in new environments, and creative problem-solving skills.",
+   "bullets": [
+    "Build data engineering workflows using Apache Spark, PySpark, Python, and Pandas",
+    "Manage and query data in AWS S3 data lakes and PostgreSQL databases",
+    "Validate data schemas using Pydantic and build visualizations in Jupyter Notebooks"
+   ],
+   "roleLabel": "AI data engineering",
+   "degreeLevel": null,
+   "degreeText": null,
+   "keySkills": [
+    "pyspark",
+    "python",
+    "pandas",
+    "postgresql",
+    "aws s3"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "29 minutes ago",
+   "postedAt": 1786118691063,
+   "firstSeenAt": 1786120431065,
+   "url": "https://www.linkedin.com/jobs/view/4450335829/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4450335829/",
+   "description": null
+  },
+  {
    "id": "ats:ashby:certifyos:4bcdec99-9f2e-416c-8e26-498c94c5898a",
    "title": "AI Intern",
    "company": "CertifyOS",
@@ -5662,53 +5708,6 @@
    "firstSeenAt": 1786081043054,
    "url": "https://www.linkedin.com/jobs/view/4448705984/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4448705984/",
-   "description": null
-  },
-  {
-   "id": "ats:workday:citi:wd5:2:26984617",
-   "title": "Young Apprentice - C00 - PUNE",
-   "company": "Citi",
-   "matchedWatchlist": "Citi",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/citi.jpg",
-   "location": "Pune Maharashtra India",
-   "workplaceType": null,
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "python",
-    "sql",
-    "aws",
-    "terraform",
-    "git",
-    "pandas",
-    "postgresql"
-   ],
-   "summary": "Citi is launching a strategic Coding Workshop initiative aimed at identifying and nurturing top-tier AI engineering talent. The primary purpose of this role is to engage with and contribute to this innovative program, which is designed to evaluate and showcase participants' technical acumen, adaptability in new environments, and creative problem-solving skills.",
-   "bullets": [
-    "Build data engineering pipelines using PySpark, Python, and Pandas",
-    "Work with S3 data lakes, PostgreSQL databases, and Pydantic validation",
-    "Perform interactive data visualization using SQL and Jupyter Notebooks"
-   ],
-   "roleLabel": "Data engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "pyspark",
-    "python",
-    "pandas",
-    "postgresql",
-    "pydantic"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": null,
-   "postedAt": 1786060800000,
-   "firstSeenAt": 1786080875660,
-   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Young-Apprentice---C00---PUNE_26984617",
-   "applyUrl": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Young-Apprentice---C00---PUNE_26984617",
    "description": null
   }
  ]
