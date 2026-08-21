@@ -86,6 +86,27 @@ const band = withHttps.slice(withHttps.indexOf('apply-band'), withHttps.indexOf(
 check('the how-to-apply band carries no button', band.includes('btn-apply'), false);
 check('but it still gives the advice', band.includes('applying early matters'), true);
 
+// The label is just "Apply" — it used to name the destination.
+check('the button says only Apply', withHttps.includes('<span>Apply</span>'), true);
+
+// ...but naming the destination was not decoration. applyTarget() exists so
+// nobody is told LinkedIn and sent to Workday, and dropping it from the label
+// only moved that obligation to the line underneath. If this ever stops being
+// true the page is quietly lying on the one click that matters.
+check('the destination is still named on the page',
+  withHttps.includes('Opens LinkedIn in a new tab'), true);
+const offsite = renderJobPage({ ...page, applyUrl: 'https://boards.greenhouse.io/x/jobs/1' });
+check('and it is the right destination for an off-site apply',
+  // A plain ASCII apostrophe: applyTarget()'s strings are our own constants, not
+  // scraped copy, so they go in unescaped and untouched.
+  offsite.includes("Opens the company's site in a new tab"), true);
+
+// The halo needs a wrapper to escape the button's own overflow:hidden, which
+// the sheen requires. Only the rail gets one; the dock button stays plain.
+check('the rail button is wrapped for its halo',
+  withHttps.includes('<span class="apply-glow"><a class="btn-apply"'), true);
+check('exactly one halo wrapper', withHttps.split('apply-glow').length - 1, 1);
+
 console.log('\n== the page shows our summary, and only clean facts ==');
 
 // The summary is our own writing about the posting — the field was in the data

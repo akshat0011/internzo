@@ -488,8 +488,14 @@ export function renderJobPage(job, siblings = []) {
   // scrolled past it — so a second copy lower down was never reachable at a
   // moment the first one was not. Two identical primary buttons also cost the
   // first one its weight: whichever the eye lands on reads as one of a pair.
+  // The label is just "Apply". It used to name the destination — "Apply on
+  // LinkedIn" / "on the company's site" — which was there so nobody was told
+  // one thing and sent somewhere else. That obligation has not gone away, it
+  // has moved one line down into .jp-card-note, which still says exactly where
+  // the button lands. It reads better there and it stops the same seven words
+  // appearing three times in one column.
   const applyBtn = apply
-    ? `<a class="btn-apply" href="${apply}" target="_blank" rel="nofollow noopener"><span>Apply on ${where}</span><em aria-hidden="true"></em></a>`
+    ? `<a class="btn-apply" href="${apply}" target="_blank" rel="nofollow noopener"><span>Apply</span><em aria-hidden="true"></em></a>`
     : '';
 
   const others = newestFirst(siblings.filter((j) => String(j.id) !== String(job.id))).slice(0, 6);
@@ -543,8 +549,7 @@ export function renderJobPage(job, siblings = []) {
         <section>
           <h2>How to apply</h2>
           <div class="apply-band">
-            <p>${apply ? `This one is applied for on <strong>${where}</strong>.` : 'Apply through the original posting.'}
-            Internships in India often collect hundreds of applicants within a day, so <strong>applying early matters more than applying perfectly</strong>.</p>
+            <p>${apply ? '' : 'Apply through the original posting. '}Internships in India often collect hundreds of applicants within a day, so <strong>applying early matters more than applying perfectly</strong>. A half-finished application sent on the first morning beats a polished one sent on the third.</p>
           </div>
           <p class="note">This summary was written by Internzo from the public posting, and is not the employer's own wording. The linked posting is the source of truth — check it before you apply.</p>
         </section>
@@ -553,7 +558,7 @@ export function renderJobPage(job, siblings = []) {
       <aside class="jp-side">
         <div class="jp-card">
           ${apply ? `<div class="jp-card-top">
-            ${applyBtn}
+            <span class="apply-glow">${applyBtn}</span>
             <p class="jp-card-note">Opens ${where} in a new tab. Free — we never ask for a fee.</p>
           </div>` : ''}
           <dl class="facts">

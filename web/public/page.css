@@ -232,15 +232,17 @@ a.jp-crest:active { transform: scale(.97); }
 
 .btn-apply::after {
   content: ""; position: absolute; inset: 0; z-index: 0;
-  background: linear-gradient(100deg, transparent 22%, rgba(255,255,255,.5) 50%, transparent 78%);
+  background: linear-gradient(100deg, transparent 16%, rgba(255,255,255,.85) 50%, transparent 84%);
   transform: translateX(-130%);
 }
 
 @media (hover: hover) and (pointer: fine) {
   .btn-apply:hover {
     filter: brightness(1.07);
-    /* A ring rather than a blurred glow. The whole design is flat and hard-
-       edged; a soft halo would be the one gaussian thing on the page. */
+    /* A hard ring, sitting just inside the halo the rail button carries. The
+       two do different jobs: the halo is ambient and says "this is the thing",
+       the ring is instant and says "the pointer is on it". The dock button has
+       no halo, so here the ring is the whole hover state. */
     box-shadow: 0 0 0 4px color-mix(in oklab, var(--live) 20%, transparent);
   }
   .btn-apply:hover em { transform: translateX(3px); }
@@ -258,21 +260,21 @@ a.jp-crest:active { transform: scale(.97); }
  * page once, and the button is the single thing the page exists to deliver. So
  * it moves on its own until they touch it.
  *
- * One 4.6s cycle: about 700ms of motion, then four seconds of stillness. A
+ * One 3.2s cycle: about 600ms of motion, then two and a half of stillness. A
  * sheen that swept continuously would read as a progress bar, and anything
  * that never rests stops being seen within about three passes. Nothing here
- * touches a layout property — two transforms on compositor layers, and that
- * is the whole cost. */
+ * touches a layout property — transforms and opacity on compositor layers,
+ * and that is the whole cost. */
 
 /* LINEAR, not --snap. A sheen is constant motion, like a marquee, and the site
    curve is a strong ease-out: at --snap the band covered the whole button in
    the first 180ms and then spent 800ms crawling across dead space off the
    right edge. It read as a blink. Linear over 15% of the cycle puts the band
    on the button for about 530ms, which is a sweep you can follow. */
-.jp-card-top .btn-apply::after { animation: sheen-loop 4.6s linear 1.4s infinite; }
+.jp-card-top .btn-apply::after { animation: sheen-loop 3.2s linear 1s infinite; }
 @keyframes sheen-loop {
   0%   { transform: translateX(-130%); }
-  15%  { transform: translateX(130%); }
+  19%  { transform: translateX(130%); }
   100% { transform: translateX(130%); }
 }
 
@@ -282,11 +284,66 @@ a.jp-crest:active { transform: scale(.97); }
    any later — the first attempt peaked at 22% — the two stop reading as one
    gesture and become a flash followed, half a second on, by an unrelated
    twitch. Ease-out on the way out, slower on the way back. */
-.jp-card-top .btn-apply em { animation: nudge 4.6s var(--snap) 1.4s infinite; }
+.jp-card-top .btn-apply em { animation: nudge 3.2s var(--snap) 1s infinite; }
 @keyframes nudge {
-  0%, 8%    { transform: translateX(0); }
-  13%       { transform: translateX(5px); }
-  22%, 100% { transform: translateX(0); }
+  0%, 10%   { transform: translateX(0); }
+  16%       { transform: translateX(7px); }
+  27%, 100% { transform: translateX(0); }
+}
+
+/* The halo.
+ *
+ * The sheen alone lives inside the button's own rectangle, so at a glance the
+ * button still sits still. This is the part that carries across a room. It
+ * needs to escape overflow:hidden — which the sheen requires — so the button
+ * is wrapped rather than given another pseudo-element.
+ *
+ * A soft edge, against the note in the Design section that says this palette is
+ * flat and hard-edged. A hard ring cannot do this job: scaling one on a 300x50
+ * button expands it 21px sideways and 3px vertically, and the lopsidedness is
+ * obvious. On a blurred shape the same asymmetry is invisible. The blur is
+ * rasterised once; only opacity and transform animate.
+ *
+ * ease-in-out, not the site's ease-out: this travels out and back rather than
+ * entering or exiting, and an ease-out curve makes a breathing shape look like
+ * it is being tugged. */
+.apply-glow { position: relative; display: block; }
+.btn-apply { z-index: 1; }
+.apply-glow::before {
+  content: ""; position: absolute; inset: 1px; z-index: 0; pointer-events: none;
+  background: var(--live); border-radius: var(--r);
+  /* The button is opaque, so only the blurred fringe past its edges is ever
+     visible. That makes the blur radius — not the opacity — the control that
+     decides how much of this anyone sees. At 15px it was a rumour. */
+  filter: blur(24px); opacity: .4;
+  animation: halo 3.2s ease-in-out infinite;
+}
+@keyframes halo {
+  0%, 100% { opacity: .26; transform: scale(.97); }
+  50%      { opacity: .78; transform: scale(1.07); }
+}
+/* Olive on cream, not lime on black. At the dark theme's strength the same
+   halo reads as a smudge under the button rather than as light coming off it,
+   so it is tighter and about half as strong. */
+/* NO SHEEN IN THE LIGHT THEME.
+ *
+ * The two themes invert the button: dark is near-black ink on bright lime, light
+ * is white ink on olive. A white band sweeping over the first LIFTS the label's
+ * contrast, 15.4:1 to 17.5:1. Over the second it erases it — 4.9:1 falls to
+ * 1.2:1, which is white text on a white button, and the word "Apply" disappears
+ * every three seconds. Measured, not guessed.
+ *
+ * A dark band would be legible here but reads as a shadow crossing the button
+ * rather than light coming off it. The halo and the arrow already carry this in
+ * both themes, so the light theme simply goes without. */
+:root[data-theme="light"] .btn-apply::after { display: none; }
+
+@keyframes halo-light {
+  0%, 100% { opacity: .18; transform: scale(.97); }
+  50%      { opacity: .46; transform: scale(1.05); }
+}
+:root[data-theme="light"] .apply-glow::before {
+  filter: blur(18px); animation-name: halo-light;
 }
 
 /* Hover cancels both loops rather than pausing them — a paused sheen freezes a
@@ -296,7 +353,11 @@ a.jp-crest:active { transform: scale(.97); }
 @media (hover: hover) and (pointer: fine) {
   .jp-card-top .btn-apply:hover em { animation: none; transform: translateX(3px); }
   .jp-card-top .btn-apply:hover::after { animation: sheen .62s var(--snap); }
+  /* The halo settles to its bright end and holds there while the pointer is on
+     the button, rather than carrying on breathing under a pressed control. */
+  .apply-glow:hover::before { animation: none; opacity: .8; transform: scale(1.07); }
 }
+.apply-glow::before { transition: opacity .2s, transform .2s var(--snap); }
 
 .jp-card-note {
   margin-top: 12px; font-size: 12px; line-height: 1.5; color: var(--ink-3);
@@ -693,6 +754,7 @@ a.jp-crest:active { transform: scale(.97); }
   .pill.is-hot i { animation: none; }
   .btn-apply::after { display: none; }
   .jp-card-top .btn-apply em { animation: none; }
+  .apply-glow::before { animation: none; opacity: .3; transform: none; }
   .dock { transition: none; }
   *, *::before, *::after {
     animation-duration: .01ms !important;
