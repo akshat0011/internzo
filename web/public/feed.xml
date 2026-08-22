@@ -6,7 +6,17 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sat, 22 Aug 2026 05:35:42 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 22 Aug 2026 06:07:10 GMT</lastBuildDate>
+  <item>
+    <title>Apprentice - ADL — Piramal Pharma Ltd</title>
+    <link>https://www.internzo.in/jobs/piramal-pharma-ltd-apprentice-adl-4454699842</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/piramal-pharma-ltd-apprentice-adl-4454699842</guid>
+    <pubDate>Sat, 22 Aug 2026 05:53:05 GMT</pubDate>
+    <description>Company: Piramal Pharma Ltd · Location: Ahmedabad, Gujarat, India
+• Develop and validate analytical methods for new products
+• Use LC-MS/HPLC and Shimadzu technology for testing
+• Troubleshoot and calibrate scientific instruments</description>
+  </item>
   <item>
     <title>AI ML INTERN — D Square Consulting Services Pvt Ltd</title>
     <link>https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-intern-4456083889</link>
@@ -502,16 +512,6 @@
 • Analyze user needs and partner requirements to shape product solutions
 • Collaborate with cross-functional teams to execute product strategies
 • Contribute to iterative improvements and roadmap prioritization</description>
-  </item>
-  <item>
-    <title>Wind Turbine Loads Engineer Project Intern — Siemens Gamesa</title>
-    <link>https://www.internzo.in/jobs/siemens-gamesa-wind-turbine-loads-engineer-project-intern-4454490931</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/siemens-gamesa-wind-turbine-loads-engineer-project-intern-4454490931</guid>
-    <pubDate>Tue, 18 Aug 2026 10:59:58 GMT</pubDate>
-    <description>Company: Siemens Gamesa · Location: Bengaluru, Karnataka, India
-• Run aero-elastic simulations to assess controller updates on turbine loads
-• Analyze simulation data to support engineering decisions and design verification
-• Collaborate with engineers on project deliverables and technical documentation</description>
   </item>
 </channel>
 </rss>

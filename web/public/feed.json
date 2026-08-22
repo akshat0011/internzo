@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/piramal-pharma-ltd-apprentice-adl-4454699842",
+      "url": "https://www.internzo.in/jobs/piramal-pharma-ltd-apprentice-adl-4454699842",
+      "title": "Apprentice - ADL — Piramal Pharma Ltd",
+      "content_text": "Company: Piramal Pharma Ltd · Location: Ahmedabad, Gujarat, India\n• Develop and validate analytical methods for new products\n• Use LC-MS/HPLC and Shimadzu technology for testing\n• Troubleshoot and calibrate scientific instruments",
+      "date_published": "2026-08-22T05:53:05.928Z",
+      "authors": [
+        {
+          "name": "Piramal Pharma Ltd"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-intern-4456083889",
       "url": "https://www.internzo.in/jobs/d-square-consulting-services-pvt-ltd-ai-ml-intern-4456083889",
       "title": "AI ML INTERN — D Square Consulting Services Pvt Ltd",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "slice"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/siemens-gamesa-wind-turbine-loads-engineer-project-intern-4454490931",
-      "url": "https://www.internzo.in/jobs/siemens-gamesa-wind-turbine-loads-engineer-project-intern-4454490931",
-      "title": "Wind Turbine Loads Engineer Project Intern — Siemens Gamesa",
-      "content_text": "Company: Siemens Gamesa · Location: Bengaluru, Karnataka, India\n• Run aero-elastic simulations to assess controller updates on turbine loads\n• Analyze simulation data to support engineering decisions and design verification\n• Collaborate with engineers on project deliverables and technical documentation",
-      "date_published": "2026-08-18T10:59:58.734Z",
-      "authors": [
-        {
-          "name": "Siemens Gamesa"
         }
       ]
     }
