@@ -6,6 +6,18 @@
   "description": "New engineering internships, listed within minutes of going live.",
   "items": [
     {
+      "id": "https://www.internzo.in/jobs/qualcomm-interim-intern-oneit-4447193370",
+      "url": "https://www.internzo.in/jobs/qualcomm-interim-intern-oneit-4447193370",
+      "title": "Interim Intern_OneIT — Qualcomm",
+      "content_text": "Company: Qualcomm · Location: Greater Hyderabad Area\n• Support systems and infrastructure maintenance\n• Work with cloud and enterprise tools like AWS, Azure, and Service Now\n• Collaborate on framework rollouts and system integration\n• Contribute to project documentation and vendor management",
+      "date_published": "2026-08-22T10:40:20.797Z",
+      "authors": [
+        {
+          "name": "Qualcomm"
+        }
+      ]
+    },
+    {
       "id": "https://www.internzo.in/jobs/piramal-apprentice-adl-ats-workday-piramalpharma-wd102-piramal-external-careers-r00002298",
       "url": "https://www.internzo.in/jobs/piramal-apprentice-adl-ats-workday-piramalpharma-wd102-piramal-external-careers-r00002298",
       "title": "Apprentice - ADL — Piramal",
@@ -590,18 +602,6 @@
       "authors": [
         {
           "name": "Nuvama Group"
-        }
-      ]
-    },
-    {
-      "id": "https://www.internzo.in/jobs/slice-product-manager-intern-4455706866",
-      "url": "https://www.internzo.in/jobs/slice-product-manager-intern-4455706866",
-      "title": "Product Manager Intern — slice",
-      "content_text": "Company: slice · Location: Bengaluru, Karnataka, India\n• Analyze user needs and partner requirements to shape product solutions\n• Collaborate with cross-functional teams to execute product strategies\n• Contribute to iterative improvements and roadmap prioritization",
-      "date_published": "2026-08-18T11:30:30.735Z",
-      "authors": [
-        {
-          "name": "slice"
         }
       ]
     }

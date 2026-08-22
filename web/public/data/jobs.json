@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787397223663,
- "count": 137,
- "techCount": 137,
+ "generatedAt": 1787397545827,
+ "count": 138,
+ "techCount": 138,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -128,6 +128,60 @@
   "gurgaon"
  ],
  "jobs": [
+  {
+   "id": "4447193370",
+   "title": "Interim Intern_OneIT",
+   "company": "Qualcomm",
+   "matchedWatchlist": "Qualcomm",
+   "isTech": true,
+   "roleSource": "model-enrich",
+   "logo": "/logos/qualcomm.jpg",
+   "location": "Greater Hyderabad Area",
+   "workplaceType": "On-site",
+   "stipend": null,
+   "duration": null,
+   "applicants": "Over 100 people clicked apply",
+   "easyApply": false,
+   "skills": [
+    "python",
+    "java",
+    "ruby",
+    "scala",
+    "sql",
+    "react",
+    "angular",
+    "rails",
+    "aws",
+    "azure",
+    "docker",
+    "jenkins",
+    "linux",
+    "git"
+   ],
+   "summary": "As an IT intern at Qualcomm, you'll support system maintenance, cloud infrastructure, and tool implementation. You'll work on integrating frameworks, managing vendors, and documenting projects. Ideal for students with a B.Tech degree in computer science or engineering, this role offers hands-on experience with enterprise technologies and real-world systems.",
+   "bullets": [
+    "Support systems and infrastructure maintenance",
+    "Work with cloud and enterprise tools like AWS, Azure, and Service Now",
+    "Collaborate on framework rollouts and system integration",
+    "Contribute to project documentation and vendor management"
+   ],
+   "roleLabel": "IT Systems Support",
+   "degreeLevel": "UG",
+   "degreeText": "B.Tech",
+   "keySkills": [
+    "cloud computing",
+    "system administration",
+    "version control",
+    "network security"
+   ],
+   "stipendStatus": "unknown",
+   "postedText": "37 minutes ago",
+   "postedAt": 1787395220797,
+   "firstSeenAt": 1787397440803,
+   "url": "https://www.linkedin.com/jobs/view/4447193370/",
+   "applyUrl": "https://www.linkedin.com/jobs/view/4447193370/",
+   "description": null
+  },
   {
    "id": "ats:workday:piramalpharma:wd102:PIRAMAL_EXTERNAL_CAREERS:R00002298",
    "title": "Apprentice - ADL",

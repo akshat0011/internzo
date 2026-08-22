@@ -6,7 +6,18 @@
   <atom:link href="https://www.internzo.in/feed.xml" rel="self" type="application/rss+xml"/>
   <description>New engineering internships, listed within minutes of going live.</description>
   <language>en-in</language>
-  <lastBuildDate>Sat, 22 Aug 2026 11:13:43 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 22 Aug 2026 11:19:06 GMT</lastBuildDate>
+  <item>
+    <title>Interim Intern_OneIT — Qualcomm</title>
+    <link>https://www.internzo.in/jobs/qualcomm-interim-intern-oneit-4447193370</link>
+    <guid isPermaLink="true">https://www.internzo.in/jobs/qualcomm-interim-intern-oneit-4447193370</guid>
+    <pubDate>Sat, 22 Aug 2026 10:40:20 GMT</pubDate>
+    <description>Company: Qualcomm · Location: Greater Hyderabad Area
+• Support systems and infrastructure maintenance
+• Work with cloud and enterprise tools like AWS, Azure, and Service Now
+• Collaborate on framework rollouts and system integration
+• Contribute to project documentation and vendor management</description>
+  </item>
   <item>
     <title>Apprentice - ADL — Piramal</title>
     <link>https://www.internzo.in/jobs/piramal-apprentice-adl-ats-workday-piramalpharma-wd102-piramal-external-careers-r00002298</link>
@@ -502,16 +513,6 @@
 • Build ai-powered prototypes from business needs to testable solutions
 • Use python, ai tools, and git to create clean, reusable code
 • Work with senior engineers to turn demos into secure production use</description>
-  </item>
-  <item>
-    <title>Product Manager Intern — slice</title>
-    <link>https://www.internzo.in/jobs/slice-product-manager-intern-4455706866</link>
-    <guid isPermaLink="true">https://www.internzo.in/jobs/slice-product-manager-intern-4455706866</guid>
-    <pubDate>Tue, 18 Aug 2026 11:30:30 GMT</pubDate>
-    <description>Company: slice · Location: Bengaluru, Karnataka, India
-• Analyze user needs and partner requirements to shape product solutions
-• Collaborate with cross-functional teams to execute product strategies
-• Contribute to iterative improvements and roadmap prioritization</description>
   </item>
 </channel>
 </rss>
