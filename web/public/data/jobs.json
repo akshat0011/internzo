@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787384194184,
- "count": 138,
- "techCount": 138,
+ "generatedAt": 1787385974573,
+ "count": 137,
+ "techCount": 137,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -91,8 +91,7 @@
   "Zycus",
   "eClerx",
   "pharma&",
-  "slice",
-  "upGrad International"
+  "slice"
  ],
  "locations": [
   "Ahmedabad, Gujarat, India",
@@ -5906,50 +5905,6 @@
    "firstSeenAt": 1786195722972,
    "url": "https://www.linkedin.com/jobs/view/4451081170/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4451081170/",
-   "description": null
-  },
-  {
-   "id": "4450593245",
-   "title": "Intern- Technical Content (Applied AI)",
-   "company": "upGrad International",
-   "matchedWatchlist": "upGrad",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/upgrad-international.jpg",
-   "location": "Mumbai Metropolitan Region",
-   "workplaceType": "On-site",
-   "stipend": "30,000 / month",
-   "duration": "6 months",
-   "applicants": "19 applicants",
-   "easyApply": true,
-   "skills": [
-    "python",
-    "machine learning",
-    "pandas",
-    "numpy"
-   ],
-   "summary": "Job Location-Mumbai Qualification-B.Tech/M.Tech/BSc/MSc in CS, Data Science, Mathematics, or related field [Pursuing or recently graduated] Stipend-30,000 per month As a Technical Content Intern, you will act as the crucial bridge between our Subject Matter Experts (SMEs) and our AI-driven video production pipeline.",
-   "bullets": [
-    "Script AI video production pipelines using tools like Remotion, Manim, and HeyGen",
-    "Review SME scripts, write pre-production scripts, and build Python lab demos",
-    "Perform QA on AI-generated video previews and refine live learning materials"
-   ],
-   "roleLabel": "Technical content engineering",
-   "degreeLevel": "UG/PG",
-   "degreeText": "B.Tech/M.Tech",
-   "keySkills": [
-    "python",
-    "numpy",
-    "pandas",
-    "remotion",
-    "manim"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "56 minutes ago",
-   "postedAt": 1786172983923,
-   "firstSeenAt": 1786176343933,
-   "url": "https://www.linkedin.com/jobs/view/4450593245/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4450593245/",
    "description": null
   }
  ]
