@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787404694899,
- "count": 138,
- "techCount": 138,
+ "generatedAt": 1787406510642,
+ "count": 137,
+ "techCount": 137,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -42,7 +42,6 @@
   "IQVIA",
   "Icertis",
   "Infineon Technologies",
-  "Interloop - Zoho Partner| Manage Engine | Managed HR Services",
   "Intuit",
   "Janitri",
   "Jio",
@@ -102,7 +101,6 @@
   "Chandigarh, Chandigarh, India",
   "Chennai",
   "Chennai, Tamil Nadu, India",
-  "Delhi, Delhi, India",
   "Delhi, India",
   "Goregaon, Maharashtra, India",
   "Greater Bengaluru Area",
@@ -5908,55 +5906,6 @@
    "firstSeenAt": 1786218923546,
    "url": "https://www.linkedin.com/jobs/view/4449259269/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4449259269/",
-   "description": null
-  },
-  {
-   "id": "4451081170",
-   "title": "Full Stack Developer Intern - React & Node JS",
-   "company": "Interloop - Zoho Partner| Manage Engine | Managed HR Services",
-   "matchedWatchlist": "Zoho",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/interloop-zoho-partner-manage-engine-managed-hr-services.jpg",
-   "location": "Delhi, Delhi, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": "0 applicants",
-   "easyApply": true,
-   "skills": [
-    "javascript",
-    "typescript",
-    "react",
-    "node.js",
-    "git",
-    "mongodb",
-    "postgresql",
-    "mysql"
-   ],
-   "summary": "Interloop is a People, Process, and Technology consulting firm with offices in India and the UAE. We're hiring a Full-Stack Developer Intern to spend two months building real software inside a working product team. You'll write React components that go into live UIs, build and integrate APIs, debug things that break, and ship features people actually use. What you'll work on",
-   "bullets": [
-    "Build production UI components in React and integrate frontend with APIs",
-    "Assist with Node.js backend development and basic API creation",
-    "Debug code across the stack and participate in code reviews",
-    "Two-month internship with mentorship from senior engineers"
-   ],
-   "roleLabel": "Full stack web development",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "react",
-    "node.js",
-    "javascript",
-    "typescript",
-    "git"
-   ],
-   "stipendStatus": "paid",
-   "postedText": "2 minutes ago",
-   "postedAt": 1786195602965,
-   "firstSeenAt": 1786195722972,
-   "url": "https://www.linkedin.com/jobs/view/4451081170/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4451081170/",
    "description": null
   }
  ]
