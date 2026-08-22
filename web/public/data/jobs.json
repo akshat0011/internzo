@@ -1,7 +1,7 @@
 {
- "generatedAt": 1787367913872,
- "count": 138,
- "techCount": 138,
+ "generatedAt": 1787369769434,
+ "count": 137,
+ "techCount": 137,
  "otherCount": 0,
  "companies": [
   "ARGMAC",
@@ -124,7 +124,6 @@
   "Noida, Uttar Pradesh, India",
   "Pune City, Maharashtra, India",
   "Pune Division, Maharashtra, India",
-  "Thane, Maharashtra, India",
   "gurgaon"
  ],
  "jobs": [
@@ -5910,54 +5909,6 @@
    "firstSeenAt": 1786176343933,
    "url": "https://www.linkedin.com/jobs/view/4450593245/",
    "applyUrl": "https://www.linkedin.com/jobs/view/4450593245/",
-   "description": null
-  },
-  {
-   "id": "4450392562",
-   "title": "Devops Engineer Internship in Thane, Navi Mumbai, Mumbai",
-   "company": "FynTune Solution Private Limited",
-   "matchedWatchlist": "FynTune Solution Private Limited",
-   "isTech": true,
-   "roleSource": "gemini-enrich",
-   "logo": "/logos/fyntune-solution-private-limited.jpg",
-   "location": "Thane, Maharashtra, India",
-   "workplaceType": "On-site",
-   "stipend": null,
-   "duration": null,
-   "applicants": null,
-   "easyApply": false,
-   "skills": [
-    "aws",
-    "docker",
-    "ci/cd",
-    "linux",
-    "git",
-    "mongodb",
-    "postgresql",
-    "mysql"
-   ],
-   "summary": "This job is sourced from a job board. We are looking for a passionate and motivated Fresher DevOps Engineer to join our Infrastructure & DevOps team. The ideal candidate should have a strong understanding of Linux systems, networking fundamentals, cloud computing, version control, and deployment automation. This role provides hands-on exposure to AWS cloud infrastructure, CI/CD pipelines, Docker, monitoring tools, and real-world application deployments while learning modern DevOps practices.",
-   "bullets": [
-    "Administer Linux servers, support application deployments, and maintain CI/CD pipelines",
-    "Manage AWS infrastructure including EC2, S3, IAM, VPC, and Route 53",
-    "Write Bash scripts to automate routine operations and manage Cron jobs"
-   ],
-   "roleLabel": "DevOps engineering",
-   "degreeLevel": null,
-   "degreeText": null,
-   "keySkills": [
-    "linux",
-    "aws",
-    "docker",
-    "git",
-    "bash"
-   ],
-   "stipendStatus": "unknown",
-   "postedText": "3 hours ago",
-   "postedAt": 1786147997111,
-   "firstSeenAt": 1786158797113,
-   "url": "https://www.linkedin.com/jobs/view/4450392562/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4450392562/",
    "description": null
   }
  ]
