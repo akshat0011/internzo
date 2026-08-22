@@ -1,5 +1,5 @@
 {
- "generatedAt": 1787387844944,
+ "generatedAt": 1787389688437,
  "count": 137,
  "techCount": 137,
  "otherCount": 0,
@@ -64,7 +64,7 @@
   "Paytm",
   "Pearson",
   "Philips",
-  "Piramal Pharma Ltd",
+  "Piramal",
   "Qualcomm",
   "Quest Global",
   "Resollect",
@@ -94,7 +94,7 @@
   "slice"
  ],
  "locations": [
-  "Ahmedabad, Gujarat, India",
+  "Ahmedabad,Gj",
   "Bangalore Urban, Karnataka, India",
   "Bangalore, India",
   "Bengaluru East, Karnataka, India",
@@ -129,42 +129,40 @@
  ],
  "jobs": [
   {
-   "id": "4454699842",
+   "id": "ats:workday:piramalpharma:wd102:PIRAMAL_EXTERNAL_CAREERS:R00002298",
    "title": "Apprentice - ADL",
-   "company": "Piramal Pharma Ltd",
+   "company": "Piramal",
    "matchedWatchlist": "Piramal",
    "isTech": true,
    "roleSource": "model-enrich",
-   "logo": "/logos/piramal-pharma-ltd.jpg",
-   "location": "Ahmedabad, Gujarat, India",
-   "workplaceType": "On-site",
+   "logo": "/logos/piramal.png",
+   "location": "Ahmedabad,Gj",
+   "workplaceType": null,
    "stipend": null,
    "duration": null,
-   "applicants": "0 people clicked apply",
+   "applicants": null,
    "easyApply": false,
    "skills": [],
-   "summary": "This apprenticeship involves developing analytical methods for new products using advanced chromatography techniques. Ideal for science students interested in pharmaceutical testing and instrument calibration. The role offers hands-on experience with cutting-edge lab equipment.",
+   "summary": "This apprenticeship involves developing analytical methods for new products using advanced chromatography techniques. It suits students with a strong interest in scientific analysis and laboratory work. The role offers hands-on experience with cutting-edge equipment and real-world applications in pharmaceutical development.",
    "bullets": [
     "Develop and validate analytical methods for new products",
     "Use LC-MS/HPLC and Shimadzu technology for testing",
-    "Troubleshoot and calibrate scientific instruments"
+    "Troubleshoot and calibrate analytical instruments"
    ],
-   "roleLabel": "Analytical Testing",
+   "roleLabel": "Analytical Method Development",
    "degreeLevel": "PG",
-   "degreeText": "MSc",
+   "degreeText": "M.Sc",
    "keySkills": [
-    "lc-ms",
-    "hplc",
-    "shimadzu",
-    "nmr",
-    "ir"
+    "lc-ms/hplc",
+    "shimadzu technology",
+    "impurity profiling"
    ],
    "stipendStatus": "unknown",
-   "postedText": "13 minutes ago",
-   "postedAt": 1787377985928,
-   "firstSeenAt": 1787378765934,
-   "url": "https://www.linkedin.com/jobs/view/4454699842/",
-   "applyUrl": "https://www.linkedin.com/jobs/view/4454699842/",
+   "postedText": null,
+   "postedAt": 1787356800000,
+   "firstSeenAt": 1787389457080,
+   "url": "https://piramalpharma.wd102.myworkdayjobs.com/en-US/PIRAMAL_EXTERNAL_CAREERS/job/AhmedabadGj/Apprentice---ADL_R00002298",
+   "applyUrl": "https://piramalpharma.wd102.myworkdayjobs.com/en-US/PIRAMAL_EXTERNAL_CAREERS/job/AhmedabadGj/Apprentice---ADL_R00002298",
    "description": null
   },
   {
